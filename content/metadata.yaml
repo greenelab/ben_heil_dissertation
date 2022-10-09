@@ -1,27 +1,17 @@
 ---
-title: "Manuscript Title"
+title: "Dissertation Title"
 keywords:
-  - markdown
-  - publishing
-  - manubot
+  - machine learning
+  - science of science
+  - reproducibility
+  - citation network analysis
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+  - github: benheil
+    name: Benjamin J. Heil
+    initials: BJH
+    orcid: 0000-0002-2811-1031
+    twitter: autobencoder
+    email: ben_heil@yahoo.com
     affiliations:
-      - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
-    corresponding: true
+      - Genomics and Computational Biology Graduate Group, University of Pennsylvania
