@@ -1,49 +1,45 @@
 ---
-title: Manuscript Title
+title: Dissertation Title
 keywords:
-- markdown
-- publishing
-- manubot
+- machine learning
+- science of science
+- reproducibility
+- citation network analysis
 lang: en-US
-date-meta: '2022-10-09'
+date-meta: '2022-10-10'
 author-meta:
-- John Doe
-- Jane Roe
+- Benjamin J. Heil
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2022-10-09" />
-  <meta name="citation_publication_date" content="2022-10-09" />
+  <meta name="dc.title" content="Dissertation Title" />
+  <meta name="citation_title" content="Dissertation Title" />
+  <meta property="og:title" content="Dissertation Title" />
+  <meta property="twitter:title" content="Dissertation Title" />
+  <meta name="dc.date" content="2022-10-10" />
+  <meta name="citation_publication_date" content="2022-10-10" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="Benjamin J. Heil" />
+  <meta name="citation_author_institution" content="Genomics and Computational Biology Graduate Group, University of Pennsylvania" />
+  <meta name="citation_author_orcid" content="0000-0002-2811-1031" />
+  <meta name="twitter:creator" content="@autobencoder" />
   <link rel="canonical" href="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta property="og:url" content="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta property="twitter:url" content="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/9504aa7751e9d5ca0e7df896bf3aeeb73d2fb262/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/9504aa7751e9d5ca0e7df896bf3aeeb73d2fb262/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/9504aa7751e9d5ca0e7df896bf3aeeb73d2fb262/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/1ffd883523d4464523e905470bcd95675b0f5e01/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/1ffd883523d4464523e905470bcd95675b0f5e01/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/1ffd883523d4464523e905470bcd95675b0f5e01/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,45 +61,31 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/ben_heil_dissertation/v/9504aa7751e9d5ca0e7df896bf3aeeb73d2fb262/))
+([permalink](https://greenelab.github.io/ben_heil_dissertation/v/1ffd883523d4464523e905470bcd95675b0f5e01/))
 was automatically generated
-from [greenelab/ben_heil_dissertation@9504aa7](https://github.com/greenelab/ben_heil_dissertation/tree/9504aa7751e9d5ca0e7df896bf3aeeb73d2fb262)
-on October 9, 2022.
+from [greenelab/ben_heil_dissertation@1ffd883](https://github.com/greenelab/ben_heil_dissertation/tree/1ffd883523d4464523e905470bcd95675b0f5e01)
+on October 10, 2022.
 </em></small>
 
 ## Authors
 
 
 
-+ **John Doe**
++ **Benjamin J. Heil**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0002-2811-1031](https://orcid.org/0000-0002-2811-1031)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [johndoe](https://github.com/johndoe)
+    [benheil](https://github.com/benheil)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [autobencoder](https://twitter.com/autobencoder)<br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
-  </small>
-
-+ **Jane Roe**
-  ^[✉](#correspondence)^<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [janeroe](https://github.com/janeroe)<br>
-  <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Genomics and Computational Biology Graduate Group, University of Pennsylvania
   </small>
 
 
 ::: {#correspondence}
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/greenelab/ben_heil_dissertation/issues)
-or email to
-Jane Roe \<jane.roe@whatever.edu\>.
-
 
 :::
 
@@ -113,300 +95,274 @@ Jane Roe \<jane.roe@whatever.edu\>.
 
 
 
-This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
-Use this template as a starting point for your manuscript.
-
-The rest of this document is a full list of formatting elements/features supported by Manubot.
-Compare the input (`.md` files in the `/content` directory) to the output you see below.
-
-## Basic formatting
-
-**Bold** __text__
-
-[Semi-bold text]{.semibold}
-
-[Centered text]{.center}
-
-[Right-aligned text]{.right}
-
-*Italic* _text_
-
-Combined *italics and __bold__*
-
-~~Strikethrough~~
-
-1. Ordered list item
-2. Ordered list item
-    a. Sub-item
-    b. Sub-item
-        i. Sub-sub-item
-3. Ordered list item
-    a. Sub-item
-
-- List item
-- List item
-- List item
-
-subscript: H~2~O is a liquid
-
-superscript: 2^10^ is 1024.
-
-[unicode superscripts](https://www.google.com/search?q=superscript+generator)⁰¹²³⁴⁵⁶⁷⁸⁹
-
-[unicode subscripts](https://www.google.com/search?q=superscript+generator)₀₁₂₃₄₅₆₇₈₉
-
-A long paragraph of text.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Putting each sentence on its own line has numerous benefits with regard to [editing](https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line) and [version control](https://rhodesmill.org/brandon/2012/one-sentence-per-line/).
-
-Line break without starting a new paragraph by putting  
-two spaces at end of line.
-
-## Document organization
-
-Document section headings:
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-### A heading centered on its own printed page{.center .page_center}
-
-<!-- an arbitrary comment. visible in input, but not visible in output. -->
-
-Horizontal rule:
-
----
-
-`Heading 1`'s are recommended to be reserved for the title of the manuscript.
-
-`Heading 2`'s are recommended for broad sections such as *Abstract*, *Methods*, *Conclusion*, etc.
-
-`Heading 3`'s and `Heading 4`'s are recommended for sub-sections.
-
-## Links
-
-Bare URL link: <https://manubot.org>
-
-[Long link with lots of words and stuff and junk and bleep and blah and stuff and other stuff and more stuff yeah](https://manubot.org)
-
-[Link with text](https://manubot.org)
-
-[Link with hover text](https://manubot.org "Manubot Homepage")
-
-[Link by reference][manubot homepage]
-
-[Manubot Homepage]: https://manubot.org
-
-## Citations
-
-Citation by DOI [@doi:10.7554/eLife.32822].
-
-Citation by PubMed Central ID [@pmc:PMC6103790].
-
-Citation by PubMed ID [@pubmed:30718888].
-
-Citation by Wikidata ID [@wikidata:Q56458321].
-
-Citation by ISBN [@isbn:9780262517638].
-
-Citation by URL [@{https://greenelab.github.io/meta-review/}].
-
-Citation by alias [@deep-review].
-
-Multiple citations can be put inside the same set of brackets [@doi:10.7554/eLife.32822; @deep-review; @isbn:9780262517638].
-Manubot plugins provide easier, more convenient visualization of and navigation between citations [@doi:10.1371/journal.pcbi.1007128; @pubmed:30718888; @pmc:PMC6103790; @deep-review].
-
-Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown's reference link syntax:
-
-[@deep-review]: doi:10.1098/rsif.2017.0387
-
-## Referencing figures, tables, equations
-
-Figure @fig:square-image
-
-Figure @fig:wide-image
-
-Figure @fig:tall-image
-
-Figure @fig:vector-image
-
-Table @tbl:bowling-scores
-
-Equation @eq:regular-equation
-
-Equation @eq:long-equation
-
-## Quotes and code
-
-> Quoted text
-
-> Quoted block of text
->
-> Two roads diverged in a wood, and I—  
-> I took the one less traveled by,  
-> And that has made all the difference.
-
-Code `in the middle` of normal text, aka `inline code`.
-
-Code block with Python syntax highlighting:
-
-```python
-from manubot.cite.doi import expand_short_doi
-
-def test_expand_short_doi():
-    doi = expand_short_doi("10/c3bp")
-    # a string too long to fit within page:
-    assert doi == "10.25313/2524-2695-2018-3-vliyanie-enhansera-copia-i-insulyatora-gypsy-na-sintez-ernk-modifikatsii-hromatina-i-svyazyvanie-insulyatornyh-belkov-vtransfetsirovannyh-geneticheskih-konstruktsiyah"
-```
-
-Code block with no syntax highlighting:
-
-```
-Exporting HTML manuscript
-Exporting DOCX manuscript
-Exporting PDF manuscript
-```
-
-## Figures
-
-![
-**A square image at actual size and with a bottom caption.**
-Loaded from the latest version of image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png "Square image"){#fig:square-image}
-
-![
-**An image too wide to fit within page at full size.**
-Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png "Wide image"){#fig:wide-image}
-
-![
-**A tall image with a specified height.**
-Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png "Tall image"){#fig:tall-image height=3in}
-
-![
-**A vector `.svg` image loaded from GitHub.**
-The parameter `sanitize=true` is necessary to properly load SVGs hosted via GitHub URLs.
-White background specified to serve as a backdrop for transparent sections of the image.
-](https://raw.githubusercontent.com/manubot/resources/main/test/vector.svg?sanitize=true "Vector image"){#fig:vector-image height=2.5in .white}
-
-## Tables
-
-| *Bowling Scores* | Jane          | John          | Alice         | Bob           |
-|:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
-| Game 1 | 150 | 187 | 210 | 105 |
-| Game 2 |  98 | 202 | 197 | 102 |
-| Game 3 | 123 | 180 | 238 | 134 |
-
-Table: A table with a top caption and specified relative column widths.
-{#tbl:bowling-scores}
-
-|         | Digits 1-33                        | Digits 34-66                      | Digits 67-99                      | Ref.                                                        |
-|:--------|:-----------------------------------|:----------------------------------|:----------------------------------|:------------------------------------------------------------|
-| pi      | 3.14159265358979323846264338327950 | 288419716939937510582097494459230 | 781640628620899862803482534211706 | [`piday.org`](https://www.piday.org/million/)               |
-| e       | 2.71828182845904523536028747135266 | 249775724709369995957496696762772 | 407663035354759457138217852516642 | [`nasa.gov`](https://apod.nasa.gov/htmltest/gifcity/e.2mil) |
-
-Table: A table too wide to fit within page.
-{#tbl:constant-digits}
-
-|          | **Colors** <!-- $colspan="2" --> |                      |
-|:--------:|:--------------------------------:|:--------------------:|
-| **Size** | **Text Color**                   | **Background Color** |
-| big      | blue                             | orange               |
-| small    | black                            | white                |
-
-Table: A table with merged cells using the `attributes` plugin.
-{#tbl: merged-cells}
-
-## Equations
-
-A LaTeX equation:
-
-$$\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}$$ {#eq:regular-equation}
-
-An equation too long to fit within page:
-
-$$x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9$$ {#eq:long-equation}
-
-## Special
-
-<i class="fas fa-exclamation-triangle"></i> [WARNING]{.semibold} _The following features are only supported and intended for `.html` and `.pdf` exports._
-_Journals are not likely to support them, and they may not display correctly when converted to other formats such as `.docx`._
-
-[Link styled as a button](https://manubot.org "Manubot Homepage"){.button}
-
-Adding arbitrary HTML attributes to an element using Pandoc's attribute syntax:
-
-::: {#some_id_1 .some_class style="background: #ad1457; color: white; margin-left: 40px;" title="a paragraph of text" data-color="white" disabled="true"}
-Manubot Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot.
-Manubot Manubot.
-Manubot.
-:::
-
-Adding arbitrary HTML attributes to an element with the Manubot `attributes` plugin (more flexible than Pandoc's method in terms of which elements you can add attributes to):
-
-Manubot Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot.
-Manubot Manubot.
-Manubot.
-<!-- $id="element_id" class="some_class" $style="color: #ad1457; margin-left: 40px;" $disabled="true" $title="a paragraph of text" $data-color="red" -->
-
-Available background colors for text, images, code, banners, etc:  
-
-`white`{.white}
-`lightgrey`{.lightgrey}
-`grey`{.grey}
-`darkgrey`{.darkgrey}
-`black`{.black}
-`lightred`{.lightred}
-`lightyellow`{.lightyellow}
-`lightgreen`{.lightgreen}
-`lightblue`{.lightblue}
-`lightpurple`{.lightpurple}
-`red`{.red}
-`orange`{.orange}
-`yellow`{.yellow}
-`green`{.green}
-`blue`{.blue}
-`purple`{.purple}
-
-Using the [Font Awesome](https://fontawesome.com/) icon set:
-
-<!-- include the Font Awesome library, per: https://fontawesome.com/start -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-
-<i class="fas fa-check"></i> <i class="fas fa-question"></i> <i class="fas fa-star"></i> <i class="fas fa-bell"></i> <i class="fas fa-times-circle"></i> <i class="fas fa-ellipsis-h"></i>
-
-[
-<i class="fas fa-scroll fa-lg"></i> **Light Grey Banner**<br>
-useful for *general information* - [manubot.org](https://manubot.org/)
-]{.banner .lightgrey}
-
-[
-<i class="fas fa-info-circle fa-lg"></i> **Blue Banner**<br>
-useful for *important information* - [manubot.org](https://manubot.org/)
-]{.banner .lightblue}
-
-[
-<i class="fas fa-ban fa-lg"></i> **Light Red Banner**<br>
-useful for *warnings* - [manubot.org](https://manubot.org/)
-]{.banner .lightred}
+## Introduction
+
+### Overall Intro
+
+
+### Linear models background
+
+#### Disease prediction review
+The human transcriptome provides a rich source of information about both healthy and disease states.
+Not only is gene expression information useful for learning novel biological phenomena, it can also be used to diagnose and predict diseases.
+These predictions have become more powerful in recent years as the field of machine learning has developed more methods.
+In this paper we review supervised machine learning methods applied to predict various phenotypes from gene expression, 
+with a focus on the challenges in the field and what is being done to overcome them.
+We close the review with potential areas for future research, as well as our perspectives on the strengths and weaknesses of supervised learning for phenotype prediction.
+
+**Introduction**  
+Over the past few decades a number of tools for measuring gene expression have been developed.
+As proteomics is currently difficult to do at a large scale, gene expression quantification methods are our best way to measure cells’ internal states.
+While this wealth of information is promising, gene expression data is more difficult to work with than one might think.
+The high dimensionality and instrument-driven variation require sophisticated techniques to separate the signal from the noise.
+
+One such class of techniques is the set of methods from machine learning.
+Machine learning methods depend on the assumption that there are patterns in data that can be learned to make predictions about future data.
+Luckily, different people respond to the same disease in similar ways (for some diseases).
+Learning genes that indicate an inflammatory response, for example, can help a machine learning model learn the difference between healthy and diseased expression samples.
+
+There are many varieties of machine learning algorithms, so the scope of this paper is limited to analysis of supervised machine learning methods for phenotype prediction.
+Supervised machine learning is a paradigm where the model attempts to predict labels.
+For example, a model that predicts whether someone has lupus based on their gene expression data [@doi:10.1038/s41598-019-45989-0] is a supervised learning model.
+In contrast, techniques for grouping data together without having phenotype labels are called unsupervised methods.
+While these methods are also commonly used in computational biology [@doi:10.1093/bioinformatics/btz338; @doi:10.48550/arXiv.1802.03426; @doi:10.1093/bioinformatics/btz769], we will not be discussing them here.
+
+The purpose of this review is to explain and analyze the various approaches that are used to predict phenotypes.
+Each section of the review is centered around one of the challenges ubiquitous in using supervised machine learning techniques on gene expression data.
+We hope to explain what has been tried and what the consensus for handling the challenge, if one exists.
+The review will conclude with a section outlining promising new methods and areas where further study is needed.
+
+If the field succeeds in addressing all the challenges, the payoffs will be substantial.
+Being able to predict and diagnose diseases from whole blood gene expression is particularly interesting.
+With sufficiently advanced analysis, invasive cancer biopsies might be able to be replaced with simple blood draws [@doi:@doi:10.1093/bioinformatics/btz769].
+If not, there are already diagnostics that predict various cancer aspects from biopsy gene expression [@doi:10.1126/scitranslmed.aay1984].
+It may also be possible to diagnose common diseases based on blood gene expression [@doi:10.1038/modpathol.2008.54; @doi:10.1212/WNL.0000000000004516; @doi:10.1128/JCM.01990-15; @doi:10.1016/j.ebiom.2016.03.006], or even rare ones [@doi:10.1002/art.22981].
+
+**Background**  
+The techniques for measuring gene expression and for analyzing it have changed dramatically over the past few decades.
+This sections aims to explain what some of those changes are and how they affect phenotype prediction.
+
+*Gene expression*  
+Gene expression measurement methods have three main categories.
+This first to be created is the gene expression microarray.
+In a microarray, RNA is reverse transcribed to cDNA, labeled with fluorescent markers, then hybridized to probes corresponding to parts of genes.
+The amount of fluorescence is then quantified to give the relative amount of gene expression for each gene.
+While early microarrays had fewer genes and gene probes [@doi:10.1126/science.1990438], more modern ones measure tens of thousands of genes [@doi:10.1038/nbt1296-1675].
+
+While microarrays are useful, decreases in the price of genetic sequencing have made bulk RNA sequencing (RNA-seq) more common.
+In RNA-seq, cDNA molecules are sequenced directly after being reverse transcribed from mRNA.
+These cDNA fragments are then aligned against a reference exome to determine which gene, if any, each fragment maps to.
+The output of the bulk RNA-seq pipeline is a list of genes and their corresponding read counts.
+While there is not gene probe bias like in microarrays, RNA-seq has its own patterns of bias based on gene lengths and expression levels [@doi:10.1371/journal.pone.0078644].
+Bulk RNA-seq is also unable to resolve heterogeneous populations of cells, as it measures the average gene expression of all of cells in the sample.
+
+Fairly recently a new method was developed called single-cell RNA sequencing.
+True to its name, single-cell sequencing allows gene expression to be measured at the individual cell level.
+This increase in precision is accompanied by an increase in data sparsity though, as genes expressed infrequently or at low levels may not be detected.
+The sparsity of single-cell data has led to a number of interesting methods, but as we worked with bulk RNA-sequencing single-cell papers will largely be absent from this review.
+
+*Machine Learning*  
+Machine learning has undergone a paradigm shift in the past decade, beginning with the publication of the AlexNet paper in 2012 [@doi:10.1145/3065386].
+For decades random forests and support vector machines were the most widely used models in machine learning.
+This changed dramatically when the AlexNet paper showed that neural networks could vastly outperform traditional methods in some domains [@doi:10.1145/3065386].
+The deep learning revolution quickly followed, with deep neural networks becoming the state of the art in any problem with enough data [@doi:10.48550/arXiv.1808.09381; @arxiv:1910.10683v3; @arxiv:1505.04597; @doi:10.1038/s41586-021-03819-2].
+
+The implications of the deep learning revolution on this paper are twofold.
+First, almost all papers before 2014 use traditional machine learning methods, while almost all papers after use deep learning methods.
+Second, deep neural networks’ capacity to overfit the data and fail to generalize to outside data are vast.
+We’ll show throughout the review various mistakes authors make because they don’t fully understand the failure states of neural networks and how to avoid them.
+
+**Dimensionality Reduction**  
+The most obvious challenge in working with gene expression data is its high dimensionality.
+That is to say that the number of features (genes) in a dataset is typically greater than the number of samples.
+It is common for an analysis to have tens of thousands of genes, but only hundreds (or tens) of samples.
+Because even simple models struggle under such circumstances, it is necessary to find a representation of the data that uses fewer dimensions.
+
+In the traditional machine learning paradigm, this is done via manual or heuristic feature selection methods.
+Such methods tend to use a criterion like mutual information to select a subset of genes for the analysis [@doi:10.1007/s00521-013-1368-0].
+In one of the earliest papers in this review, Li et al. try a eight different methods from statistics and machine learning to see if any one in particular outperformed the others [@doi:10.1093/bioinformatics/bth267].
+Ultimately they found that no individual method rose to the top, and that the performance of different methods varies depending on the problem.
+
+A number of other papers since then have also used manual methods.
+Grewal et al. chose a subset of genes from COSMIC [@doi:10.1093/nar/gkp995] for training, but found that their model performed better when using all genes instead of just a subset [@doi:10.1001/jamanetworkopen.2019.2597].
+Chen et al. used a different gene set.
+They selected the LINCS 1000 gene set [@doi:10.1016/j.cell.2017.10.049] for an imputation method, as the LINCS landmark genes are highly correlated with the genes they were trying to impute [@doi:10.1093/bioinformatics/btw074].
+
+Gene subsets can be based on prior knowledge of gene regulatory networks as well [@doi:10.1093/bioinformatics/btu272; @doi:10.1038/s41598-018-19635-0].
+While very interpretable, these methods do not necessarily lead to increased performance in phenotype predictions [@doi:10.1186/1471-2105-13-69].
+
+Selecting gene subsets via a heuristic or a machine learning model is also popular.
+Sevakula et al. use decision stumps to select features then use a stacked autoencoder-type architecture to further compress the representation [@doi:10.1109/TCBB.2018.2822803].
+Xiao et al. did something similar where they reduced the data to only genes were differentially expressed between their conditions of interest, then used a stacked autoencoder architecture [@doi:10.1016/j.cmpb.2018.10.004].
+Instead of looking at raw differential expression, Dhruba et al. used another subsetting method called ReliefF [@doi:10/fdm4r3] to find the top 200 genes for their source and target dataset, then kept the intersection for use in their model [@doi:10.1186/s12859-018-2465-y].
+More recently, Li et al. used a genetic algorithm for feature selection [@doi:10.1186/s12864-017-3906-0].
+
+Not all papers use a subset of the original genes in their analysis, however.
+It is fairly common in recent years for authors to transform the data into a new lower dimensional space based on various metrics.
+This used to be done via principle component analysis (PCA), a method that performs a linear transformation to
+maximize the variance explained by a reduced number of dimensions [@doi:10.1016/j.compbiomed.2014.09.008; @url:https://www.researchgate.net/publication/281857285_Using_deep_learning_to_enhance_cancer_diagnosis_and_classification].
+Now scientists typically use different types of autoencoders, which learn a nonlinear mapping from the original space to a space with fewer dimensions.
+Deepathology uses variational [@arxiv:1312.6114] and contractive [@doi:10.1007/978-3-642-23783-6_41] autoencoders in their model [@doi:10.1038/s41598-019-52937-5], while Danaee et al. used a stacked denoising autoencoder [@url:https://www.jmlr.org/papers/v11/vincent10a.html; @doi:10.1142/9789813207813_0022].
+Both papers compared their autoencoder dimensionality reduction to that of PCA and found that it performed better.
+Danaee found that kernel PCA, a nonlinear version of PCA performed equivalently though.
+
+It is also possible to use regularization methods to perform dimensionality reduction.
+While they do not influence the nominal dimensionality of the data, they reduce the effective dimensionality by putting constraints on the input data or the model.
+For example, SAUCIE uses an autoencoder structure, but combines it with a number of exotic regularization methods to further decrease the effective dimensionality of their data [@doi:10.1038/s41592-019-0576-7].
+In DeepType, Chen et al. use a more conventional elastic net regularization [@url:https://www.jstor.org/stable/3647580] to induce sparsity in the first level of their network under the assumption that most genes’ expression will not affect a cancer’s subtype [@doi:10.1093/bioinformatics/btz769].
+
+Ultimately, there is no clear consensus in which dimensionality reduction methods perform the best.
+Among the methods that transform the data there is a small amount of evidence that nonlinear transformations outperform linear ones, but only a few studies have tried both.
+Going forward, a systematic evaluation of gene selection and dimensionality reduction methods on a variety of problems could be a huge asset to the
+field.
+
+**Batch Effects**  
+When gene expression data comes from multiple studies, there are systematic differences between the samples even if they are measuring the same thing [@doi:10.1038/nbt.3000].
+These batch effects can bias the outcome of a study, and reduce the ability of a predictive model to generalize to data outside of the dataset used in the analysis.
+Different studies handle this in different ways, with varying degrees of effectiveness.
+
+Malta et al’s study is a good example of addressing batch effects well [@doi:10.1016/j.cell.2018.03.034].
+They began by mean centering their data to ensure that the model didn’t learn to make classifications based on the mean gene expression values.
+They then used Spearman correlation instead of Pearson correlation to avoid small changes in the data distributions to change their correlation measurement.
+Finally they evaluated their results on a different data generation method (RNA-seq) from the one they trained on (microarray).
+
+The SAUCIE paper handles batch effects very differently [@doi:10.1038/s41592-019-0576-7].
+They introduce a new type of regularization called maximal mean discrepancy, which penalizes the distance between the latent space representation between batches.
+While this regularization term is deep learning specific and depends on the model having an embedding layer, it will be interesting to see if similar ideas are used in the future.
+
+Other studies address batch effects less comprehensively via quantile normalization and 0-1 standardization [@doi:10.1093/bioinformatics/btw074; @doi:10.2147/IDR.S184640].
+Using quantile normalization ensures that the different datasets have the same distribution, then 0-1 standardization makes machine learning algorithms treat all genes as equally important.
+Another common technique from ML is to make decisions about the model based on cross-validation.
+Since the feature or hyperparameter choice is validated on multiple random subsets of the data, batch effects are less likely to bias the decision [@doi:10.1186/s12864-017-3906-0 ].
+
+Studies using contractive autoencoders [@doi:10.1038/s41598-019-52937-5] get some degree of batch effect protection just from their model constraints.
+Since contractive autoencoders are trained to ignore small perturbations in the data, they tend to be more robust to distributional changes.
+There are also more explicit ways of addressing batch effects.
+DeepType, for example, uses the method ComBat [@doi:10.1093/biostatistics/kxj037] to reduce batch effects as a preprocessing step for their model [@doi:10.1093/bioinformatics/btz769].
+
+Unfortunately many studies don’t address batch effects at all, despite operating on large multi-study datasets like the Cancer Genome Atlas (TCGA).
+These studies are likely to fail to generalize to real-world data, as machine learning models like to fixate on spurious correlations between data and phenotypes.
+
+**Deep Learning vs Standard ML**
+As was discussed in the background section, recent years have seen a dramatic shift towards deep learning methods.
+It is not immediately clear, however, whether this is a good decision for problems without giant datasets.
+While some argue that deep learning is overrated and simpler models should be used instead [@doi:10.1007/978-3-030-01768-2_25; @arxiv:1911.00353], others find that deep learning outperforms even domain specific models [@doi:10.1186/s13321-017-0232-0; @doi:10.1016/j.jbi.2018.04.007].
+
+Because it is unclear which type of model will perform best on which dataset, it is important to try both simple and complex models.
+In the Deepathology paper, Azarkahlili et al. found that their deep neural networks outperformed decision tree, KNN, random forest, logistic regression, and SVM models [@doi:10.1038/s41598-019-52937-5 ].
+Likewise, in gene expression imputation, Chen et al. found that their neural network classifier outperformed linear regression in 99.97 percent of genes and k-nearest neighbors in all genes [@doi:10.1093/bioinformatics/btw074].
+On the other hand, Grewal et al. tried multiple methods and found they work roughly the same [@doi:10.1001/jamanetworkopen.2019.2597].
+They settled this by combining a few different models into an ensemble.
+
+Due to technical considerations [@doi:10.1016/j.cell.2018.03.034] or other reasons, some authors only evaluate a single model [@doi:10.1016/j.cmpb.2018.10.004].
+While this simplifies the analysis for their papers, it makes it unclear whether they could have done better with a different model.
+This is particularly important for authors who are using deep learning models, because simpler models tend to be much more interpretable.
+
+**Evaluating Model Performance**  
+Validation is another important consideration in phenotype prediction.
+The gold standard of validation would be a knockout and rescue assay demonstrating that the predicted mechanism or expression relationship truly exists.
+Since machine learning models make predictions of nonlinear relationships between thousands of genes, however, such validation isn’t feasible.
+Instead scientists evaluate their models’ efficacy by testing their performance on data they didn’t train them on.
+Test datasets can be built in different ways, assorting roughly into three tiers based on their external validity.
+
+The most basic method is referred to as cross-validation.
+In cross-validation, the training data is split into a training and validation dataset.
+The model is trained on the training dataset, then its performance is measured on the validation dataset.
+Typically this is done with a process called five-fold cross-validation, where the process is repeated five times on five different ways of splitting up the training data.
+This method is common [@doi:10.1186/s12859-018-2465-y; @doi:10.1186/s12864-017-3906-0; @doi:10.1142/9789813207813_0022], but isn’t really a rigorous evaluation.
+Because the same dataset is used for both selecting a model and measuring performance, the data can ’go stale’ when you test several models [@doi:10.1016/j.neubiorev.2020.09.036].
+In the extreme case, it is possible to get 100% accuracy by testing random prediction schemes on the data.
+
+In order to keep data fresh, some researchers use a more rigorous method called a held out test set[@doi:10.1038/s41598-019-52937-5; @doi:10.1109/tcbb.2018.2822803].
+In the held out test set paradigm, a portion of the dataset is set aside and effectively put in a locked box until the end of the analysis.
+Once the model architecture, hyperparameters, and dimensionality reduction decisions are all made via cross-validation on the training data, the lock box can be opened and the data within used for evaluation.
+As the lock box data is only used once, it has no risk of becoming stale due to multiple testing.
+The only drawback to this method is that is depends on the assumption that the data in the real world is distributed the same as the data in your training set.
+
+The best (and most difficult) way to evaluate a model is by using an independent dataset.
+Ideally, an independent dataset is created by a different group or on a different expression quantification platform.
+For example, once their model was trained, Chen et al. evaluated their model on a dataset from GEO, a dataset from GTEx, and a cancer cell line [@doi:10.1093/bioinformatics/btw074].
+It is also possible to use combinations of validation methods.
+In their paper Grewal et al. used a held-out section of their original data, then went on to evaluate their model in an independent dataset [@doi:10.1001/jamanetworkopen.2019.2597].
+Similarly, Malta et al. used cross-validation initially, but then evaluated their model on an external microarray dataset to ensure their data wasn’t stale [@doi:10.1016/j.cell.2018.03.034].
+Likewise, Deng at al. initially benchmark their model on various simulated data sets, but then go on to validate their model on real data [@doi:10.1101/315556].
+
+Ultimately researchers work with what they have, and it’s not always possible to acquire an independent dataset.
+That being said, it is always worth keeping the different tiers of external validity in mind when evaluating papers that use machine learning.
+
+**Transfer Learning**  
+Transfer learning is a field of machine learning that uses information from outside of the training dataset to improve model performance.
+Techniques from the field of transfer learning are particularly useful in the domain of gene expression, because there are large databases like GEO and TCGA that contain data that may be useful in prediction tasks.
+In this section we’ll focus in on two types of transfer learning that are particularly useful: multitask learning and semi-supervised learning.
+
+Multitask learning involves training a model on multiple problems in order to improve the model’s performance on a problem of interest.
+As gene expression patterns can be shared across diseases [@doi:10.18632/oncotarget.26773; @doi:10.1038/s41598-017-02325-8], the extra data can help increase the model’s power.
+For example, instead of training a model to learn one drug response at a time, Yuan et al.
+had better results predicting all the drugs in their dataset simultaneously [@doi:10.1038/srep31619].
+Similarly, Deepathology predicts tissue type, disease, and miRNA expression simultaneously [@doi:10.1038/s41598-019-52937-5].
+It is worth noting that multitask learning works best when using a deep learning model.
+When using standard machine learning it is necessary to perform some difficult data transformation to do classification on multiple classes [@doi:10.1093/bioinformatics/bth267].
+
+Where supervised learning uses entirely labeled data, semi-supervised learning takes advantage of unlabeled data as well.
+The most popular way of doing semi-supervised learning is to use an autoencoder structure to initialize your model’s weights.
+Where most models begin training with a randomly initialized set of weights, it is possible to initially train a neural network to create a compressed representation of the input data (an encoding).
+The weights that it learns in the process often turn out to be a better initialization when the labeled training data is finally brought in.
+There are a number of ways to perform the autoencoding step.
+Instead of training all the layers of the network simultaneously, it is possible to train one layer to create the encoding at a time [@doi:10.1109/tcbb.2018.2822803; @doi:10.1016/j.cmpb.2018.10.004].
+This is referred to as a stacked autoencoder.
+One can also train the whole network at the same time, as Danaee et al do with their denoising autoencoder [@doi:10.1142/9789813207813_0022].
+Not all methods are autoencoder-based though.
+Dhruba et al. develop their own semi-supervised learning process that teaches a model to learn a latent space between classes [@doi:10.1186/s12859-018-2465-y].
+
+**Future Directions**  
+Upon reviewing a broad spectrum of what has been done in the field, a few opportunities for future research have become clear.
+
+As shown in the batch effects section, authors handle batch effects in their studies with varying degrees of sophistication.
+The studies we have discussed use various strategies to mitigate the technical variation between studies and batches, but it may be possible to do better.
+Recent developments in the field of transfer learning have lead to methods that use technical variation between samples to increase the power of an analysis [@arxiv:1907.02893; @arxiv:2002.04692].
+These methods exist on the bleeding edge of transfer learning, but gene expression data fits their assumptions very well.
+It would be interesting to see if models trained with such methods would be more successful than those using traditional batch effect correction.
+
+While many models have been used to make predictions from gene expression, it’s unclear which ones work best, and in which circumstances.
+One review evaluated a variety of unsupervised methods on gene regulatory network discovery, but the only supervised method that was tried was a support vector machine [@doi:10.1093/bib/bbt034].
+A large scale study comparing methods to each other would be very useful to the field.
+Of particular interest would be a study that determines roughly how many samples are needed before it deep learning models outperform traditional machine learning models, and how semi-supervised learning shifts that change point.
+
+Semi-supervised learning is a technique that began being applied to gene expression data only recently.
+While the technique has been useful when applied to large amounts of unlabeled data, the effects of which unlabeled dataset(s) are used hasn’t been measured.
+Due to the large differences between RNA-seq and microarray data, it may make sense to do pretraining with just GEO or Recount3 [@doi:10.1186/s13059-021-02533-6] depending on whether the labeled data is primarily from microarrays or RNA-seq.
+A study looking at whether more data is always better, and whether using data from a different platform helps or hurts would be a useful reference for those using semi-supervised learning to train their models.
+
+Looking closer at how to do multitask learning could also help the field.
+While several studies in this review have analyzed multitask learning, there is not a study that we know of that determines exactly how similar the classes should be for gene expression data.
+Testing various methods from Sebastian Ruder’s multitask learning review paper could help find a heuristic for how similar phenotypes should be in multitask learning [@arxiv:1706.05098].
+
+For the most part the studies in this review either learn how to diagnose a specific phenotype with a small dataset, or learn more classes by studying TCGA data.
+We believe that there is an opportunity for datasets to be created from Recount3 and Refine.bio [@doi:10.1186/s13059-021-02533-6; @url:https://www.refine.bio] data that would be able to predict phenotypes other than just cancer on a large dataset.
+The consistent preprocessing for these resources makes their gene expression data much easier to use with machine learning methods.
+
+**Conclusion and Perspectives**  
+Making predictions from gene expression information holds great promise, and is already being used in some cases.
+Because the problem space lies between the fields of machine learning and computational biology, however, it inherits pitfalls from both fields.
+Frequently, biologists who want to attempt to make models will fail to understand how to do model validation and hyperparameter tuning in a way that doesn’t invalidate their results.
+Likewise, machine learning researchers often will leak information between the training and the testing set by blindly randomizing all their samples, or will fail to account for the batch effects inherent to muli-study datasets.
+
+In addition to the challenges from working across disciplines, the approaches used in making predictions are largely fragmented.
+Researchers make decisions about their model architecture, dimensionality reduction, and batch effect correction largely based on their intuition.
+There have been few papers evaluating methods across several problems, and even less consensus about which methods work the best.
+Moving forward, the field will need to consolidate and determine a set of best practices to reduce the model search space for new papers.
+Likewise, researchers will need to begin working with clinicians and wet-lab scientists to validate whether their models work in vivo as well as in-silico.
+Ultimately, phenotype predictions from gene expression appear to have have a bright future.
+In order to get there, however, there are many challenges that need to be addressed.
+
+
+### Reproducible research background
+
+
+### Citation indices background
+
+
+### Talk briefly about conclusion chapter (probably write this part once it's done)
 
 
 ## References {.page_break_before}

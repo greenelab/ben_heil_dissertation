@@ -4,11 +4,10 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="author" content="John Doe" />
-  <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2022-10-09" />
-  <meta name="keywords" content="markdown, publishing, manubot" />
-  <title>Manuscript Title</title>
+  <meta name="author" content="Benjamin J. Heil" />
+  <meta name="dcterms.date" content="2022-10-10" />
+  <meta name="keywords" content="machine learning, science of science, reproducibility, citation network analysis" />
+  <title>Dissertation Title</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -16,69 +15,6 @@
     div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      {   }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-    code span.at { color: #7d9029; } /* Attribute */
-    code span.bn { color: #40a070; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #4070a0; } /* Char */
-    code span.cn { color: #880000; } /* Constant */
-    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-    code span.dt { color: #902000; } /* DataType */
-    code span.dv { color: #40a070; } /* DecVal */
-    code span.er { color: #ff0000; font-weight: bold; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #40a070; } /* Float */
-    code span.fu { color: #06287e; } /* Function */
-    code span.im { } /* Import */
-    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-    code span.op { color: #666666; } /* Operator */
-    code span.ot { color: #007020; } /* Other */
-    code span.pp { color: #bc7a00; } /* Preprocessor */
-    code span.sc { color: #4070a0; } /* SpecialChar */
-    code span.ss { color: #bb6688; } /* SpecialString */
-    code span.st { color: #4070a0; } /* String */
-    code span.va { color: #19177c; } /* Variable */
-    code span.vs { color: #4070a0; } /* VerbatimString */
-    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
@@ -104,420 +40,467 @@
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2022-10-09" />
-  <meta name="citation_publication_date" content="2022-10-09" />
+  <meta name="dc.title" content="Dissertation Title" />
+  <meta name="citation_title" content="Dissertation Title" />
+  <meta property="og:title" content="Dissertation Title" />
+  <meta property="twitter:title" content="Dissertation Title" />
+  <meta name="dc.date" content="2022-10-10" />
+  <meta name="citation_publication_date" content="2022-10-10" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="Benjamin J. Heil" />
+  <meta name="citation_author_institution" content="Genomics and Computational Biology Graduate Group, University of Pennsylvania" />
+  <meta name="citation_author_orcid" content="0000-0002-2811-1031" />
+  <meta name="twitter:creator" content="@autobencoder" />
   <link rel="canonical" href="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta property="og:url" content="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta property="twitter:url" content="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/9504aa7751e9d5ca0e7df896bf3aeeb73d2fb262/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/9504aa7751e9d5ca0e7df896bf3aeeb73d2fb262/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/9504aa7751e9d5ca0e7df896bf3aeeb73d2fb262/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/1ffd883523d4464523e905470bcd95675b0f5e01/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/1ffd883523d4464523e905470bcd95675b0f5e01/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/1ffd883523d4464523e905470bcd95675b0f5e01/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
   <!-- end Manubot generated metadata -->
-  
-  <!-- pandoc-eqnos: equation style -->
-  <style>
-    .eqnos { display: inline-block; position: relative; width: 100%; }
-    .eqnos br { display: none; }
-    .eqnos-number { position: absolute; right: 0em; top: 50%; line-height: 0; }
-  </style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Manuscript Title</h1>
+<h1 class="title">Dissertation Title</h1>
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://greenelab.github.io/ben_heil_dissertation/v/9504aa7751e9d5ca0e7df896bf3aeeb73d2fb262/">permalink</a>)
+(<a href="https://greenelab.github.io/ben_heil_dissertation/v/1ffd883523d4464523e905470bcd95675b0f5e01/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/greenelab/ben_heil_dissertation/tree/9504aa7751e9d5ca0e7df896bf3aeeb73d2fb262">greenelab/ben_heil_dissertation@9504aa7</a>
-on October 9, 2022.
+from <a href="https://github.com/greenelab/ben_heil_dissertation/tree/1ffd883523d4464523e905470bcd95675b0f5e01">greenelab/ben_heil_dissertation@1ffd883</a>
+on October 10, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
-<li><p><strong>John Doe</strong>
+<li><strong>Benjamin J. Heil</strong>
 <br>
 <img src="images/orcid.svg" class="inline_icon" width="16" height="16" alt="ORCID icon" />
-<a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a>
+<a href="https://orcid.org/0000-0002-2811-1031">0000-0002-2811-1031</a>
 · <img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
-<a href="https://github.com/johndoe">johndoe</a>
+<a href="https://github.com/benheil">benheil</a>
 · <img src="images/twitter.svg" class="inline_icon" width="16" height="16" alt="Twitter icon" />
-<a href="https://twitter.com/johndoe">johndoe</a><br>
+<a href="https://twitter.com/autobencoder">autobencoder</a><br>
 <small>
-Department of Something, University of Whatever
-· Funded by Grant XXXXXXXX
-</small></p></li>
-<li><p><strong>Jane Roe</strong>
-<sup><a href="#correspondence">✉</a></sup><br>
-<img src="images/orcid.svg" class="inline_icon" width="16" height="16" alt="ORCID icon" />
-<a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a>
-· <img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
-<a href="https://github.com/janeroe">janeroe</a><br>
-<small>
-Department of Something, University of Whatever; Department of Whatever, University of Something
-</small></p></li>
+Genomics and Computational Biology Graduate Group, University of Pennsylvania
+</small></li>
 </ul>
 <div id="correspondence">
-<p>✉ — Correspondence possible via <a href="https://github.com/greenelab/ben_heil_dissertation/issues">GitHub Issues</a>
-or email to
-Jane Roe &lt;jane.roe@whatever.edu&gt;.</p>
+<p>✉ — Correspondence possible via <a href="https://github.com/greenelab/ben_heil_dissertation/issues">GitHub Issues</a></p>
 </div>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
-<p>This manuscript is a template (aka “rootstock”) for <a href="https://manubot.org/" title="Manubot">Manubot</a>, a tool for writing scholarly manuscripts.
-Use this template as a starting point for your manuscript.</p>
-<p>The rest of this document is a full list of formatting elements/features supported by Manubot.
-Compare the input (<code>.md</code> files in the <code>/content</code> directory) to the output you see below.</p>
-<h2 id="basic-formatting">Basic formatting</h2>
-<p><strong>Bold</strong> <strong>text</strong></p>
-<p><span class="semibold">Semi-bold text</span></p>
-<p><span class="center">Centered text</span></p>
-<p><span class="right">Right-aligned text</span></p>
-<p><em>Italic</em> <em>text</em></p>
-<p>Combined <em>italics and <strong>bold</strong></em></p>
-<p><del>Strikethrough</del></p>
-<ol type="1">
-<li>Ordered list item</li>
-<li>Ordered list item
-<ol type="a">
-<li>Sub-item</li>
-<li>Sub-item
-<ol type="i">
-<li>Sub-sub-item</li>
-</ol></li>
-</ol></li>
-<li>Ordered list item
-<ol type="a">
-<li>Sub-item</li>
-</ol></li>
-</ol>
-<ul>
-<li>List item</li>
-<li>List item</li>
-<li>List item</li>
-</ul>
-<p>subscript: H<sub>2</sub>O is a liquid</p>
-<p>superscript: 2<sup>10</sup> is 1024.</p>
-<p><a href="https://www.google.com/search?q=superscript+generator">unicode superscripts</a>⁰¹²³⁴⁵⁶⁷⁸⁹</p>
-<p><a href="https://www.google.com/search?q=superscript+generator">unicode subscripts</a>₀₁₂₃₄₅₆₇₈₉</p>
-<p>A long paragraph of text.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Putting each sentence on its own line has numerous benefits with regard to <a href="https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line">editing</a> and <a href="https://rhodesmill.org/brandon/2012/one-sentence-per-line/">version control</a>.</p>
-<p>Line break without starting a new paragraph by putting<br />
-two spaces at end of line.</p>
-<h2 id="document-organization">Document organization</h2>
-<p>Document section headings:</p>
-<h1 id="heading-1">Heading 1</h1>
-<h2 id="heading-2">Heading 2</h2>
-<h3 id="heading-3">Heading 3</h3>
-<h4 id="heading-4">Heading 4</h4>
-<h5 id="heading-5">Heading 5</h5>
-<h6 id="heading-6">Heading 6</h6>
-<h3 class="center page_center" id="a-heading-centered-on-its-own-printed-page">A heading centered on its own printed page</h3>
-<!-- an arbitrary comment. visible in input, but not visible in output. -->
-<p>Horizontal rule:</p>
-<hr />
-<p><code>Heading 1</code>’s are recommended to be reserved for the title of the manuscript.</p>
-<p><code>Heading 2</code>’s are recommended for broad sections such as <em>Abstract</em>, <em>Methods</em>, <em>Conclusion</em>, etc.</p>
-<p><code>Heading 3</code>’s and <code>Heading 4</code>’s are recommended for sub-sections.</p>
-<h2 id="links">Links</h2>
-<p>Bare URL link: <a href="https://manubot.org" class="uri">https://manubot.org</a></p>
-<p><a href="https://manubot.org">Long link with lots of words and stuff and junk and bleep and blah and stuff and other stuff and more stuff yeah</a></p>
-<p><a href="https://manubot.org">Link with text</a></p>
-<p><a href="https://manubot.org" title="Manubot Homepage">Link with hover text</a></p>
-<p><a href="https://manubot.org">Link by reference</a></p>
-<h2 id="citations">Citations</h2>
-<p>Citation by DOI <span class="citation" data-cites="IhliSZDo">[<a href="#ref-IhliSZDo" role="doc-biblioref">1</a>]</span>.</p>
-<p>Citation by PubMed Central ID <span class="citation" data-cites="mSMVRkoc">[<a href="#ref-mSMVRkoc" role="doc-biblioref">2</a>]</span>.</p>
-<p>Citation by PubMed ID <span class="citation" data-cites="126Wi5Us4">[<a href="#ref-126Wi5Us4" role="doc-biblioref">3</a>]</span>.</p>
-<p>Citation by Wikidata ID <span class="citation" data-cites="QhC8yJ7V">[<a href="#ref-QhC8yJ7V" role="doc-biblioref">4</a>]</span>.</p>
-<p>Citation by ISBN <span class="citation" data-cites="zBPP9YKu">[<a href="#ref-zBPP9YKu" role="doc-biblioref">5</a>]</span>.</p>
-<p>Citation by URL <span class="citation" data-cites="1GGGHdsew">[<a href="#ref-1GGGHdsew" role="doc-biblioref">6</a>]</span>.</p>
-<p>Citation by alias <span class="citation" data-cites="PZMP42Ak">[<a href="#ref-PZMP42Ak" role="doc-biblioref">7</a>]</span>.</p>
-<p>Multiple citations can be put inside the same set of brackets <span class="citation" data-cites="IhliSZDo PZMP42Ak zBPP9YKu">[<a href="#ref-IhliSZDo" role="doc-biblioref">1</a>,<a href="#ref-zBPP9YKu" role="doc-biblioref">5</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">7</a>]</span>.
-Manubot plugins provide easier, more convenient visualization of and navigation between citations <span class="citation" data-cites="YuJbg3zO 126Wi5Us4 mSMVRkoc PZMP42Ak">[<a href="#ref-mSMVRkoc" role="doc-biblioref">2</a>,<a href="#ref-126Wi5Us4" role="doc-biblioref">3</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">7</a>,<a href="#ref-YuJbg3zO" role="doc-biblioref">8</a>]</span>.</p>
-<p>Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown’s reference link syntax:</p>
-<h2 id="referencing-figures-tables-equations">Referencing figures, tables, equations</h2>
-<p>Figure <a href="#fig:square-image">1</a></p>
-<p>Figure <a href="#fig:wide-image">2</a></p>
-<p>Figure <a href="#fig:tall-image">3</a></p>
-<p>Figure <a href="#fig:vector-image">4</a></p>
-<p>Table <a href="#tbl:bowling-scores">1</a></p>
-<p>Equation <a href="#eq:regular-equation">1</a></p>
-<p>Equation <a href="#eq:long-equation">2</a></p>
-<h2 id="quotes-and-code">Quotes and code</h2>
-<blockquote>
-<p>Quoted text</p>
-</blockquote>
-<blockquote>
-<p>Quoted block of text</p>
-<p>Two roads diverged in a wood, and I—<br />
-I took the one less traveled by,<br />
-And that has made all the difference.</p>
-</blockquote>
-<p>Code <code>in the middle</code> of normal text, aka <code>inline code</code>.</p>
-<p>Code block with Python syntax highlighting:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> manubot.cite.doi <span class="im">import</span> expand_short_doi</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> test_expand_short_doi():</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    doi <span class="op">=</span> expand_short_doi(<span class="st">&quot;10/c3bp&quot;</span>)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># a string too long to fit within page:</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">assert</span> doi <span class="op">==</span> <span class="st">&quot;10.25313/2524-2695-2018-3-vliyanie-enhansera-copia-i-insulyatora-gypsy-na-sintez-ernk-modifikatsii-hromatina-i-svyazyvanie-insulyatornyh-belkov-vtransfetsirovannyh-geneticheskih-konstruktsiyah&quot;</span></span></code></pre></div>
-<p>Code block with no syntax highlighting:</p>
-<pre><code>Exporting HTML manuscript
-Exporting DOCX manuscript
-Exporting PDF manuscript</code></pre>
-<h2 id="figures">Figures</h2>
-<div id="fig:square-image" class="fignos">
-<figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="Figure 1: A square image at actual size and with a bottom caption. Loaded from the latest version of image on GitHub." />
-<figcaption aria-hidden="true"><span>Figure 1:</span> <strong>A square image at actual size and with a bottom caption.</strong>
-Loaded from the latest version of image on GitHub.</figcaption>
-</figure>
-</div>
-<div id="fig:wide-image" class="fignos">
-<figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png" alt="Figure 2: An image too wide to fit within page at full size. Loaded from a specific (hashed) version of the image on GitHub." />
-<figcaption aria-hidden="true"><span>Figure 2:</span> <strong>An image too wide to fit within page at full size.</strong>
-Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
-</figure>
-</div>
-<div id="fig:tall-image" class="fignos">
-<figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png" style="height:3in" alt="Figure 3: A tall image with a specified height. Loaded from a specific (hashed) version of the image on GitHub." />
-<figcaption aria-hidden="true"><span>Figure 3:</span> <strong>A tall image with a specified height.</strong>
-Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
-</figure>
-</div>
-<div id="fig:vector-image" class="fignos">
-<figure>
-<img src="https://raw.githubusercontent.com/manubot/resources/main/test/vector.svg?sanitize=true" class="white" style="height:2.5in" alt="Figure 4: A vector .svg image loaded from GitHub. The parameter sanitize=true is necessary to properly load SVGs hosted via GitHub URLs. White background specified to serve as a backdrop for transparent sections of the image." />
-<figcaption aria-hidden="true"><span>Figure 4:</span> <strong>A vector <code>.svg</code> image loaded from GitHub.</strong>
-The parameter <code>sanitize=true</code> is necessary to properly load SVGs hosted via GitHub URLs.
-White background specified to serve as a backdrop for transparent sections of the image.</figcaption>
-</figure>
-</div>
-<h2 id="tables">Tables</h2>
-<div id="tbl:bowling-scores" class="tablenos">
-<table id="tbl:bowling-scores">
-<caption><span>Table 1:</span> A table with a top caption and specified relative column widths.
-</caption>
-<colgroup>
-<col style="width: 23%" />
-<col style="width: 19%" />
-<col style="width: 19%" />
-<col style="width: 19%" />
-<col style="width: 19%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><em>Bowling Scores</em></th>
-<th style="text-align: center;">Jane</th>
-<th style="text-align: center;">John</th>
-<th style="text-align: center;">Alice</th>
-<th style="text-align: center;">Bob</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Game 1</td>
-<td style="text-align: center;">150</td>
-<td style="text-align: center;">187</td>
-<td style="text-align: center;">210</td>
-<td style="text-align: center;">105</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Game 2</td>
-<td style="text-align: center;">98</td>
-<td style="text-align: center;">202</td>
-<td style="text-align: center;">197</td>
-<td style="text-align: center;">102</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Game 3</td>
-<td style="text-align: center;">123</td>
-<td style="text-align: center;">180</td>
-<td style="text-align: center;">238</td>
-<td style="text-align: center;">134</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="tbl:constant-digits" class="tablenos">
-<table id="tbl:constant-digits">
-<caption><span>Table 2:</span> A table too wide to fit within page.
-</caption>
-<colgroup>
-<col style="width: 5%" />
-<col style="width: 20%" />
-<col style="width: 19%" />
-<col style="width: 19%" />
-<col style="width: 34%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;"></th>
-<th style="text-align: left;">Digits 1-33</th>
-<th style="text-align: left;">Digits 34-66</th>
-<th style="text-align: left;">Digits 67-99</th>
-<th style="text-align: left;">Ref.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">pi</td>
-<td style="text-align: left;">3.14159265358979323846264338327950</td>
-<td style="text-align: left;">288419716939937510582097494459230</td>
-<td style="text-align: left;">781640628620899862803482534211706</td>
-<td style="text-align: left;"><a href="https://www.piday.org/million/"><code>piday.org</code></a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">e</td>
-<td style="text-align: left;">2.71828182845904523536028747135266</td>
-<td style="text-align: left;">249775724709369995957496696762772</td>
-<td style="text-align: left;">407663035354759457138217852516642</td>
-<td style="text-align: left;"><a href="https://apod.nasa.gov/htmltest/gifcity/e.2mil"><code>nasa.gov</code></a></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="tbl:6a8a81c2-66a5-4598-8aaf-f45b0a8cb680" class="tablenos">
-<table id="tbl:">
-<caption><span>Table 3:</span> A table with merged cells using the <code>attributes</code> plugin.
-</caption>
-<thead>
-<tr class="header">
-<th style="text-align: center;"></th>
-<th style="text-align: center;"><strong>Colors</strong> <!-- $colspan="2" --></th>
-<th style="text-align: center;"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"><strong>Size</strong></td>
-<td style="text-align: center;"><strong>Text Color</strong></td>
-<td style="text-align: center;"><strong>Background Color</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">big</td>
-<td style="text-align: center;">blue</td>
-<td style="text-align: center;">orange</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">small</td>
-<td style="text-align: center;">black</td>
-<td style="text-align: center;">white</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2 id="equations">Equations</h2>
-<p>A LaTeX equation:</p>
-<p><span id="eq:regular-equation" class="eqnos"><span class="math display">\[\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}\]</span><span class="eqnos-number">(1)</span></span> </p>
-<p>An equation too long to fit within page:</p>
-<p><span id="eq:long-equation" class="eqnos"><span class="math display">\[x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9\]</span><span class="eqnos-number">(2)</span></span> </p>
-<h2 id="special">Special</h2>
-<p><i class="fas fa-exclamation-triangle"></i> <span class="semibold">WARNING</span> <em>The following features are only supported and intended for <code>.html</code> and <code>.pdf</code> exports.</em>
-<em>Journals are not likely to support them, and they may not display correctly when converted to other formats such as <code>.docx</code>.</em></p>
-<p><a href="https://manubot.org" class="button" title="Manubot Homepage">Link styled as a button</a></p>
-<p>Adding arbitrary HTML attributes to an element using Pandoc’s attribute syntax:</p>
-<div id="some_id_1" class="some_class" style="background: #ad1457; color: white; margin-left: 40px;" title="a paragraph of text" data-color="white" disabled="true">
-<p>Manubot Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot.
-Manubot Manubot.
-Manubot.</p>
-</div>
-<p>Adding arbitrary HTML attributes to an element with the Manubot <code>attributes</code> plugin (more flexible than Pandoc’s method in terms of which elements you can add attributes to):</p>
-<p>Manubot Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot.
-Manubot Manubot.
-Manubot.
-<!-- $id="element_id" class="some_class" $style="color: #ad1457; margin-left: 40px;" $disabled="true" $title="a paragraph of text" $data-color="red" --></p>
-<p>Available background colors for text, images, code, banners, etc:</p>
-<p><code class="white">white</code>
-<code class="lightgrey">lightgrey</code>
-<code class="grey">grey</code>
-<code class="darkgrey">darkgrey</code>
-<code class="black">black</code>
-<code class="lightred">lightred</code>
-<code class="lightyellow">lightyellow</code>
-<code class="lightgreen">lightgreen</code>
-<code class="lightblue">lightblue</code>
-<code class="lightpurple">lightpurple</code>
-<code class="red">red</code>
-<code class="orange">orange</code>
-<code class="yellow">yellow</code>
-<code class="green">green</code>
-<code class="blue">blue</code>
-<code class="purple">purple</code></p>
-<p>Using the <a href="https://fontawesome.com/">Font Awesome</a> icon set:</p>
-<!-- include the Font Awesome library, per: https://fontawesome.com/start -->
-<p><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"></p>
-<p><i class="fas fa-check"></i> <i class="fas fa-question"></i> <i class="fas fa-star"></i> <i class="fas fa-bell"></i> <i class="fas fa-times-circle"></i> <i class="fas fa-ellipsis-h"></i></p>
-<p><span class="banner lightgrey"><i class="fas fa-scroll fa-lg"></i> <strong>Light Grey Banner</strong><br>
-useful for <em>general information</em> - <a href="https://manubot.org/">manubot.org</a></span></p>
-<p><span class="banner lightblue"><i class="fas fa-info-circle fa-lg"></i> <strong>Blue Banner</strong><br>
-useful for <em>important information</em> - <a href="https://manubot.org/">manubot.org</a></span></p>
-<p><span class="banner lightred"><i class="fas fa-ban fa-lg"></i> <strong>Light Red Banner</strong><br>
-useful for <em>warnings</em> - <a href="https://manubot.org/">manubot.org</a></span></p>
+<h2 id="introduction">Introduction</h2>
+<h3 id="overall-intro">Overall Intro</h3>
+<h3 id="linear-models-background">Linear models background</h3>
+<h4 id="disease-prediction-review">Disease prediction review</h4>
+<p>The human transcriptome provides a rich source of information about both healthy and disease states.
+Not only is gene expression information useful for learning novel biological phenomena, it can also be used to diagnose and predict diseases.
+These predictions have become more powerful in recent years as the field of machine learning has developed more methods.
+In this paper we review supervised machine learning methods applied to predict various phenotypes from gene expression,
+with a focus on the challenges in the field and what is being done to overcome them.
+We close the review with potential areas for future research, as well as our perspectives on the strengths and weaknesses of supervised learning for phenotype prediction.</p>
+<p><strong>Introduction</strong><br />
+Over the past few decades a number of tools for measuring gene expression have been developed.
+As proteomics is currently difficult to do at a large scale, gene expression quantification methods are our best way to measure cells’ internal states.
+While this wealth of information is promising, gene expression data is more difficult to work with than one might think.
+The high dimensionality and instrument-driven variation require sophisticated techniques to separate the signal from the noise.</p>
+<p>One such class of techniques is the set of methods from machine learning.
+Machine learning methods depend on the assumption that there are patterns in data that can be learned to make predictions about future data.
+Luckily, different people respond to the same disease in similar ways (for some diseases).
+Learning genes that indicate an inflammatory response, for example, can help a machine learning model learn the difference between healthy and diseased expression samples.</p>
+<p>There are many varieties of machine learning algorithms, so the scope of this paper is limited to analysis of supervised machine learning methods for phenotype prediction.
+Supervised machine learning is a paradigm where the model attempts to predict labels.
+For example, a model that predicts whether someone has lupus based on their gene expression data <span class="citation" data-cites="qs7B1fgV">[<a href="#ref-qs7B1fgV" role="doc-biblioref">1</a>]</span> is a supervised learning model.
+In contrast, techniques for grouping data together without having phenotype labels are called unsupervised methods.
+While these methods are also commonly used in computational biology <span class="citation" data-cites="19eIjTcxN 14mY2pXKf IRSA7yBm">[<a href="#ref-19eIjTcxN" role="doc-biblioref">2</a>,<a href="#ref-14mY2pXKf" role="doc-biblioref">3</a>,<a href="#ref-IRSA7yBm" role="doc-biblioref">4</a>]</span>, we will not be discussing them here.</p>
+<p>The purpose of this review is to explain and analyze the various approaches that are used to predict phenotypes.
+Each section of the review is centered around one of the challenges ubiquitous in using supervised machine learning techniques on gene expression data.
+We hope to explain what has been tried and what the consensus for handling the challenge, if one exists.
+The review will conclude with a section outlining promising new methods and areas where further study is needed.</p>
+<p>If the field succeeds in addressing all the challenges, the payoffs will be substantial.
+Being able to predict and diagnose diseases from whole blood gene expression is particularly interesting.
+With sufficiently advanced analysis, invasive cancer biopsies might be able to be replaced with simple blood draws <span class="citation" data-cites="doi">[<a href="#ref-IRSA7yBm" role="doc-biblioref">4</a>]</span>.
+If not, there are already diagnostics that predict various cancer aspects from biopsy gene expression <span class="citation" data-cites="7T8Uxprz">[<a href="#ref-7T8Uxprz" role="doc-biblioref">5</a>]</span>.
+It may also be possible to diagnose common diseases based on blood gene expression <span class="citation" data-cites="Lphv6pyr dx78bdYB 1CNHzMFjN rJ5EpmYl">[<a href="#ref-Lphv6pyr" role="doc-biblioref">6</a>,<a href="#ref-dx78bdYB" role="doc-biblioref">7</a>,<a href="#ref-1CNHzMFjN" role="doc-biblioref">8</a>,<a href="#ref-rJ5EpmYl" role="doc-biblioref">9</a>]</span>, or even rare ones <span class="citation" data-cites="1ZboiGsF">[<a href="#ref-1ZboiGsF" role="doc-biblioref">10</a>]</span>.</p>
+<p><strong>Background</strong><br />
+The techniques for measuring gene expression and for analyzing it have changed dramatically over the past few decades.
+This sections aims to explain what some of those changes are and how they affect phenotype prediction.</p>
+<p><em>Gene expression</em><br />
+Gene expression measurement methods have three main categories.
+This first to be created is the gene expression microarray.
+In a microarray, RNA is reverse transcribed to cDNA, labeled with fluorescent markers, then hybridized to probes corresponding to parts of genes.
+The amount of fluorescence is then quantified to give the relative amount of gene expression for each gene.
+While early microarrays had fewer genes and gene probes <span class="citation" data-cites="J9zGDTW4">[<a href="#ref-J9zGDTW4" role="doc-biblioref">11</a>]</span>, more modern ones measure tens of thousands of genes <span class="citation" data-cites="XeqEIk0K">[<a href="#ref-XeqEIk0K" role="doc-biblioref">12</a>]</span>.</p>
+<p>While microarrays are useful, decreases in the price of genetic sequencing have made bulk RNA sequencing (RNA-seq) more common.
+In RNA-seq, cDNA molecules are sequenced directly after being reverse transcribed from mRNA.
+These cDNA fragments are then aligned against a reference exome to determine which gene, if any, each fragment maps to.
+The output of the bulk RNA-seq pipeline is a list of genes and their corresponding read counts.
+While there is not gene probe bias like in microarrays, RNA-seq has its own patterns of bias based on gene lengths and expression levels <span class="citation" data-cites="ChQys9ED">[<a href="#ref-ChQys9ED" role="doc-biblioref">13</a>]</span>.
+Bulk RNA-seq is also unable to resolve heterogeneous populations of cells, as it measures the average gene expression of all of cells in the sample.</p>
+<p>Fairly recently a new method was developed called single-cell RNA sequencing.
+True to its name, single-cell sequencing allows gene expression to be measured at the individual cell level.
+This increase in precision is accompanied by an increase in data sparsity though, as genes expressed infrequently or at low levels may not be detected.
+The sparsity of single-cell data has led to a number of interesting methods, but as we worked with bulk RNA-sequencing single-cell papers will largely be absent from this review.</p>
+<p><em>Machine Learning</em><br />
+Machine learning has undergone a paradigm shift in the past decade, beginning with the publication of the AlexNet paper in 2012 <span class="citation" data-cites="fVSo2gZU">[<a href="#ref-fVSo2gZU" role="doc-biblioref">14</a>]</span>.
+For decades random forests and support vector machines were the most widely used models in machine learning.
+This changed dramatically when the AlexNet paper showed that neural networks could vastly outperform traditional methods in some domains <span class="citation" data-cites="fVSo2gZU">[<a href="#ref-fVSo2gZU" role="doc-biblioref">14</a>]</span>.
+The deep learning revolution quickly followed, with deep neural networks becoming the state of the art in any problem with enough data <span class="citation" data-cites="c1tQ2yNq HpZqLKUe ld1EnZ6i yZfcMIwh">[<a href="#ref-c1tQ2yNq" role="doc-biblioref">15</a>,<a href="#ref-HpZqLKUe" role="doc-biblioref">16</a>,<a href="#ref-ld1EnZ6i" role="doc-biblioref">17</a>,<a href="#ref-yZfcMIwh" role="doc-biblioref">18</a>]</span>.</p>
+<p>The implications of the deep learning revolution on this paper are twofold.
+First, almost all papers before 2014 use traditional machine learning methods, while almost all papers after use deep learning methods.
+Second, deep neural networks’ capacity to overfit the data and fail to generalize to outside data are vast.
+We’ll show throughout the review various mistakes authors make because they don’t fully understand the failure states of neural networks and how to avoid them.</p>
+<p><strong>Dimensionality Reduction</strong><br />
+The most obvious challenge in working with gene expression data is its high dimensionality.
+That is to say that the number of features (genes) in a dataset is typically greater than the number of samples.
+It is common for an analysis to have tens of thousands of genes, but only hundreds (or tens) of samples.
+Because even simple models struggle under such circumstances, it is necessary to find a representation of the data that uses fewer dimensions.</p>
+<p>In the traditional machine learning paradigm, this is done via manual or heuristic feature selection methods.
+Such methods tend to use a criterion like mutual information to select a subset of genes for the analysis <span class="citation" data-cites="MzuxpiPn">[<a href="#ref-MzuxpiPn" role="doc-biblioref">19</a>]</span>.
+In one of the earliest papers in this review, Li et al. try a eight different methods from statistics and machine learning to see if any one in particular outperformed the others <span class="citation" data-cites="Vzg9ivZU">[<a href="#ref-Vzg9ivZU" role="doc-biblioref">20</a>]</span>.
+Ultimately they found that no individual method rose to the top, and that the performance of different methods varies depending on the problem.</p>
+<p>A number of other papers since then have also used manual methods.
+Grewal et al. chose a subset of genes from COSMIC <span class="citation" data-cites="QSJEewCc">[<a href="#ref-QSJEewCc" role="doc-biblioref">21</a>]</span> for training, but found that their model performed better when using all genes instead of just a subset <span class="citation" data-cites="ClFEdqWg">[<a href="#ref-ClFEdqWg" role="doc-biblioref">22</a>]</span>.
+Chen et al. used a different gene set.
+They selected the LINCS 1000 gene set <span class="citation" data-cites="F7lIlh2N">[<a href="#ref-F7lIlh2N" role="doc-biblioref">23</a>]</span> for an imputation method, as the LINCS landmark genes are highly correlated with the genes they were trying to impute <span class="citation" data-cites="12QQw9p7v">[<a href="#ref-12QQw9p7v" role="doc-biblioref">24</a>]</span>.</p>
+<p>Gene subsets can be based on prior knowledge of gene regulatory networks as well <span class="citation" data-cites="J0eeAld3 g8OoyIPj">[<a href="#ref-J0eeAld3" role="doc-biblioref">25</a>,<a href="#ref-g8OoyIPj" role="doc-biblioref">26</a>]</span>.
+While very interpretable, these methods do not necessarily lead to increased performance in phenotype predictions <span class="citation" data-cites="IHi1L0uN">[<a href="#ref-IHi1L0uN" role="doc-biblioref">27</a>]</span>.</p>
+<p>Selecting gene subsets via a heuristic or a machine learning model is also popular.
+Sevakula et al. use decision stumps to select features then use a stacked autoencoder-type architecture to further compress the representation <span class="citation" data-cites="2i0SZtHv">[<a href="#ref-2i0SZtHv" role="doc-biblioref">28</a>]</span>.
+Xiao et al. did something similar where they reduced the data to only genes were differentially expressed between their conditions of interest, then used a stacked autoencoder architecture <span class="citation" data-cites="uXRnjUvq">[<a href="#ref-uXRnjUvq" role="doc-biblioref">29</a>]</span>.
+Instead of looking at raw differential expression, Dhruba et al. used another subsetting method called ReliefF <span class="citation" data-cites="bBLm1pxP">[<a href="#ref-bBLm1pxP" role="doc-biblioref">30</a>]</span> to find the top 200 genes for their source and target dataset, then kept the intersection for use in their model <span class="citation" data-cites="17srxvYZd">[<a href="#ref-17srxvYZd" role="doc-biblioref">31</a>]</span>.
+More recently, Li et al. used a genetic algorithm for feature selection <span class="citation" data-cites="jxCyAK09">[<a href="#ref-jxCyAK09" role="doc-biblioref">32</a>]</span>.</p>
+<p>Not all papers use a subset of the original genes in their analysis, however.
+It is fairly common in recent years for authors to transform the data into a new lower dimensional space based on various metrics.
+This used to be done via principle component analysis (PCA), a method that performs a linear transformation to
+maximize the variance explained by a reduced number of dimensions <span class="citation" data-cites="CD9ApROI gmzkOu04">[<a href="#ref-CD9ApROI" role="doc-biblioref">33</a>,<a href="#ref-gmzkOu04" role="doc-biblioref">34</a>]</span>.
+Now scientists typically use different types of autoencoders, which learn a nonlinear mapping from the original space to a space with fewer dimensions.
+Deepathology uses variational <span class="citation" data-cites="NLVTJ9Lj">[<a href="#ref-NLVTJ9Lj" role="doc-biblioref">35</a>]</span> and contractive <span class="citation" data-cites="14bFfy6t2">[<a href="#ref-14bFfy6t2" role="doc-biblioref">36</a>]</span> autoencoders in their model <span class="citation" data-cites="z3sjep1J">[<a href="#ref-z3sjep1J" role="doc-biblioref">37</a>]</span>, while Danaee et al. used a stacked denoising autoencoder <span class="citation" data-cites="12JCi6DKf 11ZzdspWP">[<a href="#ref-12JCi6DKf" role="doc-biblioref">38</a>,<a href="#ref-11ZzdspWP" role="doc-biblioref">39</a>]</span>.
+Both papers compared their autoencoder dimensionality reduction to that of PCA and found that it performed better.
+Danaee found that kernel PCA, a nonlinear version of PCA performed equivalently though.</p>
+<p>It is also possible to use regularization methods to perform dimensionality reduction.
+While they do not influence the nominal dimensionality of the data, they reduce the effective dimensionality by putting constraints on the input data or the model.
+For example, SAUCIE uses an autoencoder structure, but combines it with a number of exotic regularization methods to further decrease the effective dimensionality of their data <span class="citation" data-cites="1CPSh19Mn">[<a href="#ref-1CPSh19Mn" role="doc-biblioref">40</a>]</span>.
+In DeepType, Chen et al. use a more conventional elastic net regularization <span class="citation" data-cites="IRvPzVVg">[<a href="#ref-IRvPzVVg" role="doc-biblioref">41</a>]</span> to induce sparsity in the first level of their network under the assumption that most genes’ expression will not affect a cancer’s subtype <span class="citation" data-cites="IRSA7yBm">[<a href="#ref-IRSA7yBm" role="doc-biblioref">4</a>]</span>.</p>
+<p>Ultimately, there is no clear consensus in which dimensionality reduction methods perform the best.
+Among the methods that transform the data there is a small amount of evidence that nonlinear transformations outperform linear ones, but only a few studies have tried both.
+Going forward, a systematic evaluation of gene selection and dimensionality reduction methods on a variety of problems could be a huge asset to the
+field.</p>
+<p><strong>Batch Effects</strong><br />
+When gene expression data comes from multiple studies, there are systematic differences between the samples even if they are measuring the same thing <span class="citation" data-cites="UPHmb9yc">[<a href="#ref-UPHmb9yc" role="doc-biblioref">42</a>]</span>.
+These batch effects can bias the outcome of a study, and reduce the ability of a predictive model to generalize to data outside of the dataset used in the analysis.
+Different studies handle this in different ways, with varying degrees of effectiveness.</p>
+<p>Malta et al’s study is a good example of addressing batch effects well <span class="citation" data-cites="rYMEu6oz">[<a href="#ref-rYMEu6oz" role="doc-biblioref">43</a>]</span>.
+They began by mean centering their data to ensure that the model didn’t learn to make classifications based on the mean gene expression values.
+They then used Spearman correlation instead of Pearson correlation to avoid small changes in the data distributions to change their correlation measurement.
+Finally they evaluated their results on a different data generation method (RNA-seq) from the one they trained on (microarray).</p>
+<p>The SAUCIE paper handles batch effects very differently <span class="citation" data-cites="1CPSh19Mn">[<a href="#ref-1CPSh19Mn" role="doc-biblioref">40</a>]</span>.
+They introduce a new type of regularization called maximal mean discrepancy, which penalizes the distance between the latent space representation between batches.
+While this regularization term is deep learning specific and depends on the model having an embedding layer, it will be interesting to see if similar ideas are used in the future.</p>
+<p>Other studies address batch effects less comprehensively via quantile normalization and 0-1 standardization <span class="citation" data-cites="12QQw9p7v fZGWNG2y">[<a href="#ref-12QQw9p7v" role="doc-biblioref">24</a>,<a href="#ref-fZGWNG2y" role="doc-biblioref">44</a>]</span>.
+Using quantile normalization ensures that the different datasets have the same distribution, then 0-1 standardization makes machine learning algorithms treat all genes as equally important.
+Another common technique from ML is to make decisions about the model based on cross-validation.
+Since the feature or hyperparameter choice is validated on multiple random subsets of the data, batch effects are less likely to bias the decision <span class="citation" data-cites="jxCyAK09">[<a href="#ref-jxCyAK09" role="doc-biblioref">32</a> ]</span>.</p>
+<p>Studies using contractive autoencoders <span class="citation" data-cites="z3sjep1J">[<a href="#ref-z3sjep1J" role="doc-biblioref">37</a>]</span> get some degree of batch effect protection just from their model constraints.
+Since contractive autoencoders are trained to ignore small perturbations in the data, they tend to be more robust to distributional changes.
+There are also more explicit ways of addressing batch effects.
+DeepType, for example, uses the method ComBat <span class="citation" data-cites="1HahRBkyb">[<a href="#ref-1HahRBkyb" role="doc-biblioref">45</a>]</span> to reduce batch effects as a preprocessing step for their model <span class="citation" data-cites="IRSA7yBm">[<a href="#ref-IRSA7yBm" role="doc-biblioref">4</a>]</span>.</p>
+<p>Unfortunately many studies don’t address batch effects at all, despite operating on large multi-study datasets like the Cancer Genome Atlas (TCGA).
+These studies are likely to fail to generalize to real-world data, as machine learning models like to fixate on spurious correlations between data and phenotypes.</p>
+<p><strong>Deep Learning vs Standard ML</strong>
+As was discussed in the background section, recent years have seen a dramatic shift towards deep learning methods.
+It is not immediately clear, however, whether this is a good decision for problems without giant datasets.
+While some argue that deep learning is overrated and simpler models should be used instead <span class="citation" data-cites="EMrWUv3D GE6d2dOD">[<a href="#ref-EMrWUv3D" role="doc-biblioref">46</a>,<a href="#ref-GE6d2dOD" role="doc-biblioref">47</a>]</span>, others find that deep learning outperforms even domain specific models <span class="citation" data-cites="xSV2BrbO 15s31cve5">[<a href="#ref-xSV2BrbO" role="doc-biblioref">48</a>,<a href="#ref-15s31cve5" role="doc-biblioref">49</a>]</span>.</p>
+<p>Because it is unclear which type of model will perform best on which dataset, it is important to try both simple and complex models.
+In the Deepathology paper, Azarkahlili et al. found that their deep neural networks outperformed decision tree, KNN, random forest, logistic regression, and SVM models <span class="citation" data-cites="z3sjep1J">[<a href="#ref-z3sjep1J" role="doc-biblioref">37</a> ]</span>.
+Likewise, in gene expression imputation, Chen et al. found that their neural network classifier outperformed linear regression in 99.97 percent of genes and k-nearest neighbors in all genes <span class="citation" data-cites="12QQw9p7v">[<a href="#ref-12QQw9p7v" role="doc-biblioref">24</a>]</span>.
+On the other hand, Grewal et al. tried multiple methods and found they work roughly the same <span class="citation" data-cites="ClFEdqWg">[<a href="#ref-ClFEdqWg" role="doc-biblioref">22</a>]</span>.
+They settled this by combining a few different models into an ensemble.</p>
+<p>Due to technical considerations <span class="citation" data-cites="rYMEu6oz">[<a href="#ref-rYMEu6oz" role="doc-biblioref">43</a>]</span> or other reasons, some authors only evaluate a single model <span class="citation" data-cites="uXRnjUvq">[<a href="#ref-uXRnjUvq" role="doc-biblioref">29</a>]</span>.
+While this simplifies the analysis for their papers, it makes it unclear whether they could have done better with a different model.
+This is particularly important for authors who are using deep learning models, because simpler models tend to be much more interpretable.</p>
+<p><strong>Evaluating Model Performance</strong><br />
+Validation is another important consideration in phenotype prediction.
+The gold standard of validation would be a knockout and rescue assay demonstrating that the predicted mechanism or expression relationship truly exists.
+Since machine learning models make predictions of nonlinear relationships between thousands of genes, however, such validation isn’t feasible.
+Instead scientists evaluate their models’ efficacy by testing their performance on data they didn’t train them on.
+Test datasets can be built in different ways, assorting roughly into three tiers based on their external validity.</p>
+<p>The most basic method is referred to as cross-validation.
+In cross-validation, the training data is split into a training and validation dataset.
+The model is trained on the training dataset, then its performance is measured on the validation dataset.
+Typically this is done with a process called five-fold cross-validation, where the process is repeated five times on five different ways of splitting up the training data.
+This method is common <span class="citation" data-cites="17srxvYZd jxCyAK09 11ZzdspWP">[<a href="#ref-17srxvYZd" role="doc-biblioref">31</a>,<a href="#ref-jxCyAK09" role="doc-biblioref">32</a>,<a href="#ref-11ZzdspWP" role="doc-biblioref">39</a>]</span>, but isn’t really a rigorous evaluation.
+Because the same dataset is used for both selecting a model and measuring performance, the data can ’go stale’ when you test several models <span class="citation" data-cites="KE9BUIOX">[<a href="#ref-KE9BUIOX" role="doc-biblioref">50</a>]</span>.
+In the extreme case, it is possible to get 100% accuracy by testing random prediction schemes on the data.</p>
+<p>In order to keep data fresh, some researchers use a more rigorous method called a held out test set<span class="citation" data-cites="z3sjep1J 2i0SZtHv">[<a href="#ref-2i0SZtHv" role="doc-biblioref">28</a>,<a href="#ref-z3sjep1J" role="doc-biblioref">37</a>]</span>.
+In the held out test set paradigm, a portion of the dataset is set aside and effectively put in a locked box until the end of the analysis.
+Once the model architecture, hyperparameters, and dimensionality reduction decisions are all made via cross-validation on the training data, the lock box can be opened and the data within used for evaluation.
+As the lock box data is only used once, it has no risk of becoming stale due to multiple testing.
+The only drawback to this method is that is depends on the assumption that the data in the real world is distributed the same as the data in your training set.</p>
+<p>The best (and most difficult) way to evaluate a model is by using an independent dataset.
+Ideally, an independent dataset is created by a different group or on a different expression quantification platform.
+For example, once their model was trained, Chen et al. evaluated their model on a dataset from GEO, a dataset from GTEx, and a cancer cell line <span class="citation" data-cites="12QQw9p7v">[<a href="#ref-12QQw9p7v" role="doc-biblioref">24</a>]</span>.
+It is also possible to use combinations of validation methods.
+In their paper Grewal et al. used a held-out section of their original data, then went on to evaluate their model in an independent dataset <span class="citation" data-cites="ClFEdqWg">[<a href="#ref-ClFEdqWg" role="doc-biblioref">22</a>]</span>.
+Similarly, Malta et al. used cross-validation initially, but then evaluated their model on an external microarray dataset to ensure their data wasn’t stale <span class="citation" data-cites="rYMEu6oz">[<a href="#ref-rYMEu6oz" role="doc-biblioref">43</a>]</span>.
+Likewise, Deng at al. initially benchmark their model on various simulated data sets, but then go on to validate their model on real data <span class="citation" data-cites="V3nGUaio">[<a href="#ref-V3nGUaio" role="doc-biblioref">51</a>]</span>.</p>
+<p>Ultimately researchers work with what they have, and it’s not always possible to acquire an independent dataset.
+That being said, it is always worth keeping the different tiers of external validity in mind when evaluating papers that use machine learning.</p>
+<p><strong>Transfer Learning</strong><br />
+Transfer learning is a field of machine learning that uses information from outside of the training dataset to improve model performance.
+Techniques from the field of transfer learning are particularly useful in the domain of gene expression, because there are large databases like GEO and TCGA that contain data that may be useful in prediction tasks.
+In this section we’ll focus in on two types of transfer learning that are particularly useful: multitask learning and semi-supervised learning.</p>
+<p>Multitask learning involves training a model on multiple problems in order to improve the model’s performance on a problem of interest.
+As gene expression patterns can be shared across diseases <span class="citation" data-cites="Uot2y2ws 7k4Mlul7">[<a href="#ref-Uot2y2ws" role="doc-biblioref">52</a>,<a href="#ref-7k4Mlul7" role="doc-biblioref">53</a>]</span>, the extra data can help increase the model’s power.
+For example, instead of training a model to learn one drug response at a time, Yuan et al.
+had better results predicting all the drugs in their dataset simultaneously <span class="citation" data-cites="URjcKCcA">[<a href="#ref-URjcKCcA" role="doc-biblioref">54</a>]</span>.
+Similarly, Deepathology predicts tissue type, disease, and miRNA expression simultaneously <span class="citation" data-cites="z3sjep1J">[<a href="#ref-z3sjep1J" role="doc-biblioref">37</a>]</span>.
+It is worth noting that multitask learning works best when using a deep learning model.
+When using standard machine learning it is necessary to perform some difficult data transformation to do classification on multiple classes <span class="citation" data-cites="Vzg9ivZU">[<a href="#ref-Vzg9ivZU" role="doc-biblioref">20</a>]</span>.</p>
+<p>Where supervised learning uses entirely labeled data, semi-supervised learning takes advantage of unlabeled data as well.
+The most popular way of doing semi-supervised learning is to use an autoencoder structure to initialize your model’s weights.
+Where most models begin training with a randomly initialized set of weights, it is possible to initially train a neural network to create a compressed representation of the input data (an encoding).
+The weights that it learns in the process often turn out to be a better initialization when the labeled training data is finally brought in.
+There are a number of ways to perform the autoencoding step.
+Instead of training all the layers of the network simultaneously, it is possible to train one layer to create the encoding at a time <span class="citation" data-cites="2i0SZtHv uXRnjUvq">[<a href="#ref-2i0SZtHv" role="doc-biblioref">28</a>,<a href="#ref-uXRnjUvq" role="doc-biblioref">29</a>]</span>.
+This is referred to as a stacked autoencoder.
+One can also train the whole network at the same time, as Danaee et al do with their denoising autoencoder <span class="citation" data-cites="11ZzdspWP">[<a href="#ref-11ZzdspWP" role="doc-biblioref">39</a>]</span>.
+Not all methods are autoencoder-based though.
+Dhruba et al. develop their own semi-supervised learning process that teaches a model to learn a latent space between classes <span class="citation" data-cites="17srxvYZd">[<a href="#ref-17srxvYZd" role="doc-biblioref">31</a>]</span>.</p>
+<p><strong>Future Directions</strong><br />
+Upon reviewing a broad spectrum of what has been done in the field, a few opportunities for future research have become clear.</p>
+<p>As shown in the batch effects section, authors handle batch effects in their studies with varying degrees of sophistication.
+The studies we have discussed use various strategies to mitigate the technical variation between studies and batches, but it may be possible to do better.
+Recent developments in the field of transfer learning have lead to methods that use technical variation between samples to increase the power of an analysis <span class="citation" data-cites="1DeCFT6PA XR77uqve">[<a href="#ref-1DeCFT6PA" role="doc-biblioref">55</a>,<a href="#ref-XR77uqve" role="doc-biblioref">56</a>]</span>.
+These methods exist on the bleeding edge of transfer learning, but gene expression data fits their assumptions very well.
+It would be interesting to see if models trained with such methods would be more successful than those using traditional batch effect correction.</p>
+<p>While many models have been used to make predictions from gene expression, it’s unclear which ones work best, and in which circumstances.
+One review evaluated a variety of unsupervised methods on gene regulatory network discovery, but the only supervised method that was tried was a support vector machine <span class="citation" data-cites="mh4sXNBi">[<a href="#ref-mh4sXNBi" role="doc-biblioref">57</a>]</span>.
+A large scale study comparing methods to each other would be very useful to the field.
+Of particular interest would be a study that determines roughly how many samples are needed before it deep learning models outperform traditional machine learning models, and how semi-supervised learning shifts that change point.</p>
+<p>Semi-supervised learning is a technique that began being applied to gene expression data only recently.
+While the technique has been useful when applied to large amounts of unlabeled data, the effects of which unlabeled dataset(s) are used hasn’t been measured.
+Due to the large differences between RNA-seq and microarray data, it may make sense to do pretraining with just GEO or Recount3 <span class="citation" data-cites="xdJRSgce">[<a href="#ref-xdJRSgce" role="doc-biblioref">58</a>]</span> depending on whether the labeled data is primarily from microarrays or RNA-seq.
+A study looking at whether more data is always better, and whether using data from a different platform helps or hurts would be a useful reference for those using semi-supervised learning to train their models.</p>
+<p>Looking closer at how to do multitask learning could also help the field.
+While several studies in this review have analyzed multitask learning, there is not a study that we know of that determines exactly how similar the classes should be for gene expression data.
+Testing various methods from Sebastian Ruder’s multitask learning review paper could help find a heuristic for how similar phenotypes should be in multitask learning <span class="citation" data-cites="DKDxhmok">[<a href="#ref-DKDxhmok" role="doc-biblioref">59</a>]</span>.</p>
+<p>For the most part the studies in this review either learn how to diagnose a specific phenotype with a small dataset, or learn more classes by studying TCGA data.
+We believe that there is an opportunity for datasets to be created from Recount3 and Refine.bio <span class="citation" data-cites="xdJRSgce zipavcIb">[<a href="#ref-xdJRSgce" role="doc-biblioref">58</a>,<a href="#ref-zipavcIb" role="doc-biblioref">60</a>]</span> data that would be able to predict phenotypes other than just cancer on a large dataset.
+The consistent preprocessing for these resources makes their gene expression data much easier to use with machine learning methods.</p>
+<p><strong>Conclusion and Perspectives</strong><br />
+Making predictions from gene expression information holds great promise, and is already being used in some cases.
+Because the problem space lies between the fields of machine learning and computational biology, however, it inherits pitfalls from both fields.
+Frequently, biologists who want to attempt to make models will fail to understand how to do model validation and hyperparameter tuning in a way that doesn’t invalidate their results.
+Likewise, machine learning researchers often will leak information between the training and the testing set by blindly randomizing all their samples, or will fail to account for the batch effects inherent to muli-study datasets.</p>
+<p>In addition to the challenges from working across disciplines, the approaches used in making predictions are largely fragmented.
+Researchers make decisions about their model architecture, dimensionality reduction, and batch effect correction largely based on their intuition.
+There have been few papers evaluating methods across several problems, and even less consensus about which methods work the best.
+Moving forward, the field will need to consolidate and determine a set of best practices to reduce the model search space for new papers.
+Likewise, researchers will need to begin working with clinicians and wet-lab scientists to validate whether their models work in vivo as well as in-silico.
+Ultimately, phenotype predictions from gene expression appear to have have a bright future.
+In order to get there, however, there are many challenges that need to be addressed.</p>
+<h3 id="reproducible-research-background">Reproducible research background</h3>
+<h3 id="citation-indices-background">Citation indices background</h3>
+<h3 id="talk-briefly-about-conclusion-chapter-probably-write-this-part-once-its-done">Talk briefly about conclusion chapter (probably write this part once it’s done)</h3>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references csl-bib-body" role="doc-bibliography">
-<div id="ref-IhliSZDo" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>Sci-Hub provides access to nearly all scholarly literature</strong> <div class="csl-block">Daniel S Himmelstein, Ariel Rodriguez Romero, Jacob G Levernier, Thomas Anthony Munro, Stephen Reid McLaughlin, Bastian Greshake Tzovaras, Casey S Greene</div> <em>eLife</em> (2018-03-01) <a href="https://doi.org/ckcj">https://doi.org/ckcj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.7554/elife.32822">10.7554/elife.32822</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29424689">29424689</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5832410">PMC5832410</a></div></div>
+<div id="ref-qs7B1fgV" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>Machine learning approaches to predict lupus disease activity from gene expression data</strong> <div class="csl-block">Brian Kegerreis, Michelle D Catalina, Prathyusha Bachali, Nicholas S Geraci, Adam C Labonte, Chen Zeng, Nathaniel Stearrett, Keith A Crandall, Peter E Lipsky, Amrie C Grammer</div> <em>Scientific Reports</em> (2019-07-03) <a href="https://doi.org/gh33ng">https://doi.org/gh33ng</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41598-019-45989-0">10.1038/s41598-019-45989-0</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31270349">31270349</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6610624">PMC6610624</a></div></div>
 </div>
-<div id="ref-mSMVRkoc" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline"><strong>Reproducibility of computational workflows is automated using continuous analysis</strong> <div class="csl-block">Brett K Beaulieu-Jones, Casey S Greene</div> <em>Nature biotechnology</em> (2017-04) <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790/</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt.3780">10.1038/nbt.3780</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28288103">28288103</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790">PMC6103790</a></div></div>
+<div id="ref-19eIjTcxN" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline"><strong>Weighted elastic net for unsupervised domain adaptation with application to age prediction from DNA methylation data</strong> <div class="csl-block">Lisa Handl, Adrin Jalali, Michael Scherer, Ralf Eggeling, Nico Pfeifer</div> <em>Bioinformatics</em> (2019-07) <a href="https://doi.org/gf5d8b">https://doi.org/gf5d8b</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/btz338">10.1093/bioinformatics/btz338</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31510704">31510704</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6612879">PMC6612879</a></div></div>
 </div>
-<div id="ref-126Wi5Us4" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>Bitcoin for the biological literature.</strong> <div class="csl-block">Douglas Heaven</div> <em>Nature</em> (2019-02) <a href="https://www.ncbi.nlm.nih.gov/pubmed/30718888">https://www.ncbi.nlm.nih.gov/pubmed/30718888</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/d41586-019-00447-9">10.1038/d41586-019-00447-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30718888">30718888</a></div></div>
+<div id="ref-14mY2pXKf" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction</strong> <div class="csl-block">Leland McInnes, John Healy, James Melville</div> <em>arXiv</em> (2018) <a href="https://doi.org/gqzqzn">https://doi.org/gqzqzn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.48550/arxiv.1802.03426">10.48550/arxiv.1802.03426</a></div></div>
 </div>
-<div id="ref-QhC8yJ7V" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>Plan S: Accelerating the transition to full and immediate Open Access to scientific publications</strong> <div class="csl-block">cOAlition S</div> (2018-09-04) <a href="https://www.wikidata.org/wiki/Q56458321">https://www.wikidata.org/wiki/Q56458321</a></div>
+<div id="ref-IRSA7yBm" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>Deep-learning approach to identifying cancer subtypes using high-dimensional genomic data</strong> <div class="csl-block">Runpu Chen, Le Yang, Steve Goodison, Yijun Sun</div> <em>Bioinformatics</em> (2019-10-11) <a href="https://doi.org/gpfzxm">https://doi.org/gpfzxm</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/btz769">10.1093/bioinformatics/btz769</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31603461">31603461</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8215925">PMC8215925</a></div></div>
 </div>
-<div id="ref-zBPP9YKu" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>Open access</strong> <div class="csl-block">Peter Suber</div> <em>MIT Press</em> (2012) <div class="csl-block">ISBN: 9780262517638</div></div>
+<div id="ref-7T8Uxprz" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>Applications of liquid biopsies for cancer</strong> <div class="csl-block">Austin K Mattox, Chetan Bettegowda, Shibin Zhou, Nickolas Papadopoulos, Kenneth W Kinzler, Bert Vogelstein</div> <em>Science Translational Medicine</em> (2019-08-28) <a href="https://doi.org/gjsfw9">https://doi.org/gjsfw9</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1126/scitranslmed.aay1984">10.1126/scitranslmed.aay1984</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31462507">31462507</a></div></div>
 </div>
-<div id="ref-1GGGHdsew" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>Manubot</em> (2020-05-25) <a href="https://greenelab.github.io/meta-review/">https://greenelab.github.io/meta-review/</a></div>
+<div id="ref-Lphv6pyr" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>Histopathologic variables predict Oncotype DX™ Recurrence Score</strong> <div class="csl-block">Melina B Flanagan, David J Dabbs, Adam M Brufsky, Sushil Beriwal, Rohit Bhargava</div> <em>Modern Pathology</em> (2008-03-21) <a href="https://doi.org/d27rv3">https://doi.org/d27rv3</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/modpathol.2008.54">10.1038/modpathol.2008.54</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18360352">18360352</a></div></div>
 </div>
-<div id="ref-PZMP42Ak" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>Opportunities and obstacles for deep learning in biology and medicine</strong> <div class="csl-block">Travers Ching, Daniel S Himmelstein, Brett K Beaulieu-Jones, Alexandr A Kalinin, Brian T Do, Gregory P Way, Enrico Ferrero, Paul-Michael Agapow, Michael Zietz, Michael M Hoffman, … Casey S Greene</div> <em>Journal of The Royal Society Interface</em> (2018-04) <a href="https://doi.org/gddkhn">https://doi.org/gddkhn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1098/rsif.2017.0387">10.1098/rsif.2017.0387</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29618526">29618526</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5938574">PMC5938574</a></div></div>
+<div id="ref-dx78bdYB" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>Analysis of blood-based gene expression in idiopathic Parkinson disease</strong> <div class="csl-block">Ron Shamir, Christine Klein, David Amar, Eva-Juliane Vollstedt, Michael Bonin, Marija Usenovic, Yvette C Wong, Ales Maver, Sven Poths, Hershel Safer, … Dimitri Krainc</div> <em>Neurology</em> (2017-09-15) <a href="https://doi.org/gcnb67">https://doi.org/gcnb67</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1212/wnl.0000000000004516">10.1212/wnl.0000000000004516</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28916538">28916538</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5644465">PMC5644465</a></div></div>
 </div>
-<div id="ref-YuJbg3zO" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></div></div>
+<div id="ref-1CNHzMFjN" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>Blood Transcriptional Biomarkers for Active Tuberculosis among Patients in the United States: a Case-Control Study with Systematic Cross-Classifier Evaluation</strong> <div class="csl-block">Nicholas D Walter, Mikaela A Miller, Joshua Vasquez, Marc Weiner, Adam Chapman, Melissa Engle, Michael Higgins, Amy M Quinones, Vanessa Rosselli, Elizabeth Canono, … Mark W Geraci</div> <em>Journal of Clinical Microbiology</em> (2016-02) <a href="https://doi.org/gqzq2r">https://doi.org/gqzq2r</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1128/jcm.01990-15">10.1128/jcm.01990-15</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26582831">26582831</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4733166">PMC4733166</a></div></div>
+</div>
+<div id="ref-rJ5EpmYl" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>A Transcriptomic Biomarker to Quantify Systemic Inflammation in Sepsis — A Prospective Multicenter Phase II Diagnostic Study</strong> <div class="csl-block">Michael Bauer, Evangelos J Giamarellos-Bourboulis, Andreas Kortgen, Eva Möller, Karen Felsmann, Jean Marc Cavaillon, Orlando Guntinas-Lichius, Olivier Rutschmann, Andriy Ruryk, Matthias Kohl, … Konrad Reinhart</div> <em>EBioMedicine</em> (2016-04) <a href="https://doi.org/gqzq2q">https://doi.org/gqzq2q</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.ebiom.2016.03.006">10.1016/j.ebiom.2016.03.006</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27211554">27211554</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4856796">PMC4856796</a></div></div>
+</div>
+<div id="ref-1ZboiGsF" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline"><strong>Gene expression profiling of peripheral blood from patients with untreated new-onset systemic juvenile idiopathic arthritis reveals molecular heterogeneity that may predict macrophage activation syndrome</strong> <div class="csl-block">Ndate Fall, Michael Barnes, Sherry Thornton, Lorie Luyrink, Judyann Olson, Norman T Ilowite, Beth S Gottlieb, Thomas Griffin, David D Sherry, Susan Thompson, … Alexei A Grom</div> <em>Arthritis &amp;amp; Rheumatism</em> (2007) <a href="https://doi.org/chxcfh">https://doi.org/chxcfh</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/art.22981">10.1002/art.22981</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/17968951">17968951</a></div></div>
+</div>
+<div id="ref-J9zGDTW4" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">11. </div><div class="csl-right-inline"><strong>Light-Directed, Spatially Addressable Parallel Chemical Synthesis</strong> <div class="csl-block">Stephen PA Fodor, JLeighton Read, Michael C Pirrung, Lubert Stryer, Amy Tsai Lu, Dennis Solas</div> <em>Science</em> (1991-02-15) <a href="https://doi.org/dw6f5b">https://doi.org/dw6f5b</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1126/science.1990438">10.1126/science.1990438</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/1990438">1990438</a></div></div>
+</div>
+<div id="ref-XeqEIk0K" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">12. </div><div class="csl-right-inline"><strong>Expression monitoring by hybridization to high-density oligonucleotide arrays</strong> <div class="csl-block">David J Lockhart, Helin Dong, Michael C Byrne, Maximillian T Follettie, Michael V Gallo, Mark S Chee, Michael Mittmann, Chunwei Wang, Michiko Kobayashi, Heidi Norton, Eugene L Brown</div> <em>Nature Biotechnology</em> (1996-12) <a href="https://doi.org/bpmwzt">https://doi.org/bpmwzt</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt1296-1675">10.1038/nbt1296-1675</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/9634850">9634850</a></div></div>
+</div>
+<div id="ref-ChQys9ED" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>Comparison of RNA-Seq and Microarray in Transcriptome Profiling of Activated T Cells</strong> <div class="csl-block">Shanrong Zhao, Wai-Ping Fung-Leung, Anton Bittner, Karen Ngo, Xuejun Liu</div> <em>PLoS ONE</em> (2014-01-16) <a href="https://doi.org/f5tvg3">https://doi.org/f5tvg3</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pone.0078644">10.1371/journal.pone.0078644</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24454679">24454679</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3894192">PMC3894192</a></div></div>
+</div>
+<div id="ref-fVSo2gZU" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">14. </div><div class="csl-right-inline"><strong>ImageNet classification with deep convolutional neural networks</strong> <div class="csl-block">Alex Krizhevsky, Ilya Sutskever, Geoffrey E Hinton</div> <em>Communications of the ACM</em> (2017-05-24) <a href="https://doi.org/gbhhxs">https://doi.org/gbhhxs</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1145/3065386">10.1145/3065386</a></div></div>
+</div>
+<div id="ref-c1tQ2yNq" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>Understanding Back-Translation at Scale</strong> <div class="csl-block">Sergey Edunov, Myle Ott, Michael Auli, David Grangier</div> <em>arXiv</em> (2018) <a href="https://doi.org/gqzq2v">https://doi.org/gqzq2v</a> <div class="csl-block">DOI: <a href="https://doi.org/10.48550/arxiv.1808.09381">10.48550/arxiv.1808.09381</a></div></div>
+</div>
+<div id="ref-HpZqLKUe" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">16. </div><div class="csl-right-inline"><strong>Exploring the Limits of Transfer Learning with a Unified Text-to-Text
+Transformer</strong> <div class="csl-block">Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu</div> <em>arXiv</em> (2019-10-23) <a href="https://arxiv.org/abs/1910.10683v3">https://arxiv.org/abs/1910.10683v3</a></div>
+</div>
+<div id="ref-ld1EnZ6i" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">17. </div><div class="csl-right-inline"><strong>U-Net: Convolutional Networks for Biomedical Image Segmentation</strong> <div class="csl-block">Olaf Ronneberger, Philipp Fischer, Thomas Brox</div> <em>arXiv</em> (2015-05-19) <a href="https://arxiv.org/abs/1505.04597">https://arxiv.org/abs/1505.04597</a></div>
+</div>
+<div id="ref-yZfcMIwh" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">18. </div><div class="csl-right-inline"><strong>Highly accurate protein structure prediction with AlphaFold</strong> <div class="csl-block">John Jumper, Richard Evans, Alexander Pritzel, Tim Green, Michael Figurnov, Olaf Ronneberger, Kathryn Tunyasuvunakool, Russ Bates, Augustin Žídek, Anna Potapenko, … Demis Hassabis</div> <em>Nature</em> (2021-07-15) <a href="https://doi.org/gk7nfp">https://doi.org/gk7nfp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41586-021-03819-2">10.1038/s41586-021-03819-2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34265844">34265844</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8371605">PMC8371605</a></div></div>
+</div>
+<div id="ref-MzuxpiPn" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">19. </div><div class="csl-right-inline"><strong>A review of feature selection methods based on mutual information</strong> <div class="csl-block">Jorge R Vergara, Pablo A Estévez</div> <em>Neural Computing and Applications</em> (2013-03-13) <a href="https://doi.org/gj7fzd">https://doi.org/gj7fzd</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/s00521-013-1368-0">10.1007/s00521-013-1368-0</a></div></div>
+</div>
+<div id="ref-Vzg9ivZU" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">20. </div><div class="csl-right-inline"><strong>A comparative study of feature selection and multiclass classification methods for tissue classification based on gene expression</strong> <div class="csl-block">T Li, C Zhang, M Ogihara</div> <em>Bioinformatics</em> (2004-04-15) <a href="https://doi.org/b3kzzp">https://doi.org/b3kzzp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/bth267">10.1093/bioinformatics/bth267</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/15087314">15087314</a></div></div>
+</div>
+<div id="ref-QSJEewCc" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">21. </div><div class="csl-right-inline"><strong>COSMIC (the Catalogue of Somatic Mutations in Cancer): a resource to investigate acquired mutations in human cancer</strong> <div class="csl-block">Simon A Forbes, Gurpreet Tang, Nidhi Bindal, Sally Bamford, Elisabeth Dawson, Charlotte Cole, Chai Yin Kok, Mingming Jia, Rebecca Ewing, Andrew Menzies, … PAndrew Futreal</div> <em>Nucleic Acids Research</em> (2009-11-10) <a href="https://doi.org/fhkk8s">https://doi.org/fhkk8s</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkp995">10.1093/nar/gkp995</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19906727">19906727</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2808858">PMC2808858</a></div></div>
+</div>
+<div id="ref-ClFEdqWg" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">22. </div><div class="csl-right-inline"><strong>Application of a Neural Network Whole Transcriptome–Based Pan-Cancer Method for Diagnosis of Primary and Metastatic Cancers</strong> <div class="csl-block">Jasleen K Grewal, Basile Tessier-Cloutier, Martin Jones, Sitanshu Gakkhar, Yussanne Ma, Richard Moore, Andrew J Mungall, Yongjun Zhao, Michael D Taylor, Karen Gelmon, … Steven JM Jones</div> <em>JAMA Network Open</em> (2019-04-26) <a href="https://doi.org/gf84h2">https://doi.org/gf84h2</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1001/jamanetworkopen.2019.2597">10.1001/jamanetworkopen.2019.2597</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31026023">31026023</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6487574">PMC6487574</a></div></div>
+</div>
+<div id="ref-F7lIlh2N" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">23. </div><div class="csl-right-inline"><strong>A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles</strong> <div class="csl-block">Aravind Subramanian, Rajiv Narayan, Steven M Corsello, David D Peck, Ted E Natoli, Xiaodong Lu, Joshua Gould, John F Davis, Andrew A Tubelli, Jacob K Asiedu, … Todd R Golub</div> <em>Cell</em> (2017-11) <a href="https://doi.org/cgwt">https://doi.org/cgwt</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.cell.2017.10.049">10.1016/j.cell.2017.10.049</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29195078">29195078</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5990023">PMC5990023</a></div></div>
+</div>
+<div id="ref-12QQw9p7v" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">24. </div><div class="csl-right-inline"><strong>Gene expression inference with deep learning</strong> <div class="csl-block">Yifei Chen, Yi Li, Rajiv Narayan, Aravind Subramanian, Xiaohui Xie</div> <em>Bioinformatics</em> (2016-02-11) <a href="https://doi.org/f8vmtt">https://doi.org/f8vmtt</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/btw074">10.1093/bioinformatics/btw074</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26873929">26873929</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4908320">PMC4908320</a></div></div>
+</div>
+<div id="ref-J0eeAld3" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">25. </div><div class="csl-right-inline"><strong>Robust clinical outcome prediction based on Bayesian analysis of transcriptional profiles and prior causal networks</strong> <div class="csl-block">Kourosh Zarringhalam, Ahmed Enayetallah, Padmalatha Reddy, Daniel Ziemek</div> <em>Bioinformatics</em> (2014-06-11) <a href="https://doi.org/f58bp2">https://doi.org/f58bp2</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/btu272">10.1093/bioinformatics/btu272</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24932007">24932007</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4058945">PMC4058945</a></div></div>
+</div>
+<div id="ref-g8OoyIPj" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">26. </div><div class="csl-right-inline"><strong>Robust phenotype prediction from gene expression data using differential shrinkage of co-regulated genes</strong> <div class="csl-block">Kourosh Zarringhalam, David Degras, Christoph Brockel, Daniel Ziemek</div> <em>Scientific Reports</em> (2018-01-19) <a href="https://doi.org/gcwzdn">https://doi.org/gcwzdn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41598-018-19635-0">10.1038/s41598-018-19635-0</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29352257">29352257</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5775343">PMC5775343</a></div></div>
+</div>
+<div id="ref-IHi1L0uN" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">27. </div><div class="csl-right-inline"><strong>Prognostic gene signatures for patient stratification in breast cancer - accuracy, stability and interpretability of gene selection approaches using prior knowledge on protein-protein interactions</strong> <div class="csl-block">Yupeng Cun, Holger Fröhlich</div> <em>BMC Bioinformatics</em> (2012-05-01) <a href="https://doi.org/f4cb5r">https://doi.org/f4cb5r</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/1471-2105-13-69">10.1186/1471-2105-13-69</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22548963">22548963</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3436770">PMC3436770</a></div></div>
+</div>
+<div id="ref-2i0SZtHv" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">28. </div><div class="csl-right-inline"><strong>Transfer Learning for Molecular Cancer Classification Using Deep Neural Networks</strong> <div class="csl-block">Rahul K Sevakula, Vikas Singh, Nishchal K Verma, Chandan Kumar, Yan Cui</div> <em>IEEE/ACM Transactions on Computational Biology and Bioinformatics</em> (2019-11-01) <a href="https://doi.org/gqzq3p">https://doi.org/gqzq3p</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1109/tcbb.2018.2822803">10.1109/tcbb.2018.2822803</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29993662">29993662</a></div></div>
+</div>
+<div id="ref-uXRnjUvq" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">29. </div><div class="csl-right-inline"><strong>A semi-supervised deep learning method based on stacked sparse auto-encoder for cancer prediction using RNA-seq data</strong> <div class="csl-block">Yawen Xiao, Jun Wu, Zongli Lin, Xiaodong Zhao</div> <em>Computer Methods and Programs in Biomedicine</em> (2018-11) <a href="https://doi.org/gfnm5c">https://doi.org/gfnm5c</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.cmpb.2018.10.004">10.1016/j.cmpb.2018.10.004</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30415723">30415723</a></div></div>
+</div>
+<div id="ref-bBLm1pxP" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">30. </div><div class="csl-right-inline"><div class="csl-block">Igor Kononenko, Edvard Šimec, Marko Robnik-Šikonja</div> <em>Applied Intelligence</em> (1997) <a href="https://doi.org/fdm4r3">https://doi.org/fdm4r3</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1023/a:1008280620621">10.1023/a:1008280620621</a></div></div>
+</div>
+<div id="ref-17srxvYZd" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">31. </div><div class="csl-right-inline"><strong>Application of transfer learning for cancer drug sensitivity prediction</strong> <div class="csl-block">Saugato Rahman Dhruba, Raziur Rahman, Kevin Matlock, Souparno Ghosh, Ranadip Pal</div> <em>BMC Bioinformatics</em> (2018-12) <a href="https://doi.org/gh4mnw">https://doi.org/gh4mnw</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12859-018-2465-y">10.1186/s12859-018-2465-y</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30591023">30591023</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6309077">PMC6309077</a></div></div>
+</div>
+<div id="ref-jxCyAK09" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">32. </div><div class="csl-right-inline"><strong>A comprehensive genomic pan-cancer classification using The Cancer Genome Atlas gene expression data</strong> <div class="csl-block">Yuanyuan Li, Kai Kang, Juno M Krahn, Nicole Croutwater, Kevin Lee, David M Umbach, Leping Li</div> <em>BMC Genomics</em> (2017-07-03) <a href="https://doi.org/gfv37q">https://doi.org/gfv37q</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12864-017-3906-0">10.1186/s12864-017-3906-0</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28673244">28673244</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5496318">PMC5496318</a></div></div>
+</div>
+<div id="ref-CD9ApROI" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">33. </div><div class="csl-right-inline"><strong>Gene expression microarray classification using PCA–BEL</strong> <div class="csl-block">Ehsan Lotfi, Azita Keshavarz</div> <em>Computers in Biology and Medicine</em> (2014-11) <a href="https://doi.org/gqzq5p">https://doi.org/gqzq5p</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.compbiomed.2014.09.008">10.1016/j.compbiomed.2014.09.008</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25282708">25282708</a></div></div>
+</div>
+<div id="ref-gmzkOu04" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">34. </div><div class="csl-right-inline"><a href="https://www.researchgate.net/publication/281857285_Using_deep_learning_to_enhance_cancer_diagnosis_and_classification">https://www.researchgate.net/publication/281857285_Using_deep_learning_to_enhance_cancer_diagnosis_and_classification</a></div>
+</div>
+<div id="ref-NLVTJ9Lj" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">35. </div><div class="csl-right-inline"><strong>Auto-Encoding Variational Bayes</strong> <div class="csl-block">Diederik P Kingma, Max Welling</div> <em>arXiv</em> (2014-05-02) <a href="https://arxiv.org/abs/1312.6114">https://arxiv.org/abs/1312.6114</a></div>
+</div>
+<div id="ref-14bFfy6t2" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">36. </div><div class="csl-right-inline"><strong>Higher Order Contractive Auto-Encoder</strong> <div class="csl-block">Salah Rifai, Grégoire Mesnil, Pascal Vincent, Xavier Muller, Yoshua Bengio, Yann Dauphin, Xavier Glorot</div> <em>Machine Learning and Knowledge Discovery in Databases</em> (2011) <a href="https://doi.org/bfpkgr">https://doi.org/bfpkgr</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/978-3-642-23783-6_41">10.1007/978-3-642-23783-6_41</a></div></div>
+</div>
+<div id="ref-z3sjep1J" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">37. </div><div class="csl-right-inline"><strong>DeePathology: Deep Multi-Task Learning for Inferring Molecular Pathology from Cancer Transcriptome</strong> <div class="csl-block">Behrooz Azarkhalili, Ali Saberi, Hamidreza Chitsaz, Ali Sharifi-Zarchi</div> <em>Scientific Reports</em> (2019-11-11) <a href="https://doi.org/gpg7vc">https://doi.org/gpg7vc</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41598-019-52937-5">10.1038/s41598-019-52937-5</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31712594">31712594</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6848155">PMC6848155</a></div></div>
+</div>
+<div id="ref-12JCi6DKf" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">38. </div><div class="csl-right-inline"><strong>Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion</strong> <div class="csl-block">Pascal Vincent, Hugo Larochelle, Isabelle Lajoie, Yoshua Bengio, Pierre-Antoine Manzagol</div> <em>Journal of Machine Learning Research</em> (2010) <a href="http://jmlr.org/papers/v11/vincent10a.html">http://jmlr.org/papers/v11/vincent10a.html</a></div>
+</div>
+<div id="ref-11ZzdspWP" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">39. </div><div class="csl-right-inline"><strong>A DEEP LEARNING APPROACH FOR CANCER DETECTION AND RELEVANT GENE IDENTIFICATION</strong> <div class="csl-block">PADIDEH DANAEE, REZA GHAEINI, DAVID A HENDRIX</div> <em>Biocomputing 2017</em> (2016-11-22) <a href="https://doi.org/gqzq5q">https://doi.org/gqzq5q</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1142/9789813207813_0022">10.1142/9789813207813_0022</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27896977">27896977</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5177447">PMC5177447</a></div></div>
+</div>
+<div id="ref-1CPSh19Mn" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">40. </div><div class="csl-right-inline"><strong>Exploring single-cell data with deep multitasking neural networks</strong> <div class="csl-block">Matthew Amodio, David van Dijk, Krishnan Srinivasan, William S Chen, Hussein Mohsen, Kevin R Moon, Allison Campbell, Yujiao Zhao, Xiaomei Wang, Manjunatha Venkataswamy, … Smita Krishnaswamy</div> <em>Nature Methods</em> (2019-10-07) <a href="https://doi.org/gf9rsg">https://doi.org/gf9rsg</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-019-0576-7">10.1038/s41592-019-0576-7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31591579">31591579</a></div></div>
+</div>
+<div id="ref-IRvPzVVg" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">41. </div><div class="csl-right-inline"><a href="https://www.jstor.org/stable/3647580">https://www.jstor.org/stable/3647580</a></div>
+</div>
+<div id="ref-UPHmb9yc" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">42. </div><div class="csl-right-inline"><strong>Detecting and correcting systematic variation in large-scale RNA sequencing data</strong> <div class="csl-block">Sheng Li, Paweł P Łabaj, Paul Zumbo, Peter Sykacek, Wei Shi, Leming Shi, John Phan, Po-Yen Wu, May Wang, Charles Wang, … Christopher E Mason</div> <em>Nature Biotechnology</em> (2014-08-24) <a href="https://doi.org/f6j2gj">https://doi.org/f6j2gj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt.3000">10.1038/nbt.3000</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25150837">25150837</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4160374">PMC4160374</a></div></div>
+</div>
+<div id="ref-rYMEu6oz" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">43. </div><div class="csl-right-inline"><strong>Machine Learning Identifies Stemness Features Associated with Oncogenic Dedifferentiation</strong> <div class="csl-block">Tathiane M Malta, Artem Sokolov, Andrew J Gentles, Tomasz Burzykowski, Laila Poisson, John N Weinstein, Bożena Kamińska, Joerg Huelsken, Larsson Omberg, Olivier Gevaert, … Armaz Mariamidze</div> <em>Cell</em> (2018-04) <a href="https://doi.org/gc93hh">https://doi.org/gc93hh</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.cell.2018.03.034">10.1016/j.cell.2018.03.034</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29625051">29625051</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5902191">PMC5902191</a></div></div>
+</div>
+<div id="ref-fZGWNG2y" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">44. </div><div class="csl-right-inline"><strong>&amp;lt;p&amp;gt;The blood transcriptional signature for active and latent tuberculosis&amp;lt;/p&amp;gt;</strong> <div class="csl-block">Min Deng, Xiao-Dong Lv, Zhi-Xian Fang, Xin-Sheng Xie, Wen-Yu Chen</div> <em>Infection and Drug Resistance</em> (2019-01) <a href="https://doi.org/gqzq6v">https://doi.org/gqzq6v</a> <div class="csl-block">DOI: <a href="https://doi.org/10.2147/idr.s184640">10.2147/idr.s184640</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30787624">30787624</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6363485">PMC6363485</a></div></div>
+</div>
+<div id="ref-1HahRBkyb" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">45. </div><div class="csl-right-inline"><strong>Adjusting batch effects in microarray expression data using empirical Bayes methods</strong> <div class="csl-block">WEvan Johnson, Cheng Li, Ariel Rabinovic</div> <em>Biostatistics</em> (2006-04-21) <a href="https://doi.org/dsf386">https://doi.org/dsf386</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/biostatistics/kxj037">10.1093/biostatistics/kxj037</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/16632515">16632515</a></div></div>
+</div>
+<div id="ref-EMrWUv3D" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">46. </div><div class="csl-right-inline"><strong>Don’t Rule Out Simple Models Prematurely: A Large Scale Benchmark Comparing Linear and Non-linear Classifiers in OpenML</strong> <div class="csl-block">Benjamin Strang, Peter van der Putten, Jan N van Rijn, Frank Hutter</div> <em>Advances in Intelligent Data Analysis XVII</em> (2018) <a href="https://doi.org/gqzq6q">https://doi.org/gqzq6q</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/978-3-030-01768-2_25">10.1007/978-3-030-01768-2_25</a></div></div>
+</div>
+<div id="ref-GE6d2dOD" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">47. </div><div class="csl-right-inline"><strong>Does deep learning always outperform simple linear regression in optical imaging?</strong> <div class="csl-block">Shuming Jiao, Yang Gao, Jun Feng, Ting Lei, Xiaocong Yuan</div> <em>arXiv</em> (2020-02-19) <a href="https://arxiv.org/abs/1911.00353">https://arxiv.org/abs/1911.00353</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1364/OE.382319">10.1364/oe.382319</a></div></div>
+</div>
+<div id="ref-xSV2BrbO" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">48. </div><div class="csl-right-inline"><strong>Beyond the hype: deep neural networks outperform established methods using a ChEMBL bioactivity benchmark set</strong> <div class="csl-block">Eelke B Lenselink, Niels ten Dijke, Brandon Bongers, George Papadatos, Herman WT van Vlijmen, Wojtek Kowalczyk, Adriaan P IJzerman, Gerard JP van Westen</div> <em>Journal of Cheminformatics</em> (2017-08-14) <a href="https://doi.org/gbwq98">https://doi.org/gbwq98</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13321-017-0232-0">10.1186/s13321-017-0232-0</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29086168">29086168</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5555960">PMC5555960</a></div></div>
+</div>
+<div id="ref-15s31cve5" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">49. </div><div class="csl-right-inline"><strong>Benchmarking deep learning models on large healthcare datasets</strong> <div class="csl-block">Sanjay Purushotham, Chuizheng Meng, Zhengping Che, Yan Liu</div> <em>Journal of Biomedical Informatics</em> (2018-07) <a href="https://doi.org/gd97qc">https://doi.org/gd97qc</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.jbi.2018.04.007">10.1016/j.jbi.2018.04.007</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29879470">29879470</a></div></div>
+</div>
+<div id="ref-KE9BUIOX" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">50. </div><div class="csl-right-inline"><strong>I tried a bunch of things: The dangers of unexpected overfitting in classification of brain data</strong> <div class="csl-block">Mahan Hosseini, Michael Powell, John Collins, Chloe Callahan-Flintoft, William Jones, Howard Bowman, Brad Wyble</div> <em>Neuroscience &amp;amp; Biobehavioral Reviews</em> (2020-12) <a href="https://doi.org/ghkskv">https://doi.org/ghkskv</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.neubiorev.2020.09.036">10.1016/j.neubiorev.2020.09.036</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33035522">33035522</a></div></div>
+</div>
+<div id="ref-V3nGUaio" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">51. </div><div class="csl-right-inline"><strong>Massive single-cell RNA-seq analysis and imputation via deep learning</strong> <div class="csl-block">Yue Deng, Feng Bao, Qionghai Dai, Lani F Wu, Steven J Altschuler</div> <em>Cold Spring Harbor Laboratory</em> (2018-05-06) <a href="https://doi.org/gfgrpm">https://doi.org/gfgrpm</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/315556">10.1101/315556</a></div></div>
+</div>
+<div id="ref-Uot2y2ws" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">52. </div><div class="csl-right-inline"><strong>A global immune gene expression signature for human cancers</strong> <div class="csl-block">Yuexin Liu</div> <em>Oncotarget</em> (2019-03-08) <a href="https://doi.org/gqzq8j">https://doi.org/gqzq8j</a> <div class="csl-block">DOI: <a href="https://doi.org/10.18632/oncotarget.26773">10.18632/oncotarget.26773</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30956779">30956779</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6443003">PMC6443003</a></div></div>
+</div>
+<div id="ref-7k4Mlul7" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">53. </div><div class="csl-right-inline"><strong>A Four-Biomarker Blood Signature Discriminates Systemic Inflammation Due to Viral Infection Versus Other Etiologies</strong> <div class="csl-block">DL Sampson, BA Fox, TD Yager, S Bhide, S Cermelli, LC McHugh, TA Seldon, RA Brandon, E Sullivan, JJ Zimmerman, … RB Brandon</div> <em>Scientific Reports</em> (2017-06-06) <a href="https://doi.org/gc4zdw">https://doi.org/gc4zdw</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41598-017-02325-8">10.1038/s41598-017-02325-8</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28588308">28588308</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5460227">PMC5460227</a></div></div>
+</div>
+<div id="ref-URjcKCcA" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">54. </div><div class="csl-right-inline"><strong>Multitask learning improves prediction of cancer drug sensitivity</strong> <div class="csl-block">Han Yuan, Ivan Paskov, Hristo Paskov, Alvaro J González, Christina S Leslie</div> <em>Scientific Reports</em> (2016-08-23) <a href="https://doi.org/f8zbhk">https://doi.org/f8zbhk</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/srep31619">10.1038/srep31619</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27550087">27550087</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4994023">PMC4994023</a></div></div>
+</div>
+<div id="ref-1DeCFT6PA" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">55. </div><div class="csl-right-inline"><strong>Invariant Risk Minimization</strong> <div class="csl-block">Martin Arjovsky, Léon Bottou, Ishaan Gulrajani, David Lopez-Paz</div> <em>arXiv</em> (2020-03-31) <a href="https://arxiv.org/abs/1907.02893">https://arxiv.org/abs/1907.02893</a></div>
+</div>
+<div id="ref-XR77uqve" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">56. </div><div class="csl-right-inline"><strong>Invariant Risk Minimization Games</strong> <div class="csl-block">Kartik Ahuja, Karthikeyan Shanmugam, Kush R Varshney, Amit Dhurandhar</div> <em>arXiv</em> (2020-03-20) <a href="https://arxiv.org/abs/2002.04692">https://arxiv.org/abs/2002.04692</a></div>
+</div>
+<div id="ref-mh4sXNBi" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">57. </div><div class="csl-right-inline"><strong>Supervised, semi-supervised and unsupervised inference of gene regulatory networks</strong> <div class="csl-block">SR Maetschke, PB Madhamshettiwar, MJ Davis, MA Ragan</div> <em>Briefings in Bioinformatics</em> (2013-05-21) <a href="https://doi.org/gccv5w">https://doi.org/gccv5w</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bib/bbt034">10.1093/bib/bbt034</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23698722">23698722</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3956069">PMC3956069</a></div></div>
+</div>
+<div id="ref-xdJRSgce" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">58. </div><div class="csl-right-inline"><strong>recount3: summaries and queries for large-scale RNA-seq expression and splicing</strong> <div class="csl-block">Christopher Wilks, Shijie C Zheng, Feng Yong Chen, Rone Charles, Brad Solomon, Jonathan P Ling, Eddie Luidy Imada, David Zhang, Lance Joseph, Jeffrey T Leek, … Ben Langmead</div> <em>Genome Biology</em> (2021-11-29) <a href="https://doi.org/gnm7zc">https://doi.org/gnm7zc</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13059-021-02533-6">10.1186/s13059-021-02533-6</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34844637">34844637</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8628444">PMC8628444</a></div></div>
+</div>
+<div id="ref-DKDxhmok" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">59. </div><div class="csl-right-inline"><strong>An Overview of Multi-Task Learning in Deep Neural Networks</strong> <div class="csl-block">Sebastian Ruder</div> <em>arXiv</em> (2017-06-19) <a href="https://arxiv.org/abs/1706.05098">https://arxiv.org/abs/1706.05098</a></div>
+</div>
+<div id="ref-zipavcIb" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">60. </div><div class="csl-right-inline"><strong>refine.bio</strong> <div class="csl-block">Refine.bio</div> <a href="https://www.refine.bio">https://www.refine.bio</a></div>
 </div>
 </div>
 <!-- default theme -->

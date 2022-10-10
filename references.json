@@ -1,431 +1,6307 @@
 [
   {
-    "publisher": "The Royal Society",
-    "issue": "141",
-    "abstract": "<jats:p>Deep learning describes a class of machine learning algorithms that are capable of combining raw inputs into layers of intermediate features. These algorithms have recently shown impressive results across a variety of domains. Biology and medicine are data-rich disciplines, but the data are complex and often ill-understood. Hence, deep learning techniques may be particularly well suited to solve problems of these fields. We examine applications of deep learning to a variety of biomedical problems—patient classification, fundamental biological processes and treatment of patients—and discuss whether deep learning will be able to transform these tasks or if the biomedical sphere poses unique challenges. Following from an extensive literature review, we find that deep learning has yet to revolutionize biomedicine or definitively resolve any of the most pressing challenges in the field, but promising advances have been made on the prior state of the art. Even though improvements over previous baselines have been modest in general, the recent progress indicates that deep learning methods will provide valuable means for speeding up or aiding human investigation. Though progress has been made linking a specific neural network's prediction to input features, understanding how users should interpret these models to make testable hypotheses about the system under study remains an open challenge. Furthermore, the limited amount of labelled data for training presents problems in some domains, as do legal and privacy constraints on work with sensitive health records. Nonetheless, we foresee deep learning enabling changes at both bench and bedside with the potential to transform several areas of biology and medicine.</jats:p>",
-    "DOI": "10.1098/rsif.2017.0387",
-    "type": "article-journal",
-    "page": "20170387",
-    "source": "Crossref",
-    "title": "Opportunities and obstacles for deep learning in biology and medicine",
-    "volume": "15",
-    "author": [
-      {
-        "given": "Travers",
-        "family": "Ching"
-      },
-      {
-        "given": "Daniel S.",
-        "family": "Himmelstein"
-      },
-      {
-        "given": "Brett K.",
-        "family": "Beaulieu-Jones"
-      },
-      {
-        "given": "Alexandr A.",
-        "family": "Kalinin"
-      },
-      {
-        "given": "Brian T.",
-        "family": "Do"
-      },
-      {
-        "given": "Gregory P.",
-        "family": "Way"
-      },
-      {
-        "given": "Enrico",
-        "family": "Ferrero"
-      },
-      {
-        "given": "Paul-Michael",
-        "family": "Agapow"
-      },
-      {
-        "given": "Michael",
-        "family": "Zietz"
-      },
-      {
-        "given": "Michael M.",
-        "family": "Hoffman"
-      },
-      {
-        "given": "Wei",
-        "family": "Xie"
-      },
-      {
-        "given": "Gail L.",
-        "family": "Rosen"
-      },
-      {
-        "given": "Benjamin J.",
-        "family": "Lengerich"
-      },
-      {
-        "given": "Johnny",
-        "family": "Israeli"
-      },
-      {
-        "given": "Jack",
-        "family": "Lanchantin"
-      },
-      {
-        "given": "Stephen",
-        "family": "Woloszynek"
-      },
-      {
-        "given": "Anne E.",
-        "family": "Carpenter"
-      },
-      {
-        "given": "Avanti",
-        "family": "Shrikumar"
-      },
-      {
-        "given": "Jinbo",
-        "family": "Xu"
-      },
-      {
-        "given": "Evan M.",
-        "family": "Cofer"
-      },
-      {
-        "given": "Christopher A.",
-        "family": "Lavender"
-      },
-      {
-        "given": "Srinivas C.",
-        "family": "Turaga"
-      },
-      {
-        "given": "Amr M.",
-        "family": "Alexandari"
-      },
-      {
-        "given": "Zhiyong",
-        "family": "Lu"
-      },
-      {
-        "given": "David J.",
-        "family": "Harris"
-      },
-      {
-        "given": "Dave",
-        "family": "DeCaprio"
-      },
-      {
-        "given": "Yanjun",
-        "family": "Qi"
-      },
-      {
-        "given": "Anshul",
-        "family": "Kundaje"
-      },
-      {
-        "given": "Yifan",
-        "family": "Peng"
-      },
-      {
-        "given": "Laura K.",
-        "family": "Wiley"
-      },
-      {
-        "given": "Marwin H. S.",
-        "family": "Segler"
-      },
-      {
-        "given": "Simina M.",
-        "family": "Boca"
-      },
-      {
-        "given": "S. Joshua",
-        "family": "Swamidass"
-      },
-      {
-        "given": "Austin",
-        "family": "Huang"
-      },
-      {
-        "given": "Anthony",
-        "family": "Gitter"
-      },
-      {
-        "given": "Casey S.",
-        "family": "Greene"
-      }
-    ],
-    "container-title": "Journal of The Royal Society Interface",
-    "language": "en",
+    "id": "NLVTJ9Lj",
+    "URL": "https://arxiv.org/abs/1312.6114",
+    "number": "1312.6114",
+    "title": "Auto-Encoding Variational Bayes",
     "issued": {
       "date-parts": [
         [
-          2018,
-          4
-        ]
-      ]
-    },
-    "URL": "https://doi.org/gddkhn",
-    "container-title-short": "J. R. Soc. Interface.",
-    "PMCID": "PMC5938574",
-    "PMID": "29618526",
-    "id": "PZMP42Ak",
-    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1098/rsif.2017.0387"
-  },
-  {
-    "publisher": "Public Library of Science (PLoS)",
-    "issue": "6",
-    "DOI": "10.1371/journal.pcbi.1007128",
-    "type": "article-journal",
-    "page": "e1007128",
-    "source": "Crossref",
-    "title": "Open collaborative writing with Manubot",
-    "volume": "15",
-    "author": [
-      {
-        "given": "Daniel S.",
-        "family": "Himmelstein"
-      },
-      {
-        "given": "Vincent",
-        "family": "Rubinetti"
-      },
-      {
-        "given": "David R.",
-        "family": "Slochower"
-      },
-      {
-        "given": "Dongbo",
-        "family": "Hu"
-      },
-      {
-        "given": "Venkat S.",
-        "family": "Malladi"
-      },
-      {
-        "given": "Casey S.",
-        "family": "Greene"
-      },
-      {
-        "given": "Anthony",
-        "family": "Gitter"
-      }
-    ],
-    "container-title": "PLOS Computational Biology",
-    "language": "en",
-    "editor": [
-      {
-        "given": "Dina",
-        "family": "Schneidman-Duhovny"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2019,
-          6,
-          24
-        ]
-      ]
-    },
-    "URL": "https://doi.org/c7np",
-    "container-title-short": "PLoS Comput Biol",
-    "PMCID": "PMC6611653",
-    "PMID": "31233491",
-    "id": "YuJbg3zO",
-    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1371/journal.pcbi.1007128"
-  },
-  {
-    "publisher": "eLife Sciences Publications, Ltd",
-    "abstract": "<jats:p>The website Sci-Hub enables users to download PDF versions of scholarly articles, including many articles that are paywalled at their journal’s site. Sci-Hub has grown rapidly since its creation in 2011, but the extent of its coverage has been unclear. Here we report that, as of March 2017, Sci-Hub’s database contains 68.9% of the 81.6 million scholarly articles registered with Crossref and 85.1% of articles published in toll access journals. We find that coverage varies by discipline and publisher, and that Sci-Hub preferentially covers popular, paywalled content. For toll access articles, we find that Sci-Hub provides greater coverage than the University of Pennsylvania, a major research university in the United States. Green open access to toll access articles via licit services, on the other hand, remains quite limited. Our interactive browser at https://greenelab.github.io/scihub allows users to explore these findings in more detail. For the first time, nearly all scholarly literature is available gratis to anyone with an Internet connection, suggesting the toll access business model may become unsustainable.</jats:p>",
-    "DOI": "10.7554/elife.32822",
-    "type": "article-journal",
-    "source": "Crossref",
-    "title": "Sci-Hub provides access to nearly all scholarly literature",
-    "volume": "7",
-    "author": [
-      {
-        "given": "Daniel S",
-        "family": "Himmelstein"
-      },
-      {
-        "given": "Ariel Rodriguez",
-        "family": "Romero"
-      },
-      {
-        "given": "Jacob G",
-        "family": "Levernier"
-      },
-      {
-        "given": "Thomas Anthony",
-        "family": "Munro"
-      },
-      {
-        "given": "Stephen Reid",
-        "family": "McLaughlin"
-      },
-      {
-        "given": "Bastian",
-        "family": "Greshake Tzovaras"
-      },
-      {
-        "given": "Casey S",
-        "family": "Greene"
-      }
-    ],
-    "container-title": "eLife",
-    "language": "en",
-    "issued": {
-      "date-parts": [
-        [
-          2018,
-          3,
-          1
-        ]
-      ]
-    },
-    "URL": "https://doi.org/ckcj",
-    "PMCID": "PMC5832410",
-    "PMID": "29424689",
-    "id": "IhliSZDo",
-    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.7554/elife.32822"
-  },
-  {
-    "id": "zBPP9YKu",
-    "type": "book",
-    "call-number": "Z286.O63 S83 2012",
-    "collection-title": "MIT Press essential knowledge series",
-    "event-place": "Cambridge, Mass",
-    "ISBN": "9780262517638",
-    "note": "OCLC: ocn754518563\nThis CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: isbn:9780262517638",
-    "number-of-pages": "242",
-    "publisher": "MIT Press",
-    "publisher-place": "Cambridge, Mass",
-    "source": "Library of Congress ISBN",
-    "title": "Open access",
-    "author": [
-      {
-        "family": "Suber",
-        "given": "Peter"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2012"
-        ]
-      ]
-    }
-  },
-  {
-    "source": "PubMed",
-    "accessed": {
-      "date-parts": [
-        [
-          2022,
-          10,
-          9
-        ]
-      ]
-    },
-    "id": "mSMVRkoc",
-    "title": "Reproducibility of computational workflows is automated using continuous analysis",
-    "author": [
-      {
-        "family": "Beaulieu-Jones",
-        "given": "Brett K"
-      },
-      {
-        "family": "Greene",
-        "given": "Casey S"
-      }
-    ],
-    "container-title-short": "Nat Biotechnol",
-    "container-title": "Nature biotechnology",
-    "ISSN": "1087-0156",
-    "issued": {
-      "date-parts": [
-        [
-          2017,
-          4
-        ]
-      ]
-    },
-    "page": "342-346",
-    "volume": "35",
-    "issue": "4",
-    "PMID": "28288103",
-    "PMCID": "PMC6103790",
-    "DOI": "10.1038/nbt.3780",
-    "type": "article-journal",
-    "URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790/",
-    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: pmc:PMC6103790"
-  },
-  {
-    "title": "Bitcoin for the biological literature.",
-    "volume": "566",
-    "issue": "7742",
-    "page": "141-142",
-    "container-title": "Nature",
-    "container-title-short": "Nature",
-    "ISSN": "1476-4687",
-    "issued": {
-      "date-parts": [
-        [
-          2019,
+          2014,
+          5,
           2
         ]
       ]
     },
     "author": [
       {
-        "given": "Douglas",
-        "family": "Heaven"
+        "given": "Diederik P",
+        "family": "Kingma"
+      },
+      {
+        "given": "Max",
+        "family": "Welling"
       }
     ],
-    "PMID": "30718888",
-    "DOI": "10.1038/d41586-019-00447-9",
-    "URL": "https://www.ncbi.nlm.nih.gov/pubmed/30718888",
-    "type": "article-journal",
-    "id": "126Wi5Us4",
-    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: pubmed:30718888"
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "type": "report",
+    "abstract": "  How can we perform efficient inference and learning in directed probabilistic models, in the presence of continuous latent variables with intractable posterior distributions, and large datasets? We introduce a stochastic variational inference and learning algorithm that scales to large datasets and, under some mild differentiability conditions, even works in the intractable case. Our contributions is two-fold. First, we show that a reparameterization of the variational lower bound yields a lower bound estimator that can be straightforwardly optimized using standard stochastic gradient methods. Second, we show that for i.i.d. datasets with continuous latent variables per datapoint, posterior inference can be made especially efficient by fitting an approximate inference model (also called a recognition model) to the intractable posterior using the proposed lower bound estimator. Theoretical advantages are reflected in experimental results. ",
+    "note": "license: http://arxiv.org/licenses/nonexclusive-distrib/1.0/\nThis CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: arxiv:1312.6114"
   },
   {
-    "id": "1GGGHdsew",
-    "type": "report",
-    "language": "en-US",
-    "publisher": "Manubot",
-    "source": "greenelab.github.io",
-    "title": "Open collaborative writing with Manubot",
-    "URL": "https://greenelab.github.io/meta-review/",
+    "id": "ld1EnZ6i",
+    "URL": "https://arxiv.org/abs/1505.04597",
+    "number": "1505.04597",
+    "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          5,
+          19
+        ]
+      ]
+    },
     "author": [
       {
-        "family": "Himmelstein",
-        "given": "Daniel S."
+        "given": "Olaf",
+        "family": "Ronneberger"
       },
       {
-        "family": "Rubinetti",
-        "given": "Vincent"
+        "given": "Philipp",
+        "family": "Fischer"
       },
       {
-        "family": "Slochower",
-        "given": "David R."
+        "given": "Thomas",
+        "family": "Brox"
+      }
+    ],
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "type": "report",
+    "abstract": "  There is large consent that successful training of deep networks requires many thousand annotated training samples. In this paper, we present a network and training strategy that relies on the strong use of data augmentation to use the available annotated samples more efficiently. The architecture consists of a contracting path to capture context and a symmetric expanding path that enables precise localization. We show that such a network can be trained end-to-end from very few images and outperforms the prior best method (a sliding-window convolutional network) on the ISBI challenge for segmentation of neuronal structures in electron microscopic stacks. Using the same network trained on transmitted light microscopy images (phase contrast and DIC) we won the ISBI cell tracking challenge 2015 in these categories by a large margin. Moreover, the network is fast. Segmentation of a 512x512 image takes less than a second on a recent GPU. The full implementation (based on Caffe) and the trained networks are available at http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net . ",
+    "note": "license: http://arxiv.org/licenses/nonexclusive-distrib/1.0/\nThis CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: arxiv:1505.04597"
+  },
+  {
+    "id": "DKDxhmok",
+    "URL": "https://arxiv.org/abs/1706.05098",
+    "number": "1706.05098",
+    "title": "An Overview of Multi-Task Learning in Deep Neural Networks",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          19
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Sebastian",
+        "family": "Ruder"
+      }
+    ],
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "type": "report",
+    "abstract": "  Multi-task learning (MTL) has led to successes in many applications of machine learning, from natural language processing and speech recognition to computer vision and drug discovery. This article aims to give a general overview of MTL, particularly in deep neural networks. It introduces the two most common methods for MTL in Deep Learning, gives an overview of the literature, and discusses recent advances. In particular, it seeks to help ML practitioners apply MTL by shedding light on how MTL works and providing guidelines for choosing appropriate auxiliary tasks. ",
+    "note": "license: http://arxiv.org/licenses/nonexclusive-distrib/1.0/\nThis CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: arxiv:1706.05098"
+  },
+  {
+    "id": "1DeCFT6PA",
+    "URL": "https://arxiv.org/abs/1907.02893",
+    "number": "1907.02893",
+    "title": "Invariant Risk Minimization",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          31
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Martin",
+        "family": "Arjovsky"
       },
       {
-        "family": "Hu",
-        "given": "Dongbo"
+        "given": "Léon",
+        "family": "Bottou"
       },
       {
-        "family": "Malladi",
-        "given": "Venkat S."
+        "given": "Ishaan",
+        "family": "Gulrajani"
       },
       {
-        "family": "Greene",
-        "given": "Casey S."
+        "given": "David",
+        "family": "Lopez-Paz"
+      }
+    ],
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "type": "report",
+    "abstract": "  We introduce Invariant Risk Minimization (IRM), a learning paradigm to estimate invariant correlations across multiple training distributions. To achieve this goal, IRM learns a data representation such that the optimal classifier, on top of that data representation, matches for all training distributions. Through theory and experiments, we show how the invariances learned by IRM relate to the causal structures governing the data and enable out-of-distribution generalization. ",
+    "note": "license: http://arxiv.org/licenses/nonexclusive-distrib/1.0/\nThis CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: arxiv:1907.02893"
+  },
+  {
+    "id": "HpZqLKUe",
+    "URL": "https://arxiv.org/abs/1910.10683v3",
+    "number": "1910.10683v3",
+    "version": "v3",
+    "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text\n  Transformer",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          23
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Colin Raffel"
       },
       {
-        "family": "Gitter",
-        "given": "Anthony"
+        "literal": "Noam Shazeer"
+      },
+      {
+        "literal": "Adam Roberts"
+      },
+      {
+        "literal": "Katherine Lee"
+      },
+      {
+        "literal": "Sharan Narang"
+      },
+      {
+        "literal": "Michael Matena"
+      },
+      {
+        "literal": "Yanqi Zhou"
+      },
+      {
+        "literal": "Wei Li"
+      },
+      {
+        "literal": "Peter J. Liu"
+      }
+    ],
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "type": "report",
+    "abstract": "Transfer learning, where a model is first pre-trained on a data-rich task before being fine-tuned on a downstream task, has emerged as a powerful technique in natural language processing (NLP). The effectiveness of transfer learning has given rise to a diversity of approaches, methodology, and practice. In this paper, we explore the landscape of transfer learning techniques for NLP by introducing a unified framework that converts all text-based language problems into a text-to-text format. Our systematic study compares pre-training objectives, architectures, unlabeled data sets, transfer approaches, and other factors on dozens of language understanding tasks. By combining the insights from our exploration with scale and our new ``Colossal Clean Crawled Corpus'', we achieve state-of-the-art results on many benchmarks covering summarization, question answering, text classification, and more. To facilitate future work on transfer learning for NLP, we release our data set, pre-trained models, and code.",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: arxiv:1910.10683v3"
+  },
+  {
+    "id": "GE6d2dOD",
+    "URL": "https://arxiv.org/abs/1911.00353",
+    "number": "1911.00353",
+    "title": "Does deep learning always outperform simple linear regression in optical imaging?",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          2,
+          19
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Shuming",
+        "family": "Jiao"
+      },
+      {
+        "given": "Yang",
+        "family": "Gao"
+      },
+      {
+        "given": "Jun",
+        "family": "Feng"
+      },
+      {
+        "given": "Ting",
+        "family": "Lei"
+      },
+      {
+        "given": "Xiaocong",
+        "family": "Yuan"
+      }
+    ],
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "type": "report",
+    "abstract": "  Deep learning has been extensively applied in many optical imaging applications in recent years. Despite the success, the limitations and drawbacks of deep learning in optical imaging have been seldom investigated. In this work, we show that conventional linear-regression-based methods can outperform the previously proposed deep learning approaches for two black-box optical imaging problems in some extent. Deep learning demonstrates its weakness especially when the number of training samples is small. The advantages and disadvantages of linear-regression-based methods and deep learning are analyzed and compared. Since many optical systems are essentially linear, a deep learning network containing many nonlinearity functions sometimes may not be the most suitable option. ",
+    "note": "license: http://arxiv.org/licenses/nonexclusive-distrib/1.0/\nThis CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: arxiv:1911.00353",
+    "DOI": "10.1364/OE.382319"
+  },
+  {
+    "id": "XR77uqve",
+    "URL": "https://arxiv.org/abs/2002.04692",
+    "number": "2002.04692",
+    "title": "Invariant Risk Minimization Games",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          20
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Kartik",
+        "family": "Ahuja"
+      },
+      {
+        "given": "Karthikeyan",
+        "family": "Shanmugam"
+      },
+      {
+        "given": "Kush R.",
+        "family": "Varshney"
+      },
+      {
+        "given": "Amit",
+        "family": "Dhurandhar"
+      }
+    ],
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "type": "report",
+    "abstract": "  The standard risk minimization paradigm of machine learning is brittle when operating in environments whose test distributions are different from the training distribution due to spurious correlations. Training on data from many environments and finding invariant predictors reduces the effect of spurious features by concentrating models on features that have a causal relationship with the outcome. In this work, we pose such invariant risk minimization as finding the Nash equilibrium of an ensemble game among several environments. By doing so, we develop a simple training algorithm that uses best response dynamics and, in our experiments, yields similar or better empirical accuracy with much lower variance than the challenging bi-level optimization problem of Arjovsky et al. (2019). One key theoretical contribution is showing that the set of Nash equilibria for the proposed game are equivalent to the set of invariant predictors for any finite number of environments, even with nonlinear classifiers and transformations. As a result, our method also retains the generalization guarantees to a large set of environments shown in Arjovsky et al. (2019). The proposed algorithm adds to the collection of successful game-theoretic machine learning algorithms such as generative adversarial networks. ",
+    "note": "license: http://arxiv.org/licenses/nonexclusive-distrib/1.0/\nThis CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: arxiv:2002.04692"
+  },
+  {
+    "publisher": "American Medical Association (AMA)",
+    "issue": "4",
+    "DOI": "10.1001/jamanetworkopen.2019.2597",
+    "type": "article-journal",
+    "page": "e192597",
+    "source": "Crossref",
+    "title": "Application of a Neural Network Whole Transcriptome–Based Pan-Cancer Method for Diagnosis of Primary and Metastatic Cancers",
+    "volume": "2",
+    "author": [
+      {
+        "given": "Jasleen K.",
+        "family": "Grewal"
+      },
+      {
+        "given": "Basile",
+        "family": "Tessier-Cloutier"
+      },
+      {
+        "given": "Martin",
+        "family": "Jones"
+      },
+      {
+        "given": "Sitanshu",
+        "family": "Gakkhar"
+      },
+      {
+        "given": "Yussanne",
+        "family": "Ma"
+      },
+      {
+        "given": "Richard",
+        "family": "Moore"
+      },
+      {
+        "given": "Andrew J.",
+        "family": "Mungall"
+      },
+      {
+        "given": "Yongjun",
+        "family": "Zhao"
+      },
+      {
+        "given": "Michael D.",
+        "family": "Taylor"
+      },
+      {
+        "given": "Karen",
+        "family": "Gelmon"
+      },
+      {
+        "given": "Howard",
+        "family": "Lim"
+      },
+      {
+        "given": "Daniel",
+        "family": "Renouf"
+      },
+      {
+        "given": "Janessa",
+        "family": "Laskin"
+      },
+      {
+        "given": "Marco",
+        "family": "Marra"
+      },
+      {
+        "given": "Stephen",
+        "family": "Yip"
+      },
+      {
+        "given": "Steven J. M.",
+        "family": "Jones"
+      }
+    ],
+    "container-title": "JAMA Network Open",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          4,
+          26
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gf84h2",
+    "container-title-short": "JAMA Netw Open",
+    "PMCID": "PMC6487574",
+    "PMID": "31026023",
+    "id": "ClFEdqWg",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1001/jamanetworkopen.2019.2597"
+  },
+  {
+    "publisher": "Wiley",
+    "issue": "11",
+    "DOI": "10.1002/art.22981",
+    "type": "article-journal",
+    "page": "3793-3804",
+    "source": "Crossref",
+    "title": "Gene expression profiling of peripheral blood from patients with untreated new-onset systemic juvenile idiopathic arthritis reveals molecular heterogeneity that may predict macrophage activation syndrome",
+    "volume": "56",
+    "author": [
+      {
+        "given": "Ndate",
+        "family": "Fall"
+      },
+      {
+        "given": "Michael",
+        "family": "Barnes"
+      },
+      {
+        "given": "Sherry",
+        "family": "Thornton"
+      },
+      {
+        "given": "Lorie",
+        "family": "Luyrink"
+      },
+      {
+        "given": "Judyann",
+        "family": "Olson"
+      },
+      {
+        "given": "Norman T.",
+        "family": "Ilowite"
+      },
+      {
+        "given": "Beth S.",
+        "family": "Gottlieb"
+      },
+      {
+        "given": "Thomas",
+        "family": "Griffin"
+      },
+      {
+        "given": "David D.",
+        "family": "Sherry"
+      },
+      {
+        "given": "Susan",
+        "family": "Thompson"
+      },
+      {
+        "given": "David N.",
+        "family": "Glass"
+      },
+      {
+        "given": "Robert A.",
+        "family": "Colbert"
+      },
+      {
+        "given": "Alexei A.",
+        "family": "Grom"
+      }
+    ],
+    "container-title": "Arthritis &amp; Rheumatism",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "URL": "https://doi.org/chxcfh",
+    "container-title-short": "Arthritis Rheum",
+    "PMID": "17968951",
+    "id": "1ZboiGsF",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1002/art.22981"
+  },
+  {
+    "publisher": "Springer International Publishing",
+    "DOI": "10.1007/978-3-030-01768-2_25",
+    "type": "chapter",
+    "page": "303-315",
+    "source": "Crossref",
+    "title": "Don’t Rule Out Simple Models Prematurely: A Large Scale Benchmark Comparing Linear and Non-linear Classifiers in OpenML",
+    "author": [
+      {
+        "given": "Benjamin",
+        "family": "Strang"
+      },
+      {
+        "given": "Peter van der",
+        "family": "Putten"
+      },
+      {
+        "given": "Jan N. van",
+        "family": "Rijn"
+      },
+      {
+        "given": "Frank",
+        "family": "Hutter"
+      }
+    ],
+    "container-title": "Advances in Intelligent Data Analysis XVII",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gqzq6q",
+    "id": "EMrWUv3D",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1007/978-3-030-01768-2_25"
+  },
+  {
+    "publisher": "Springer Berlin Heidelberg",
+    "DOI": "10.1007/978-3-642-23783-6_41",
+    "type": "chapter",
+    "page": "645-660",
+    "source": "Crossref",
+    "title": "Higher Order Contractive Auto-Encoder",
+    "author": [
+      {
+        "given": "Salah",
+        "family": "Rifai"
+      },
+      {
+        "given": "Grégoire",
+        "family": "Mesnil"
+      },
+      {
+        "given": "Pascal",
+        "family": "Vincent"
+      },
+      {
+        "given": "Xavier",
+        "family": "Muller"
+      },
+      {
+        "given": "Yoshua",
+        "family": "Bengio"
+      },
+      {
+        "given": "Yann",
+        "family": "Dauphin"
+      },
+      {
+        "given": "Xavier",
+        "family": "Glorot"
+      }
+    ],
+    "container-title": "Machine Learning and Knowledge Discovery in Databases",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "URL": "https://doi.org/bfpkgr",
+    "id": "14bFfy6t2",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1007/978-3-642-23783-6_41"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1007/s00521-013-1368-0",
+    "type": "article-journal",
+    "page": "175-186",
+    "source": "Crossref",
+    "title": "A review of feature selection methods based on mutual information",
+    "volume": "24",
+    "author": [
+      {
+        "given": "Jorge R.",
+        "family": "Vergara"
+      },
+      {
+        "given": "Pablo A.",
+        "family": "Estévez"
+      }
+    ],
+    "container-title": "Neural Computing and Applications",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          3,
+          13
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gj7fzd",
+    "container-title-short": "Neural Comput &amp; Applic",
+    "id": "MzuxpiPn",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1007/s00521-013-1368-0"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "issue": "6",
+    "DOI": "10.1016/j.cell.2017.10.049",
+    "type": "article-journal",
+    "page": "1437-1452.e17",
+    "source": "Crossref",
+    "title": "A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles",
+    "volume": "171",
+    "author": [
+      {
+        "given": "Aravind",
+        "family": "Subramanian"
+      },
+      {
+        "given": "Rajiv",
+        "family": "Narayan"
+      },
+      {
+        "given": "Steven M.",
+        "family": "Corsello"
+      },
+      {
+        "given": "David D.",
+        "family": "Peck"
+      },
+      {
+        "given": "Ted E.",
+        "family": "Natoli"
+      },
+      {
+        "given": "Xiaodong",
+        "family": "Lu"
+      },
+      {
+        "given": "Joshua",
+        "family": "Gould"
+      },
+      {
+        "given": "John F.",
+        "family": "Davis"
+      },
+      {
+        "given": "Andrew A.",
+        "family": "Tubelli"
+      },
+      {
+        "given": "Jacob K.",
+        "family": "Asiedu"
+      },
+      {
+        "given": "David L.",
+        "family": "Lahr"
+      },
+      {
+        "given": "Jodi E.",
+        "family": "Hirschman"
+      },
+      {
+        "given": "Zihan",
+        "family": "Liu"
+      },
+      {
+        "given": "Melanie",
+        "family": "Donahue"
+      },
+      {
+        "given": "Bina",
+        "family": "Julian"
+      },
+      {
+        "given": "Mariya",
+        "family": "Khan"
+      },
+      {
+        "given": "David",
+        "family": "Wadden"
+      },
+      {
+        "given": "Ian C.",
+        "family": "Smith"
+      },
+      {
+        "given": "Daniel",
+        "family": "Lam"
+      },
+      {
+        "given": "Arthur",
+        "family": "Liberzon"
+      },
+      {
+        "given": "Courtney",
+        "family": "Toder"
+      },
+      {
+        "given": "Mukta",
+        "family": "Bagul"
+      },
+      {
+        "given": "Marek",
+        "family": "Orzechowski"
+      },
+      {
+        "given": "Oana M.",
+        "family": "Enache"
+      },
+      {
+        "given": "Federica",
+        "family": "Piccioni"
+      },
+      {
+        "given": "Sarah A.",
+        "family": "Johnson"
+      },
+      {
+        "given": "Nicholas J.",
+        "family": "Lyons"
+      },
+      {
+        "given": "Alice H.",
+        "family": "Berger"
+      },
+      {
+        "given": "Alykhan F.",
+        "family": "Shamji"
+      },
+      {
+        "given": "Angela N.",
+        "family": "Brooks"
+      },
+      {
+        "given": "Anita",
+        "family": "Vrcic"
+      },
+      {
+        "given": "Corey",
+        "family": "Flynn"
+      },
+      {
+        "given": "Jacqueline",
+        "family": "Rosains"
+      },
+      {
+        "given": "David Y.",
+        "family": "Takeda"
+      },
+      {
+        "given": "Roger",
+        "family": "Hu"
+      },
+      {
+        "given": "Desiree",
+        "family": "Davison"
+      },
+      {
+        "given": "Justin",
+        "family": "Lamb"
+      },
+      {
+        "given": "Kristin",
+        "family": "Ardlie"
+      },
+      {
+        "given": "Larson",
+        "family": "Hogstrom"
+      },
+      {
+        "given": "Peyton",
+        "family": "Greenside"
+      },
+      {
+        "given": "Nathanael S.",
+        "family": "Gray"
+      },
+      {
+        "given": "Paul A.",
+        "family": "Clemons"
+      },
+      {
+        "given": "Serena",
+        "family": "Silver"
+      },
+      {
+        "given": "Xiaoyun",
+        "family": "Wu"
+      },
+      {
+        "given": "Wen-Ning",
+        "family": "Zhao"
+      },
+      {
+        "given": "Willis",
+        "family": "Read-Button"
+      },
+      {
+        "given": "Xiaohua",
+        "family": "Wu"
+      },
+      {
+        "given": "Stephen J.",
+        "family": "Haggarty"
+      },
+      {
+        "given": "Lucienne V.",
+        "family": "Ronco"
+      },
+      {
+        "given": "Jesse S.",
+        "family": "Boehm"
+      },
+      {
+        "given": "Stuart L.",
+        "family": "Schreiber"
+      },
+      {
+        "given": "John G.",
+        "family": "Doench"
+      },
+      {
+        "given": "Joshua A.",
+        "family": "Bittker"
+      },
+      {
+        "given": "David E.",
+        "family": "Root"
+      },
+      {
+        "given": "Bang",
+        "family": "Wong"
+      },
+      {
+        "given": "Todd R.",
+        "family": "Golub"
+      }
+    ],
+    "container-title": "Cell",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          11
+        ]
+      ]
+    },
+    "URL": "https://doi.org/cgwt",
+    "container-title-short": "Cell",
+    "PMCID": "PMC5990023",
+    "PMID": "29195078",
+    "id": "F7lIlh2N",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1016/j.cell.2017.10.049"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "issue": "2",
+    "DOI": "10.1016/j.cell.2018.03.034",
+    "type": "article-journal",
+    "page": "338-354.e15",
+    "source": "Crossref",
+    "title": "Machine Learning Identifies Stemness Features Associated with Oncogenic Dedifferentiation",
+    "volume": "173",
+    "author": [
+      {
+        "given": "Tathiane M.",
+        "family": "Malta"
+      },
+      {
+        "given": "Artem",
+        "family": "Sokolov"
+      },
+      {
+        "given": "Andrew J.",
+        "family": "Gentles"
+      },
+      {
+        "given": "Tomasz",
+        "family": "Burzykowski"
+      },
+      {
+        "given": "Laila",
+        "family": "Poisson"
+      },
+      {
+        "given": "John N.",
+        "family": "Weinstein"
+      },
+      {
+        "given": "Bożena",
+        "family": "Kamińska"
+      },
+      {
+        "given": "Joerg",
+        "family": "Huelsken"
+      },
+      {
+        "given": "Larsson",
+        "family": "Omberg"
+      },
+      {
+        "given": "Olivier",
+        "family": "Gevaert"
+      },
+      {
+        "given": "Antonio",
+        "family": "Colaprico"
+      },
+      {
+        "given": "Patrycja",
+        "family": "Czerwińska"
+      },
+      {
+        "given": "Sylwia",
+        "family": "Mazurek"
+      },
+      {
+        "given": "Lopa",
+        "family": "Mishra"
+      },
+      {
+        "given": "Holger",
+        "family": "Heyn"
+      },
+      {
+        "given": "Alex",
+        "family": "Krasnitz"
+      },
+      {
+        "given": "Andrew K.",
+        "family": "Godwin"
+      },
+      {
+        "given": "Alexander J.",
+        "family": "Lazar"
+      },
+      {
+        "given": "Joshua M.",
+        "family": "Stuart"
+      },
+      {
+        "given": "Katherine A.",
+        "family": "Hoadley"
+      },
+      {
+        "given": "Peter W.",
+        "family": "Laird"
+      },
+      {
+        "given": "Houtan",
+        "family": "Noushmehr"
+      },
+      {
+        "given": "Maciej",
+        "family": "Wiznerowicz"
+      },
+      {
+        "given": "Samantha J.",
+        "family": "Caesar-Johnson"
+      },
+      {
+        "given": "John A.",
+        "family": "Demchok"
+      },
+      {
+        "given": "Ina",
+        "family": "Felau"
+      },
+      {
+        "given": "Melpomeni",
+        "family": "Kasapi"
+      },
+      {
+        "given": "Martin L.",
+        "family": "Ferguson"
+      },
+      {
+        "given": "Carolyn M.",
+        "family": "Hutter"
+      },
+      {
+        "given": "Heidi J.",
+        "family": "Sofia"
+      },
+      {
+        "given": "Roy",
+        "family": "Tarnuzzer"
+      },
+      {
+        "given": "Zhining",
+        "family": "Wang"
+      },
+      {
+        "given": "Liming",
+        "family": "Yang"
+      },
+      {
+        "given": "Jean C.",
+        "family": "Zenklusen"
+      },
+      {
+        "given": "Jiashan (Julia)",
+        "family": "Zhang"
+      },
+      {
+        "given": "Sudha",
+        "family": "Chudamani"
+      },
+      {
+        "given": "Jia",
+        "family": "Liu"
+      },
+      {
+        "given": "Laxmi",
+        "family": "Lolla"
+      },
+      {
+        "given": "Rashi",
+        "family": "Naresh"
+      },
+      {
+        "given": "Todd",
+        "family": "Pihl"
+      },
+      {
+        "given": "Qiang",
+        "family": "Sun"
+      },
+      {
+        "given": "Yunhu",
+        "family": "Wan"
+      },
+      {
+        "given": "Ye",
+        "family": "Wu"
+      },
+      {
+        "given": "Juok",
+        "family": "Cho"
+      },
+      {
+        "given": "Timothy",
+        "family": "DeFreitas"
+      },
+      {
+        "given": "Scott",
+        "family": "Frazer"
+      },
+      {
+        "given": "Nils",
+        "family": "Gehlenborg"
+      },
+      {
+        "given": "Gad",
+        "family": "Getz"
+      },
+      {
+        "given": "David I.",
+        "family": "Heiman"
+      },
+      {
+        "given": "Jaegil",
+        "family": "Kim"
+      },
+      {
+        "given": "Michael S.",
+        "family": "Lawrence"
+      },
+      {
+        "given": "Pei",
+        "family": "Lin"
+      },
+      {
+        "given": "Sam",
+        "family": "Meier"
+      },
+      {
+        "given": "Michael S.",
+        "family": "Noble"
+      },
+      {
+        "given": "Gordon",
+        "family": "Saksena"
+      },
+      {
+        "given": "Doug",
+        "family": "Voet"
+      },
+      {
+        "given": "Hailei",
+        "family": "Zhang"
+      },
+      {
+        "given": "Brady",
+        "family": "Bernard"
+      },
+      {
+        "given": "Nyasha",
+        "family": "Chambwe"
+      },
+      {
+        "given": "Varsha",
+        "family": "Dhankani"
+      },
+      {
+        "given": "Theo",
+        "family": "Knijnenburg"
+      },
+      {
+        "given": "Roger",
+        "family": "Kramer"
+      },
+      {
+        "given": "Kalle",
+        "family": "Leinonen"
+      },
+      {
+        "given": "Yuexin",
+        "family": "Liu"
+      },
+      {
+        "given": "Michael",
+        "family": "Miller"
+      },
+      {
+        "given": "Sheila",
+        "family": "Reynolds"
+      },
+      {
+        "given": "Ilya",
+        "family": "Shmulevich"
+      },
+      {
+        "given": "Vesteinn",
+        "family": "Thorsson"
+      },
+      {
+        "given": "Wei",
+        "family": "Zhang"
+      },
+      {
+        "given": "Rehan",
+        "family": "Akbani"
+      },
+      {
+        "given": "Bradley M.",
+        "family": "Broom"
+      },
+      {
+        "given": "Apurva M.",
+        "family": "Hegde"
+      },
+      {
+        "given": "Zhenlin",
+        "family": "Ju"
+      },
+      {
+        "given": "Rupa S.",
+        "family": "Kanchi"
+      },
+      {
+        "given": "Anil",
+        "family": "Korkut"
+      },
+      {
+        "given": "Jun",
+        "family": "Li"
+      },
+      {
+        "given": "Han",
+        "family": "Liang"
+      },
+      {
+        "given": "Shiyun",
+        "family": "Ling"
+      },
+      {
+        "given": "Wenbin",
+        "family": "Liu"
+      },
+      {
+        "given": "Yiling",
+        "family": "Lu"
+      },
+      {
+        "given": "Gordon B.",
+        "family": "Mills"
+      },
+      {
+        "given": "Kwok-Shing",
+        "family": "Ng"
+      },
+      {
+        "given": "Arvind",
+        "family": "Rao"
+      },
+      {
+        "given": "Michael",
+        "family": "Ryan"
+      },
+      {
+        "given": "Jing",
+        "family": "Wang"
+      },
+      {
+        "given": "John N.",
+        "family": "Weinstein"
+      },
+      {
+        "given": "Jiexin",
+        "family": "Zhang"
+      },
+      {
+        "given": "Adam",
+        "family": "Abeshouse"
+      },
+      {
+        "given": "Joshua",
+        "family": "Armenia"
+      },
+      {
+        "given": "Debyani",
+        "family": "Chakravarty"
+      },
+      {
+        "given": "Walid K.",
+        "family": "Chatila"
+      },
+      {
+        "given": "Ino",
+        "family": "de Bruijn"
+      },
+      {
+        "given": "Jianjiong",
+        "family": "Gao"
+      },
+      {
+        "given": "Benjamin E.",
+        "family": "Gross"
+      },
+      {
+        "given": "Zachary J.",
+        "family": "Heins"
+      },
+      {
+        "given": "Ritika",
+        "family": "Kundra"
+      },
+      {
+        "given": "Konnor",
+        "family": "La"
+      },
+      {
+        "given": "Marc",
+        "family": "Ladanyi"
+      },
+      {
+        "given": "Augustin",
+        "family": "Luna"
+      },
+      {
+        "given": "Moriah G.",
+        "family": "Nissan"
+      },
+      {
+        "given": "Angelica",
+        "family": "Ochoa"
+      },
+      {
+        "given": "Sarah M.",
+        "family": "Phillips"
+      },
+      {
+        "given": "Ed",
+        "family": "Reznik"
+      },
+      {
+        "given": "Francisco",
+        "family": "Sanchez-Vega"
+      },
+      {
+        "given": "Chris",
+        "family": "Sander"
+      },
+      {
+        "given": "Nikolaus",
+        "family": "Schultz"
+      },
+      {
+        "given": "Robert",
+        "family": "Sheridan"
+      },
+      {
+        "given": "S. Onur",
+        "family": "Sumer"
+      },
+      {
+        "given": "Yichao",
+        "family": "Sun"
+      },
+      {
+        "given": "Barry S.",
+        "family": "Taylor"
+      },
+      {
+        "given": "Jioajiao",
+        "family": "Wang"
+      },
+      {
+        "given": "Hongxin",
+        "family": "Zhang"
+      },
+      {
+        "given": "Pavana",
+        "family": "Anur"
+      },
+      {
+        "given": "Myron",
+        "family": "Peto"
+      },
+      {
+        "given": "Paul",
+        "family": "Spellman"
+      },
+      {
+        "given": "Christopher",
+        "family": "Benz"
+      },
+      {
+        "given": "Joshua M.",
+        "family": "Stuart"
+      },
+      {
+        "given": "Christopher K.",
+        "family": "Wong"
+      },
+      {
+        "given": "Christina",
+        "family": "Yau"
+      },
+      {
+        "given": "D. Neil",
+        "family": "Hayes"
+      },
+      {
+        "given": "Joel S.",
+        "family": "Parker"
+      },
+      {
+        "given": "Matthew D.",
+        "family": "Wilkerson"
+      },
+      {
+        "given": "Adrian",
+        "family": "Ally"
+      },
+      {
+        "given": "Miruna",
+        "family": "Balasundaram"
+      },
+      {
+        "given": "Reanne",
+        "family": "Bowlby"
+      },
+      {
+        "given": "Denise",
+        "family": "Brooks"
+      },
+      {
+        "given": "Rebecca",
+        "family": "Carlsen"
+      },
+      {
+        "given": "Eric",
+        "family": "Chuah"
+      },
+      {
+        "given": "Noreen",
+        "family": "Dhalla"
+      },
+      {
+        "given": "Robert",
+        "family": "Holt"
+      },
+      {
+        "given": "Steven J.M.",
+        "family": "Jones"
+      },
+      {
+        "given": "Katayoon",
+        "family": "Kasaian"
+      },
+      {
+        "given": "Darlene",
+        "family": "Lee"
+      },
+      {
+        "given": "Yussanne",
+        "family": "Ma"
+      },
+      {
+        "given": "Marco A.",
+        "family": "Marra"
+      },
+      {
+        "given": "Michael",
+        "family": "Mayo"
+      },
+      {
+        "given": "Richard A.",
+        "family": "Moore"
+      },
+      {
+        "given": "Andrew J.",
+        "family": "Mungall"
+      },
+      {
+        "given": "Karen",
+        "family": "Mungall"
+      },
+      {
+        "given": "A. Gordon",
+        "family": "Robertson"
+      },
+      {
+        "given": "Sara",
+        "family": "Sadeghi"
+      },
+      {
+        "given": "Jacqueline E.",
+        "family": "Schein"
+      },
+      {
+        "given": "Payal",
+        "family": "Sipahimalani"
+      },
+      {
+        "given": "Angela",
+        "family": "Tam"
+      },
+      {
+        "given": "Nina",
+        "family": "Thiessen"
+      },
+      {
+        "given": "Kane",
+        "family": "Tse"
+      },
+      {
+        "given": "Tina",
+        "family": "Wong"
+      },
+      {
+        "given": "Ashton C.",
+        "family": "Berger"
+      },
+      {
+        "given": "Rameen",
+        "family": "Beroukhim"
+      },
+      {
+        "given": "Andrew D.",
+        "family": "Cherniack"
+      },
+      {
+        "given": "Carrie",
+        "family": "Cibulskis"
+      },
+      {
+        "given": "Stacey B.",
+        "family": "Gabriel"
+      },
+      {
+        "given": "Galen F.",
+        "family": "Gao"
+      },
+      {
+        "given": "Gavin",
+        "family": "Ha"
+      },
+      {
+        "given": "Matthew",
+        "family": "Meyerson"
+      },
+      {
+        "given": "Steven E.",
+        "family": "Schumacher"
+      },
+      {
+        "given": "Juliann",
+        "family": "Shih"
+      },
+      {
+        "given": "Melanie H.",
+        "family": "Kucherlapati"
+      },
+      {
+        "given": "Raju S.",
+        "family": "Kucherlapati"
+      },
+      {
+        "given": "Stephen",
+        "family": "Baylin"
+      },
+      {
+        "given": "Leslie",
+        "family": "Cope"
+      },
+      {
+        "given": "Ludmila",
+        "family": "Danilova"
+      },
+      {
+        "given": "Moiz S.",
+        "family": "Bootwalla"
+      },
+      {
+        "given": "Phillip H.",
+        "family": "Lai"
+      },
+      {
+        "given": "Dennis T.",
+        "family": "Maglinte"
+      },
+      {
+        "given": "David J.",
+        "family": "Van Den Berg"
+      },
+      {
+        "given": "Daniel J.",
+        "family": "Weisenberger"
+      },
+      {
+        "given": "J. Todd",
+        "family": "Auman"
+      },
+      {
+        "given": "Saianand",
+        "family": "Balu"
+      },
+      {
+        "given": "Tom",
+        "family": "Bodenheimer"
+      },
+      {
+        "given": "Cheng",
+        "family": "Fan"
+      },
+      {
+        "given": "Katherine A.",
+        "family": "Hoadley"
+      },
+      {
+        "given": "Alan P.",
+        "family": "Hoyle"
+      },
+      {
+        "given": "Stuart R.",
+        "family": "Jefferys"
+      },
+      {
+        "given": "Corbin D.",
+        "family": "Jones"
+      },
+      {
+        "given": "Shaowu",
+        "family": "Meng"
+      },
+      {
+        "given": "Piotr A.",
+        "family": "Mieczkowski"
+      },
+      {
+        "given": "Lisle E.",
+        "family": "Mose"
+      },
+      {
+        "given": "Amy H.",
+        "family": "Perou"
+      },
+      {
+        "given": "Charles M.",
+        "family": "Perou"
+      },
+      {
+        "given": "Jeffrey",
+        "family": "Roach"
+      },
+      {
+        "given": "Yan",
+        "family": "Shi"
+      },
+      {
+        "given": "Janae V.",
+        "family": "Simons"
+      },
+      {
+        "given": "Tara",
+        "family": "Skelly"
+      },
+      {
+        "given": "Matthew G.",
+        "family": "Soloway"
+      },
+      {
+        "given": "Donghui",
+        "family": "Tan"
+      },
+      {
+        "given": "Umadevi",
+        "family": "Veluvolu"
+      },
+      {
+        "given": "Huihui",
+        "family": "Fan"
+      },
+      {
+        "given": "Toshinori",
+        "family": "Hinoue"
+      },
+      {
+        "given": "Peter W.",
+        "family": "Laird"
+      },
+      {
+        "given": "Hui",
+        "family": "Shen"
+      },
+      {
+        "given": "Wanding",
+        "family": "Zhou"
+      },
+      {
+        "given": "Michelle",
+        "family": "Bellair"
+      },
+      {
+        "given": "Kyle",
+        "family": "Chang"
+      },
+      {
+        "given": "Kyle",
+        "family": "Covington"
+      },
+      {
+        "given": "Chad J.",
+        "family": "Creighton"
+      },
+      {
+        "given": "Huyen",
+        "family": "Dinh"
+      },
+      {
+        "given": "HarshaVardhan",
+        "family": "Doddapaneni"
+      },
+      {
+        "given": "Lawrence A.",
+        "family": "Donehower"
+      },
+      {
+        "given": "Jennifer",
+        "family": "Drummond"
+      },
+      {
+        "given": "Richard A.",
+        "family": "Gibbs"
+      },
+      {
+        "given": "Robert",
+        "family": "Glenn"
+      },
+      {
+        "given": "Walker",
+        "family": "Hale"
+      },
+      {
+        "given": "Yi",
+        "family": "Han"
+      },
+      {
+        "given": "Jianhong",
+        "family": "Hu"
+      },
+      {
+        "given": "Viktoriya",
+        "family": "Korchina"
+      },
+      {
+        "given": "Sandra",
+        "family": "Lee"
+      },
+      {
+        "given": "Lora",
+        "family": "Lewis"
+      },
+      {
+        "given": "Wei",
+        "family": "Li"
+      },
+      {
+        "given": "Xiuping",
+        "family": "Liu"
+      },
+      {
+        "given": "Margaret",
+        "family": "Morgan"
+      },
+      {
+        "given": "Donna",
+        "family": "Morton"
+      },
+      {
+        "given": "Donna",
+        "family": "Muzny"
+      },
+      {
+        "given": "Jireh",
+        "family": "Santibanez"
+      },
+      {
+        "given": "Margi",
+        "family": "Sheth"
+      },
+      {
+        "given": "Eve",
+        "family": "Shinbrot"
+      },
+      {
+        "given": "Linghua",
+        "family": "Wang"
+      },
+      {
+        "given": "Min",
+        "family": "Wang"
+      },
+      {
+        "given": "David A.",
+        "family": "Wheeler"
+      },
+      {
+        "given": "Liu",
+        "family": "Xi"
+      },
+      {
+        "given": "Fengmei",
+        "family": "Zhao"
+      },
+      {
+        "given": "Julian",
+        "family": "Hess"
+      },
+      {
+        "given": "Elizabeth L.",
+        "family": "Appelbaum"
+      },
+      {
+        "given": "Matthew",
+        "family": "Bailey"
+      },
+      {
+        "given": "Matthew G.",
+        "family": "Cordes"
+      },
+      {
+        "given": "Li",
+        "family": "Ding"
+      },
+      {
+        "given": "Catrina C.",
+        "family": "Fronick"
+      },
+      {
+        "given": "Lucinda A.",
+        "family": "Fulton"
+      },
+      {
+        "given": "Robert S.",
+        "family": "Fulton"
+      },
+      {
+        "given": "Cyriac",
+        "family": "Kandoth"
+      },
+      {
+        "given": "Elaine R.",
+        "family": "Mardis"
+      },
+      {
+        "given": "Michael D.",
+        "family": "McLellan"
+      },
+      {
+        "given": "Christopher A.",
+        "family": "Miller"
+      },
+      {
+        "given": "Heather K.",
+        "family": "Schmidt"
+      },
+      {
+        "given": "Richard K.",
+        "family": "Wilson"
+      },
+      {
+        "given": "Daniel",
+        "family": "Crain"
+      },
+      {
+        "given": "Erin",
+        "family": "Curley"
+      },
+      {
+        "given": "Johanna",
+        "family": "Gardner"
+      },
+      {
+        "given": "Kevin",
+        "family": "Lau"
+      },
+      {
+        "given": "David",
+        "family": "Mallery"
+      },
+      {
+        "given": "Scott",
+        "family": "Morris"
+      },
+      {
+        "given": "Joseph",
+        "family": "Paulauskis"
+      },
+      {
+        "given": "Robert",
+        "family": "Penny"
+      },
+      {
+        "given": "Candace",
+        "family": "Shelton"
+      },
+      {
+        "given": "Troy",
+        "family": "Shelton"
+      },
+      {
+        "given": "Mark",
+        "family": "Sherman"
+      },
+      {
+        "given": "Eric",
+        "family": "Thompson"
+      },
+      {
+        "given": "Peggy",
+        "family": "Yena"
+      },
+      {
+        "given": "Jay",
+        "family": "Bowen"
+      },
+      {
+        "given": "Julie M.",
+        "family": "Gastier-Foster"
+      },
+      {
+        "given": "Mark",
+        "family": "Gerken"
+      },
+      {
+        "given": "Kristen M.",
+        "family": "Leraas"
+      },
+      {
+        "given": "Tara M.",
+        "family": "Lichtenberg"
+      },
+      {
+        "given": "Nilsa C.",
+        "family": "Ramirez"
+      },
+      {
+        "given": "Lisa",
+        "family": "Wise"
+      },
+      {
+        "given": "Erik",
+        "family": "Zmuda"
+      },
+      {
+        "given": "Niall",
+        "family": "Corcoran"
+      },
+      {
+        "given": "Tony",
+        "family": "Costello"
+      },
+      {
+        "given": "Christopher",
+        "family": "Hovens"
+      },
+      {
+        "given": "Andre L.",
+        "family": "Carvalho"
+      },
+      {
+        "given": "Ana C.",
+        "family": "de Carvalho"
+      },
+      {
+        "given": "José H.",
+        "family": "Fregnani"
+      },
+      {
+        "given": "Adhemar",
+        "family": "Longatto-Filho"
+      },
+      {
+        "given": "Rui M.",
+        "family": "Reis"
+      },
+      {
+        "given": "Cristovam",
+        "family": "Scapulatempo-Neto"
+      },
+      {
+        "given": "Henrique C.S.",
+        "family": "Silveira"
+      },
+      {
+        "given": "Daniel O.",
+        "family": "Vidal"
+      },
+      {
+        "given": "Andrew",
+        "family": "Burnette"
+      },
+      {
+        "given": "Jennifer",
+        "family": "Eschbacher"
+      },
+      {
+        "given": "Beth",
+        "family": "Hermes"
+      },
+      {
+        "given": "Ardene",
+        "family": "Noss"
+      },
+      {
+        "given": "Rosy",
+        "family": "Singh"
+      },
+      {
+        "given": "Matthew L.",
+        "family": "Anderson"
+      },
+      {
+        "given": "Patricia D.",
+        "family": "Castro"
+      },
+      {
+        "given": "Michael",
+        "family": "Ittmann"
+      },
+      {
+        "given": "David",
+        "family": "Huntsman"
+      },
+      {
+        "given": "Bernard",
+        "family": "Kohl"
+      },
+      {
+        "given": "Xuan",
+        "family": "Le"
+      },
+      {
+        "given": "Richard",
+        "family": "Thorp"
+      },
+      {
+        "given": "Chris",
+        "family": "Andry"
+      },
+      {
+        "given": "Elizabeth R.",
+        "family": "Duffy"
+      },
+      {
+        "given": "Vladimir",
+        "family": "Lyadov"
+      },
+      {
+        "given": "Oxana",
+        "family": "Paklina"
+      },
+      {
+        "given": "Galiya",
+        "family": "Setdikova"
+      },
+      {
+        "given": "Alexey",
+        "family": "Shabunin"
+      },
+      {
+        "given": "Mikhail",
+        "family": "Tavobilov"
+      },
+      {
+        "given": "Christopher",
+        "family": "McPherson"
+      },
+      {
+        "given": "Ronald",
+        "family": "Warnick"
+      },
+      {
+        "given": "Ross",
+        "family": "Berkowitz"
+      },
+      {
+        "given": "Daniel",
+        "family": "Cramer"
+      },
+      {
+        "given": "Colleen",
+        "family": "Feltmate"
+      },
+      {
+        "given": "Neil",
+        "family": "Horowitz"
+      },
+      {
+        "given": "Adam",
+        "family": "Kibel"
+      },
+      {
+        "given": "Michael",
+        "family": "Muto"
+      },
+      {
+        "given": "Chandrajit P.",
+        "family": "Raut"
+      },
+      {
+        "given": "Andrei",
+        "family": "Malykh"
+      },
+      {
+        "given": "Jill S.",
+        "family": "Barnholtz-Sloan"
+      },
+      {
+        "given": "Wendi",
+        "family": "Barrett"
+      },
+      {
+        "given": "Karen",
+        "family": "Devine"
+      },
+      {
+        "given": "Jordonna",
+        "family": "Fulop"
+      },
+      {
+        "given": "Quinn T.",
+        "family": "Ostrom"
+      },
+      {
+        "given": "Kristen",
+        "family": "Shimmel"
+      },
+      {
+        "given": "Yingli",
+        "family": "Wolinsky"
+      },
+      {
+        "given": "Andrew E.",
+        "family": "Sloan"
+      },
+      {
+        "given": "Agostino",
+        "family": "De Rose"
+      },
+      {
+        "given": "Felice",
+        "family": "Giuliante"
+      },
+      {
+        "given": "Marc",
+        "family": "Goodman"
+      },
+      {
+        "given": "Beth Y.",
+        "family": "Karlan"
+      },
+      {
+        "given": "Curt H.",
+        "family": "Hagedorn"
+      },
+      {
+        "given": "John",
+        "family": "Eckman"
+      },
+      {
+        "given": "Jodi",
+        "family": "Harr"
+      },
+      {
+        "given": "Jerome",
+        "family": "Myers"
+      },
+      {
+        "given": "Kelinda",
+        "family": "Tucker"
+      },
+      {
+        "given": "Leigh Anne",
+        "family": "Zach"
+      },
+      {
+        "given": "Brenda",
+        "family": "Deyarmin"
+      },
+      {
+        "given": "Hai",
+        "family": "Hu"
+      },
+      {
+        "given": "Leonid",
+        "family": "Kvecher"
+      },
+      {
+        "given": "Caroline",
+        "family": "Larson"
+      },
+      {
+        "given": "Richard J.",
+        "family": "Mural"
+      },
+      {
+        "given": "Stella",
+        "family": "Somiari"
+      },
+      {
+        "given": "Ales",
+        "family": "Vicha"
+      },
+      {
+        "given": "Tomas",
+        "family": "Zelinka"
+      },
+      {
+        "given": "Joseph",
+        "family": "Bennett"
+      },
+      {
+        "given": "Mary",
+        "family": "Iacocca"
+      },
+      {
+        "given": "Brenda",
+        "family": "Rabeno"
+      },
+      {
+        "given": "Patricia",
+        "family": "Swanson"
+      },
+      {
+        "given": "Mathieu",
+        "family": "Latour"
+      },
+      {
+        "given": "Louis",
+        "family": "Lacombe"
+      },
+      {
+        "given": "Bernard",
+        "family": "Têtu"
+      },
+      {
+        "given": "Alain",
+        "family": "Bergeron"
+      },
+      {
+        "given": "Mary",
+        "family": "McGraw"
+      },
+      {
+        "given": "Susan M.",
+        "family": "Staugaitis"
+      },
+      {
+        "given": "John",
+        "family": "Chabot"
+      },
+      {
+        "given": "Hanina",
+        "family": "Hibshoosh"
+      },
+      {
+        "given": "Antonia",
+        "family": "Sepulveda"
+      },
+      {
+        "given": "Tao",
+        "family": "Su"
+      },
+      {
+        "given": "Timothy",
+        "family": "Wang"
+      },
+      {
+        "given": "Olga",
+        "family": "Potapova"
+      },
+      {
+        "given": "Olga",
+        "family": "Voronina"
+      },
+      {
+        "given": "Laurence",
+        "family": "Desjardins"
+      },
+      {
+        "given": "Odette",
+        "family": "Mariani"
+      },
+      {
+        "given": "Sergio",
+        "family": "Roman-Roman"
+      },
+      {
+        "given": "Xavier",
+        "family": "Sastre"
+      },
+      {
+        "given": "Marc-Henri",
+        "family": "Stern"
+      },
+      {
+        "given": "Feixiong",
+        "family": "Cheng"
+      },
+      {
+        "given": "Sabina",
+        "family": "Signoretti"
+      },
+      {
+        "given": "Andrew",
+        "family": "Berchuck"
+      },
+      {
+        "given": "Darell",
+        "family": "Bigner"
+      },
+      {
+        "given": "Eric",
+        "family": "Lipp"
+      },
+      {
+        "given": "Jeffrey",
+        "family": "Marks"
+      },
+      {
+        "given": "Shannon",
+        "family": "McCall"
+      },
+      {
+        "given": "Roger",
+        "family": "McLendon"
+      },
+      {
+        "given": "Angeles",
+        "family": "Secord"
+      },
+      {
+        "given": "Alexis",
+        "family": "Sharp"
+      },
+      {
+        "given": "Madhusmita",
+        "family": "Behera"
+      },
+      {
+        "given": "Daniel J.",
+        "family": "Brat"
+      },
+      {
+        "given": "Amy",
+        "family": "Chen"
+      },
+      {
+        "given": "Keith",
+        "family": "Delman"
+      },
+      {
+        "given": "Seth",
+        "family": "Force"
+      },
+      {
+        "given": "Fadlo",
+        "family": "Khuri"
+      },
+      {
+        "given": "Kelly",
+        "family": "Magliocca"
+      },
+      {
+        "given": "Shishir",
+        "family": "Maithel"
+      },
+      {
+        "given": "Jeffrey J.",
+        "family": "Olson"
+      },
+      {
+        "given": "Taofeek",
+        "family": "Owonikoko"
+      },
+      {
+        "given": "Alan",
+        "family": "Pickens"
+      },
+      {
+        "given": "Suresh",
+        "family": "Ramalingam"
+      },
+      {
+        "given": "Dong M.",
+        "family": "Shin"
+      },
+      {
+        "given": "Gabriel",
+        "family": "Sica"
+      },
+      {
+        "given": "Erwin G.",
+        "family": "Van Meir"
+      },
+      {
+        "given": "Hongzheng",
+        "family": "Zhang"
+      },
+      {
+        "given": "Wil",
+        "family": "Eijckenboom"
+      },
+      {
+        "given": "Ad",
+        "family": "Gillis"
+      },
+      {
+        "given": "Esther",
+        "family": "Korpershoek"
+      },
+      {
+        "given": "Leendert",
+        "family": "Looijenga"
+      },
+      {
+        "given": "Wolter",
+        "family": "Oosterhuis"
+      },
+      {
+        "given": "Hans",
+        "family": "Stoop"
+      },
+      {
+        "given": "Kim E.",
+        "family": "van Kessel"
+      },
+      {
+        "given": "Ellen C.",
+        "family": "Zwarthoff"
+      },
+      {
+        "given": "Chiara",
+        "family": "Calatozzolo"
+      },
+      {
+        "given": "Lucia",
+        "family": "Cuppini"
+      },
+      {
+        "given": "Stefania",
+        "family": "Cuzzubbo"
+      },
+      {
+        "given": "Francesco",
+        "family": "DiMeco"
+      },
+      {
+        "given": "Gaetano",
+        "family": "Finocchiaro"
+      },
+      {
+        "given": "Luca",
+        "family": "Mattei"
+      },
+      {
+        "given": "Alessandro",
+        "family": "Perin"
+      },
+      {
+        "given": "Bianca",
+        "family": "Pollo"
+      },
+      {
+        "given": "Chu",
+        "family": "Chen"
+      },
+      {
+        "given": "John",
+        "family": "Houck"
+      },
+      {
+        "given": "Pawadee",
+        "family": "Lohavanichbutr"
+      },
+      {
+        "given": "Arndt",
+        "family": "Hartmann"
+      },
+      {
+        "given": "Christine",
+        "family": "Stoehr"
+      },
+      {
+        "given": "Robert",
+        "family": "Stoehr"
+      },
+      {
+        "given": "Helge",
+        "family": "Taubert"
+      },
+      {
+        "given": "Sven",
+        "family": "Wach"
+      },
+      {
+        "given": "Bernd",
+        "family": "Wullich"
+      },
+      {
+        "given": "Witold",
+        "family": "Kycler"
+      },
+      {
+        "given": "Dawid",
+        "family": "Murawa"
+      },
+      {
+        "given": "Maciej",
+        "family": "Wiznerowicz"
+      },
+      {
+        "given": "Ki",
+        "family": "Chung"
+      },
+      {
+        "given": "W. Jeffrey",
+        "family": "Edenfield"
+      },
+      {
+        "given": "Julie",
+        "family": "Martin"
+      },
+      {
+        "given": "Eric",
+        "family": "Baudin"
+      },
+      {
+        "given": "Glenn",
+        "family": "Bubley"
+      },
+      {
+        "given": "Raphael",
+        "family": "Bueno"
+      },
+      {
+        "given": "Assunta",
+        "family": "De Rienzo"
+      },
+      {
+        "given": "William G.",
+        "family": "Richards"
+      },
+      {
+        "given": "Steven",
+        "family": "Kalkanis"
+      },
+      {
+        "given": "Tom",
+        "family": "Mikkelsen"
+      },
+      {
+        "given": "Houtan",
+        "family": "Noushmehr"
+      },
+      {
+        "given": "Lisa",
+        "family": "Scarpace"
+      },
+      {
+        "given": "Nicolas",
+        "family": "Girard"
+      },
+      {
+        "given": "Marta",
+        "family": "Aymerich"
+      },
+      {
+        "given": "Elias",
+        "family": "Campo"
+      },
+      {
+        "given": "Eva",
+        "family": "Giné"
+      },
+      {
+        "given": "Armando López",
+        "family": "Guillermo"
+      },
+      {
+        "given": "Nguyen",
+        "family": "Van Bang"
+      },
+      {
+        "given": "Phan Thi",
+        "family": "Hanh"
+      },
+      {
+        "given": "Bui Duc",
+        "family": "Phu"
+      },
+      {
+        "given": "Yufang",
+        "family": "Tang"
+      },
+      {
+        "given": "Howard",
+        "family": "Colman"
+      },
+      {
+        "given": "Kimberley",
+        "family": "Evason"
+      },
+      {
+        "given": "Peter R.",
+        "family": "Dottino"
+      },
+      {
+        "given": "John A.",
+        "family": "Martignetti"
+      },
+      {
+        "given": "Hani",
+        "family": "Gabra"
+      },
+      {
+        "given": "Hartmut",
+        "family": "Juhl"
+      },
+      {
+        "given": "Teniola",
+        "family": "Akeredolu"
+      },
+      {
+        "given": "Serghei",
+        "family": "Stepa"
+      },
+      {
+        "given": "Dave",
+        "family": "Hoon"
+      },
+      {
+        "given": "Keunsoo",
+        "family": "Ahn"
+      },
+      {
+        "given": "Koo Jeong",
+        "family": "Kang"
+      },
+      {
+        "given": "Felix",
+        "family": "Beuschlein"
+      },
+      {
+        "given": "Anne",
+        "family": "Breggia"
+      },
+      {
+        "given": "Michael",
+        "family": "Birrer"
+      },
+      {
+        "given": "Debra",
+        "family": "Bell"
+      },
+      {
+        "given": "Mitesh",
+        "family": "Borad"
+      },
+      {
+        "given": "Alan H.",
+        "family": "Bryce"
+      },
+      {
+        "given": "Erik",
+        "family": "Castle"
+      },
+      {
+        "given": "Vishal",
+        "family": "Chandan"
+      },
+      {
+        "given": "John",
+        "family": "Cheville"
+      },
+      {
+        "given": "John A.",
+        "family": "Copland"
+      },
+      {
+        "given": "Michael",
+        "family": "Farnell"
+      },
+      {
+        "given": "Thomas",
+        "family": "Flotte"
+      },
+      {
+        "given": "Nasra",
+        "family": "Giama"
+      },
+      {
+        "given": "Thai",
+        "family": "Ho"
+      },
+      {
+        "given": "Michael",
+        "family": "Kendrick"
+      },
+      {
+        "given": "Jean-Pierre",
+        "family": "Kocher"
+      },
+      {
+        "given": "Karla",
+        "family": "Kopp"
+      },
+      {
+        "given": "Catherine",
+        "family": "Moser"
+      },
+      {
+        "given": "David",
+        "family": "Nagorney"
+      },
+      {
+        "given": "Daniel",
+        "family": "O’Brien"
+      },
+      {
+        "given": "Brian Patrick",
+        "family": "O’Neill"
+      },
+      {
+        "given": "Tushar",
+        "family": "Patel"
+      },
+      {
+        "given": "Gloria",
+        "family": "Petersen"
+      },
+      {
+        "given": "Florencia",
+        "family": "Que"
+      },
+      {
+        "given": "Michael",
+        "family": "Rivera"
+      },
+      {
+        "given": "Lewis",
+        "family": "Roberts"
+      },
+      {
+        "given": "Robert",
+        "family": "Smallridge"
+      },
+      {
+        "given": "Thomas",
+        "family": "Smyrk"
+      },
+      {
+        "given": "Melissa",
+        "family": "Stanton"
+      },
+      {
+        "given": "R. Houston",
+        "family": "Thompson"
+      },
+      {
+        "given": "Michael",
+        "family": "Torbenson"
+      },
+      {
+        "given": "Ju Dong",
+        "family": "Yang"
+      },
+      {
+        "given": "Lizhi",
+        "family": "Zhang"
+      },
+      {
+        "given": "Fadi",
+        "family": "Brimo"
+      },
+      {
+        "given": "Jaffer A.",
+        "family": "Ajani"
+      },
+      {
+        "given": "Ana Maria Angulo",
+        "family": "Gonzalez"
+      },
+      {
+        "given": "Carmen",
+        "family": "Behrens"
+      },
+      {
+        "given": "Jolanta",
+        "family": "Bondaruk"
+      },
+      {
+        "given": "Russell",
+        "family": "Broaddus"
+      },
+      {
+        "given": "Bogdan",
+        "family": "Czerniak"
+      },
+      {
+        "given": "Bita",
+        "family": "Esmaeli"
+      },
+      {
+        "given": "Junya",
+        "family": "Fujimoto"
+      },
+      {
+        "given": "Jeffrey",
+        "family": "Gershenwald"
+      },
+      {
+        "given": "Charles",
+        "family": "Guo"
+      },
+      {
+        "given": "Alexander J.",
+        "family": "Lazar"
+      },
+      {
+        "given": "Christopher",
+        "family": "Logothetis"
+      },
+      {
+        "given": "Funda",
+        "family": "Meric-Bernstam"
+      },
+      {
+        "given": "Cesar",
+        "family": "Moran"
+      },
+      {
+        "given": "Lois",
+        "family": "Ramondetta"
+      },
+      {
+        "given": "David",
+        "family": "Rice"
+      },
+      {
+        "given": "Anil",
+        "family": "Sood"
+      },
+      {
+        "given": "Pheroze",
+        "family": "Tamboli"
+      },
+      {
+        "given": "Timothy",
+        "family": "Thompson"
+      },
+      {
+        "given": "Patricia",
+        "family": "Troncoso"
+      },
+      {
+        "given": "Anne",
+        "family": "Tsao"
+      },
+      {
+        "given": "Ignacio",
+        "family": "Wistuba"
+      },
+      {
+        "given": "Candace",
+        "family": "Carter"
+      },
+      {
+        "given": "Lauren",
+        "family": "Haydu"
+      },
+      {
+        "given": "Peter",
+        "family": "Hersey"
+      },
+      {
+        "given": "Valerie",
+        "family": "Jakrot"
+      },
+      {
+        "given": "Hojabr",
+        "family": "Kakavand"
+      },
+      {
+        "given": "Richard",
+        "family": "Kefford"
+      },
+      {
+        "given": "Kenneth",
+        "family": "Lee"
+      },
+      {
+        "given": "Georgina",
+        "family": "Long"
+      },
+      {
+        "given": "Graham",
+        "family": "Mann"
+      },
+      {
+        "given": "Michael",
+        "family": "Quinn"
+      },
+      {
+        "given": "Robyn",
+        "family": "Saw"
+      },
+      {
+        "given": "Richard",
+        "family": "Scolyer"
+      },
+      {
+        "given": "Kerwin",
+        "family": "Shannon"
+      },
+      {
+        "given": "Andrew",
+        "family": "Spillane"
+      },
+      {
+        "given": "Jonathan",
+        "family": "Stretch"
+      },
+      {
+        "given": "Maria",
+        "family": "Synott"
+      },
+      {
+        "given": "John",
+        "family": "Thompson"
+      },
+      {
+        "given": "James",
+        "family": "Wilmott"
+      },
+      {
+        "given": "Hikmat",
+        "family": "Al-Ahmadie"
+      },
+      {
+        "given": "Timothy A.",
+        "family": "Chan"
+      },
+      {
+        "given": "Ronald",
+        "family": "Ghossein"
+      },
+      {
+        "given": "Anuradha",
+        "family": "Gopalan"
+      },
+      {
+        "given": "Douglas A.",
+        "family": "Levine"
+      },
+      {
+        "given": "Victor",
+        "family": "Reuter"
+      },
+      {
+        "given": "Samuel",
+        "family": "Singer"
+      },
+      {
+        "given": "Bhuvanesh",
+        "family": "Singh"
+      },
+      {
+        "given": "Nguyen Viet",
+        "family": "Tien"
+      },
+      {
+        "given": "Thomas",
+        "family": "Broudy"
+      },
+      {
+        "given": "Cyrus",
+        "family": "Mirsaidi"
+      },
+      {
+        "given": "Praveen",
+        "family": "Nair"
+      },
+      {
+        "given": "Paul",
+        "family": "Drwiega"
+      },
+      {
+        "given": "Judy",
+        "family": "Miller"
+      },
+      {
+        "given": "Jennifer",
+        "family": "Smith"
+      },
+      {
+        "given": "Howard",
+        "family": "Zaren"
+      },
+      {
+        "given": "Joong-Won",
+        "family": "Park"
+      },
+      {
+        "given": "Nguyen Phi",
+        "family": "Hung"
+      },
+      {
+        "given": "Electron",
+        "family": "Kebebew"
+      },
+      {
+        "given": "W. Marston",
+        "family": "Linehan"
+      },
+      {
+        "given": "Adam R.",
+        "family": "Metwalli"
+      },
+      {
+        "given": "Karel",
+        "family": "Pacak"
+      },
+      {
+        "given": "Peter A.",
+        "family": "Pinto"
+      },
+      {
+        "given": "Mark",
+        "family": "Schiffman"
+      },
+      {
+        "given": "Laura S.",
+        "family": "Schmidt"
+      },
+      {
+        "given": "Cathy D.",
+        "family": "Vocke"
+      },
+      {
+        "given": "Nicolas",
+        "family": "Wentzensen"
+      },
+      {
+        "given": "Robert",
+        "family": "Worrell"
+      },
+      {
+        "given": "Hannah",
+        "family": "Yang"
+      },
+      {
+        "given": "Marc",
+        "family": "Moncrieff"
+      },
+      {
+        "given": "Chandra",
+        "family": "Goparaju"
+      },
+      {
+        "given": "Jonathan",
+        "family": "Melamed"
+      },
+      {
+        "given": "Harvey",
+        "family": "Pass"
+      },
+      {
+        "given": "Natalia",
+        "family": "Botnariuc"
+      },
+      {
+        "given": "Irina",
+        "family": "Caraman"
+      },
+      {
+        "given": "Mircea",
+        "family": "Cernat"
+      },
+      {
+        "given": "Inga",
+        "family": "Chemencedji"
+      },
+      {
+        "given": "Adrian",
+        "family": "Clipca"
+      },
+      {
+        "given": "Serghei",
+        "family": "Doruc"
+      },
+      {
+        "given": "Ghenadie",
+        "family": "Gorincioi"
+      },
+      {
+        "given": "Sergiu",
+        "family": "Mura"
+      },
+      {
+        "given": "Maria",
+        "family": "Pirtac"
+      },
+      {
+        "given": "Irina",
+        "family": "Stancul"
+      },
+      {
+        "given": "Diana",
+        "family": "Tcaciuc"
+      },
+      {
+        "given": "Monique",
+        "family": "Albert"
+      },
+      {
+        "given": "Iakovina",
+        "family": "Alexopoulou"
+      },
+      {
+        "given": "Angel",
+        "family": "Arnaout"
+      },
+      {
+        "given": "John",
+        "family": "Bartlett"
+      },
+      {
+        "given": "Jay",
+        "family": "Engel"
+      },
+      {
+        "given": "Sebastien",
+        "family": "Gilbert"
+      },
+      {
+        "given": "Jeremy",
+        "family": "Parfitt"
+      },
+      {
+        "given": "Harman",
+        "family": "Sekhon"
+      },
+      {
+        "given": "George",
+        "family": "Thomas"
+      },
+      {
+        "given": "Doris M.",
+        "family": "Rassl"
+      },
+      {
+        "given": "Robert C.",
+        "family": "Rintoul"
+      },
+      {
+        "given": "Carlo",
+        "family": "Bifulco"
+      },
+      {
+        "given": "Raina",
+        "family": "Tamakawa"
+      },
+      {
+        "given": "Walter",
+        "family": "Urba"
+      },
+      {
+        "given": "Nicholas",
+        "family": "Hayward"
+      },
+      {
+        "given": "Henri",
+        "family": "Timmers"
+      },
+      {
+        "given": "Anna",
+        "family": "Antenucci"
+      },
+      {
+        "given": "Francesco",
+        "family": "Facciolo"
+      },
+      {
+        "given": "Gianluca",
+        "family": "Grazi"
+      },
+      {
+        "given": "Mirella",
+        "family": "Marino"
+      },
+      {
+        "given": "Roberta",
+        "family": "Merola"
+      },
+      {
+        "given": "Ronald",
+        "family": "de Krijger"
+      },
+      {
+        "given": "Anne-Paule",
+        "family": "Gimenez-Roqueplo"
+      },
+      {
+        "given": "Alain",
+        "family": "Piché"
+      },
+      {
+        "given": "Simone",
+        "family": "Chevalier"
+      },
+      {
+        "given": "Ginette",
+        "family": "McKercher"
+      },
+      {
+        "given": "Kivanc",
+        "family": "Birsoy"
+      },
+      {
+        "given": "Gene",
+        "family": "Barnett"
+      },
+      {
+        "given": "Cathy",
+        "family": "Brewer"
+      },
+      {
+        "given": "Carol",
+        "family": "Farver"
+      },
+      {
+        "given": "Theresa",
+        "family": "Naska"
+      },
+      {
+        "given": "Nathan A.",
+        "family": "Pennell"
+      },
+      {
+        "given": "Daniel",
+        "family": "Raymond"
+      },
+      {
+        "given": "Cathy",
+        "family": "Schilero"
+      },
+      {
+        "given": "Kathy",
+        "family": "Smolenski"
+      },
+      {
+        "given": "Felicia",
+        "family": "Williams"
+      },
+      {
+        "given": "Carl",
+        "family": "Morrison"
+      },
+      {
+        "given": "Jeffrey A.",
+        "family": "Borgia"
+      },
+      {
+        "given": "Michael J.",
+        "family": "Liptay"
+      },
+      {
+        "given": "Mark",
+        "family": "Pool"
+      },
+      {
+        "given": "Christopher W.",
+        "family": "Seder"
+      },
+      {
+        "given": "Kerstin",
+        "family": "Junker"
+      },
+      {
+        "given": "Larsson",
+        "family": "Omberg"
+      },
+      {
+        "given": "Mikhail",
+        "family": "Dinkin"
+      },
+      {
+        "given": "George",
+        "family": "Manikhas"
+      },
+      {
+        "given": "Domenico",
+        "family": "Alvaro"
+      },
+      {
+        "given": "Maria Consiglia",
+        "family": "Bragazzi"
+      },
+      {
+        "given": "Vincenzo",
+        "family": "Cardinale"
+      },
+      {
+        "given": "Guido",
+        "family": "Carpino"
+      },
+      {
+        "given": "Eugenio",
+        "family": "Gaudio"
+      },
+      {
+        "given": "David",
+        "family": "Chesla"
+      },
+      {
+        "given": "Sandra",
+        "family": "Cottingham"
+      },
+      {
+        "given": "Michael",
+        "family": "Dubina"
+      },
+      {
+        "given": "Fedor",
+        "family": "Moiseenko"
+      },
+      {
+        "given": "Renumathy",
+        "family": "Dhanasekaran"
+      },
+      {
+        "given": "Karl-Friedrich",
+        "family": "Becker"
+      },
+      {
+        "given": "Klaus-Peter",
+        "family": "Janssen"
+      },
+      {
+        "given": "Julia",
+        "family": "Slotta-Huspenina"
+      },
+      {
+        "given": "Mohamed H.",
+        "family": "Abdel-Rahman"
+      },
+      {
+        "given": "Dina",
+        "family": "Aziz"
+      },
+      {
+        "given": "Sue",
+        "family": "Bell"
+      },
+      {
+        "given": "Colleen M.",
+        "family": "Cebulla"
+      },
+      {
+        "given": "Amy",
+        "family": "Davis"
+      },
+      {
+        "given": "Rebecca",
+        "family": "Duell"
+      },
+      {
+        "given": "J. Bradley",
+        "family": "Elder"
+      },
+      {
+        "given": "Joe",
+        "family": "Hilty"
+      },
+      {
+        "given": "Bahavna",
+        "family": "Kumar"
+      },
+      {
+        "given": "James",
+        "family": "Lang"
+      },
+      {
+        "given": "Norman L.",
+        "family": "Lehman"
+      },
+      {
+        "given": "Randy",
+        "family": "Mandt"
+      },
+      {
+        "given": "Phuong",
+        "family": "Nguyen"
+      },
+      {
+        "given": "Robert",
+        "family": "Pilarski"
+      },
+      {
+        "given": "Karan",
+        "family": "Rai"
+      },
+      {
+        "given": "Lynn",
+        "family": "Schoenfield"
+      },
+      {
+        "given": "Kelly",
+        "family": "Senecal"
+      },
+      {
+        "given": "Paul",
+        "family": "Wakely"
+      },
+      {
+        "given": "Paul",
+        "family": "Hansen"
+      },
+      {
+        "given": "Ronald",
+        "family": "Lechan"
+      },
+      {
+        "given": "James",
+        "family": "Powers"
+      },
+      {
+        "given": "Arthur",
+        "family": "Tischler"
+      },
+      {
+        "given": "William E.",
+        "family": "Grizzle"
+      },
+      {
+        "given": "Katherine C.",
+        "family": "Sexton"
+      },
+      {
+        "given": "Alison",
+        "family": "Kastl"
+      },
+      {
+        "given": "Joel",
+        "family": "Henderson"
+      },
+      {
+        "given": "Sima",
+        "family": "Porten"
+      },
+      {
+        "given": "Jens",
+        "family": "Waldmann"
+      },
+      {
+        "given": "Martin",
+        "family": "Fassnacht"
+      },
+      {
+        "given": "Sylvia L.",
+        "family": "Asa"
+      },
+      {
+        "given": "Dirk",
+        "family": "Schadendorf"
+      },
+      {
+        "given": "Marta",
+        "family": "Couce"
+      },
+      {
+        "given": "Markus",
+        "family": "Graefen"
+      },
+      {
+        "given": "Hartwig",
+        "family": "Huland"
+      },
+      {
+        "given": "Guido",
+        "family": "Sauter"
+      },
+      {
+        "given": "Thorsten",
+        "family": "Schlomm"
+      },
+      {
+        "given": "Ronald",
+        "family": "Simon"
+      },
+      {
+        "given": "Pierre",
+        "family": "Tennstedt"
+      },
+      {
+        "given": "Oluwole",
+        "family": "Olabode"
+      },
+      {
+        "given": "Mark",
+        "family": "Nelson"
+      },
+      {
+        "given": "Oliver",
+        "family": "Bathe"
+      },
+      {
+        "given": "Peter R.",
+        "family": "Carroll"
+      },
+      {
+        "given": "June M.",
+        "family": "Chan"
+      },
+      {
+        "given": "Philip",
+        "family": "Disaia"
+      },
+      {
+        "given": "Pat",
+        "family": "Glenn"
+      },
+      {
+        "given": "Robin K.",
+        "family": "Kelley"
+      },
+      {
+        "given": "Charles N.",
+        "family": "Landen"
+      },
+      {
+        "given": "Joanna",
+        "family": "Phillips"
+      },
+      {
+        "given": "Michael",
+        "family": "Prados"
+      },
+      {
+        "given": "Jeffry",
+        "family": "Simko"
+      },
+      {
+        "given": "Karen",
+        "family": "Smith-McCune"
+      },
+      {
+        "given": "Scott",
+        "family": "VandenBerg"
+      },
+      {
+        "given": "Kevin",
+        "family": "Roggin"
+      },
+      {
+        "given": "Ashley",
+        "family": "Fehrenbach"
+      },
+      {
+        "given": "Ady",
+        "family": "Kendler"
+      },
+      {
+        "given": "Suzanne",
+        "family": "Sifri"
+      },
+      {
+        "given": "Ruth",
+        "family": "Steele"
+      },
+      {
+        "given": "Antonio",
+        "family": "Jimeno"
+      },
+      {
+        "given": "Francis",
+        "family": "Carey"
+      },
+      {
+        "given": "Ian",
+        "family": "Forgie"
+      },
+      {
+        "given": "Massimo",
+        "family": "Mannelli"
+      },
+      {
+        "given": "Michael",
+        "family": "Carney"
+      },
+      {
+        "given": "Brenda",
+        "family": "Hernandez"
+      },
+      {
+        "given": "Benito",
+        "family": "Campos"
+      },
+      {
+        "given": "Christel",
+        "family": "Herold-Mende"
+      },
+      {
+        "given": "Christin",
+        "family": "Jungk"
+      },
+      {
+        "given": "Andreas",
+        "family": "Unterberg"
+      },
+      {
+        "given": "Andreas",
+        "family": "von Deimling"
+      },
+      {
+        "given": "Aaron",
+        "family": "Bossler"
+      },
+      {
+        "given": "Joseph",
+        "family": "Galbraith"
+      },
+      {
+        "given": "Laura",
+        "family": "Jacobus"
+      },
+      {
+        "given": "Michael",
+        "family": "Knudson"
+      },
+      {
+        "given": "Tina",
+        "family": "Knutson"
+      },
+      {
+        "given": "Deqin",
+        "family": "Ma"
+      },
+      {
+        "given": "Mohammed",
+        "family": "Milhem"
+      },
+      {
+        "given": "Rita",
+        "family": "Sigmund"
+      },
+      {
+        "given": "Andrew K.",
+        "family": "Godwin"
+      },
+      {
+        "given": "Rashna",
+        "family": "Madan"
+      },
+      {
+        "given": "Howard G.",
+        "family": "Rosenthal"
+      },
+      {
+        "given": "Clement",
+        "family": "Adebamowo"
+      },
+      {
+        "given": "Sally N.",
+        "family": "Adebamowo"
+      },
+      {
+        "given": "Alex",
+        "family": "Boussioutas"
+      },
+      {
+        "given": "David",
+        "family": "Beer"
+      },
+      {
+        "given": "Thomas",
+        "family": "Giordano"
+      },
+      {
+        "given": "Anne-Marie",
+        "family": "Mes-Masson"
+      },
+      {
+        "given": "Fred",
+        "family": "Saad"
+      },
+      {
+        "given": "Therese",
+        "family": "Bocklage"
+      },
+      {
+        "given": "Lisa",
+        "family": "Landrum"
+      },
+      {
+        "given": "Robert",
+        "family": "Mannel"
+      },
+      {
+        "given": "Kathleen",
+        "family": "Moore"
+      },
+      {
+        "given": "Katherine",
+        "family": "Moxley"
+      },
+      {
+        "given": "Russel",
+        "family": "Postier"
+      },
+      {
+        "given": "Joan",
+        "family": "Walker"
+      },
+      {
+        "given": "Rosemary",
+        "family": "Zuna"
+      },
+      {
+        "given": "Michael",
+        "family": "Feldman"
+      },
+      {
+        "given": "Federico",
+        "family": "Valdivieso"
+      },
+      {
+        "given": "Rajiv",
+        "family": "Dhir"
+      },
+      {
+        "given": "James",
+        "family": "Luketich"
+      },
+      {
+        "given": "Edna M. Mora",
+        "family": "Pinero"
+      },
+      {
+        "given": "Mario",
+        "family": "Quintero-Aguilo"
+      },
+      {
+        "suffix": "Jr.",
+        "given": "Carlos Gilberto",
+        "family": "Carlotti"
+      },
+      {
+        "given": "Jose Sebastião",
+        "family": "Dos Santos"
+      },
+      {
+        "given": "Rafael",
+        "family": "Kemp"
+      },
+      {
+        "given": "Ajith",
+        "family": "Sankarankuty"
+      },
+      {
+        "given": "Daniela",
+        "family": "Tirapelli"
+      },
+      {
+        "given": "James",
+        "family": "Catto"
+      },
+      {
+        "given": "Kathy",
+        "family": "Agnew"
+      },
+      {
+        "given": "Elizabeth",
+        "family": "Swisher"
+      },
+      {
+        "given": "Jenette",
+        "family": "Creaney"
+      },
+      {
+        "given": "Bruce",
+        "family": "Robinson"
+      },
+      {
+        "given": "Carl Simon",
+        "family": "Shelley"
+      },
+      {
+        "given": "Eryn M.",
+        "family": "Godwin"
+      },
+      {
+        "given": "Sara",
+        "family": "Kendall"
+      },
+      {
+        "given": "Cassaundra",
+        "family": "Shipman"
+      },
+      {
+        "given": "Carol",
+        "family": "Bradford"
+      },
+      {
+        "given": "Thomas",
+        "family": "Carey"
+      },
+      {
+        "given": "Andrea",
+        "family": "Haddad"
+      },
+      {
+        "given": "Jeffey",
+        "family": "Moyer"
+      },
+      {
+        "given": "Lisa",
+        "family": "Peterson"
+      },
+      {
+        "given": "Mark",
+        "family": "Prince"
+      },
+      {
+        "given": "Laura",
+        "family": "Rozek"
+      },
+      {
+        "given": "Gregory",
+        "family": "Wolf"
+      },
+      {
+        "given": "Rayleen",
+        "family": "Bowman"
+      },
+      {
+        "given": "Kwun M.",
+        "family": "Fong"
+      },
+      {
+        "given": "Ian",
+        "family": "Yang"
+      },
+      {
+        "given": "Robert",
+        "family": "Korst"
+      },
+      {
+        "given": "W. Kimryn",
+        "family": "Rathmell"
+      },
+      {
+        "given": "J. Leigh",
+        "family": "Fantacone-Campbell"
+      },
+      {
+        "given": "Jeffrey A.",
+        "family": "Hooke"
+      },
+      {
+        "given": "Albert J.",
+        "family": "Kovatich"
+      },
+      {
+        "given": "Craig D.",
+        "family": "Shriver"
+      },
+      {
+        "given": "John",
+        "family": "DiPersio"
+      },
+      {
+        "given": "Bettina",
+        "family": "Drake"
+      },
+      {
+        "given": "Ramaswamy",
+        "family": "Govindan"
+      },
+      {
+        "given": "Sharon",
+        "family": "Heath"
+      },
+      {
+        "given": "Timothy",
+        "family": "Ley"
+      },
+      {
+        "given": "Brian",
+        "family": "Van Tine"
+      },
+      {
+        "given": "Peter",
+        "family": "Westervelt"
+      },
+      {
+        "given": "Mark A.",
+        "family": "Rubin"
+      },
+      {
+        "given": "Jung Il",
+        "family": "Lee"
+      },
+      {
+        "given": "Natália D.",
+        "family": "Aredes"
+      },
+      {
+        "given": "Armaz",
+        "family": "Mariamidze"
+      }
+    ],
+    "container-title": "Cell",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          4
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gc93hh",
+    "container-title-short": "Cell",
+    "PMCID": "PMC5902191",
+    "PMID": "29625051",
+    "id": "rYMEu6oz",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1016/j.cell.2018.03.034"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "DOI": "10.1016/j.cmpb.2018.10.004",
+    "type": "article-journal",
+    "page": "99-105",
+    "source": "Crossref",
+    "title": "A semi-supervised deep learning method based on stacked sparse auto-encoder for cancer prediction using RNA-seq data",
+    "volume": "166",
+    "author": [
+      {
+        "given": "Yawen",
+        "family": "Xiao"
+      },
+      {
+        "given": "Jun",
+        "family": "Wu"
+      },
+      {
+        "given": "Zongli",
+        "family": "Lin"
+      },
+      {
+        "given": "Xiaodong",
+        "family": "Zhao"
+      }
+    ],
+    "container-title": "Computer Methods and Programs in Biomedicine",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          11
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfnm5c",
+    "container-title-short": "Computer Methods and Programs in Biomedicine",
+    "PMID": "30415723",
+    "id": "uXRnjUvq",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1016/j.cmpb.2018.10.004"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "DOI": "10.1016/j.compbiomed.2014.09.008",
+    "type": "article-journal",
+    "page": "180-187",
+    "source": "Crossref",
+    "title": "Gene expression microarray classification using PCA–BEL",
+    "volume": "54",
+    "author": [
+      {
+        "given": "Ehsan",
+        "family": "Lotfi"
+      },
+      {
+        "given": "Azita",
+        "family": "Keshavarz"
+      }
+    ],
+    "container-title": "Computers in Biology and Medicine",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          11
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gqzq5p",
+    "container-title-short": "Computers in Biology and Medicine",
+    "PMID": "25282708",
+    "id": "CD9ApROI",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1016/j.compbiomed.2014.09.008"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "DOI": "10.1016/j.ebiom.2016.03.006",
+    "type": "article-journal",
+    "page": "114-125",
+    "source": "Crossref",
+    "title": "A Transcriptomic Biomarker to Quantify Systemic Inflammation in Sepsis — A Prospective Multicenter Phase II Diagnostic Study",
+    "volume": "6",
+    "author": [
+      {
+        "given": "Michael",
+        "family": "Bauer"
+      },
+      {
+        "given": "Evangelos J.",
+        "family": "Giamarellos-Bourboulis"
+      },
+      {
+        "given": "Andreas",
+        "family": "Kortgen"
+      },
+      {
+        "given": "Eva",
+        "family": "Möller"
+      },
+      {
+        "given": "Karen",
+        "family": "Felsmann"
+      },
+      {
+        "given": "Jean Marc",
+        "family": "Cavaillon"
+      },
+      {
+        "given": "Orlando",
+        "family": "Guntinas-Lichius"
+      },
+      {
+        "given": "Olivier",
+        "family": "Rutschmann"
+      },
+      {
+        "given": "Andriy",
+        "family": "Ruryk"
+      },
+      {
+        "given": "Matthias",
+        "family": "Kohl"
+      },
+      {
+        "given": "Britta",
+        "family": "Wlotzka"
+      },
+      {
+        "given": "Stefan",
+        "family": "Rußwurm"
+      },
+      {
+        "given": "John C.",
+        "family": "Marshall"
+      },
+      {
+        "given": "Konrad",
+        "family": "Reinhart"
+      }
+    ],
+    "container-title": "EBioMedicine",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          4
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gqzq2q",
+    "container-title-short": "EBioMedicine",
+    "PMCID": "PMC4856796",
+    "PMID": "27211554",
+    "id": "rJ5EpmYl",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1016/j.ebiom.2016.03.006"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "DOI": "10.1016/j.jbi.2018.04.007",
+    "type": "article-journal",
+    "page": "112-134",
+    "source": "Crossref",
+    "title": "Benchmarking deep learning models on large healthcare datasets",
+    "volume": "83",
+    "author": [
+      {
+        "given": "Sanjay",
+        "family": "Purushotham"
+      },
+      {
+        "given": "Chuizheng",
+        "family": "Meng"
+      },
+      {
+        "given": "Zhengping",
+        "family": "Che"
+      },
+      {
+        "given": "Yan",
+        "family": "Liu"
+      }
+    ],
+    "container-title": "Journal of Biomedical Informatics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          7
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gd97qc",
+    "container-title-short": "Journal of Biomedical Informatics",
+    "PMID": "29879470",
+    "id": "15s31cve5",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1016/j.jbi.2018.04.007"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "DOI": "10.1016/j.neubiorev.2020.09.036",
+    "type": "article-journal",
+    "page": "456-467",
+    "source": "Crossref",
+    "title": "I tried a bunch of things: The dangers of unexpected overfitting in classification of brain data",
+    "volume": "119",
+    "author": [
+      {
+        "given": "Mahan",
+        "family": "Hosseini"
+      },
+      {
+        "given": "Michael",
+        "family": "Powell"
+      },
+      {
+        "given": "John",
+        "family": "Collins"
+      },
+      {
+        "given": "Chloe",
+        "family": "Callahan-Flintoft"
+      },
+      {
+        "given": "William",
+        "family": "Jones"
+      },
+      {
+        "given": "Howard",
+        "family": "Bowman"
+      },
+      {
+        "given": "Brad",
+        "family": "Wyble"
+      }
+    ],
+    "container-title": "Neuroscience &amp; Biobehavioral Reviews",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          12
+        ]
+      ]
+    },
+    "URL": "https://doi.org/ghkskv",
+    "container-title-short": "Neuroscience &amp; Biobehavioral Reviews",
+    "PMID": "33035522",
+    "id": "KE9BUIOX",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1016/j.neubiorev.2020.09.036"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1023/a:1008280620621",
+    "type": "article-journal",
+    "page": "39-55",
+    "source": "Crossref",
+    "volume": "7",
+    "author": [
+      {
+        "given": "Igor",
+        "family": "Kononenko"
+      },
+      {
+        "given": "Edvard",
+        "family": "Šimec"
+      },
+      {
+        "given": "Marko",
+        "family": "Robnik-Šikonja"
+      }
+    ],
+    "container-title": "Applied Intelligence",
+    "issued": {
+      "date-parts": [
+        [
+          1997
+        ]
+      ]
+    },
+    "URL": "https://doi.org/fdm4r3",
+    "id": "bBLm1pxP",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1023/a:1008280620621"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "10",
+    "DOI": "10.1038/modpathol.2008.54",
+    "type": "article-journal",
+    "page": "1255-1261",
+    "source": "Crossref",
+    "title": "Histopathologic variables predict Oncotype DX™ Recurrence Score",
+    "volume": "21",
+    "author": [
+      {
+        "given": "Melina B",
+        "family": "Flanagan"
+      },
+      {
+        "given": "David J",
+        "family": "Dabbs"
+      },
+      {
+        "given": "Adam M",
+        "family": "Brufsky"
+      },
+      {
+        "given": "Sushil",
+        "family": "Beriwal"
+      },
+      {
+        "given": "Rohit",
+        "family": "Bhargava"
+      }
+    ],
+    "container-title": "Modern Pathology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2008,
+          3,
+          21
+        ]
+      ]
+    },
+    "URL": "https://doi.org/d27rv3",
+    "container-title-short": "Mod Pathol",
+    "PMID": "18360352",
+    "id": "Lphv6pyr",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/modpathol.2008.54"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "9",
+    "DOI": "10.1038/nbt.3000",
+    "type": "article-journal",
+    "page": "888-895",
+    "source": "Crossref",
+    "title": "Detecting and correcting systematic variation in large-scale RNA sequencing data",
+    "volume": "32",
+    "author": [
+      {
+        "given": "Sheng",
+        "family": "Li"
+      },
+      {
+        "given": "Paweł P",
+        "family": "Łabaj"
+      },
+      {
+        "given": "Paul",
+        "family": "Zumbo"
+      },
+      {
+        "given": "Peter",
+        "family": "Sykacek"
+      },
+      {
+        "given": "Wei",
+        "family": "Shi"
+      },
+      {
+        "given": "Leming",
+        "family": "Shi"
+      },
+      {
+        "given": "John",
+        "family": "Phan"
+      },
+      {
+        "given": "Po-Yen",
+        "family": "Wu"
+      },
+      {
+        "given": "May",
+        "family": "Wang"
+      },
+      {
+        "given": "Charles",
+        "family": "Wang"
+      },
+      {
+        "given": "Danielle",
+        "family": "Thierry-Mieg"
+      },
+      {
+        "given": "Jean",
+        "family": "Thierry-Mieg"
+      },
+      {
+        "given": "David P",
+        "family": "Kreil"
+      },
+      {
+        "given": "Christopher E",
+        "family": "Mason"
+      }
+    ],
+    "container-title": "Nature Biotechnology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          8,
+          24
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f6j2gj",
+    "container-title-short": "Nat Biotechnol",
+    "PMCID": "PMC4160374",
+    "PMID": "25150837",
+    "id": "UPHmb9yc",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/nbt.3000"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "13",
+    "DOI": "10.1038/nbt1296-1675",
+    "type": "article-journal",
+    "page": "1675-1680",
+    "source": "Crossref",
+    "title": "Expression monitoring by hybridization to high-density oligonucleotide arrays",
+    "volume": "14",
+    "author": [
+      {
+        "given": "David J.",
+        "family": "Lockhart"
+      },
+      {
+        "given": "Helin",
+        "family": "Dong"
+      },
+      {
+        "given": "Michael C.",
+        "family": "Byrne"
+      },
+      {
+        "given": "Maximillian T.",
+        "family": "Follettie"
+      },
+      {
+        "given": "Michael V.",
+        "family": "Gallo"
+      },
+      {
+        "given": "Mark S.",
+        "family": "Chee"
+      },
+      {
+        "given": "Michael",
+        "family": "Mittmann"
+      },
+      {
+        "given": "Chunwei",
+        "family": "Wang"
+      },
+      {
+        "given": "Michiko",
+        "family": "Kobayashi"
+      },
+      {
+        "given": "Heidi",
+        "family": "Norton"
+      },
+      {
+        "given": "Eugene L.",
+        "family": "Brown"
+      }
+    ],
+    "container-title": "Nature Biotechnology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1996,
+          12
+        ]
+      ]
+    },
+    "URL": "https://doi.org/bpmwzt",
+    "container-title-short": "Nat Biotechnol",
+    "PMID": "9634850",
+    "id": "XeqEIk0K",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/nbt1296-1675"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "7873",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Proteins are essential to life, and understanding their structure can facilitate a mechanistic understanding of their function. Through an enormous experimental effort<jats:sup>1–4</jats:sup>, the structures of around 100,000 unique proteins have been determined<jats:sup>5</jats:sup>, but this represents a small fraction of the billions of known protein sequences<jats:sup>6,7</jats:sup>. Structural coverage is bottlenecked by the months to years of painstaking effort required to determine a single protein structure. Accurate computational approaches are needed to address this gap and to enable large-scale structural bioinformatics. Predicting the three-dimensional structure that a protein will adopt based solely on its amino acid sequence—the structure prediction component of the ‘protein folding problem’<jats:sup>8</jats:sup>—has been an important open research problem for more than 50 years<jats:sup>9</jats:sup>. Despite recent progress<jats:sup>10–14</jats:sup>, existing methods fall far short of atomic accuracy, especially when no homologous structure is available. Here we provide the first computational method that can regularly predict protein structures with atomic accuracy even in cases in which no similar structure is known. We validated an entirely redesigned version of our neural network-based model, AlphaFold, in the challenging 14th Critical Assessment of protein Structure Prediction (CASP14)<jats:sup>15</jats:sup>, demonstrating accuracy competitive with experimental structures in a majority of cases and greatly outperforming other methods. Underpinning the latest version of AlphaFold is a novel machine learning approach that incorporates physical and biological knowledge about protein structure, leveraging multi-sequence alignments, into the design of the deep learning algorithm.</jats:p>",
+    "DOI": "10.1038/s41586-021-03819-2",
+    "type": "article-journal",
+    "page": "583-589",
+    "source": "Crossref",
+    "title": "Highly accurate protein structure prediction with AlphaFold",
+    "volume": "596",
+    "author": [
+      {
+        "given": "John",
+        "family": "Jumper"
+      },
+      {
+        "given": "Richard",
+        "family": "Evans"
+      },
+      {
+        "given": "Alexander",
+        "family": "Pritzel"
+      },
+      {
+        "given": "Tim",
+        "family": "Green"
+      },
+      {
+        "given": "Michael",
+        "family": "Figurnov"
+      },
+      {
+        "given": "Olaf",
+        "family": "Ronneberger"
+      },
+      {
+        "given": "Kathryn",
+        "family": "Tunyasuvunakool"
+      },
+      {
+        "given": "Russ",
+        "family": "Bates"
+      },
+      {
+        "given": "Augustin",
+        "family": "Žídek"
+      },
+      {
+        "given": "Anna",
+        "family": "Potapenko"
+      },
+      {
+        "given": "Alex",
+        "family": "Bridgland"
+      },
+      {
+        "given": "Clemens",
+        "family": "Meyer"
+      },
+      {
+        "given": "Simon A. A.",
+        "family": "Kohl"
+      },
+      {
+        "given": "Andrew J.",
+        "family": "Ballard"
+      },
+      {
+        "given": "Andrew",
+        "family": "Cowie"
+      },
+      {
+        "given": "Bernardino",
+        "family": "Romera-Paredes"
+      },
+      {
+        "given": "Stanislav",
+        "family": "Nikolov"
+      },
+      {
+        "given": "Rishub",
+        "family": "Jain"
+      },
+      {
+        "given": "Jonas",
+        "family": "Adler"
+      },
+      {
+        "given": "Trevor",
+        "family": "Back"
+      },
+      {
+        "given": "Stig",
+        "family": "Petersen"
+      },
+      {
+        "given": "David",
+        "family": "Reiman"
+      },
+      {
+        "given": "Ellen",
+        "family": "Clancy"
+      },
+      {
+        "given": "Michal",
+        "family": "Zielinski"
+      },
+      {
+        "given": "Martin",
+        "family": "Steinegger"
+      },
+      {
+        "given": "Michalina",
+        "family": "Pacholska"
+      },
+      {
+        "given": "Tamas",
+        "family": "Berghammer"
+      },
+      {
+        "given": "Sebastian",
+        "family": "Bodenstein"
+      },
+      {
+        "given": "David",
+        "family": "Silver"
+      },
+      {
+        "given": "Oriol",
+        "family": "Vinyals"
+      },
+      {
+        "given": "Andrew W.",
+        "family": "Senior"
+      },
+      {
+        "given": "Koray",
+        "family": "Kavukcuoglu"
+      },
+      {
+        "given": "Pushmeet",
+        "family": "Kohli"
+      },
+      {
+        "given": "Demis",
+        "family": "Hassabis"
+      }
+    ],
+    "container-title": "Nature",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          15
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gk7nfp",
+    "container-title-short": "Nature",
+    "PMCID": "PMC8371605",
+    "PMID": "34265844",
+    "id": "yZfcMIwh",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/s41586-021-03819-2"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "11",
+    "DOI": "10.1038/s41592-019-0576-7",
+    "type": "article-journal",
+    "page": "1139-1145",
+    "source": "Crossref",
+    "title": "Exploring single-cell data with deep multitasking neural networks",
+    "volume": "16",
+    "author": [
+      {
+        "given": "Matthew",
+        "family": "Amodio"
+      },
+      {
+        "given": "David",
+        "family": "van Dijk"
+      },
+      {
+        "given": "Krishnan",
+        "family": "Srinivasan"
+      },
+      {
+        "given": "William S.",
+        "family": "Chen"
+      },
+      {
+        "given": "Hussein",
+        "family": "Mohsen"
+      },
+      {
+        "given": "Kevin R.",
+        "family": "Moon"
+      },
+      {
+        "given": "Allison",
+        "family": "Campbell"
+      },
+      {
+        "given": "Yujiao",
+        "family": "Zhao"
+      },
+      {
+        "given": "Xiaomei",
+        "family": "Wang"
+      },
+      {
+        "given": "Manjunatha",
+        "family": "Venkataswamy"
+      },
+      {
+        "given": "Anita",
+        "family": "Desai"
+      },
+      {
+        "given": "V.",
+        "family": "Ravi"
+      },
+      {
+        "given": "Priti",
+        "family": "Kumar"
+      },
+      {
+        "given": "Ruth",
+        "family": "Montgomery"
+      },
+      {
+        "given": "Guy",
+        "family": "Wolf"
+      },
+      {
+        "given": "Smita",
+        "family": "Krishnaswamy"
+      }
+    ],
+    "container-title": "Nature Methods",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          7
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gf9rsg",
+    "container-title-short": "Nat Methods",
+    "PMID": "31591579",
+    "id": "1CPSh19Mn",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/s41592-019-0576-7"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1038/s41598-017-02325-8",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "A Four-Biomarker Blood Signature Discriminates Systemic Inflammation Due to Viral Infection Versus Other Etiologies",
+    "volume": "7",
+    "author": [
+      {
+        "given": "D. L.",
+        "family": "Sampson"
+      },
+      {
+        "given": "B. A.",
+        "family": "Fox"
+      },
+      {
+        "given": "T. D.",
+        "family": "Yager"
+      },
+      {
+        "given": "S.",
+        "family": "Bhide"
+      },
+      {
+        "given": "S.",
+        "family": "Cermelli"
+      },
+      {
+        "given": "L. C.",
+        "family": "McHugh"
+      },
+      {
+        "given": "T. A.",
+        "family": "Seldon"
+      },
+      {
+        "given": "R. A.",
+        "family": "Brandon"
+      },
+      {
+        "given": "E.",
+        "family": "Sullivan"
+      },
+      {
+        "given": "J. J.",
+        "family": "Zimmerman"
+      },
+      {
+        "given": "M.",
+        "family": "Noursadeghi"
+      },
+      {
+        "given": "R. B.",
+        "family": "Brandon"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          6
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gc4zdw",
+    "container-title-short": "Sci Rep",
+    "PMCID": "PMC5460227",
+    "PMID": "28588308",
+    "id": "7k4Mlul7",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/s41598-017-02325-8"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1038/s41598-018-19635-0",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Robust phenotype prediction from gene expression data using differential shrinkage of co-regulated genes",
+    "volume": "8",
+    "author": [
+      {
+        "given": "Kourosh",
+        "family": "Zarringhalam"
+      },
+      {
+        "given": "David",
+        "family": "Degras"
+      },
+      {
+        "given": "Christoph",
+        "family": "Brockel"
+      },
+      {
+        "given": "Daniel",
+        "family": "Ziemek"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          19
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gcwzdn",
+    "container-title-short": "Sci Rep",
+    "PMCID": "PMC5775343",
+    "PMID": "29352257",
+    "id": "g8OoyIPj",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/s41598-018-19635-0"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1038/s41598-019-45989-0",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Machine learning approaches to predict lupus disease activity from gene expression data",
+    "volume": "9",
+    "author": [
+      {
+        "given": "Brian",
+        "family": "Kegerreis"
+      },
+      {
+        "given": "Michelle D.",
+        "family": "Catalina"
+      },
+      {
+        "given": "Prathyusha",
+        "family": "Bachali"
+      },
+      {
+        "given": "Nicholas S.",
+        "family": "Geraci"
+      },
+      {
+        "given": "Adam C.",
+        "family": "Labonte"
+      },
+      {
+        "given": "Chen",
+        "family": "Zeng"
+      },
+      {
+        "given": "Nathaniel",
+        "family": "Stearrett"
+      },
+      {
+        "given": "Keith A.",
+        "family": "Crandall"
+      },
+      {
+        "given": "Peter E.",
+        "family": "Lipsky"
+      },
+      {
+        "given": "Amrie C.",
+        "family": "Grammer"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          3
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gh33ng",
+    "container-title-short": "Sci Rep",
+    "PMCID": "PMC6610624",
+    "PMID": "31270349",
+    "id": "qs7B1fgV",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/s41598-019-45989-0"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title>\n              <jats:p>Despite great advances, molecular cancer pathology is often limited to the use of a small number of biomarkers rather than the whole transcriptome, partly due to computational challenges. Here, we introduce a novel architecture of Deep Neural Networks (DNNs) that is capable of simultaneous inference of various properties of biological samples, through multi-task and transfer learning. It encodes the whole transcription profile into a strikingly low-dimensional latent vector of size 8, and then recovers mRNA and miRNA expression profiles, tissue and disease type from this vector. This latent space is significantly better than the original gene expression profiles for discriminating samples based on their tissue and disease. We employed this architecture on mRNA transcription profiles of 10750 clinical samples from 34 classes (one healthy and 33 different types of cancer) from 27 tissues. Our method significantly outperforms prior works and classical machine learning approaches in predicting tissue-of-origin, normal or disease state and cancer type of each sample. For tissues with more than one type of cancer, it reaches 99.4% accuracy in identifying the correct cancer subtype. We also show this system is very robust against noise and missing values. Collectively, our results highlight applications of artificial intelligence in molecular cancer pathology and oncological research. DeePathology is freely available at <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/SharifBioinf/DeePathology\">https://github.com/SharifBioinf/DeePathology</jats:ext-link>.</jats:p>",
+    "DOI": "10.1038/s41598-019-52937-5",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "DeePathology: Deep Multi-Task Learning for Inferring Molecular Pathology from Cancer Transcriptome",
+    "volume": "9",
+    "author": [
+      {
+        "given": "Behrooz",
+        "family": "Azarkhalili"
+      },
+      {
+        "given": "Ali",
+        "family": "Saberi"
+      },
+      {
+        "given": "Hamidreza",
+        "family": "Chitsaz"
+      },
+      {
+        "given": "Ali",
+        "family": "Sharifi-Zarchi"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          11,
+          11
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gpg7vc",
+    "container-title-short": "Sci Rep",
+    "PMCID": "PMC6848155",
+    "PMID": "31712594",
+    "id": "z3sjep1J",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/s41598-019-52937-5"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1038/srep31619",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Multitask learning improves prediction of cancer drug sensitivity",
+    "volume": "6",
+    "author": [
+      {
+        "given": "Han",
+        "family": "Yuan"
+      },
+      {
+        "given": "Ivan",
+        "family": "Paskov"
+      },
+      {
+        "given": "Hristo",
+        "family": "Paskov"
+      },
+      {
+        "given": "Alvaro J.",
+        "family": "González"
+      },
+      {
+        "given": "Christina S.",
+        "family": "Leslie"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          8,
+          23
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f8zbhk",
+    "container-title-short": "Sci Rep",
+    "PMCID": "PMC4994023",
+    "PMID": "27550087",
+    "id": "URjcKCcA",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/srep31619"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "2",
+    "DOI": "10.1093/bib/bbt034",
+    "type": "article-journal",
+    "page": "195-211",
+    "source": "Crossref",
+    "title": "Supervised, semi-supervised and unsupervised inference of gene regulatory networks",
+    "volume": "15",
+    "author": [
+      {
+        "given": "S. R.",
+        "family": "Maetschke"
+      },
+      {
+        "given": "P. B.",
+        "family": "Madhamshettiwar"
+      },
+      {
+        "given": "M. J.",
+        "family": "Davis"
+      },
+      {
+        "given": "M. A.",
+        "family": "Ragan"
+      }
+    ],
+    "container-title": "Briefings in Bioinformatics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          5,
+          21
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gccv5w",
+    "container-title-short": "Briefings in Bioinformatics",
+    "PMCID": "PMC3956069",
+    "PMID": "23698722",
+    "id": "mh4sXNBi",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1093/bib/bbt034"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "15",
+    "DOI": "10.1093/bioinformatics/bth267",
+    "type": "article-journal",
+    "page": "2429-2437",
+    "source": "Crossref",
+    "title": "A comparative study of feature selection and multiclass classification methods for tissue classification based on gene expression",
+    "volume": "20",
+    "author": [
+      {
+        "given": "T.",
+        "family": "Li"
+      },
+      {
+        "given": "C.",
+        "family": "Zhang"
+      },
+      {
+        "given": "M.",
+        "family": "Ogihara"
+      }
+    ],
+    "container-title": "Bioinformatics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2004,
+          4,
+          15
+        ]
+      ]
+    },
+    "URL": "https://doi.org/b3kzzp",
+    "container-title-short": "Bioinformatics",
+    "PMID": "15087314",
+    "id": "Vzg9ivZU",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1093/bioinformatics/bth267"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "12",
+    "DOI": "10.1093/bioinformatics/btu272",
+    "type": "article-journal",
+    "page": "i69-i77",
+    "source": "Crossref",
+    "title": "Robust clinical outcome prediction based on Bayesian analysis of transcriptional profiles and prior causal networks",
+    "volume": "30",
+    "author": [
+      {
+        "given": "Kourosh",
+        "family": "Zarringhalam"
+      },
+      {
+        "given": "Ahmed",
+        "family": "Enayetallah"
+      },
+      {
+        "given": "Padmalatha",
+        "family": "Reddy"
+      },
+      {
+        "given": "Daniel",
+        "family": "Ziemek"
+      }
+    ],
+    "container-title": "Bioinformatics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          6,
+          11
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f58bp2",
+    "PMCID": "PMC4058945",
+    "PMID": "24932007",
+    "id": "J0eeAld3",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1093/bioinformatics/btu272"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "12",
+    "DOI": "10.1093/bioinformatics/btw074",
+    "type": "article-journal",
+    "page": "1832-1839",
+    "source": "Crossref",
+    "title": "Gene expression inference with deep learning",
+    "volume": "32",
+    "author": [
+      {
+        "given": "Yifei",
+        "family": "Chen"
+      },
+      {
+        "given": "Yi",
+        "family": "Li"
+      },
+      {
+        "given": "Rajiv",
+        "family": "Narayan"
+      },
+      {
+        "given": "Aravind",
+        "family": "Subramanian"
+      },
+      {
+        "given": "Xiaohui",
+        "family": "Xie"
+      }
+    ],
+    "container-title": "Bioinformatics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          11
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f8vmtt",
+    "container-title-short": "Bioinformatics",
+    "PMCID": "PMC4908320",
+    "PMID": "26873929",
+    "id": "12QQw9p7v",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1093/bioinformatics/btw074"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "14",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Predictive models are a powerful tool for solving complex problems in computational biology. They are typically designed to predict or classify data coming from the same unknown distribution as the training data. In many real-world settings, however, uncontrolled biological or technical factors can lead to a distribution mismatch between datasets acquired at different times, causing model performance to deteriorate on new data. A common additional obstacle in computational biology is scarce data with many more features than samples. To address these problems, we propose a method for unsupervised domain adaptation that is based on a weighted elastic net. The key idea of our approach is to compare dependencies between inputs in training and test data and to increase the cost of differently behaving features in the elastic net regularization term. In doing so, we encourage the model to assign a higher importance to features that are robust and behave similarly across domains.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We evaluate our method both on simulated data with varying degrees of distribution mismatch and on real data, considering the problem of age prediction based on DNA methylation data across multiple tissues. Compared with a non-adaptive standard model, our approach substantially reduces errors on samples with a mismatched distribution. On real data, we achieve far lower errors on cerebellum samples, a tissue which is not part of the training data and poorly predicted by standard models. Our results demonstrate that unsupervised domain adaptation is possible for applications in computational biology, even with many more features than samples.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>Source code is available at https://github.com/PfeiferLabTue/wenda.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Supplementary information</jats:title>\n                  <jats:p>Supplementary data are available at Bioinformatics online.</jats:p>\n               </jats:sec>",
+    "DOI": "10.1093/bioinformatics/btz338",
+    "type": "article-journal",
+    "page": "i154-i163",
+    "source": "Crossref",
+    "title": "Weighted elastic net for unsupervised domain adaptation with application to age prediction from DNA methylation data",
+    "volume": "35",
+    "author": [
+      {
+        "given": "Lisa",
+        "family": "Handl"
+      },
+      {
+        "given": "Adrin",
+        "family": "Jalali"
+      },
+      {
+        "given": "Michael",
+        "family": "Scherer"
+      },
+      {
+        "given": "Ralf",
+        "family": "Eggeling"
+      },
+      {
+        "given": "Nico",
+        "family": "Pfeifer"
+      }
+    ],
+    "container-title": "Bioinformatics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          7
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gf5d8b",
+    "PMCID": "PMC6612879",
+    "PMID": "31510704",
+    "id": "19eIjTcxN",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1093/bioinformatics/btz338"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "5",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Cancer subtype classification has the potential to significantly improve disease prognosis and develop individualized patient management. Existing methods are limited by their ability to handle extremely high-dimensional data and by the influence of misleading, irrelevant factors, resulting in ambiguous and overlapping subtypes.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>To address the above issues, we proposed a novel approach to disentangling and eliminating irrelevant factors by leveraging the power of deep learning. Specifically, we designed a deep-learning framework, referred to as DeepType, that performs joint supervised classification, unsupervised clustering and dimensionality reduction to learn cancer-relevant data representation with cluster structure. We applied DeepType to the METABRIC breast cancer dataset and compared its performance to state-of-the-art methods. DeepType significantly outperformed the existing methods, identifying more robust subtypes while using fewer genes. The new approach provides a framework for the derivation of more accurate and robust molecular cancer subtypes by using increasingly complex, multi-source data.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>An open-source software package for the proposed method is freely available at http://www.acsu.buffalo.edu/~yijunsun/lab/DeepType.html.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Supplementary information</jats:title>\n                  <jats:p>Supplementary data are available at Bioinformatics online.</jats:p>\n               </jats:sec>",
+    "DOI": "10.1093/bioinformatics/btz769",
+    "type": "article-journal",
+    "page": "1476-1483",
+    "source": "Crossref",
+    "title": "Deep-learning approach to identifying cancer subtypes using high-dimensional genomic data",
+    "volume": "36",
+    "author": [
+      {
+        "given": "Runpu",
+        "family": "Chen"
+      },
+      {
+        "given": "Le",
+        "family": "Yang"
+      },
+      {
+        "given": "Steve",
+        "family": "Goodison"
+      },
+      {
+        "given": "Yijun",
+        "family": "Sun"
+      }
+    ],
+    "container-title": "Bioinformatics",
+    "language": "en",
+    "editor": [
+      {
+        "given": "Janet",
+        "family": "Kelso"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          11
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gpfzxm",
+    "PMCID": "PMC8215925",
+    "PMID": "31603461",
+    "id": "IRSA7yBm",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1093/bioinformatics/btz769"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "1",
+    "DOI": "10.1093/biostatistics/kxj037",
+    "type": "article-journal",
+    "page": "118-127",
+    "source": "Crossref",
+    "title": "Adjusting batch effects in microarray expression data using empirical Bayes methods",
+    "volume": "8",
+    "author": [
+      {
+        "given": "W. Evan",
+        "family": "Johnson"
+      },
+      {
+        "given": "Cheng",
+        "family": "Li"
+      },
+      {
+        "given": "Ariel",
+        "family": "Rabinovic"
+      }
+    ],
+    "container-title": "Biostatistics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          4,
+          21
+        ]
+      ]
+    },
+    "URL": "https://doi.org/dsf386",
+    "PMID": "16632515",
+    "id": "1HahRBkyb",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1093/biostatistics/kxj037"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "suppl_1",
+    "DOI": "10.1093/nar/gkp995",
+    "type": "article-journal",
+    "page": "D652-D657",
+    "source": "Crossref",
+    "title": "COSMIC (the Catalogue of Somatic Mutations in Cancer): a resource to investigate acquired mutations in human cancer",
+    "volume": "38",
+    "author": [
+      {
+        "given": "Simon A.",
+        "family": "Forbes"
+      },
+      {
+        "given": "Gurpreet",
+        "family": "Tang"
+      },
+      {
+        "given": "Nidhi",
+        "family": "Bindal"
+      },
+      {
+        "given": "Sally",
+        "family": "Bamford"
+      },
+      {
+        "given": "Elisabeth",
+        "family": "Dawson"
+      },
+      {
+        "given": "Charlotte",
+        "family": "Cole"
+      },
+      {
+        "given": "Chai Yin",
+        "family": "Kok"
+      },
+      {
+        "given": "Mingming",
+        "family": "Jia"
+      },
+      {
+        "given": "Rebecca",
+        "family": "Ewing"
+      },
+      {
+        "given": "Andrew",
+        "family": "Menzies"
+      },
+      {
+        "given": "Jon W.",
+        "family": "Teague"
+      },
+      {
+        "given": "Michael R.",
+        "family": "Stratton"
+      },
+      {
+        "given": "P. Andrew",
+        "family": "Futreal"
+      }
+    ],
+    "container-title": "Nucleic Acids Research",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2009,
+          11,
+          10
+        ]
+      ]
+    },
+    "URL": "https://doi.org/fhkk8s",
+    "PMCID": "PMC2808858",
+    "PMID": "19906727",
+    "id": "QSJEewCc",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1093/nar/gkp995"
+  },
+  {
+    "publisher": "Cold Spring Harbor Laboratory",
+    "abstract": "<jats:p>Recent advances in large-scale single cell RNA-seq enable fine-grained characterization of phenotypically distinct cellular states within heterogeneous tissues. We present scScope, a scalable deep-learning based approach that can accurately and rapidly identify cell-type composition from millions of noisy single-cell gene-expression profiles.</jats:p>",
+    "DOI": "10.1101/315556",
+    "type": "manuscript",
+    "source": "Crossref",
+    "title": "Massive single-cell RNA-seq analysis and imputation via deep learning",
+    "author": [
+      {
+        "given": "Yue",
+        "family": "Deng"
+      },
+      {
+        "given": "Feng",
+        "family": "Bao"
+      },
+      {
+        "given": "Qionghai",
+        "family": "Dai"
+      },
+      {
+        "given": "Lani F.",
+        "family": "Wu"
+      },
+      {
+        "given": "Steven J.",
+        "family": "Altschuler"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          6
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfgrpm",
+    "id": "V3nGUaio",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1101/315556"
+  },
+  {
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "6",
+    "DOI": "10.1109/tcbb.2018.2822803",
+    "type": "article-journal",
+    "page": "2089-2100",
+    "source": "Crossref",
+    "title": "Transfer Learning for Molecular Cancer Classification Using Deep Neural Networks",
+    "volume": "16",
+    "author": [
+      {
+        "given": "Rahul K.",
+        "family": "Sevakula"
+      },
+      {
+        "given": "Vikas",
+        "family": "Singh"
+      },
+      {
+        "given": "Nishchal K.",
+        "family": "Verma"
+      },
+      {
+        "given": "Chandan",
+        "family": "Kumar"
+      },
+      {
+        "given": "Yan",
+        "family": "Cui"
+      }
+    ],
+    "container-title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          11,
+          1
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gqzq3p",
+    "container-title-short": "IEEE/ACM Trans. Comput. Biol. and Bioinf.",
+    "PMID": "29993662",
+    "id": "2i0SZtHv",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1109/tcbb.2018.2822803"
+  },
+  {
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "issue": "4995",
+    "DOI": "10.1126/science.1990438",
+    "type": "article-journal",
+    "page": "767-773",
+    "source": "Crossref",
+    "title": "Light-Directed, Spatially Addressable Parallel Chemical Synthesis",
+    "volume": "251",
+    "author": [
+      {
+        "given": "Stephen P. A.",
+        "family": "Fodor"
+      },
+      {
+        "given": "J. Leighton",
+        "family": "Read"
+      },
+      {
+        "given": "Michael C.",
+        "family": "Pirrung"
+      },
+      {
+        "given": "Lubert",
+        "family": "Stryer"
+      },
+      {
+        "given": "Amy Tsai",
+        "family": "Lu"
+      },
+      {
+        "given": "Dennis",
+        "family": "Solas"
+      }
+    ],
+    "container-title": "Science",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1991,
+          2,
+          15
+        ]
+      ]
+    },
+    "URL": "https://doi.org/dw6f5b",
+    "container-title-short": "Science",
+    "PMID": "1990438",
+    "id": "J9zGDTW4",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1126/science.1990438"
+  },
+  {
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "issue": "507",
+    "abstract": "<jats:p>Liquid biopsies have the potential to detect, characterize, and monitor cancers earlier than is possible with conventional approaches.</jats:p>",
+    "DOI": "10.1126/scitranslmed.aay1984",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Applications of liquid biopsies for cancer",
+    "volume": "11",
+    "author": [
+      {
+        "given": "Austin K.",
+        "family": "Mattox"
+      },
+      {
+        "given": "Chetan",
+        "family": "Bettegowda"
+      },
+      {
+        "given": "Shibin",
+        "family": "Zhou"
+      },
+      {
+        "given": "Nickolas",
+        "family": "Papadopoulos"
+      },
+      {
+        "given": "Kenneth W.",
+        "family": "Kinzler"
+      },
+      {
+        "given": "Bert",
+        "family": "Vogelstein"
+      }
+    ],
+    "container-title": "Science Translational Medicine",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          28
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gjsfw9",
+    "container-title-short": "Sci. Transl. Med.",
+    "PMID": "31462507",
+    "id": "7T8Uxprz",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1126/scitranslmed.aay1984"
+  },
+  {
+    "publisher": "American Society for Microbiology",
+    "issue": "2",
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n          <jats:p>Blood transcriptional signatures are promising for tuberculosis (TB) diagnosis but have not been evaluated among U.S. patients. To be used clinically, transcriptional classifiers need reproducible accuracy in diverse populations that vary in genetic composition, disease spectrum and severity, and comorbidities. In a prospective case-control study, we identified novel transcriptional classifiers for active TB among U.S. patients and systematically compared their accuracy to classifiers from published studies. Blood samples from HIV-uninfected U.S. adults with active TB, pneumonia, or latent TB infection underwent whole-transcriptome microarray. We used support vector machines to classify disease state based on transcriptional patterns. We externally validated our classifiers using data from sub-Saharan African cohorts and evaluated previously published transcriptional classifiers in our population. Our classifier distinguishing active TB from pneumonia had an area under the concentration-time curve (AUC) of 96.5% (95.4% to 97.6%) among U.S. patients, but the AUC was lower (90.6% [89.6% to 91.7%]) in HIV-uninfected Sub-Saharan Africans. Previously published comparable classifiers had AUC values of 90.0% (87.7% to 92.3%) and 82.9% (80.8% to 85.1%) when tested in U.S. patients. Our classifier distinguishing active TB from latent TB had AUC values of 95.9% (95.2% to 96.6%) among U.S. patients and 95.3% (94.7% to 96.0%) among Sub-Saharan Africans. Previously published comparable classifiers had AUC values of 98.0% (97.4% to 98.7%) and 94.8% (92.9% to 96.8%) when tested in U.S. patients. Blood transcriptional classifiers accurately detected active TB among U.S. adults. The accuracy of classifiers for active TB versus that of other diseases decreased when tested in new populations with different disease controls, suggesting additional studies are required to enhance generalizability. Classifiers that distinguish active TB from latent TB are accurate and generalizable across populations and can be explored as screening assays.</jats:p>",
+    "DOI": "10.1128/jcm.01990-15",
+    "type": "article-journal",
+    "page": "274-282",
+    "source": "Crossref",
+    "title": "Blood Transcriptional Biomarkers for Active Tuberculosis among Patients in the United States: a Case-Control Study with Systematic Cross-Classifier Evaluation",
+    "volume": "54",
+    "author": [
+      {
+        "given": "Nicholas D.",
+        "family": "Walter"
+      },
+      {
+        "given": "Mikaela A.",
+        "family": "Miller"
+      },
+      {
+        "given": "Joshua",
+        "family": "Vasquez"
+      },
+      {
+        "given": "Marc",
+        "family": "Weiner"
+      },
+      {
+        "given": "Adam",
+        "family": "Chapman"
+      },
+      {
+        "given": "Melissa",
+        "family": "Engle"
+      },
+      {
+        "given": "Michael",
+        "family": "Higgins"
+      },
+      {
+        "given": "Amy M.",
+        "family": "Quinones"
+      },
+      {
+        "given": "Vanessa",
+        "family": "Rosselli"
+      },
+      {
+        "given": "Elizabeth",
+        "family": "Canono"
+      },
+      {
+        "given": "Christina",
+        "family": "Yoon"
+      },
+      {
+        "given": "Adithya",
+        "family": "Cattamanchi"
+      },
+      {
+        "given": "J. Lucian",
+        "family": "Davis"
+      },
+      {
+        "given": "Tzu",
+        "family": "Phang"
+      },
+      {
+        "given": "Robert S.",
+        "family": "Stearman"
+      },
+      {
+        "given": "Gargi",
+        "family": "Datta"
+      },
+      {
+        "given": "Benjamin J.",
+        "family": "Garcia"
+      },
+      {
+        "given": "Charles L.",
+        "family": "Daley"
+      },
+      {
+        "given": "Michael",
+        "family": "Strong"
+      },
+      {
+        "given": "Katerina",
+        "family": "Kechris"
+      },
+      {
+        "given": "Tasha E.",
+        "family": "Fingerlin"
+      },
+      {
+        "given": "Randall",
+        "family": "Reves"
+      },
+      {
+        "given": "Mark W.",
+        "family": "Geraci"
+      }
+    ],
+    "container-title": "Journal of Clinical Microbiology",
+    "language": "en",
+    "editor": [
+      {
+        "given": "G. A.",
+        "family": "Land"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          2
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gqzq2r",
+    "container-title-short": "J Clin Microbiol",
+    "PMCID": "PMC4733166",
+    "PMID": "26582831",
+    "id": "1CNHzMFjN",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1128/jcm.01990-15"
+  },
+  {
+    "publisher": "WORLD SCIENTIFIC",
+    "DOI": "10.1142/9789813207813_0022",
+    "type": "paper-conference",
+    "source": "Crossref",
+    "title": "A DEEP LEARNING APPROACH FOR CANCER DETECTION AND RELEVANT GENE IDENTIFICATION",
+    "author": [
+      {
+        "given": "PADIDEH",
+        "family": "DANAEE"
+      },
+      {
+        "given": "REZA",
+        "family": "GHAEINI"
+      },
+      {
+        "given": "DAVID A.",
+        "family": "HENDRIX"
+      }
+    ],
+    "event": "Proceedings of the Pacific Symposium",
+    "container-title": "Biocomputing 2017",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          11,
+          22
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gqzq5q",
+    "PMCID": "PMC5177447",
+    "PMID": "27896977",
+    "id": "11ZzdspWP",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1142/9789813207813_0022"
+  },
+  {
+    "publisher": "Association for Computing Machinery (ACM)",
+    "issue": "6",
+    "abstract": "<jats:p>We trained a large, deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes. On the test data, we achieved top-1 and top-5 error rates of 37.5% and 17.0%, respectively, which is considerably better than the previous state-of-the-art. The neural network, which has 60 million parameters and 650,000 neurons, consists of five convolutional layers, some of which are followed by max-pooling layers, and three fully connected layers with a final 1000-way softmax. To make training faster, we used non-saturating neurons and a very efficient GPU implementation of the convolution operation. To reduce overfitting in the fully connected layers we employed a recently developed regularization method called \"dropout\" that proved to be very effective. We also entered a variant of this model in the ILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3%, compared to 26.2% achieved by the second-best entry.</jats:p>",
+    "DOI": "10.1145/3065386",
+    "type": "article-journal",
+    "page": "84-90",
+    "source": "Crossref",
+    "title": "ImageNet classification with deep convolutional neural networks",
+    "volume": "60",
+    "author": [
+      {
+        "given": "Alex",
+        "family": "Krizhevsky"
+      },
+      {
+        "given": "Ilya",
+        "family": "Sutskever"
+      },
+      {
+        "given": "Geoffrey E.",
+        "family": "Hinton"
+      }
+    ],
+    "container-title": "Communications of the ACM",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          5,
+          24
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gbhhxs",
+    "container-title-short": "Commun. ACM",
+    "id": "fVSo2gZU",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1145/3065386"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1186/1471-2105-13-69",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Prognostic gene signatures for patient stratification in breast cancer - accuracy, stability and interpretability of gene selection approaches using prior knowledge on protein-protein interactions",
+    "volume": "13",
+    "author": [
+      {
+        "given": "Yupeng",
+        "family": "Cun"
+      },
+      {
+        "given": "Holger",
+        "family": "Fröhlich"
+      }
+    ],
+    "container-title": "BMC Bioinformatics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          5,
+          1
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f4cb5r",
+    "container-title-short": "BMC Bioinformatics",
+    "PMCID": "PMC3436770",
+    "PMID": "22548963",
+    "id": "IHi1L0uN",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1186/1471-2105-13-69"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "S17",
+    "DOI": "10.1186/s12859-018-2465-y",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Application of transfer learning for cancer drug sensitivity prediction",
+    "volume": "19",
+    "author": [
+      {
+        "given": "Saugato Rahman",
+        "family": "Dhruba"
+      },
+      {
+        "given": "Raziur",
+        "family": "Rahman"
+      },
+      {
+        "given": "Kevin",
+        "family": "Matlock"
+      },
+      {
+        "given": "Souparno",
+        "family": "Ghosh"
+      },
+      {
+        "given": "Ranadip",
+        "family": "Pal"
+      }
+    ],
+    "container-title": "BMC Bioinformatics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          12
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gh4mnw",
+    "container-title-short": "BMC Bioinformatics",
+    "PMCID": "PMC6309077",
+    "PMID": "30591023",
+    "id": "17srxvYZd",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1186/s12859-018-2465-y"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1186/s12864-017-3906-0",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "A comprehensive genomic pan-cancer classification using The Cancer Genome Atlas gene expression data",
+    "volume": "18",
+    "author": [
+      {
+        "given": "Yuanyuan",
+        "family": "Li"
+      },
+      {
+        "given": "Kai",
+        "family": "Kang"
+      },
+      {
+        "given": "Juno M.",
+        "family": "Krahn"
+      },
+      {
+        "given": "Nicole",
+        "family": "Croutwater"
+      },
+      {
+        "given": "Kevin",
+        "family": "Lee"
+      },
+      {
+        "given": "David M.",
+        "family": "Umbach"
+      },
+      {
+        "given": "Leping",
+        "family": "Li"
+      }
+    ],
+    "container-title": "BMC Genomics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          7,
+          3
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfv37q",
+    "container-title-short": "BMC Genomics",
+    "PMCID": "PMC5496318",
+    "PMID": "28673244",
+    "id": "jxCyAK09",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1186/s12864-017-3906-0"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>We present recount3, a resource consisting of over 750,000 publicly available human and mouse RNA sequencing (RNA-seq) samples uniformly processed by our new  analysis pipeline. To facilitate access to the data, we provide the  and  R/Bioconductor packages as well as complementary web resources. Using these tools, data can be downloaded as study-level summaries or queried for specific exon-exon junctions, genes, samples, or other features.  can be used to process local and/or private data, allowing results to be directly compared to any study in recount3. Taken together, our tools help biologists maximize the utility of publicly available RNA-seq data, especially to improve their understanding of newly collected data. recount3 is available from <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://rna.recount.bio\">http://rna.recount.bio</jats:ext-link>.</jats:p>",
+    "DOI": "10.1186/s13059-021-02533-6",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "recount3: summaries and queries for large-scale RNA-seq expression and splicing",
+    "volume": "22",
+    "author": [
+      {
+        "given": "Christopher",
+        "family": "Wilks"
+      },
+      {
+        "given": "Shijie C.",
+        "family": "Zheng"
+      },
+      {
+        "given": "Feng Yong",
+        "family": "Chen"
+      },
+      {
+        "given": "Rone",
+        "family": "Charles"
+      },
+      {
+        "given": "Brad",
+        "family": "Solomon"
+      },
+      {
+        "given": "Jonathan P.",
+        "family": "Ling"
+      },
+      {
+        "given": "Eddie Luidy",
+        "family": "Imada"
+      },
+      {
+        "given": "David",
+        "family": "Zhang"
+      },
+      {
+        "given": "Lance",
+        "family": "Joseph"
+      },
+      {
+        "given": "Jeffrey T.",
+        "family": "Leek"
+      },
+      {
+        "given": "Andrew E.",
+        "family": "Jaffe"
+      },
+      {
+        "given": "Abhinav",
+        "family": "Nellore"
+      },
+      {
+        "given": "Leonardo",
+        "family": "Collado-Torres"
+      },
+      {
+        "given": "Kasper D.",
+        "family": "Hansen"
+      },
+      {
+        "given": "Ben",
+        "family": "Langmead"
+      }
+    ],
+    "container-title": "Genome Biology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          29
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gnm7zc",
+    "container-title-short": "Genome Biol",
+    "PMCID": "PMC8628444",
+    "PMID": "34844637",
+    "id": "xdJRSgce",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1186/s13059-021-02533-6"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1186/s13321-017-0232-0",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Beyond the hype: deep neural networks outperform established methods using a ChEMBL bioactivity benchmark set",
+    "volume": "9",
+    "author": [
+      {
+        "given": "Eelke B.",
+        "family": "Lenselink"
+      },
+      {
+        "given": "Niels",
+        "family": "ten Dijke"
+      },
+      {
+        "given": "Brandon",
+        "family": "Bongers"
+      },
+      {
+        "given": "George",
+        "family": "Papadatos"
+      },
+      {
+        "given": "Herman W. T.",
+        "family": "van Vlijmen"
+      },
+      {
+        "given": "Wojtek",
+        "family": "Kowalczyk"
+      },
+      {
+        "given": "Adriaan P.",
+        "family": "IJzerman"
+      },
+      {
+        "given": "Gerard J. P.",
+        "family": "van Westen"
+      }
+    ],
+    "container-title": "Journal of Cheminformatics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          14
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gbwq98",
+    "container-title-short": "J Cheminform",
+    "PMCID": "PMC5555960",
+    "PMID": "29086168",
+    "id": "xSV2BrbO",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1186/s13321-017-0232-0"
+  },
+  {
+    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+    "issue": "16",
+    "abstract": "<jats:sec><jats:title>Objective:</jats:title><jats:p>To examine whether gene expression analysis of a large-scale Parkinson disease (PD) patient cohort produces a robust blood-based PD gene signature compared to previous studies that have used relatively small cohorts (≤220 samples).</jats:p></jats:sec><jats:sec><jats:title>Methods:</jats:title><jats:p>Whole-blood gene expression profiles were collected from a total of 523 individuals. After preprocessing, the data contained 486 gene profiles (n = 205 PD, n = 233 controls, n = 48 other neurodegenerative diseases) that were partitioned into training, validation, and independent test cohorts to identify and validate a gene signature. Batch-effect reduction and cross-validation were performed to ensure signature reliability. Finally, functional and pathway enrichment analyses were applied to the signature to identify PD-associated gene networks.</jats:p></jats:sec><jats:sec><jats:title>Results:</jats:title><jats:p>A gene signature of 100 probes that mapped to 87 genes, corresponding to 64 upregulated and 23 downregulated genes differentiating between patients with idiopathic PD and controls, was identified with the training cohort and successfully replicated in both an independent validation cohort (area under the curve [AUC] = 0.79, <jats:italic>p</jats:italic> = 7.13E–6) and a subsequent independent test cohort (AUC = 0.74, <jats:italic>p</jats:italic> = 4.2E–4). Network analysis of the signature revealed gene enrichment in pathways, including metabolism, oxidation, and ubiquitination/proteasomal activity, and misregulation of mitochondria-localized genes, including downregulation of <jats:italic>COX4I1</jats:italic>, <jats:italic>ATP5A1</jats:italic>, and <jats:italic>VDAC3</jats:italic>.</jats:p></jats:sec><jats:sec><jats:title>Conclusions:</jats:title><jats:p>We present a large-scale study of PD gene expression profiling. This work identifies a reliable blood-based PD signature and highlights the importance of large-scale patient cohorts in developing potential PD biomarkers.</jats:p></jats:sec>",
+    "DOI": "10.1212/wnl.0000000000004516",
+    "type": "article-journal",
+    "page": "1676-1683",
+    "source": "Crossref",
+    "title": "Analysis of blood-based gene expression in idiopathic Parkinson disease",
+    "volume": "89",
+    "author": [
+      {
+        "given": "Ron",
+        "family": "Shamir"
+      },
+      {
+        "given": "Christine",
+        "family": "Klein"
+      },
+      {
+        "given": "David",
+        "family": "Amar"
+      },
+      {
+        "given": "Eva-Juliane",
+        "family": "Vollstedt"
+      },
+      {
+        "given": "Michael",
+        "family": "Bonin"
+      },
+      {
+        "given": "Marija",
+        "family": "Usenovic"
+      },
+      {
+        "given": "Yvette C.",
+        "family": "Wong"
+      },
+      {
+        "given": "Ales",
+        "family": "Maver"
+      },
+      {
+        "given": "Sven",
+        "family": "Poths"
+      },
+      {
+        "given": "Hershel",
+        "family": "Safer"
+      },
+      {
+        "given": "Jean-Christophe",
+        "family": "Corvol"
+      },
+      {
+        "given": "Suzanne",
+        "family": "Lesage"
+      },
+      {
+        "given": "Ofer",
+        "family": "Lavi"
+      },
+      {
+        "given": "Günther",
+        "family": "Deuschl"
+      },
+      {
+        "given": "Gregor",
+        "family": "Kuhlenbaeumer"
+      },
+      {
+        "given": "Heike",
+        "family": "Pawlack"
+      },
+      {
+        "given": "Igor",
+        "family": "Ulitsky"
+      },
+      {
+        "given": "Meike",
+        "family": "Kasten"
+      },
+      {
+        "given": "Olaf",
+        "family": "Riess"
+      },
+      {
+        "given": "Alexis",
+        "family": "Brice"
+      },
+      {
+        "given": "Borut",
+        "family": "Peterlin"
+      },
+      {
+        "given": "Dimitri",
+        "family": "Krainc"
+      }
+    ],
+    "container-title": "Neurology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          15
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gcnb67",
+    "container-title-short": "Neurology",
+    "PMCID": "PMC5644465",
+    "PMID": "28916538",
+    "id": "dx78bdYB",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1212/wnl.0000000000004516"
+  },
+  {
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "1",
+    "DOI": "10.1371/journal.pone.0078644",
+    "type": "article-journal",
+    "page": "e78644",
+    "source": "Crossref",
+    "title": "Comparison of RNA-Seq and Microarray in Transcriptome Profiling of Activated T Cells",
+    "volume": "9",
+    "author": [
+      {
+        "given": "Shanrong",
+        "family": "Zhao"
+      },
+      {
+        "given": "Wai-Ping",
+        "family": "Fung-Leung"
+      },
+      {
+        "given": "Anton",
+        "family": "Bittner"
+      },
+      {
+        "given": "Karen",
+        "family": "Ngo"
+      },
+      {
+        "given": "Xuejun",
+        "family": "Liu"
+      }
+    ],
+    "container-title": "PLoS ONE",
+    "language": "en",
+    "editor": [
+      {
+        "given": "Shu-Dong",
+        "family": "Zhang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          1,
+          16
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f5tvg3",
+    "container-title-short": "PLoS ONE",
+    "PMCID": "PMC3894192",
+    "PMID": "24454679",
+    "id": "ChQys9ED",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1371/journal.pone.0078644"
+  },
+  {
+    "publisher": "Impact Journals, LLC",
+    "issue": "20",
+    "DOI": "10.18632/oncotarget.26773",
+    "type": "article-journal",
+    "page": "1993-2005",
+    "source": "Crossref",
+    "title": "A global immune gene expression signature for human cancers",
+    "volume": "10",
+    "author": [
+      {
+        "given": "Yuexin",
+        "family": "Liu"
+      }
+    ],
+    "container-title": "Oncotarget",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          3,
+          8
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gqzq8j",
+    "container-title-short": "Oncotarget",
+    "PMCID": "PMC6443003",
+    "PMID": "30956779",
+    "id": "Uot2y2ws",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.18632/oncotarget.26773"
+  },
+  {
+    "publisher": "Informa UK Limited",
+    "DOI": "10.2147/idr.s184640",
+    "type": "article-journal",
+    "page": "321-328",
+    "source": "Crossref",
+    "title": "&lt;p&gt;The blood transcriptional signature for active and latent tuberculosis&lt;/p&gt;",
+    "volume": "Volume 12",
+    "author": [
+      {
+        "given": "Min",
+        "family": "Deng"
+      },
+      {
+        "given": "Xiao-Dong",
+        "family": "Lv"
+      },
+      {
+        "given": "Zhi-Xian",
+        "family": "Fang"
+      },
+      {
+        "given": "Xin-Sheng",
+        "family": "Xie"
+      },
+      {
+        "given": "Wen-Yu",
+        "family": "Chen"
+      }
+    ],
+    "container-title": "Infection and Drug Resistance",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          1
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gqzq6v",
+    "container-title-short": "IDR",
+    "PMCID": "PMC6363485",
+    "PMID": "30787624",
+    "id": "fZGWNG2y",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.2147/idr.s184640"
+  },
+  {
+    "type": "article",
+    "id": "14mY2pXKf",
+    "categories": [
+      "Machine Learning (stat.ML)",
+      "Computational Geometry (cs.CG)",
+      "Machine Learning (cs.LG)",
+      "FOS: Computer and information sciences",
+      "FOS: Computer and information sciences"
+    ],
+    "author": [
+      {
+        "family": "McInnes",
+        "given": "Leland"
+      },
+      {
+        "family": "Healy",
+        "given": "John"
+      },
+      {
+        "family": "Melville",
+        "given": "James"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "abstract": "UMAP (Uniform Manifold Approximation and Projection) is a novel manifold learning technique for dimension reduction. UMAP is constructed from a theoretical framework based in Riemannian geometry and algebraic topology. The result is a practical scalable algorithm that applies to real world data. The UMAP algorithm is competitive with t-SNE for visualization quality, and arguably preserves more of the global structure with superior run time performance. Furthermore, UMAP has no computational restrictions on embedding dimension, making it viable as a general purpose dimension reduction technique for machine learning.",
+    "DOI": "10.48550/arxiv.1802.03426",
+    "publisher": "arXiv",
+    "title": "UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction",
+    "URL": "https://doi.org/gqzqzn",
+    "version": "3",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.48550/arxiv.1802.03426"
+  },
+  {
+    "type": "article",
+    "id": "c1tQ2yNq",
+    "categories": [
+      "Computation and Language (cs.CL)",
+      "FOS: Computer and information sciences",
+      "FOS: Computer and information sciences"
+    ],
+    "author": [
+      {
+        "family": "Edunov",
+        "given": "Sergey"
+      },
+      {
+        "family": "Ott",
+        "given": "Myle"
+      },
+      {
+        "family": "Auli",
+        "given": "Michael"
+      },
+      {
+        "family": "Grangier",
+        "given": "David"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "abstract": "An effective method to improve neural machine translation with monolingual data is to augment the parallel training corpus with back-translations of target language sentences. This work broadens the understanding of back-translation and investigates a number of methods to generate synthetic source sentences. We find that in all but resource poor settings back-translations obtained via sampling or noised beam outputs are most effective. Our analysis shows that sampling or noisy synthetic data gives a much stronger training signal than data generated by beam or greedy search. We also compare how synthetic data compares to genuine bitext and study various domain effects. Finally, we scale to hundreds of millions of monolingual sentences and achieve a new state of the art of 35 BLEU on the WMT'14 English-German test set.",
+    "DOI": "10.48550/arxiv.1808.09381",
+    "publisher": "arXiv",
+    "title": "Understanding Back-Translation at Scale",
+    "URL": "https://doi.org/gqzq2v",
+    "version": "2",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.48550/arxiv.1808.09381"
+  },
+  {
+    "id": "12JCi6DKf",
+    "type": "article-journal",
+    "abstract": "We explore an original strategy for building deep networks, based on stacking layers of denoising autoencoders which are trained locally to denoise corrupted versions of their inputs. The resulting algorithm is a straightforward variation on the stacking of ordinary autoencoders. It is however shown on a benchmark of classification problems to yield significantly lower classification error, thus bridging the performance gap with deep belief networks (DBN), and in several cases surpassing it. Higher level representations learnt in this purely unsupervised fashion also help boost the performance of subsequent SVM classifiers. Qualitative experiments show that, contrary to ordinary autoencoders, denoising autoencoders are able to learn Gabor-like edge detectors from natural image patches and larger stroke detectors from digit images. This work clearly establishes the value of using a denoising criterion as a tractable unsupervised objective to guide the learning of useful higher level representations.",
+    "container-title": "Journal of Machine Learning Research",
+    "ISSN": "1533-7928",
+    "issue": "110",
+    "page": "3371-3408",
+    "source": "www.jmlr.org",
+    "title": "Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion",
+    "title-short": "Stacked Denoising Autoencoders",
+    "URL": "http://jmlr.org/papers/v11/vincent10a.html",
+    "volume": "11",
+    "author": [
+      {
+        "family": "Vincent",
+        "given": "Pascal"
+      },
+      {
+        "family": "Larochelle",
+        "given": "Hugo"
+      },
+      {
+        "family": "Lajoie",
+        "given": "Isabelle"
+      },
+      {
+        "family": "Bengio",
+        "given": "Yoshua"
+      },
+      {
+        "family": "Manzagol",
+        "given": "Pierre-Antoine"
       }
     ],
     "accessed": {
@@ -433,43 +6309,48 @@
         [
           "2022",
           10,
-          9
+          10
         ]
       ]
     },
     "issued": {
       "date-parts": [
         [
-          "2020",
-          5,
-          25
+          "2010"
         ]
       ]
     },
-    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://greenelab.github.io/meta-review/"
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://www.jmlr.org/papers/v11/vincent10a.html"
   },
   {
-    "id": "QhC8yJ7V",
-    "type": "article",
-    "note": "QID: Q56458321\nThis CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: wikidata:Q56458321",
-    "source": "Wikidata",
-    "title": "Plan S: Accelerating the transition to full and immediate Open Access to scientific publications",
-    "title-short": "Plan S",
-    "author": [
-      {
-        "family": "S",
-        "given": "cOAlition"
-      }
-    ],
-    "issued": {
+    "URL": "https://www.jstor.org/stable/3647580",
+    "type": "webpage",
+    "id": "IRvPzVVg",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://www.jstor.org/stable/3647580"
+  },
+  {
+    "id": "zipavcIb",
+    "type": "webpage",
+    "abstract": "Browse decades of harmonized childhood cancer data and discover how this multi-species repository accelerates the search for cures.",
+    "container-title": "Refine.bio",
+    "language": "en",
+    "title": "refine.bio",
+    "URL": "https://www.refine.bio",
+    "accessed": {
       "date-parts": [
         [
-          "2018",
-          9,
-          4
+          "2022",
+          10,
+          10
         ]
       ]
     },
-    "URL": "https://www.wikidata.org/wiki/Q56458321"
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://www.refine.bio"
+  },
+  {
+    "URL": "https://www.researchgate.net/publication/281857285_Using_deep_learning_to_enhance_cancer_diagnosis_and_classification",
+    "type": "webpage",
+    "id": "gmzkOu04",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://www.researchgate.net/publication/281857285_Using_deep_learning_to_enhance_cancer_diagnosis_and_classification"
   }
 ]
