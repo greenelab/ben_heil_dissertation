@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Benjamin J. Heil" />
-  <meta name="dcterms.date" content="2022-10-10" />
+  <meta name="dcterms.date" content="2022-10-15" />
   <meta name="keywords" content="machine learning, science of science, reproducibility, citation network analysis" />
   <title>Dissertation Title</title>
   <style>
@@ -44,8 +44,8 @@
   <meta name="citation_title" content="Dissertation Title" />
   <meta property="og:title" content="Dissertation Title" />
   <meta property="twitter:title" content="Dissertation Title" />
-  <meta name="dc.date" content="2022-10-10" />
-  <meta name="citation_publication_date" content="2022-10-10" />
+  <meta name="dc.date" content="2022-10-15" />
+  <meta name="citation_publication_date" content="2022-10-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -62,9 +62,9 @@
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/1ffd883523d4464523e905470bcd95675b0f5e01/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/1ffd883523d4464523e905470bcd95675b0f5e01/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/1ffd883523d4464523e905470bcd95675b0f5e01/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/47a459032f021229595a90f51d3601997dafd65e/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/47a459032f021229595a90f51d3601997dafd65e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/47a459032f021229595a90f51d3601997dafd65e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,10 +81,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://greenelab.github.io/ben_heil_dissertation/v/1ffd883523d4464523e905470bcd95675b0f5e01/">permalink</a>)
+(<a href="https://greenelab.github.io/ben_heil_dissertation/v/47a459032f021229595a90f51d3601997dafd65e/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/greenelab/ben_heil_dissertation/tree/1ffd883523d4464523e905470bcd95675b0f5e01">greenelab/ben_heil_dissertation@1ffd883</a>
-on October 10, 2022.
+from <a href="https://github.com/greenelab/ben_heil_dissertation/tree/47a459032f021229595a90f51d3601997dafd65e">greenelab/ben_heil_dissertation@47a4590</a>
+on October 15, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -318,6 +318,47 @@ In order to get there, however, there are many challenges that need to be addres
 <h3 id="reproducible-research-background">Reproducible research background</h3>
 <h3 id="citation-indices-background">Citation indices background</h3>
 <h3 id="talk-briefly-about-conclusion-chapter-probably-write-this-part-once-its-done">Talk briefly about conclusion chapter (probably write this part once it’s done)</h3>
+<h2 id="citation-index-review">Citation index review</h2>
+<p>Over the past century quantifying the progress of science has become popular.
+Even before computers made it easy to collate information about publications, work had already begun to evaluate papers based on their number of citations <span class="citation" data-cites="dmxNoeYV">[<a href="#ref-dmxNoeYV" role="doc-biblioref">61</a>]</span>.
+There’s even a book about it <span class="citation" data-cites="107JaW2qS">[<a href="#ref-107JaW2qS" role="doc-biblioref">62</a>]</span>.</p>
+<p>Determining the relative “impact” of different authors and journals is a perennial question when measuring science.
+One of the most commonly used metric in this space is the h-index, which balances an authors quantity of publications with the number of citations each one receives <span class="citation" data-cites="qXsETMbA">[<a href="#ref-qXsETMbA" role="doc-biblioref">63</a>]</span>.
+However, the h-index is not a perfect metric <span class="citation" data-cites="1bkadVmO">[<a href="#ref-1bkadVmO" role="doc-biblioref">64</a>]</span>, and has arguably become less useful in recent years <span class="citation" data-cites="OsrIUdWt">[<a href="#ref-OsrIUdWt" role="doc-biblioref">65</a>]</span>.
+Other metrics, like the g-index<span class="citation" data-cites="iDjOlq4q">[<a href="#ref-iDjOlq4q" role="doc-biblioref">66</a>]</span> and the i-10 index (https://scholar.google.com/), try to improve on the h-index by placing a higher weight on more highly cited papers.</p>
+<p>There are metrics for comparing journals as well.
+The Journal Impact Factor <span class="citation" data-cites="TsdAzbxt">[<a href="#ref-TsdAzbxt" role="doc-biblioref">67</a>]</span> is the progenitor journal metric, evaluating journals based on how many citations the average paper in that journal has received over the past few years.
+Other measures use a more network-based approach to quantifying journals’ importance.
+The most common are Eigenfactor and the SCImago Journal Rank, which use variations on the PageRank algorithm to evaluate the importance of various journals <span class="citation" data-cites="qd1dQIcC 2HoOPIDm">[<a href="#ref-qd1dQIcC" role="doc-biblioref">68</a>,<a href="#ref-2HoOPIDm" role="doc-biblioref">69</a>/]</span></p>
+<p>Academic articles are arguably the main building blocks of scientific communication, so it makes sense to try to better understand which ones are the most important.
+Citation count seems like an obvious choice, but differences in citation practices between fields <span class="citation" data-cites="5vaZVhmk">[<a href="#ref-5vaZVhmk" role="doc-biblioref">70</a>]</span> make it too crude a measure of impact.
+Instead, many other metrics have been developed to choose which papers to read.</p>
+<p>Many of these methods work by analyzing the graph formed by treating articles as nodes and citations as edges.
+PageRank<span class="citation" data-cites="12qI3lRcI">[<a href="#ref-12qI3lRcI" role="doc-biblioref">71</a>/]</span>, one of the most influential methods for ranking nodes’ importance in a graph, can also be applied to ranking papers <span class="citation" data-cites="ZiPXgNU5">[<a href="#ref-ZiPXgNU5" role="doc-biblioref">72</a>]</span>.
+It isn’t the only graph-based method though.
+Other methods of centrality such as betweenness centrality would make sense to use, but are prohibitively computationally expensive to run.
+Instead, methods like the disruption index <span class="citation" data-cites="UTLLCTKy">[<a href="#ref-UTLLCTKy" role="doc-biblioref">73</a>]</span> and its variants <span class="citation" data-cites="PGRGcmLi">[<a href="#ref-PGRGcmLi" role="doc-biblioref">74</a>]</span> are more often used.</p>
+<p>Some lines of research try to quanitfy other desirable characteristic of papers.
+For example, Foster et al. claim to measure innovation by looking at papers that create new connections between known chemical entites <span class="citation" data-cites="qT77Z7V">[<a href="#ref-qT77Z7V" role="doc-biblioref">75</a>]</span>.
+Likewise, Wang et al. define novel papers as those that cite papers from unusual combinations of journals <span class="citation" data-cites="RzTov9Er">[<a href="#ref-RzTov9Er" role="doc-biblioref">76</a>]</span>.
+The Altmetric Attention Score (https://www.altmetric.com/) goes even further, measuring the attention on a paper from outside the standard academic channels.</p>
+<p>These metrics don’t stand alone, however.
+Lots of work has gone into improving the various methods by shoring up their weaknesses or normalizing them to make them more comparable across fields.
+The relative citation ratio makes citation counts comparable across fields by normalizing it according to other papers in its neighborhood of the citation network <span class="citation" data-cites="kZI40ZXS">[<a href="#ref-kZI40ZXS" role="doc-biblioref">77</a>]</span>.
+Similarly, the source-normalized impact per paper normalizes the citation count for based on the total number of citations in the whole field <span class="citation" data-cites="11IkPxdIL">[<a href="#ref-11IkPxdIL" role="doc-biblioref">78</a>]</span>.
+Several methods modify PageRank, such as Topical PageRank, which incorporates topic and journal prestige information to the PageRank calculation <span class="citation" data-cites="12CYfIcWF">[<a href="#ref-12CYfIcWF" role="doc-biblioref">79</a>]</span>, and
+Vaccario et al’s page and field rescaled PageRank which accounts for differences between papers’ ages and fields <span class="citation" data-cites="4F5AdeXW">[<a href="#ref-4F5AdeXW" role="doc-biblioref">80</a>]</span>.
+There are also a number of variants of the disruption index <span class="citation" data-cites="PGRGcmLi">[<a href="#ref-PGRGcmLi" role="doc-biblioref">74</a>]</span>.</p>
+<p>Of course, none of these methods would be possible without data to train and evaluate them on.
+We’ve come a long way from Garfield’s “not unreasonable” proposal to manually aggregate one million citations <span class="citation" data-cites="dmxNoeYV">[<a href="#ref-dmxNoeYV" role="doc-biblioref">61</a>]</span>.
+These days we have several datasets with hundreds of millions to billions of references <span class="citation" data-cites="lYMeSzPt 7Hp0BknI 126JIm8me">[<a href="#ref-lYMeSzPt" role="doc-biblioref">81</a>,<a href="#ref-7Hp0BknI" role="doc-biblioref">82</a>,<a href="#ref-126JIm8me" role="doc-biblioref">83</a>]</span>.</p>
+<p>Quantifying science isn’t perfect, however.
+In addition to shortcomings of individual methods <span class="citation" data-cites="1CjuavV0Y DupOCXrp Qd54lMyE">[<a href="#ref-1CjuavV0Y" role="doc-biblioref">84</a>,<a href="#ref-DupOCXrp" role="doc-biblioref">85</a>,<a href="#ref-Qd54lMyE" role="doc-biblioref">86</a>]</span>, there are issues inherent to reducing the process of science to numbers.
+To quote Alfred Korzybski, “the map is not the territory.”
+Metrics of science truly measure quantitative relationships like mean citation counts, despite purporting to reflect “impact”, “disruption”, or “novelty”.
+If we forget that, we can mistake useful tools for arbiters of ground truth.</p>
+<p>In chapter <strong>X</strong>, we dive into one such shortcoming, by demonstrating differences in article PageRanks between fields.
+There we argue that normalizing out field-specific differences obscures useful signal, and propose new directions of research for future citation metrics.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references csl-bib-body" role="doc-bibliography">
@@ -501,6 +542,84 @@ Transformer</strong> <div class="csl-block">Colin Raffel, Noam Shazeer, Adam Rob
 </div>
 <div id="ref-zipavcIb" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">60. </div><div class="csl-right-inline"><strong>refine.bio</strong> <div class="csl-block">Refine.bio</div> <a href="https://www.refine.bio">https://www.refine.bio</a></div>
+</div>
+<div id="ref-dmxNoeYV" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">61. </div><div class="csl-right-inline"><strong>Citation Indexes for Science</strong> <div class="csl-block">Eugene Garfield</div> <em>Science</em> (1955-07-15) <a href="https://doi.org/fnkc4f">https://doi.org/fnkc4f</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1126/science.122.3159.108">10.1126/science.122.3159.108</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/14385826">14385826</a></div></div>
+</div>
+<div id="ref-107JaW2qS" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">62. </div><div class="csl-right-inline"><strong>The science of science</strong> <div class="csl-block">Dashun Wang, Albert-László Barabási</div> <em>Cambridge University Press</em> (2021) <div class="csl-block">ISBN: 9781108492669</div></div>
+</div>
+<div id="ref-qXsETMbA" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">63. </div><div class="csl-right-inline"><strong>An index to quantify an individual's scientific research output</strong> <div class="csl-block">JE Hirsch</div> <em>Proceedings of the National Academy of Sciences</em> (2005-11-07) <a href="https://doi.org/cbq6dz">https://doi.org/cbq6dz</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1073/pnas.0507655102">10.1073/pnas.0507655102</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/16275915">16275915</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1283832">PMC1283832</a></div></div>
+</div>
+<div id="ref-1bkadVmO" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">64. </div><div class="csl-right-inline"><strong>The h -index Debate: An Introduction for Librarians</strong> <div class="csl-block">Cameron Barnes</div> <em>The Journal of Academic Librarianship</em> (2017-11) <a href="https://doi.org/gcjpk2">https://doi.org/gcjpk2</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.acalib.2017.08.013">10.1016/j.acalib.2017.08.013</a></div></div>
+</div>
+<div id="ref-OsrIUdWt" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">65. </div><div class="csl-right-inline"><strong>The h-index is no longer an effective correlate of scientific reputation</strong> <div class="csl-block">Vladlen Koltun, David Hafner</div> <em>PLOS ONE</em> (2021-06-28) <a href="https://doi.org/gkzfnr">https://doi.org/gkzfnr</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pone.0253397">10.1371/journal.pone.0253397</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34181681">34181681</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8238192">PMC8238192</a></div></div>
+</div>
+<div id="ref-iDjOlq4q" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">66. </div><div class="csl-right-inline"><strong>Theory and practise of the g-index</strong> <div class="csl-block">Leo Egghe</div> <em>Scientometrics</em> (2006-10) <a href="https://doi.org/dgj3tc">https://doi.org/dgj3tc</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/s11192-006-0144-7">10.1007/s11192-006-0144-7</a></div></div>
+</div>
+<div id="ref-TsdAzbxt" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">67. </div><div class="csl-right-inline"><strong>New Tools for Improving and Evaluating The Effectiveness of Research</strong> <a href="http://www.garfield.library.upenn.edu/papers/onrpaper.html">http://www.garfield.library.upenn.edu/papers/onrpaper.html</a></div>
+</div>
+<div id="ref-qd1dQIcC" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">68. </div><div class="csl-right-inline"><a href="https://crln.acrl.org/index.php/crlnews/article/viewFile/7804/7804">https://crln.acrl.org/index.php/crlnews/article/viewFile/7804/7804</a></div>
+</div>
+<div id="ref-2HoOPIDm" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">69. </div><div class="csl-right-inline"><strong>Scimago Journal &amp; Country Rank</strong> <a href="https://www.scimagojr.com/">https://www.scimagojr.com/</a></div>
+</div>
+<div id="ref-5vaZVhmk" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">70. </div><div class="csl-right-inline"><strong>A systematic empirical comparison of different approaches for normalizing citation impact indicators</strong> <div class="csl-block">Ludo Waltman, Nees Jan van Eck</div> <em>Journal of Informetrics</em> (2013-10) <a href="https://doi.org/f5jdr5">https://doi.org/f5jdr5</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.joi.2013.08.002">10.1016/j.joi.2013.08.002</a></div></div>
+</div>
+<div id="ref-12qI3lRcI" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">71. </div><div class="csl-right-inline"><strong>The PageRank Citation Ranking: Bringing Order to the Web.</strong> <div class="csl-block">Lawrence Page, Sergey Brin, Rajeev Motwani, Terry Winograd</div> (1999-11-11) <a href="http://ilpubs.stanford.edu:8090/422/">http://ilpubs.stanford.edu:8090/422/</a></div>
+</div>
+<div id="ref-ZiPXgNU5" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">72. </div><div class="csl-right-inline"><strong>Maps of random walks on complex networks reveal community structure</strong> <div class="csl-block">Martin Rosvall, Carl T Bergstrom</div> <em>Proceedings of the National Academy of Sciences</em> (2008-01-29) <a href="https://doi.org/fw5xcm">https://doi.org/fw5xcm</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1073/pnas.0706851105">10.1073/pnas.0706851105</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18216267">18216267</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2234100">PMC2234100</a></div></div>
+</div>
+<div id="ref-UTLLCTKy" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">73. </div><div class="csl-right-inline"><strong>Large teams develop and small teams disrupt science and technology</strong> <div class="csl-block">Lingfei Wu, Dashun Wang, James A Evans</div> <em>Nature</em> (2019-02) <a href="https://doi.org/gfvnb9">https://doi.org/gfvnb9</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41586-019-0941-9">10.1038/s41586-019-0941-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30760923">30760923</a></div></div>
+</div>
+<div id="ref-PGRGcmLi" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">74. </div><div class="csl-right-inline"><strong>Are disruption index indicators convergently valid? The comparison of several indicator variants with assessments by peers</strong> <div class="csl-block">Lutz Bornmann, Sitaram Devarakonda, Alexander Tekles, George Chacko</div> <em>Quantitative Science Studies</em> (2020-08) <a href="https://doi.org/gq2ts5">https://doi.org/gq2ts5</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1162/qss_a_00068">10.1162/qss_a_00068</a></div></div>
+</div>
+<div id="ref-qT77Z7V" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">75. </div><div class="csl-right-inline"><strong>Tradition and Innovation in Scientists’ Research Strategies</strong> <div class="csl-block">Jacob G Foster, Andrey Rzhetsky, James A Evans</div> <em>American Sociological Review</em> (2015-09-01) <a href="https://doi.org/f7tzm5">https://doi.org/f7tzm5</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1177/0003122415601618">10.1177/0003122415601618</a></div></div>
+</div>
+<div id="ref-RzTov9Er" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">76. </div><div class="csl-right-inline"><strong>Bias against novelty in science: A cautionary tale for users of bibliometric indicators</strong> <div class="csl-block">Jian Wang, Reinhilde Veugelers, Paula Stephan</div> <em>Research Policy</em> (2017-10) <a href="https://doi.org/gb22vw">https://doi.org/gb22vw</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.respol.2017.06.006">10.1016/j.respol.2017.06.006</a></div></div>
+</div>
+<div id="ref-kZI40ZXS" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">77. </div><div class="csl-right-inline"><strong>Relative Citation Ratio (RCR): A New Metric That Uses Citation Rates to Measure Influence at the Article Level</strong> <div class="csl-block">BIan Hutchins, Xin Yuan, James M Anderson, George M Santangelo</div> <em>PLOS Biology</em> (2016-09-06) <a href="https://doi.org/f88zk2">https://doi.org/f88zk2</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pbio.1002541">10.1371/journal.pbio.1002541</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27599104">27599104</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5012559">PMC5012559</a></div></div>
+</div>
+<div id="ref-11IkPxdIL" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">78. </div><div class="csl-right-inline"><strong>Measuring contextual citation impact of scientific journals</strong> <div class="csl-block">Henk F Moed</div> <em>Journal of Informetrics</em> (2010-07) <a href="https://doi.org/dpbgj9">https://doi.org/dpbgj9</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.joi.2010.01.002">10.1016/j.joi.2010.01.002</a></div></div>
+</div>
+<div id="ref-12CYfIcWF" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">79. </div><div class="csl-right-inline"><strong>Collective topical PageRank: a model to evaluate the topic-dependent academic impact of scientific papers</strong> <div class="csl-block">Yongjun Zhang, Jialin Ma, Zijian Wang, Bolun Chen, Yongtao Yu</div> <em>Scientometrics</em> (2017-12-23) <a href="https://doi.org/gc4b2s">https://doi.org/gc4b2s</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/s11192-017-2626-1">10.1007/s11192-017-2626-1</a></div></div>
+</div>
+<div id="ref-4F5AdeXW" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">80. </div><div class="csl-right-inline"><strong>Quantifying and suppressing ranking bias in a large citation network</strong> <div class="csl-block">Giacomo Vaccario, Matus Medo, Nicolas Wider, Manuel Sebastian Mariani</div> <em>arXiv</em> (2017-08-30) <a href="https://arxiv.org/abs/1703.08071">https://arxiv.org/abs/1703.08071</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.joi.2017.05.014">10.1016/j.joi.2017.05.014</a></div></div>
+</div>
+<div id="ref-lYMeSzPt" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">81. </div><div class="csl-right-inline"><strong>Clarivate</strong> <a href="https://access.clarivate.com/login?app=wos&amp;alternative=true&amp;shibShireURL=https%3A%2F%2Fwww.webofknowledge.com%2F%3Fauth%3DShibboleth&amp;shibReturnURL=https%3A%2F%2Fwww.webofknowledge.com%2F&amp;roaming=true">https://access.clarivate.com/login?app=wos&amp;alternative=true&amp;shibShireURL=https%3A%2F%2Fwww.webofknowledge.com%2F%3Fauth%3DShibboleth&amp;shibReturnURL=https%3A%2F%2Fwww.webofknowledge.com%2F&amp;roaming=true</a></div>
+</div>
+<div id="ref-7Hp0BknI" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">82. </div><div class="csl-right-inline"><strong>Scopus preview - Scopus - Welcome to Scopus</strong> <a href="https://www.scopus.com/home.uri">https://www.scopus.com/home.uri</a></div>
+</div>
+<div id="ref-126JIm8me" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">83. </div><div class="csl-right-inline"><strong>Software review: COCI, the OpenCitations Index of Crossref open DOI-to-DOI citations</strong> <div class="csl-block">Ivan Heibi, Silvio Peroni, David Shotton</div> <em>Scientometrics</em> (2019-09-14) <a href="https://doi.org/ggzz8b">https://doi.org/ggzz8b</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/s11192-019-03217-6">10.1007/s11192-019-03217-6</a></div></div>
+</div>
+<div id="ref-1CjuavV0Y" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">84. </div><div class="csl-right-inline"><strong>Promise and Pitfalls of Extending Google's PageRank Algorithm to Citation Networks</strong> <div class="csl-block">S Maslov, S Redner</div> <em>Journal of Neuroscience</em> (2008-10-29) <a href="https://doi.org/fsfh8w">https://doi.org/fsfh8w</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1523/jneurosci.0002-08.2008">10.1523/jneurosci.0002-08.2008</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18971452">18971452</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6671494">PMC6671494</a></div></div>
+</div>
+<div id="ref-DupOCXrp" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">85. </div><div class="csl-right-inline"><strong>Standardizing the Evaluation of Scientific and Academic Performance in Neurosurgery—Critical Review of the “h” Index and its Variants</strong> <div class="csl-block">Salah G Aoun, Bernard R Bendok, Rudy J Rahme, Ralph G Dacey Jr., HHunt Batjer</div> <em>World Neurosurgery</em> (2013-11) <a href="https://doi.org/fxtz98">https://doi.org/fxtz98</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.wneu.2012.01.052">10.1016/j.wneu.2012.01.052</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22381859">22381859</a></div></div>
+</div>
+<div id="ref-Qd54lMyE" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">86. </div><div class="csl-right-inline"><strong>UNDERSTANDING THE LIMITATIONS OF THE JOURNAL IMPACT FACTOR</strong> <div class="csl-block">ANDREW P KURMIS</div> <em>The Journal of Bone and Joint Surgery-American Volume</em> (2003-12) <a href="https://doi.org/gh6fph">https://doi.org/gh6fph</a> <div class="csl-block">DOI: <a href="https://doi.org/10.2106/00004623-200312000-00028">10.2106/00004623-200312000-00028</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/14668520">14668520</a></div></div>
 </div>
 </div>
 <!-- default theme -->
