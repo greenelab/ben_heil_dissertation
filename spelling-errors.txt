@@ -1,4 +1,5 @@
 AlexNet
+Altmetric
 arxiv
 autobencoder
 autoencoder
@@ -6,6 +7,7 @@ autoencoders
 autoencoding
 Azarkahlili
 benheil
+betweenness
 cDNA
 contractive
 Danaee
@@ -17,6 +19,8 @@ denoising
 Dhruba
 differentially
 dimensionality
+Eigenfactor
+entites
 exome
 Grewal
 GTEx
@@ -32,15 +36,20 @@ miRNA
 mRNA
 muli
 overfit
+PageRank
+PageRanks
 PCA
 phenotypes
 preprocessing
 pretraining
 proteomics
+quanitfy
 quantile
 ReliefF
+rescaled
 Ruder’s
 SAUCIE
+SCImago
 Sevakula
 silico
 Spearman
@@ -49,6 +58,7 @@ subtype
 SVM
 TCGA
 transcriptome
+Vaccario
 variational
 vivo
 Xiao

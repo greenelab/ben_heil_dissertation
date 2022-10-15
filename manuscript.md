@@ -6,7 +6,7 @@ keywords:
 - reproducibility
 - citation network analysis
 lang: en-US
-date-meta: '2022-10-10'
+date-meta: '2022-10-15'
 author-meta:
 - Benjamin J. Heil
 header-includes: |-
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Dissertation Title" />
   <meta property="og:title" content="Dissertation Title" />
   <meta property="twitter:title" content="Dissertation Title" />
-  <meta name="dc.date" content="2022-10-10" />
-  <meta name="citation_publication_date" content="2022-10-10" />
+  <meta name="dc.date" content="2022-10-15" />
+  <meta name="citation_publication_date" content="2022-10-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -37,9 +37,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/1ffd883523d4464523e905470bcd95675b0f5e01/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/1ffd883523d4464523e905470bcd95675b0f5e01/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/1ffd883523d4464523e905470bcd95675b0f5e01/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/47a459032f021229595a90f51d3601997dafd65e/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/47a459032f021229595a90f51d3601997dafd65e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/47a459032f021229595a90f51d3601997dafd65e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -61,10 +61,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/ben_heil_dissertation/v/1ffd883523d4464523e905470bcd95675b0f5e01/))
+([permalink](https://greenelab.github.io/ben_heil_dissertation/v/47a459032f021229595a90f51d3601997dafd65e/))
 was automatically generated
-from [greenelab/ben_heil_dissertation@1ffd883](https://github.com/greenelab/ben_heil_dissertation/tree/1ffd883523d4464523e905470bcd95675b0f5e01)
-on October 10, 2022.
+from [greenelab/ben_heil_dissertation@47a4590](https://github.com/greenelab/ben_heil_dissertation/tree/47a459032f021229595a90f51d3601997dafd65e)
+on October 15, 2022.
 </em></small>
 
 ## Authors
@@ -95,9 +95,10 @@ on October 10, 2022.
 
 
 
-## Introduction
+## Introduction                                                                                                                                                                                             
+                                                                                                                                                                                                            
+### Overall Intro 
 
-### Overall Intro
 
 
 ### Linear models background
@@ -363,6 +364,62 @@ In order to get there, however, there are many challenges that need to be addres
 
 
 ### Talk briefly about conclusion chapter (probably write this part once it's done)
+
+
+
+## Citation index review
+
+Over the past century quantifying the progress of science has become popular.
+Even before computers made it easy to collate information about publications, work had already begun to evaluate papers based on their number of citations [@doi:10.1126/science.122.3159.108].
+There's even a book about it [@isbn:1108492665].
+
+Determining the relative "impact" of different authors and journals is a perennial question when measuring science.
+One of the most commonly used metric in this space is the h-index, which balances an authors quantity of publications with the number of citations each one receives [@doi:10.1073/pnas.0507655102]. 
+However, the h-index is not a perfect metric [@doi:10.1016/j.acalib.2017.08.013], and has arguably become less useful in recent years [@doi:10.1371/journal.pone.0253397].
+Other metrics, like the g-index[@doi:10.1007/s11192-006-0144-7] and the i-10 index (https://scholar.google.com/), try to improve on the h-index by placing a higher weight on more highly cited papers.
+
+There are metrics for comparing journals as well.
+The Journal Impact Factor [@url:http://www.garfield.library.upenn.edu/papers/onrpaper.html] is the progenitor journal metric, evaluating journals based on how many citations the average paper in that journal has received over the past few years.
+Other measures use a more network-based approach to quantifying journals' importance.
+The most common are Eigenfactor and the SCImago Journal Rank, which use variations on the PageRank algorithm to evaluate the importance of various journals [@url:https://crln.acrl.org/index.php/crlnews/article/viewFile/7804/7804; @url:https://www.scimagojr.com/]
+
+Academic articles are arguably the main building blocks of scientific communication, so it makes sense to try to better understand which ones are the most important.
+Citation count seems like an obvious choice, but differences in citation practices between fields [@doi:10.1016/j.joi.2013.08.002] make it too crude a measure of impact.
+Instead, many other metrics have been developed to choose which papers to read.
+
+Many of these methods work by analyzing the graph formed by treating articles as nodes and citations as edges.
+PageRank[@url:http://ilpubs.stanford.edu:8090/422/], one of the most influential methods for ranking nodes' importance in a graph, can also be applied to ranking papers [@doi:10.1073/pnas.0706851105].
+It isn't the only graph-based method though.
+Other methods of centrality such as betweenness centrality would make sense to use, but are prohibitively computationally expensive to run.
+Instead, methods like the disruption index [@doi:10.1038/s41586-019-0941-9] and its variants [@doi:10.1162/qss_a_00068] are more often used.
+
+Some lines of research try to quanitfy other desirable characteristic of papers.
+For example, Foster et al. claim to measure innovation by looking at papers that create new connections between known chemical entites [@doi:10.1177/0003122415601618].
+Likewise, Wang et al. define novel papers as those that cite papers from unusual combinations of journals [@doi:10.1016/j.respol.2017.06.006].
+The Altmetric Attention Score (https://www.altmetric.com/) goes even further, measuring the attention on a paper from outside the standard academic channels.
+
+These metrics don't stand alone, however.
+Lots of work has gone into improving the various methods by shoring up their weaknesses or normalizing them to make them more comparable across fields.
+The relative citation ratio makes citation counts comparable across fields by normalizing it according to other papers in its neighborhood of the citation network [@doi:10.1371/journal.pbio.1002541].
+Similarly, the source-normalized impact per paper normalizes the citation count for based on the total number of citations in the whole field [@doi:10.1016/j.joi.2010.01.002].
+Several methods modify PageRank, such as Topical PageRank, which incorporates topic and journal prestige information to the PageRank calculation [@doi:10.1007/s11192-017-2626-1], and 
+Vaccario et al's page and field rescaled PageRank which accounts for differences between papers' ages and fields [@arxiv:1703.08071].
+There are also a number of variants of the disruption index [@doi:10.1162/qss_a_00068].
+
+Of course, none of these methods would be possible without data to train and evaluate them on.
+We've come a long way from Garfield's "not unreasonable" proposal to manually aggregate one million citations [@doi:10.1126/science.122.3159.108].
+These days we have several datasets with hundreds of millions to billions of references [@url:https://www.webofknowledge.com; @url:https://www.scopus.com; @doi:10.1007/s11192-019-03217-6].
+
+Quantifying science isn't perfect, however.
+In addition to shortcomings of individual methods [@doi:10.1523/JNEUROSCI.0002-08.2008; @doi:10.1016/j.wneu.2012.01.052; @doi:10.2106/00004623-200312000-00028], there are issues inherent to reducing the process of science to numbers.
+To quote Alfred Korzybski, "the map is not the territory." 
+Metrics of science truly measure quantitative relationships like mean citation counts, despite purporting to reflect "impact", "disruption", or "novelty".
+If we forget that, we can mistake useful tools for arbiters of ground truth.
+
+In chapter **X**, we dive into one such shortcoming, by demonstrating differences in article PageRanks between fields.
+There we argue that normalizing out field-specific differences obscures useful signal, and propose new directions of research for future citation metrics.
+
+
 
 
 ## References {.page_break_before}
