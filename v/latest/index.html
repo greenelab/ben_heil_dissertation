@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Benjamin J. Heil" />
-  <meta name="dcterms.date" content="2022-10-15" />
+  <meta name="dcterms.date" content="2022-10-22" />
   <meta name="keywords" content="machine learning, science of science, reproducibility, citation network analysis" />
   <title>Dissertation Title</title>
   <style>
@@ -44,8 +44,8 @@
   <meta name="citation_title" content="Dissertation Title" />
   <meta property="og:title" content="Dissertation Title" />
   <meta property="twitter:title" content="Dissertation Title" />
-  <meta name="dc.date" content="2022-10-15" />
-  <meta name="citation_publication_date" content="2022-10-15" />
+  <meta name="dc.date" content="2022-10-22" />
+  <meta name="citation_publication_date" content="2022-10-22" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -62,9 +62,9 @@
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/47a459032f021229595a90f51d3601997dafd65e/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/47a459032f021229595a90f51d3601997dafd65e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/47a459032f021229595a90f51d3601997dafd65e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/b8b85f2a89b77ad707e9d2a21de2c3161945b5a6/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/b8b85f2a89b77ad707e9d2a21de2c3161945b5a6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/b8b85f2a89b77ad707e9d2a21de2c3161945b5a6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,10 +81,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://greenelab.github.io/ben_heil_dissertation/v/47a459032f021229595a90f51d3601997dafd65e/">permalink</a>)
+(<a href="https://greenelab.github.io/ben_heil_dissertation/v/b8b85f2a89b77ad707e9d2a21de2c3161945b5a6/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/greenelab/ben_heil_dissertation/tree/47a459032f021229595a90f51d3601997dafd65e">greenelab/ben_heil_dissertation@47a4590</a>
-on October 15, 2022.
+from <a href="https://github.com/greenelab/ben_heil_dissertation/tree/b8b85f2a89b77ad707e9d2a21de2c3161945b5a6">greenelab/ben_heil_dissertation@b8b85f2</a>
+on October 22, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -359,6 +359,22 @@ Metrics of science truly measure quantitative relationships like mean citation c
 If we forget that, we can mistake useful tools for arbiters of ground truth.</p>
 <p>In chapter <strong>X</strong>, we dive into one such shortcoming, by demonstrating differences in article PageRanks between fields.
 There we argue that normalizing out field-specific differences obscures useful signal, and propose new directions of research for future citation metrics.</p>
+<h2 id="reproducibility-intro">Reproducibility intro</h2>
+<h3 id="what-is-computational-reproducibility">What is computational reproducibility</h3>
+<p>We’ll use the definition “the ability to recreate computational results from the data and code used by the original researcher” (http://stodden.net/icerm_report.pdf)</p>
+<h3 id="why-does-it-matter">Why does it matter?</h3>
+<p>Oreskes why trust science: consensus is key to science being reliable <span class="citation" data-cites="1oH3MHiP">[<a href="#ref-1oH3MHiP" role="doc-biblioref">87</a>]</span></p>
+<p>Excellent reproducibility for scientific computing review <span class="citation" data-cites="JWFp2M7z">[<a href="#ref-JWFp2M7z" role="doc-biblioref">88</a>]</span></p>
+<p>Preclinical studies for drug development could be replicated in only 10-25% of cases <span class="citation" data-cites="FsxIdYsZ yWY8AHZe">[<a href="#ref-FsxIdYsZ" role="doc-biblioref">89</a>,<a href="#ref-yWY8AHZe" role="doc-biblioref">90</a>]</span></p>
+<p>Similarly, only about 50% of ACM papers were able to be built from their source code (http://repeatability.cs.arizona.edu/v2/RepeatabilityTR.pdf)</p>
+<p>Allows remixing (mention alphafold example)</p>
+<p>Lack of reproducibility could cause a lack of trust in science <span class="citation" data-cites="80e7T2Rv">[<a href="#ref-80e7T2Rv" role="doc-biblioref">91</a>]</span></p>
+<h3 id="what-can-be-done">What can be done?</h3>
+<p>Document well, write code for ease of executability, and make code deterministic <span class="citation" data-cites="HkqScnJs">[<a href="#ref-HkqScnJs" role="doc-biblioref">92</a>]</span></p>
+<p>Maybe we should create a central repository of data and code used in research like we have a repository for articles in PubMed Central <span class="citation" data-cites="tPSSxxsX">[<a href="#ref-tPSSxxsX" role="doc-biblioref">93</a>]</span>.
+The field of machine learning has something similar in Papers with Code (https://paperswithcode.com/), a website where you can browse only the machine learning preprints and papers that have associated code.</p>
+<p>Executable papers (CITE distil.pub, ELife)</p>
+<p>In chapter X, we give our own recommendations for ways to make machine learning research in the life sciences reproducible.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references csl-bib-body" role="doc-bibliography">
@@ -620,6 +636,28 @@ Transformer</strong> <div class="csl-block">Colin Raffel, Noam Shazeer, Adam Rob
 </div>
 <div id="ref-Qd54lMyE" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">86. </div><div class="csl-right-inline"><strong>UNDERSTANDING THE LIMITATIONS OF THE JOURNAL IMPACT FACTOR</strong> <div class="csl-block">ANDREW P KURMIS</div> <em>The Journal of Bone and Joint Surgery-American Volume</em> (2003-12) <a href="https://doi.org/gh6fph">https://doi.org/gh6fph</a> <div class="csl-block">DOI: <a href="https://doi.org/10.2106/00004623-200312000-00028">10.2106/00004623-200312000-00028</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/14668520">14668520</a></div></div>
+</div>
+<div id="ref-1oH3MHiP" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">87. </div><div class="csl-right-inline"><strong>Why trust science?</strong> <div class="csl-block">Naomi Oreskes</div> <em>Princeton University Press</em> (2021) <div class="csl-block">ISBN: 9780691212265</div></div>
+</div>
+<div id="ref-JWFp2M7z" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">88. </div><div class="csl-right-inline"><strong>Reproducibility in Scientific Computing</strong> <div class="csl-block">Peter Ivie, Douglas Thain</div> <em>ACM Computing Surveys</em> (2019-05-31) <a href="https://doi.org/ggcqvn">https://doi.org/ggcqvn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1145/3186266">10.1145/3186266</a></div></div>
+</div>
+<div id="ref-FsxIdYsZ" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">89. </div><div class="csl-right-inline"><strong>Raise standards for preclinical cancer research</strong> <div class="csl-block">CGlenn Begley, Lee M Ellis</div> <em>Nature</em> (2012-03-28) <a href="https://doi.org/gd3xdh">https://doi.org/gd3xdh</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/483531a">10.1038/483531a</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22460880">22460880</a></div></div>
+</div>
+<div id="ref-yWY8AHZe" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">90. </div><div class="csl-right-inline"><strong>Believe it or not: how much can we rely on published data on potential drug targets?</strong> <div class="csl-block">Florian Prinz, Thomas Schlange, Khusru Asadullah</div> <em>Nature Reviews Drug Discovery</em> (2011-08-31) <a href="https://doi.org/dfsxxb">https://doi.org/dfsxxb</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nrd3439-c1">10.1038/nrd3439-c1</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21892149">21892149</a></div></div>
+</div>
+<div id="ref-80e7T2Rv" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">91. </div><div class="csl-right-inline"><strong>Editors’ Introduction to the Special Section on Replicability in Psychological Science</strong> <div class="csl-block">Harold Pashler, Eric–Jan Wagenmakers</div> <em>Perspectives on Psychological Science</em> (2012-11) <a href="https://doi.org/gckf56">https://doi.org/gckf56</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1177/1745691612465253">10.1177/1745691612465253</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26168108">26168108</a></div></div>
+</div>
+<div id="ref-HkqScnJs" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">92. </div><div class="csl-right-inline"><strong>Learning from reproducing computational results: introducing three principles and the
+&lt;i&gt;Reproduction Package&lt;/i&gt;</strong> <div class="csl-block">MS Krafczyk, A Shi, A Bhaskar, D Marinov, V Stodden</div> <em>Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences</em> (2021-03-29) <a href="https://doi.org/gmgpgz">https://doi.org/gmgpgz</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1098/rsta.2020.0069">10.1098/rsta.2020.0069</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33775145">33775145</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8059663">PMC8059663</a></div></div>
+</div>
+<div id="ref-tPSSxxsX" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">93. </div><div class="csl-right-inline"><strong>Reproducible Research in Computational Science</strong> <div class="csl-block">Roger D Peng</div> <em>Science</em> (2011-12-02) <a href="https://doi.org/fdv356">https://doi.org/fdv356</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1126/science.1213847">10.1126/science.1213847</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22144613">22144613</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3383002">PMC3383002</a></div></div>
 </div>
 </div>
 <!-- default theme -->
