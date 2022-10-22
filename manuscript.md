@@ -6,7 +6,7 @@ keywords:
 - reproducibility
 - citation network analysis
 lang: en-US
-date-meta: '2022-10-15'
+date-meta: '2022-10-22'
 author-meta:
 - Benjamin J. Heil
 header-includes: |-
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Dissertation Title" />
   <meta property="og:title" content="Dissertation Title" />
   <meta property="twitter:title" content="Dissertation Title" />
-  <meta name="dc.date" content="2022-10-15" />
-  <meta name="citation_publication_date" content="2022-10-15" />
+  <meta name="dc.date" content="2022-10-22" />
+  <meta name="citation_publication_date" content="2022-10-22" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -37,9 +37,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/47a459032f021229595a90f51d3601997dafd65e/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/47a459032f021229595a90f51d3601997dafd65e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/47a459032f021229595a90f51d3601997dafd65e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/b8b85f2a89b77ad707e9d2a21de2c3161945b5a6/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/b8b85f2a89b77ad707e9d2a21de2c3161945b5a6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/b8b85f2a89b77ad707e9d2a21de2c3161945b5a6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -61,10 +61,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/ben_heil_dissertation/v/47a459032f021229595a90f51d3601997dafd65e/))
+([permalink](https://greenelab.github.io/ben_heil_dissertation/v/b8b85f2a89b77ad707e9d2a21de2c3161945b5a6/))
 was automatically generated
-from [greenelab/ben_heil_dissertation@47a4590](https://github.com/greenelab/ben_heil_dissertation/tree/47a459032f021229595a90f51d3601997dafd65e)
-on October 15, 2022.
+from [greenelab/ben_heil_dissertation@b8b85f2](https://github.com/greenelab/ben_heil_dissertation/tree/b8b85f2a89b77ad707e9d2a21de2c3161945b5a6)
+on October 22, 2022.
 </em></small>
 
 ## Authors
@@ -420,6 +420,37 @@ In chapter **X**, we dive into one such shortcoming, by demonstrating difference
 There we argue that normalizing out field-specific differences obscures useful signal, and propose new directions of research for future citation metrics.
 
 
+## Reproducibility intro
+
+### What is computational reproducibility
+
+We'll use the definition "the ability to recreate computational results from the data and code used by the original researcher" (http://stodden.net/icerm_report.pdf)
+
+### Why does it matter?
+Oreskes why trust science: consensus is key to science being reliable [@isbn:9780691179001]
+
+Excellent reproducibility for scientific computing review [@doi:10.1145/3186266]
+
+Preclinical studies for drug development could be replicated in only 10-25% of cases [@doi:10.1038/483531a; @doi:10.1038/nrd3439-c1]
+
+Similarly, only about 50% of ACM papers were able to be built from their source code (http://repeatability.cs.arizona.edu/v2/RepeatabilityTR.pdf)
+
+Allows remixing (mention alphafold example)
+
+Lack of reproducibility could cause a lack of trust in science [@doi:10.1177/1745691612465253]
+
+
+
+### What can be done?
+
+Document well, write code for ease of executability, and make code deterministic [@doi:10.1098/rsta.2020.0069]
+
+Maybe we should create a central repository of data and code used in research like we have a repository for articles in PubMed Central [@doi:10.1126/science.1213847].
+The field of machine learning has something similar in Papers with Code (https://paperswithcode.com/), a website where you can browse only the machine learning preprints and papers that have associated code.
+
+Executable papers (CITE distil.pub, ELife)
+
+In chapter X, we give our own recommendations for ways to make machine learning research in the life sciences reproducible.
 
 
 ## References {.page_break_before}
