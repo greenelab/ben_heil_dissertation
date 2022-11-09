@@ -1,6 +1,5 @@
 ACM
 AlexNet
-alphafold
 Altmetric
 arxiv
 autobencoder
@@ -32,6 +31,8 @@ Heil
 hyperparameter
 hyperparameters
 interpretable
+irreproducible
+Ivie
 KNN
 LINCS
 microarray
@@ -45,7 +46,10 @@ PageRank
 PageRanks
 PCA
 phenotypes
-Preclinical
+philisophical
+PLIER
+Popperian
+preclinical
 preprints
 preprocessing
 pretraining
@@ -61,10 +65,12 @@ SCImago
 Sevakula
 silico
 Spearman
+Stodden
 subsetting
 subtype
 SVM
 TCGA
+Thain’s
 transcriptome
 Vaccario
 variational

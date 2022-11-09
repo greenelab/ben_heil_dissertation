@@ -6,7 +6,7 @@ keywords:
 - reproducibility
 - citation network analysis
 lang: en-US
-date-meta: '2022-10-22'
+date-meta: '2022-11-09'
 author-meta:
 - Benjamin J. Heil
 header-includes: |-
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Dissertation Title" />
   <meta property="og:title" content="Dissertation Title" />
   <meta property="twitter:title" content="Dissertation Title" />
-  <meta name="dc.date" content="2022-10-22" />
-  <meta name="citation_publication_date" content="2022-10-22" />
+  <meta name="dc.date" content="2022-11-09" />
+  <meta name="citation_publication_date" content="2022-11-09" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -37,9 +37,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/b8b85f2a89b77ad707e9d2a21de2c3161945b5a6/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/b8b85f2a89b77ad707e9d2a21de2c3161945b5a6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/b8b85f2a89b77ad707e9d2a21de2c3161945b5a6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/f08350c4c78b1a54b746178a192c3d866fa6b735/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/f08350c4c78b1a54b746178a192c3d866fa6b735/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/f08350c4c78b1a54b746178a192c3d866fa6b735/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -61,10 +61,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/ben_heil_dissertation/v/b8b85f2a89b77ad707e9d2a21de2c3161945b5a6/))
+([permalink](https://greenelab.github.io/ben_heil_dissertation/v/f08350c4c78b1a54b746178a192c3d866fa6b735/))
 was automatically generated
-from [greenelab/ben_heil_dissertation@b8b85f2](https://github.com/greenelab/ben_heil_dissertation/tree/b8b85f2a89b77ad707e9d2a21de2c3161945b5a6)
-on October 22, 2022.
+from [greenelab/ben_heil_dissertation@f08350c](https://github.com/greenelab/ben_heil_dissertation/tree/f08350c4c78b1a54b746178a192c3d866fa6b735)
+on November 9, 2022.
 </em></small>
 
 ## Authors
@@ -191,6 +191,9 @@ They selected the LINCS 1000 gene set [@doi:10.1016/j.cell.2017.10.049] for an i
 
 Gene subsets can be based on prior knowledge of gene regulatory networks as well [@doi:10.1093/bioinformatics/btu272; @doi:10.1038/s41598-018-19635-0].
 While very interpretable, these methods do not necessarily lead to increased performance in phenotype predictions [@doi:10.1186/1471-2105-13-69].
+However, such methods can be useful in their own right.
+PLIER (and the associated MultiPLIER framework) use prior knowledge genes to guide the latent variables learned by a matrix factorization technique [@doi:10.1038/s41592-019-0456-1; @doi:10.1016/j.cels.2019.04.003].
+The resulting latent variables can then be used in differential expression analyses in lieu of raw gene counts, allowing dimensionality reduction while guiding the learned variables towards biological relevance.
 
 Selecting gene subsets via a heuristic or a machine learning model is also popular.
 Sevakula et al. use decision stumps to select features then use a stacked autoencoder-type architecture to further compress the representation [@doi:10.1109/TCBB.2018.2822803].
@@ -424,22 +427,33 @@ There we argue that normalizing out field-specific differences obscures useful s
 
 ### What is computational reproducibility
 
-We'll use the definition "the ability to recreate computational results from the data and code used by the original researcher" (http://stodden.net/icerm_report.pdf)
+Reproducibility is a topic often discussed in scientific circles, and it means different things to different people [@doi:10.1190/1.1822162; @doi:10.1373/clinchem.2017.279984; @doi:10.1126/scitranslmed.aaf5027; @doi:10.1101/066803; @doi:10.3389/fninf.2017.00076; @doi:10.1109/MCSE.2009.15].
+For the sake of clarity, we'll operate from Stodden et al's definition "the ability to recreate computational results from the data and code used by the original researcher" (http://stodden.net/icerm_report.pdf).
+We would like to add one caveat though.
+The language surrounding reproducibility is often binary, as in "reproducible research" or "an irreproducible paper". 
+In reality, reproducibility falls on a sliding scale based on how long it takes a scientist to reproduce a work. 
+For poorly specified work, it could take forever as the conditions that allowed the research will never happen again.
+For extremely high quality research, it could take a scientist only seconds of their time to press the "run" button on the original authors' code and get the same results.
 
 ### Why does it matter?
-Oreskes why trust science: consensus is key to science being reliable [@isbn:9780691179001]
+Now that we've defined what reproducibility is, we can discuss why it matters.
+In her book "Why Trust Science?", Naomi Oreskes argues the answer to the eponymous question is that the process of coming to a consensus is what makes science trustworthy [@isbn:9780691179001].
+In a world where all papers take forever to reproduce, it would be challenging to come to the consensus required to do trustworthy science.
 
-Excellent reproducibility for scientific computing review [@doi:10.1145/3186266]
+Another way of viewing the scientific method is the Popperian idea of falsifiable theories [@isbn:0415278449].
+Theories are constructed from evidence and from reproduction of the same findings about the world.
+If a theory can't be reproduced, then it can't be supported or proven false, and isn't science under Popper's definition [@doi:10.1109/MS.2018.2883805].
 
-Preclinical studies for drug development could be replicated in only 10-25% of cases [@doi:10.1038/483531a; @doi:10.1038/nrd3439-c1]
-
+Those points are fairly philisophical though.
+If you're looking for a discussion of concrete impacts of failures in computational reproducibility, we recommend Ivie and Thain's review paper [@doi:10.1145/3186266].
+They point out that in the biological domain preclinical drug development studies could be replicated in only 10-25% of cases [@doi:10.1038/483531a; @doi:10.1038/nrd3439-c1].
 Similarly, only about 50% of ACM papers were able to be built from their source code (http://repeatability.cs.arizona.edu/v2/RepeatabilityTR.pdf)
+In general, lack of reproducibility could cause a lack of trust in science [@doi:10.1177/1745691612465253]
 
-Allows remixing (mention alphafold example)
-
-Lack of reproducibility could cause a lack of trust in science [@doi:10.1177/1745691612465253]
-
-
+Reproducibility isn't all about preventing bad things from happening though.
+Having code that is easy to run helps verify that code is bug-free, and makes it easier for the original author to run in the future.
+It also allows remixing research code, leading to greater accessibility of scientific research.
+Because the authors working on latent diffusion models for image synthesis made their code available, others quickly created an optimized version allowing those without a powerful GPU to run it [@arxiv:2112.10752; https://github.com/CompVis/stable-diffusion; https://github.com/basujindal/stable-diffusion/]
 
 ### What can be done?
 
