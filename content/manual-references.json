@@ -115,33 +115,5 @@
     }
   ]
 },
-{
-"publisher": "Proceedings of the Conference Sponsored by the Office of Naval Research",
-    "type": "article-journal",
-    "page": "135-146",
-    "id": "jif",
-    "title": "New Tools for Improving and Evaluating The Effectiveness of Research",
-    "author": [
-      {
-        "given": "Irving H.",
-        "family": "Sher"
-      },
-      {
-        "given": "Eugene",
-        "family": "Garfield"
-      }
-    ],
-    "container-title": "Research Program Effectiveness",
-    "language": "en",
-    "issued": {
-      "date-parts": [
-        [
-          1965,
-          6,
-          27
-        ]
-      ]
-    }
-},
 
 ]
