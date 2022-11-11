@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/greenelab/ben_heil_dissertation/tree/gh-pages) branch hosts the contents of this directory at <https://greenelab.github.io/ben_heil_dissertation/>.
-The permalink for this webpage version is <https://greenelab.github.io/ben_heil_dissertation/v/f08350c4c78b1a54b746178a192c3d866fa6b735/>.
+The permalink for this webpage version is <https://greenelab.github.io/ben_heil_dissertation/v/31459aeeebb56220f8d5ce8a6c8301590aff4028/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://greenelab.github.io/ben_heil_dissertation/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`f08350c4c78b1a54b746178a192c3d866fa6b735`](https://github.com/greenelab/ben_heil_dissertation/commit/f08350c4c78b1a54b746178a192c3d866fa6b735).
+[`31459aeeebb56220f8d5ce8a6c8301590aff4028`](https://github.com/greenelab/ben_heil_dissertation/commit/31459aeeebb56220f8d5ce8a6c8301590aff4028).
