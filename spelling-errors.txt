@@ -25,6 +25,7 @@ ELife
 entites
 executability
 exome
+fakoor
 Grewal
 GTEx
 Heil
@@ -72,6 +73,7 @@ SVM
 TCGA
 Thain’s
 transcriptome
+transcriptomics
 Vaccario
 variational
 vivo

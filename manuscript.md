@@ -6,7 +6,7 @@ keywords:
 - reproducibility
 - citation network analysis
 lang: en-US
-date-meta: '2022-11-09'
+date-meta: '2022-11-11'
 author-meta:
 - Benjamin J. Heil
 header-includes: |-
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Dissertation Title" />
   <meta property="og:title" content="Dissertation Title" />
   <meta property="twitter:title" content="Dissertation Title" />
-  <meta name="dc.date" content="2022-11-09" />
-  <meta name="citation_publication_date" content="2022-11-09" />
+  <meta name="dc.date" content="2022-11-11" />
+  <meta name="citation_publication_date" content="2022-11-11" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -37,9 +37,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/f08350c4c78b1a54b746178a192c3d866fa6b735/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/f08350c4c78b1a54b746178a192c3d866fa6b735/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/f08350c4c78b1a54b746178a192c3d866fa6b735/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/31459aeeebb56220f8d5ce8a6c8301590aff4028/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/31459aeeebb56220f8d5ce8a6c8301590aff4028/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/31459aeeebb56220f8d5ce8a6c8301590aff4028/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -47,6 +47,8 @@ header-includes: |-
   <meta name="theme-color" content="#ad1457" />
   <!-- end Manubot generated metadata -->
 bibliography:
+- content/manual-references-hgp.json
+- content/manual-references-indices.json
 - content/manual-references.json
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
@@ -61,10 +63,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/ben_heil_dissertation/v/f08350c4c78b1a54b746178a192c3d866fa6b735/))
+([permalink](https://greenelab.github.io/ben_heil_dissertation/v/31459aeeebb56220f8d5ce8a6c8301590aff4028/))
 was automatically generated
-from [greenelab/ben_heil_dissertation@f08350c](https://github.com/greenelab/ben_heil_dissertation/tree/f08350c4c78b1a54b746178a192c3d866fa6b735)
-on November 9, 2022.
+from [greenelab/ben_heil_dissertation@31459ae](https://github.com/greenelab/ben_heil_dissertation/tree/31459aeeebb56220f8d5ce8a6c8301590aff4028)
+on November 11, 2022.
 </em></small>
 
 ## Authors
@@ -97,19 +99,79 @@ on November 9, 2022.
 
 ## Introduction                                                                                                                                                                                             
                                                                                                                                                                                                             
-### Overall Intro 
+As computational biologists, we live in exciting times.
+Beginning with the Human Genome Project [@doi:10.1038/35057062] advancements in various technologies for biological quantification have generated data with a scale and granularity previously unimaginable [@doi:10.1016/j.cell.2015.05.002; @doi:10.7554/eLife.21856; @doi:10.1101/gad.281964.116].
+
+Concurrently with the skyrocketing amounts of data in computational biology, the advent of deep learning has generated methods designed specifically to make sense of large, complex datasets.
+These methods have led to a paradigm shift in the field of machine learning, creating new possibilities in many fields and surfacing new phenomena unexplained by classical machine learning theory [@doi:10.1038/nature16961; @arxiv:2112.10752; @arxiv:1912.02292; @arxiv:2201.02177].
+
+The field of computational biology has long used traditional machine learning methods, as they help cope with the scale of the data being generated.
+Accordingly, problem domains in computational biology that map well to existing research in deep learning have adopted or developed deep learning models and seen great advances [@doi:10.1007/978-3-319-24574-4_28; @doi:10.1038/s41586-021-03819-2].
+
+This dissertation explores the question of whether the paradigm shift in machine learning will spill over to computational biology.
+That is to say have deep learning techniques fundamentally changed the field of computational biology, or are they (sometimes large) incremental improvements over existing methods?
+Our thesis is that while deep learning provides us with useful tools for analyzing biological datasets, it doesn't necessarily change the field on a fundamental level.
+
+We begin with a few sections giving background information on previous research for the main thesis chapters.
+We then move to chapter 2, which discusses standards necessary to ensure research done with deep learning is reproducible.
+We continue to Chapter 3, where we find that deep learning models may not be helpful in analyzing expression data.
+In chapters 4 and 5 we demonstrate that classical machine learning methods already allow scientists to uncover knowledge from large datasets.
+Finally, in chapter 6 we conclude by discussing the implications of the previous chapters and their potential future directions.
+
+
+## Reproducibility intro
+
+### What is computational reproducibility
+
+Reproducibility is a topic often discussed in scientific circles, and it means different things to different people [@doi:10.1190/1.1822162; @doi:10.1373/clinchem.2017.279984; @doi:10.1126/scitranslmed.aaf5027; @doi:10.1101/066803; @doi:10.3389/fninf.2017.00076; @doi:10.1109/MCSE.2009.15].
+For the sake of clarity, we'll operate from Stodden et al's definition "the ability to recreate computational results from the data and code used by the original researcher" (http://stodden.net/icerm_report.pdf).
+We would like to add one caveat though.
+The language surrounding reproducibility is often binary, as in "reproducible research" or "an irreproducible paper". 
+In reality, reproducibility falls on a sliding scale based on how long it takes a scientist to reproduce a work. 
+For poorly specified work, it could take forever as the conditions that allowed the research will never happen again.
+For extremely high quality research, it could take a scientist only seconds of their time to press the "run" button on the original authors' code and get the same results.
+
+### Why does it matter?
+Now that we've defined what reproducibility is, we can discuss why it matters.
+In her book "Why Trust Science?", Naomi Oreskes argues the answer to the eponymous question is that the process of coming to a consensus is what makes science trustworthy [@isbn:9780691179001].
+In a world where all papers take forever to reproduce, it would be challenging to come to the consensus required to do trustworthy science.
+
+Another way of viewing the scientific method is the Popperian idea of falsifiable theories [@isbn:0415278449].
+Theories are constructed from evidence and from reproduction of the same findings about the world.
+If a theory can't be reproduced, then it can't be supported or proven false, and isn't science under Popper's definition [@doi:10.1109/MS.2018.2883805].
+
+Those points are fairly philisophical though.
+If you're looking for a discussion of concrete impacts of failures in computational reproducibility, we recommend Ivie and Thain's review paper [@doi:10.1145/3186266].
+They point out that in the biological domain preclinical drug development studies could be replicated in only 10-25% of cases [@doi:10.1038/483531a; @doi:10.1038/nrd3439-c1].
+Similarly, only about 50% of ACM papers were able to be built from their source code [@doi:10.1145/2812803].
+In general, lack of reproducibility could cause a lack of trust in science [@doi:10.1177/1745691612465253].
+
+Reproducibility isn't all about preventing bad things from happening though.
+Having code that is easy to run helps verify that code is bug-free, and makes it easier for the original author to run in the future.
+It also allows remixing research code, leading to greater accessibility of scientific research.
+Because the authors working on latent diffusion models for image synthesis made their code available, others quickly created an optimized version allowing those without a powerful GPU to run it [@arxiv:2112.10752; https://github.com/CompVis/stable-diffusion; https://github.com/basujindal/stable-diffusion/]
+
+### What can be done?
+
+Document well, write code for ease of executability, and make code deterministic [@doi:10.1098/rsta.2020.0069].
+
+Maybe we should create a central repository of data and code used in research like we have a repository for articles in PubMed Central [@doi:10.1126/science.1213847].
+The field of machine learning has something similar in Papers with Code (https://paperswithcode.com/), a website where you can browse only the machine learning preprints and papers that have associated code.
+
+Executable papers (CITE distil.pub, ELife)
+
+In chapter X, we give our own recommendations for ways to make machine learning research in the life sciences reproducible.
 
 
 
-### Linear models background
+### Background: Applications of machine learning in transcriptomics
 
-#### Disease prediction review
 The human transcriptome provides a rich source of information about both healthy and disease states.
 Not only is gene expression information useful for learning novel biological phenomena, it can also be used to diagnose and predict diseases.
 These predictions have become more powerful in recent years as the field of machine learning has developed more methods.
-In this paper we review supervised machine learning methods applied to predict various phenotypes from gene expression, 
+In this section we review machine learning methods applied to predict various phenotypes from gene expression, 
 with a focus on the challenges in the field and what is being done to overcome them.
-We close the review with potential areas for future research, as well as our perspectives on the strengths and weaknesses of supervised learning for phenotype prediction.
+We close the review with potential areas for future research, as well as our perspectives on the strengths and weaknesses of supervised learning for phenotype prediction in particular.
 
 **Introduction**  
 Over the past few decades a number of tools for measuring gene expression have been developed.
@@ -204,16 +266,16 @@ More recently, Li et al. used a genetic algorithm for feature selection [@doi:10
 Not all papers use a subset of the original genes in their analysis, however.
 It is fairly common in recent years for authors to transform the data into a new lower dimensional space based on various metrics.
 This used to be done via principle component analysis (PCA), a method that performs a linear transformation to
-maximize the variance explained by a reduced number of dimensions [@doi:10.1016/j.compbiomed.2014.09.008; @url:https://www.researchgate.net/publication/281857285_Using_deep_learning_to_enhance_cancer_diagnosis_and_classification].
+maximize the variance explained by a reduced number of dimensions [@doi:10.1016/j.compbiomed.2014.09.008; @fakoor2013].
 Now scientists typically use different types of autoencoders, which learn a nonlinear mapping from the original space to a space with fewer dimensions.
-Deepathology uses variational [@arxiv:1312.6114] and contractive [@doi:10.1007/978-3-642-23783-6_41] autoencoders in their model [@doi:10.1038/s41598-019-52937-5], while Danaee et al. used a stacked denoising autoencoder [@url:https://www.jmlr.org/papers/v11/vincent10a.html; @doi:10.1142/9789813207813_0022].
+Deepathology uses variational [@arxiv:1312.6114] and contractive [@doi:10.1007/978-3-642-23783-6_41] autoencoders in their model [@doi:10.1038/s41598-019-52937-5], while Danaee et al. used a stacked denoising autoencoder [@vincent2010; @doi:10.1142/9789813207813_0022].
 Both papers compared their autoencoder dimensionality reduction to that of PCA and found that it performed better.
 Danaee found that kernel PCA, a nonlinear version of PCA performed equivalently though.
 
 It is also possible to use regularization methods to perform dimensionality reduction.
 While they do not influence the nominal dimensionality of the data, they reduce the effective dimensionality by putting constraints on the input data or the model.
 For example, SAUCIE uses an autoencoder structure, but combines it with a number of exotic regularization methods to further decrease the effective dimensionality of their data [@doi:10.1038/s41592-019-0576-7].
-In DeepType, Chen et al. use a more conventional elastic net regularization [@url:https://www.jstor.org/stable/3647580] to induce sparsity in the first level of their network under the assumption that most genes’ expression will not affect a cancer’s subtype [@doi:10.1093/bioinformatics/btz769].
+In DeepType, Chen et al. use a more conventional elastic net regularization [@zou2005] to induce sparsity in the first level of their network under the assumption that most genes’ expression will not affect a cancer’s subtype [@doi:10.1093/bioinformatics/btz769].
 
 Ultimately, there is no clear consensus in which dimensionality reduction methods perform the best.
 Among the methods that transform the data there is a small amount of evidence that nonlinear transformations outperform linear ones, but only a few studies have tried both.
@@ -342,7 +404,7 @@ While several studies in this review have analyzed multitask learning, there is 
 Testing various methods from Sebastian Ruder’s multitask learning review paper could help find a heuristic for how similar phenotypes should be in multitask learning [@arxiv:1706.05098].
 
 For the most part the studies in this review either learn how to diagnose a specific phenotype with a small dataset, or learn more classes by studying TCGA data.
-We believe that there is an opportunity for datasets to be created from Recount3 and Refine.bio [@doi:10.1186/s13059-021-02533-6; @url:https://www.refine.bio] data that would be able to predict phenotypes other than just cancer on a large dataset.
+We believe that there is an opportunity for datasets to be created from Refine.bio (https://www.refine.bio/) and Recount3 [@doi:10.1186/s13059-021-02533-6] data that would be able to predict phenotypes other than just cancer on a large dataset.
 The consistent preprocessing for these resources makes their gene expression data much easier to use with machine learning methods.
 
 **Conclusion and Perspectives**  
@@ -382,16 +444,16 @@ However, the h-index is not a perfect metric [@doi:10.1016/j.acalib.2017.08.013]
 Other metrics, like the g-index[@doi:10.1007/s11192-006-0144-7] and the i-10 index (https://scholar.google.com/), try to improve on the h-index by placing a higher weight on more highly cited papers.
 
 There are metrics for comparing journals as well.
-The Journal Impact Factor [@url:http://www.garfield.library.upenn.edu/papers/onrpaper.html] is the progenitor journal metric, evaluating journals based on how many citations the average paper in that journal has received over the past few years.
+The Journal Impact Factor [@jif] is the progenitor journal metric, evaluating journals based on how many citations the average paper in that journal has received over the past few years.
 Other measures use a more network-based approach to quantifying journals' importance.
-The most common are Eigenfactor and the SCImago Journal Rank, which use variations on the PageRank algorithm to evaluate the importance of various journals [@url:https://crln.acrl.org/index.php/crlnews/article/viewFile/7804/7804; @url:https://www.scimagojr.com/]
+The most common are Eigenfactor [@eigenfactor] and the SCImago Journal Rank (https://www.scimagojr.com/), which use variations on the PageRank algorithm to evaluate the importance of various journals. 
 
 Academic articles are arguably the main building blocks of scientific communication, so it makes sense to try to better understand which ones are the most important.
 Citation count seems like an obvious choice, but differences in citation practices between fields [@doi:10.1016/j.joi.2013.08.002] make it too crude a measure of impact.
 Instead, many other metrics have been developed to choose which papers to read.
 
 Many of these methods work by analyzing the graph formed by treating articles as nodes and citations as edges.
-PageRank[@url:http://ilpubs.stanford.edu:8090/422/], one of the most influential methods for ranking nodes' importance in a graph, can also be applied to ranking papers [@doi:10.1073/pnas.0706851105].
+PageRank[@pagerank], one of the most influential methods for ranking nodes' importance in a graph, can also be applied to ranking papers [@doi:10.1073/pnas.0706851105].
 It isn't the only graph-based method though.
 Other methods of centrality such as betweenness centrality would make sense to use, but are prohibitively computationally expensive to run.
 Instead, methods like the disruption index [@doi:10.1038/s41586-019-0941-9] and its variants [@doi:10.1162/qss_a_00068] are more often used.
@@ -411,7 +473,7 @@ There are also a number of variants of the disruption index [@doi:10.1162/qss_a_
 
 Of course, none of these methods would be possible without data to train and evaluate them on.
 We've come a long way from Garfield's "not unreasonable" proposal to manually aggregate one million citations [@doi:10.1126/science.122.3159.108].
-These days we have several datasets with hundreds of millions to billions of references [@url:https://www.webofknowledge.com; @url:https://www.scopus.com; @doi:10.1007/s11192-019-03217-6].
+These days we have several datasets with hundreds of millions to billions of references (https://www.webofknowledge.com, https://www.scopus.com  @doi:10.1007/s11192-019-03217-6).
 
 Quantifying science isn't perfect, however.
 In addition to shortcomings of individual methods [@doi:10.1523/JNEUROSCI.0002-08.2008; @doi:10.1016/j.wneu.2012.01.052; @doi:10.2106/00004623-200312000-00028], there are issues inherent to reducing the process of science to numbers.
@@ -421,50 +483,6 @@ If we forget that, we can mistake useful tools for arbiters of ground truth.
 
 In chapter **X**, we dive into one such shortcoming, by demonstrating differences in article PageRanks between fields.
 There we argue that normalizing out field-specific differences obscures useful signal, and propose new directions of research for future citation metrics.
-
-
-## Reproducibility intro
-
-### What is computational reproducibility
-
-Reproducibility is a topic often discussed in scientific circles, and it means different things to different people [@doi:10.1190/1.1822162; @doi:10.1373/clinchem.2017.279984; @doi:10.1126/scitranslmed.aaf5027; @doi:10.1101/066803; @doi:10.3389/fninf.2017.00076; @doi:10.1109/MCSE.2009.15].
-For the sake of clarity, we'll operate from Stodden et al's definition "the ability to recreate computational results from the data and code used by the original researcher" (http://stodden.net/icerm_report.pdf).
-We would like to add one caveat though.
-The language surrounding reproducibility is often binary, as in "reproducible research" or "an irreproducible paper". 
-In reality, reproducibility falls on a sliding scale based on how long it takes a scientist to reproduce a work. 
-For poorly specified work, it could take forever as the conditions that allowed the research will never happen again.
-For extremely high quality research, it could take a scientist only seconds of their time to press the "run" button on the original authors' code and get the same results.
-
-### Why does it matter?
-Now that we've defined what reproducibility is, we can discuss why it matters.
-In her book "Why Trust Science?", Naomi Oreskes argues the answer to the eponymous question is that the process of coming to a consensus is what makes science trustworthy [@isbn:9780691179001].
-In a world where all papers take forever to reproduce, it would be challenging to come to the consensus required to do trustworthy science.
-
-Another way of viewing the scientific method is the Popperian idea of falsifiable theories [@isbn:0415278449].
-Theories are constructed from evidence and from reproduction of the same findings about the world.
-If a theory can't be reproduced, then it can't be supported or proven false, and isn't science under Popper's definition [@doi:10.1109/MS.2018.2883805].
-
-Those points are fairly philisophical though.
-If you're looking for a discussion of concrete impacts of failures in computational reproducibility, we recommend Ivie and Thain's review paper [@doi:10.1145/3186266].
-They point out that in the biological domain preclinical drug development studies could be replicated in only 10-25% of cases [@doi:10.1038/483531a; @doi:10.1038/nrd3439-c1].
-Similarly, only about 50% of ACM papers were able to be built from their source code (http://repeatability.cs.arizona.edu/v2/RepeatabilityTR.pdf)
-In general, lack of reproducibility could cause a lack of trust in science [@doi:10.1177/1745691612465253]
-
-Reproducibility isn't all about preventing bad things from happening though.
-Having code that is easy to run helps verify that code is bug-free, and makes it easier for the original author to run in the future.
-It also allows remixing research code, leading to greater accessibility of scientific research.
-Because the authors working on latent diffusion models for image synthesis made their code available, others quickly created an optimized version allowing those without a powerful GPU to run it [@arxiv:2112.10752; https://github.com/CompVis/stable-diffusion; https://github.com/basujindal/stable-diffusion/]
-
-### What can be done?
-
-Document well, write code for ease of executability, and make code deterministic [@doi:10.1098/rsta.2020.0069]
-
-Maybe we should create a central repository of data and code used in research like we have a repository for articles in PubMed Central [@doi:10.1126/science.1213847].
-The field of machine learning has something similar in Papers with Code (https://paperswithcode.com/), a website where you can browse only the machine learning preprints and papers that have associated code.
-
-Executable papers (CITE distil.pub, ELife)
-
-In chapter X, we give our own recommendations for ways to make machine learning research in the life sciences reproducible.
 
 
 ## References {.page_break_before}
