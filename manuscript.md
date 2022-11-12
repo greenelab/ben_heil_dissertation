@@ -6,7 +6,7 @@ keywords:
 - reproducibility
 - citation network analysis
 lang: en-US
-date-meta: '2022-11-11'
+date-meta: '2022-11-12'
 author-meta:
 - Benjamin J. Heil
 header-includes: |-
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Dissertation Title" />
   <meta property="og:title" content="Dissertation Title" />
   <meta property="twitter:title" content="Dissertation Title" />
-  <meta name="dc.date" content="2022-11-11" />
-  <meta name="citation_publication_date" content="2022-11-11" />
+  <meta name="dc.date" content="2022-11-12" />
+  <meta name="citation_publication_date" content="2022-11-12" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -37,9 +37,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/31459aeeebb56220f8d5ce8a6c8301590aff4028/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/31459aeeebb56220f8d5ce8a6c8301590aff4028/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/31459aeeebb56220f8d5ce8a6c8301590aff4028/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/f19a5a7bb3dc3d0d11e1b9f3358c0c1566a8e10f/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/f19a5a7bb3dc3d0d11e1b9f3358c0c1566a8e10f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/f19a5a7bb3dc3d0d11e1b9f3358c0c1566a8e10f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,10 +63,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/ben_heil_dissertation/v/31459aeeebb56220f8d5ce8a6c8301590aff4028/))
+([permalink](https://greenelab.github.io/ben_heil_dissertation/v/f19a5a7bb3dc3d0d11e1b9f3358c0c1566a8e10f/))
 was automatically generated
-from [greenelab/ben_heil_dissertation@31459ae](https://github.com/greenelab/ben_heil_dissertation/tree/31459aeeebb56220f8d5ce8a6c8301590aff4028)
-on November 11, 2022.
+from [greenelab/ben_heil_dissertation@f19a5a7](https://github.com/greenelab/ben_heil_dissertation/tree/f19a5a7bb3dc3d0d11e1b9f3358c0c1566a8e10f)
+on November 12, 2022.
 </em></small>
 
 ## Authors
@@ -119,9 +119,9 @@ In chapters 4 and 5 we demonstrate that classical machine learning methods alrea
 Finally, in chapter 6 we conclude by discussing the implications of the previous chapters and their potential future directions.
 
 
-## Reproducibility intro
+## Background: Reproducibility
 
-### What is computational reproducibility
+#### What is computational reproducibility
 
 Reproducibility is a topic often discussed in scientific circles, and it means different things to different people [@doi:10.1190/1.1822162; @doi:10.1373/clinchem.2017.279984; @doi:10.1126/scitranslmed.aaf5027; @doi:10.1101/066803; @doi:10.3389/fninf.2017.00076; @doi:10.1109/MCSE.2009.15].
 For the sake of clarity, we'll operate from Stodden et al's definition "the ability to recreate computational results from the data and code used by the original researcher" (http://stodden.net/icerm_report.pdf).
@@ -131,7 +131,7 @@ In reality, reproducibility falls on a sliding scale based on how long it takes 
 For poorly specified work, it could take forever as the conditions that allowed the research will never happen again.
 For extremely high quality research, it could take a scientist only seconds of their time to press the "run" button on the original authors' code and get the same results.
 
-### Why does it matter?
+#### Why does it matter?
 Now that we've defined what reproducibility is, we can discuss why it matters.
 In her book "Why Trust Science?", Naomi Oreskes argues the answer to the eponymous question is that the process of coming to a consensus is what makes science trustworthy [@isbn:9780691179001].
 In a world where all papers take forever to reproduce, it would be challenging to come to the consensus required to do trustworthy science.
@@ -151,16 +151,14 @@ Having code that is easy to run helps verify that code is bug-free, and makes it
 It also allows remixing research code, leading to greater accessibility of scientific research.
 Because the authors working on latent diffusion models for image synthesis made their code available, others quickly created an optimized version allowing those without a powerful GPU to run it [@arxiv:2112.10752; https://github.com/CompVis/stable-diffusion; https://github.com/basujindal/stable-diffusion/]
 
-### What can be done?
+#### What can be done?
 
-Document well, write code for ease of executability, and make code deterministic [@doi:10.1098/rsta.2020.0069].
-
-Maybe we should create a central repository of data and code used in research like we have a repository for articles in PubMed Central [@doi:10.1126/science.1213847].
-The field of machine learning has something similar in Papers with Code (https://paperswithcode.com/), a website where you can browse only the machine learning preprints and papers that have associated code.
-
-Executable papers (CITE distil.pub, ELife)
-
-In chapter X, we give our own recommendations for ways to make machine learning research in the life sciences reproducible.
+The question remains: what can be done to increase the reproducibility of scientific work?
+Krafczyk et al. argue that the keys are to document well, write code for ease of executability, and make code deterministic.
+Alternatively, we could create a central repository of data and code used in research like we have a repository for articles in PubMed Central [@doi:10.1126/science.1213847].
+In fact, the field of machine learning has something similar in Papers with Code (https://paperswithcode.com/), a website where you can browse only the machine learning preprints and papers that have associated code.
+The epitome of reproducibility is probably something like executable papers a la Distill (https://distill.pub/) or eLife's Executable Research Articles [@tsang2020].
+In chapter 2, we discuss options to make machine learning research in the life sciences reproducible in more depth, and give our own recommendations.
 
 
 
@@ -483,6 +481,37 @@ If we forget that, we can mistake useful tools for arbiters of ground truth.
 
 In chapter **X**, we dive into one such shortcoming, by demonstrating differences in article PageRanks between fields.
 There we argue that normalizing out field-specific differences obscures useful signal, and propose new directions of research for future citation metrics.
+
+
+## Conclusion
+
+Reiterate work done and thesis
+
+### The scale of data
+
+Biological data (or at least transcriptomic data) isn't actually that big.
+The largest uniformly processed compendia of bulk human expression data are on the order of hundreds of thousands of samples.
+Meanwhile in machine learning, even before deep learning took off ImageNet already have more than three million images [@doi:10.1109/CVPR.2009.5206848].
+
+Worse, many biological domains have strict upper bounds on the amount of data available.
+Even if you somehow recruited the entire world for a study you'd still only be able to collect around eight billion human genomes.
+Given the complexity of biology it seems unlikely that "only" eight billion geneomes would be sufficient to effectively sample the space of plausible relevant mutations in the human genome.
+Based on recent research into neural network scaling laws [@arxiv:2203.15556] and machine learning intuition, it seems likely that Rich Sutton's "Bitter Lesson" (http://www.incompleteideas.net/IncIdeas/BitterLesson.html) would break down in a domain where there is a hard cap on the available data.
+
+This isn't true of all domains though; expression is more variable, so you can get a much larger sample size
+Maybe talk about automation/Recursion model
+
+While we've shown that deep learning hasn't lead to a paradigm shift in computational biology so far, will that always be true? 
+As with many scientific questions, the answer is probably "it depends".
+While there may be caps on individual aspects of biological data, there are always more angles of attack.
+
+The promise of multiomics has always been that multiple views of the same system may reveal something that no single view picks up.
+The challenge is that the data types are different, their relationships are not well-characterized, and the methods for working in such a system haven't been fully developed yet.
+Transformer architectures, and more specifically their self-attention mechanism seem like a good fit for learning relationships between different 'omes.
+Such models are data hungry though, and self-attention gets expensive in problems with high dimensionality.
+Perhaps one day we'll have the data and compute to train multiomic biological transformers.
+Maybe by that point the state of the art in machine learning will have moved along rendering that point moot.
+
 
 
 ## References {.page_break_before}

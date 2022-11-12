@@ -1,4 +1,3 @@
-content/02.introduction.md:4:eLife
 content/02.introduction.md:6:datasets
 content/02.introduction.md:7:arxiv
 content/02.introduction.md:7:arxiv
@@ -25,9 +24,12 @@ content/03.reproducibility-review.md:25:ACM
 content/03.reproducibility-review.md:26:reproducibility
 content/03.reproducibility-review.md:28:Reproducibility
 content/03.reproducibility-review.md:31:arxiv
-content/03.reproducibility-review.md:35:executability
+content/03.reproducibility-review.md:35:reproducibility
+content/03.reproducibility-review.md:36:executability
+content/03.reproducibility-review.md:36:Krafczyk
 content/03.reproducibility-review.md:38:preprints
-content/03.reproducibility-review.md:40:ELife
+content/03.reproducibility-review.md:39:eLife's
+content/03.reproducibility-review.md:39:reproducibility
 content/04.expression-prediction-review.md:2:transcriptomics
 content/04.expression-prediction-review.md:4:transcriptome
 content/04.expression-prediction-review.md:7:phenotypes
@@ -193,3 +195,12 @@ content/05.citation-index-review.md:38:rescaled
 content/05.citation-index-review.md:38:Vaccario
 content/05.citation-index-review.md:43:datasets
 content/05.citation-index-review.md:51:PageRanks
+content/50.conclusion.md:7:transcriptomic
+content/50.conclusion.md:8:compendia
+content/50.conclusion.md:9:ImageNet
+content/50.conclusion.md:13:geneomes
+content/50.conclusion.md:14:arxiv
+content/50.conclusion.md:23:multiomics
+content/50.conclusion.md:25:omes
+content/50.conclusion.md:26:dimensionality
+content/50.conclusion.md:27:multiomic
