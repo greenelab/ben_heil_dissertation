@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Benjamin J. Heil" />
-  <meta name="dcterms.date" content="2022-11-12" />
+  <meta name="dcterms.date" content="2022-11-14" />
   <meta name="keywords" content="machine learning, science of science, reproducibility, citation network analysis" />
   <title>Dissertation Title</title>
   <style>
@@ -44,8 +44,8 @@
   <meta name="citation_title" content="Dissertation Title" />
   <meta property="og:title" content="Dissertation Title" />
   <meta property="twitter:title" content="Dissertation Title" />
-  <meta name="dc.date" content="2022-11-12" />
-  <meta name="citation_publication_date" content="2022-11-12" />
+  <meta name="dc.date" content="2022-11-14" />
+  <meta name="citation_publication_date" content="2022-11-14" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -62,9 +62,9 @@
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/f19a5a7bb3dc3d0d11e1b9f3358c0c1566a8e10f/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/f19a5a7bb3dc3d0d11e1b9f3358c0c1566a8e10f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/f19a5a7bb3dc3d0d11e1b9f3358c0c1566a8e10f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/3ddd800e44db097ce2421e5be4d096a1ae11e943/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/3ddd800e44db097ce2421e5be4d096a1ae11e943/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/3ddd800e44db097ce2421e5be4d096a1ae11e943/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,10 +81,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://greenelab.github.io/ben_heil_dissertation/v/f19a5a7bb3dc3d0d11e1b9f3358c0c1566a8e10f/">permalink</a>)
+(<a href="https://greenelab.github.io/ben_heil_dissertation/v/3ddd800e44db097ce2421e5be4d096a1ae11e943/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/greenelab/ben_heil_dissertation/tree/f19a5a7bb3dc3d0d11e1b9f3358c0c1566a8e10f">greenelab/ben_heil_dissertation@f19a5a7</a>
-on November 12, 2022.
+from <a href="https://github.com/greenelab/ben_heil_dissertation/tree/3ddd800e44db097ce2421e5be4d096a1ae11e943">greenelab/ben_heil_dissertation@3ddd800</a>
+on November 14, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -406,18 +406,50 @@ Metrics of science truly measure quantitative relationships like mean citation c
 If we forget that, we can mistake useful tools for arbiters of ground truth.</p>
 <p>In chapter <strong>X</strong>, we dive into one such shortcoming, by demonstrating differences in article PageRanks between fields.
 There we argue that normalizing out field-specific differences obscures useful signal, and propose new directions of research for future citation metrics.</p>
-<h2 id="conclusion">Conclusion</h2>
-<p>Reiterate work done and thesis</p>
-<h3 id="the-scale-of-data">The scale of data</h3>
+<h2 id="future-directions">Future directions</h2>
+<p>In this dissertation, we have examined whether deep learning has led to a paradigm shift in computational biology.
+We established standards for reproducible research when using deep learning models in chapter 2, showed that deep learning isn’t always preferable to other techniques in chapter 3, then demonstrated the effectiveness of classical ml methods in chapters 4 and 5.
+Ultimately we came to the conclusion that while deep learning has been a useful tool in some areas, it ultimately has not led to a paradigm shift in computational biology.
+However, deep learning models’ impact may grow as the fields develop, so we’d like to discuss future areas where we expect interesting developments to happen.</p>
+<h3 id="deep-learning-representations-of-biology">Deep learning representations of biology</h3>
+<p>Different areas of computational biology research have seen different effects from deep learning.
+Deep learning has already had a large impact on biomedical imaging <span class="citation" data-cites="o78W9pGh">[<a href="#ref-o78W9pGh" role="doc-biblioref">106</a>]</span>, and seems poised to do so in protein structure <span class="citation" data-cites="yZfcMIwh">[<a href="#ref-yZfcMIwh" role="doc-biblioref">10</a>]</span>.
+These advances were likely successful because of their similarity to well-researched fields in that they can be framed as similar problems.
+Biomedical images aren’t exactly the same as those from a normal camera, but the inductive bias of translational equivariance and various image augmentation methods are still applicable.
+Similarly, while protein sequences may not seem to share much with written language, models like RNNs and transformers that look at input as a sequence of tokens don’t care whether those tokens are words or amino acids.</p>
+<p>Not all subfields of computational biology have convenient ways to represent their data though.
+Gene expression in particular is difficult because of its high dimensionality.
+Expression data doesn’t have spatial locality to take advantage of, so convolutional networks can’t be used to ignore it.
+It’s not a series of tokens either; the genes in an expression dataset are listed lexicographically so their order doesn’t have meaning.
+Self-attention seems well-suited for for gene expression since learning which subsets of genes interact with others would be useful.
+The high dimensionality makes vanilla self-attention infeasible though, due to the quadratic scaling.
+You can’t even sidestep the issue with standard dimensionality reduction methods without losing predictive performance.</p>
+<p>Do any deep learning representations work for gene expression then?
+Fully-connected networks work, though they don’t tend to be the best way to accomplish most tasks.
+An interesting potential direction of research would be to apply sparse self-attention methods to gene expression data and reduce the number of comparisons made by only attending within prior knowledge gene sets.
+Alternatively, because expression is often thought of in terms of coregulation networks or sets of genes with shared functions a graph representation may be more suitable.
+It’s also possible that someone will develop a representation specifically for gene expression that will work better than anything we know about today.</p>
+<h3 id="to-what-extent-is-biology-limited-by-challenges-in-looking-at-the-data">To what extent is biology limited by challenges in looking at the data</h3>
+<p>An important first step when working with data is to look at it.
+In images of generated text, a human can make a judgement on how good generated data is.
+In the classification world, a human labeler can look at an image and say “that is a dog” or a sentence and say “that is grammatically correct english.”
+While these labels are somewhat fuzzy, a group of humans can at least look at the label and say “that is reasonable” or “that is mislabeled.”
+A human looking at a gene expression microarray, or a table of RNA-seq counts is unable to do the same.</p>
+<p>Our brains are built to recognize objects, not parse gene expression perturbations corresponding to septic shock.
+This issue isn’t insurmountable; scientists are able to do research in quantum physics after all.
+It simply serves as hinderence on our ability to sanity check data.
+Because we can’t see whether the relevant signals are distorted by batch effect normalization or a preprocessing step.
+Perhaps in the future, as we understand more about the relevant biology, scientists will be able to create views of the data that are more human-intuitive and easier to use.</p>
+<h3 id="the-scale-of-biological-data">The scale of biological data</h3>
 <p>Biological data (or at least transcriptomic data) isn’t actually that big.
 The largest uniformly processed compendia of bulk human expression data are on the order of hundreds of thousands of samples.
-Meanwhile in machine learning, even before deep learning took off ImageNet already have more than three million images <span class="citation" data-cites="lt4BNUoG">[<a href="#ref-lt4BNUoG" role="doc-biblioref">106</a>]</span>.</p>
+Meanwhile in machine learning, even before deep learning took off ImageNet already have more than three million images <span class="citation" data-cites="lt4BNUoG">[<a href="#ref-lt4BNUoG" role="doc-biblioref">107</a>]</span>.</p>
 <p>Worse, many biological domains have strict upper bounds on the amount of data available.
-Even if you somehow recruited the entire world for a study you’d still only be able to collect around eight billion human genomes.
+Even if one somehow recruited the entire world for a study they would only be able to collect around eight billion human genomes.
 Given the complexity of biology it seems unlikely that “only” eight billion geneomes would be sufficient to effectively sample the space of plausible relevant mutations in the human genome.
-Based on recent research into neural network scaling laws <span class="citation" data-cites="XVMFUrSt">[<a href="#ref-XVMFUrSt" role="doc-biblioref">107</a>]</span> and machine learning intuition, it seems likely that Rich Sutton’s “Bitter Lesson” (http://www.incompleteideas.net/IncIdeas/BitterLesson.html) would break down in a domain where there is a hard cap on the available data.</p>
-<p>This isn’t true of all domains though; expression is more variable, so you can get a much larger sample size
-Maybe talk about automation/Recursion model</p>
+Based on recent research into neural network scaling laws <span class="citation" data-cites="XVMFUrSt">[<a href="#ref-XVMFUrSt" role="doc-biblioref">108</a>]</span> and machine learning intuition, it seems likely that Rich Sutton’s “Bitter Lesson” (http://www.incompleteideas.net/IncIdeas/BitterLesson.html) would break down in a domain where there is a hard cap on the available data.
+This data cap probably isn’t true of all domains in computational biology though.
+Gene expression changes with variables like cell type, time, and biological state, so the space of transcriptomic data that could be measured is much larger.</p>
 <p>While we’ve shown that deep learning hasn’t lead to a paradigm shift in computational biology so far, will that always be true?
 As with many scientific questions, the answer is probably “it depends”.
 While there may be caps on individual aspects of biological data, there are always more angles of attack.</p>
@@ -426,7 +458,10 @@ The challenge is that the data types are different, their relationships are not 
 Transformer architectures, and more specifically their self-attention mechanism seem like a good fit for learning relationships between different ’omes.
 Such models are data hungry though, and self-attention gets expensive in problems with high dimensionality.
 Perhaps one day we’ll have the data and compute to train multiomic biological transformers.
-Maybe by that point the state of the art in machine learning will have moved along rendering that point moot.</p>
+Or maybe by that point the state of the art in machine learning will have moved along rendering that point moot.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>Regardless of whether deep learning takes over or just becomes another tool in our toolbelt, the future of computational biology looks bright.
+These are exciting times indeed.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references csl-bib-body" role="doc-bibliography">
@@ -746,11 +781,14 @@ Transformer</strong> <div class="csl-block">Colin Raffel, Noam Shazeer, Adam Rob
 <div id="ref-Qd54lMyE" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">105. </div><div class="csl-right-inline"><strong>UNDERSTANDING THE LIMITATIONS OF THE JOURNAL IMPACT FACTOR</strong> <div class="csl-block">ANDREW P KURMIS</div> <em>The Journal of Bone and Joint Surgery-American Volume</em> (2003-12) <a href="https://doi.org/gh6fph">https://doi.org/gh6fph</a> <div class="csl-block">DOI: <a href="https://doi.org/10.2106/00004623-200312000-00028">10.2106/00004623-200312000-00028</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/14668520">14668520</a></div></div>
 </div>
+<div id="ref-o78W9pGh" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">106. </div><div class="csl-right-inline"><strong>A bird’s-eye view of deep learning in bioimage analysis</strong> <div class="csl-block">Erik Meijering</div> <em>Computational and Structural Biotechnology Journal</em> (2020) <a href="https://doi.org/gk5mtd">https://doi.org/gk5mtd</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.csbj.2020.08.003">10.1016/j.csbj.2020.08.003</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32994890">32994890</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494605">PMC7494605</a></div></div>
+</div>
 <div id="ref-lt4BNUoG" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">106. </div><div class="csl-right-inline"><strong>ImageNet: A large-scale hierarchical image database</strong> <div class="csl-block">Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, Li Fei-Fei</div> <em>2009 IEEE Conference on Computer Vision and Pattern Recognition</em> (2009-06) <a href="https://doi.org/cvc7xp">https://doi.org/cvc7xp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1109/cvpr.2009.5206848">10.1109/cvpr.2009.5206848</a></div></div>
+<div class="csl-left-margin">107. </div><div class="csl-right-inline"><strong>ImageNet: A large-scale hierarchical image database</strong> <div class="csl-block">Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, Li Fei-Fei</div> <em>2009 IEEE Conference on Computer Vision and Pattern Recognition</em> (2009-06) <a href="https://doi.org/cvc7xp">https://doi.org/cvc7xp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1109/cvpr.2009.5206848">10.1109/cvpr.2009.5206848</a></div></div>
 </div>
 <div id="ref-XVMFUrSt" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">107. </div><div class="csl-right-inline"><strong>Training Compute-Optimal Large Language Models</strong> <div class="csl-block">Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes Welbl, Aidan Clark, … Laurent Sifre</div> <em>arXiv</em> (2022-03-30) <a href="https://arxiv.org/abs/2203.15556">https://arxiv.org/abs/2203.15556</a></div>
+<div class="csl-left-margin">108. </div><div class="csl-right-inline"><strong>Training Compute-Optimal Large Language Models</strong> <div class="csl-block">Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes Welbl, Aidan Clark, … Laurent Sifre</div> <em>arXiv</em> (2022-03-30) <a href="https://arxiv.org/abs/2203.15556">https://arxiv.org/abs/2203.15556</a></div>
 </div>
 </div>
 <!-- default theme -->

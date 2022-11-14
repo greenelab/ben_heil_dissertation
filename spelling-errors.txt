@@ -12,6 +12,8 @@ betweenness
 cDNA
 compendia
 contractive
+convolutional
+coregulation
 Danaee
 dataset
 datasets
@@ -24,6 +26,7 @@ dimensionality
 Eigenfactor
 eLife’s
 entites
+equivariance
 executability
 exome
 fakoor
@@ -31,6 +34,7 @@ geneomes
 Grewal
 GTEx
 Heil
+hinderence
 hyperparameter
 hyperparameters
 ImageNet
@@ -39,6 +43,8 @@ irreproducible
 Ivie
 KNN
 Krafczyk
+labeler
+lexicographically
 LINCS
 microarray
 microarrays
@@ -65,8 +71,9 @@ proteomics
 quanitfy
 quantile
 ReliefF
-Reproducibility
+reproducibility
 rescaled
+RNNs
 Ruder’s
 SAUCIE
 SCImago
@@ -74,14 +81,17 @@ Sevakula
 silico
 Spearman
 Stodden
+subfields
 subsetting
 subtype
 SVM
 TCGA
 Thain’s
+toolbelt
 transcriptome
 transcriptomic
 transcriptomics
+translational
 Vaccario
 variational
 vivo

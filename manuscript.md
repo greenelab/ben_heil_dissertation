@@ -6,7 +6,7 @@ keywords:
 - reproducibility
 - citation network analysis
 lang: en-US
-date-meta: '2022-11-12'
+date-meta: '2022-11-14'
 author-meta:
 - Benjamin J. Heil
 header-includes: |-
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Dissertation Title" />
   <meta property="og:title" content="Dissertation Title" />
   <meta property="twitter:title" content="Dissertation Title" />
-  <meta name="dc.date" content="2022-11-12" />
-  <meta name="citation_publication_date" content="2022-11-12" />
+  <meta name="dc.date" content="2022-11-14" />
+  <meta name="citation_publication_date" content="2022-11-14" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -37,9 +37,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/f19a5a7bb3dc3d0d11e1b9f3358c0c1566a8e10f/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/f19a5a7bb3dc3d0d11e1b9f3358c0c1566a8e10f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/f19a5a7bb3dc3d0d11e1b9f3358c0c1566a8e10f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/3ddd800e44db097ce2421e5be4d096a1ae11e943/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/3ddd800e44db097ce2421e5be4d096a1ae11e943/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/3ddd800e44db097ce2421e5be4d096a1ae11e943/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,10 +63,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/ben_heil_dissertation/v/f19a5a7bb3dc3d0d11e1b9f3358c0c1566a8e10f/))
+([permalink](https://greenelab.github.io/ben_heil_dissertation/v/3ddd800e44db097ce2421e5be4d096a1ae11e943/))
 was automatically generated
-from [greenelab/ben_heil_dissertation@f19a5a7](https://github.com/greenelab/ben_heil_dissertation/tree/f19a5a7bb3dc3d0d11e1b9f3358c0c1566a8e10f)
-on November 12, 2022.
+from [greenelab/ben_heil_dissertation@3ddd800](https://github.com/greenelab/ben_heil_dissertation/tree/3ddd800e44db097ce2421e5be4d096a1ae11e943)
+on November 14, 2022.
 </em></small>
 
 ## Authors
@@ -483,23 +483,61 @@ In chapter **X**, we dive into one such shortcoming, by demonstrating difference
 There we argue that normalizing out field-specific differences obscures useful signal, and propose new directions of research for future citation metrics.
 
 
-## Conclusion
+## Future directions
 
-Reiterate work done and thesis
+In this dissertation, we have examined whether deep learning has led to a paradigm shift in computational biology.
+We established standards for reproducible research when using deep learning models in chapter 2, showed that deep learning isn't always preferable to other techniques in chapter 3, then demonstrated the effectiveness of classical ml methods in chapters 4 and 5.
+Ultimately we came to the conclusion that while deep learning has been a useful tool in some areas, it ultimately has not led to a paradigm shift in computational biology.
+However, deep learning models' impact may grow as the fields develop, so we'd like to discuss future areas where we expect interesting developments to happen.
 
-### The scale of data
+### Deep learning representations of biology
+
+Different areas of computational biology research have seen different effects from deep learning.
+Deep learning has already had a large impact on biomedical imaging [@doi:10.1016/j.csbj.2020.08.003], and seems poised to do so in protein structure [@doi:10.1038/s41586-021-03819-2].
+These advances were likely successful because of their similarity to well-researched fields in that they can be framed as similar problems.
+Biomedical images aren't exactly the same as those from a normal camera, but the inductive bias of translational equivariance and various image augmentation methods are still applicable.
+Similarly, while protein sequences may not seem to share much with written language, models like RNNs and transformers that look at input as a sequence of tokens don't care whether those tokens are words or amino acids.
+
+Not all subfields of computational biology have convenient ways to represent their data though.
+Gene expression in particular is difficult because of its high dimensionality.
+Expression data doesn't have spatial locality to take advantage of, so convolutional networks can't be used to ignore it.
+It's not a series of tokens either; the genes in an expression dataset are listed lexicographically so their order doesn't have meaning.
+Self-attention seems well-suited for for gene expression since learning which subsets of genes interact with others would be useful. 
+The high dimensionality makes vanilla self-attention infeasible though, due to the quadratic scaling.
+You can't even sidestep the issue with standard dimensionality reduction methods without losing predictive performance.
+
+Do any deep learning representations work for gene expression then?
+Fully-connected networks work, though they don't tend to be the best way to accomplish most tasks.
+An interesting potential direction of research would be to apply sparse self-attention methods to gene expression data and reduce the number of comparisons made by only attending within prior knowledge gene sets.
+Alternatively, because expression is often thought of in terms of coregulation networks or sets of genes with shared functions a graph representation may be more suitable.
+It's also possible that someone will develop a representation specifically for gene expression that will work better than anything we know about today.
+
+### To what extent is biology limited by challenges in looking at the data
+
+An important first step when working with data is to look at it.
+In images of generated text, a human can make a judgement on how good generated data is.
+In the classification world, a human labeler can look at an image and say "that is a dog" or a sentence and say "that is grammatically correct english."
+While these labels are somewhat fuzzy, a group of humans can at least look at the label and say "that is reasonable" or "that is mislabeled."
+A human looking at a gene expression microarray, or a table of RNA-seq counts is unable to do the same.
+
+Our brains are built to recognize objects, not parse gene expression perturbations corresponding to septic shock.
+This issue isn't insurmountable; scientists are able to do research in quantum physics after all.
+It simply serves as hinderence on our ability to sanity check data.
+Because we can't see whether the relevant signals are distorted by batch effect normalization or a preprocessing step.
+Perhaps in the future, as we understand more about the relevant biology, scientists will be able to create views of the data that are more human-intuitive and easier to use.
+
+### The scale of biological data
 
 Biological data (or at least transcriptomic data) isn't actually that big.
 The largest uniformly processed compendia of bulk human expression data are on the order of hundreds of thousands of samples.
 Meanwhile in machine learning, even before deep learning took off ImageNet already have more than three million images [@doi:10.1109/CVPR.2009.5206848].
 
 Worse, many biological domains have strict upper bounds on the amount of data available.
-Even if you somehow recruited the entire world for a study you'd still only be able to collect around eight billion human genomes.
+Even if one somehow recruited the entire world for a study they would only be able to collect around eight billion human genomes.
 Given the complexity of biology it seems unlikely that "only" eight billion geneomes would be sufficient to effectively sample the space of plausible relevant mutations in the human genome.
 Based on recent research into neural network scaling laws [@arxiv:2203.15556] and machine learning intuition, it seems likely that Rich Sutton's "Bitter Lesson" (http://www.incompleteideas.net/IncIdeas/BitterLesson.html) would break down in a domain where there is a hard cap on the available data.
-
-This isn't true of all domains though; expression is more variable, so you can get a much larger sample size
-Maybe talk about automation/Recursion model
+This data cap probably isn't true of all domains in computational biology though.
+Gene expression changes with variables like cell type, time, and biological state, so the space of transcriptomic data that could be measured is much larger.
 
 While we've shown that deep learning hasn't lead to a paradigm shift in computational biology so far, will that always be true? 
 As with many scientific questions, the answer is probably "it depends".
@@ -510,8 +548,11 @@ The challenge is that the data types are different, their relationships are not 
 Transformer architectures, and more specifically their self-attention mechanism seem like a good fit for learning relationships between different 'omes.
 Such models are data hungry though, and self-attention gets expensive in problems with high dimensionality.
 Perhaps one day we'll have the data and compute to train multiomic biological transformers.
-Maybe by that point the state of the art in machine learning will have moved along rendering that point moot.
+Or maybe by that point the state of the art in machine learning will have moved along rendering that point moot.
 
+### Conclusion
+Regardless of whether deep learning takes over or just becomes another tool in our toolbelt, the future of computational biology looks bright.
+These are exciting times indeed.
 
 
 ## References {.page_break_before}
