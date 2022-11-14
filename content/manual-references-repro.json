@@ -1,0 +1,176 @@
+[
+{
+  "id": "stodden2013",
+  "type": "article-journal",
+  "title": "Setting the default to reproducible",
+  "author": [
+  {
+    "given": "Victoria",
+    "family": "Stodden"
+  },
+  {
+    "given": "Jonathan",
+    "family": "Borwein"
+  },
+  {
+    "given": "David H",
+    "family": "Bailey"
+  }
+  ],
+  "container-title": "ICERM Workshop on Reproducibility in Computational and Experimental Mathematics",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        2013
+      ]
+    ]
+  }
+},
+{
+  "id": "docker",
+  "type": "article-journal",
+  "title": "Docker: lightweight Linux containers for consistent development and deployment",
+  "page": "2",
+  "volume": "2014",
+  "author": [
+  {
+    "given": "Dirk",
+    "family": "Merkel"
+  }
+  ],
+  "container-title": "Linux Journal",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        2014
+      ]
+    ]
+  }
+},
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "10",
+    "title": "Bioconductor: open software development for computational biology and bioinformatics",
+    "DOI": "10.1186/gb-2004-5-10-r80",
+    "type": "article-journal",
+    "page": "R80",
+    "source": "Crossref",
+    "volume": "5",
+    "author": [
+      {
+        "given": "Robert C",
+        "family": "Gentleman"
+      },
+      {
+        "given": "Vincent J",
+        "family": "Carey"
+      },
+      {
+        "given": "Douglas M",
+        "family": "Bates"
+      },
+      {
+        "given": "Ben",
+        "family": "Bolstad"
+      },
+      {
+        "given": "Marcel",
+        "family": "Dettling"
+      },
+      {
+        "given": "Sandrine",
+        "family": "Dudoit"
+      },
+      {
+        "given": "Byron",
+        "family": "Ellis"
+      },
+      {
+        "given": "Laurent",
+        "family": "Gautier"
+      },
+      {
+        "given": "Yongchao",
+        "family": "Ge"
+      },
+      {
+        "given": "Jeff",
+        "family": "Gentry"
+      },
+      {
+        "given": "Kurt",
+        "family": "Hornik"
+      },
+      {
+        "given": "Torsten",
+        "family": "Hothorn"
+      },
+      {
+        "given": "Wolfgang",
+        "family": "Huber"
+      },
+      {
+        "given": "Stefano",
+        "family": "Iacus"
+      },
+      {
+        "given": "Rafael",
+        "family": "Irizarry"
+      },
+      {
+        "given": "Friedrich",
+        "family": "Leisch"
+      },
+      {
+        "given": "Cheng",
+        "family": "Li"
+      },
+      {
+        "given": "Martin",
+        "family": "Maechler"
+      },
+      {
+        "given": "Anthony J",
+        "family": "Rossini"
+      },
+      {
+        "given": "Gunther",
+        "family": "Sawitzki"
+      },
+      {
+        "given": "Colin",
+        "family": "Smith"
+      },
+      {
+        "given": "Gordon",
+        "family": "Smyth"
+      },
+        "given": "Luke",
+        "family": "Tierney"
+      },
+      {
+        "given": "Jean YH",
+        "family": "Yang"
+      },
+      {
+        "given": "Jianhua",
+        "family": "Zhang"
+      }
+    ],
+    "container-title": "Genome Biology",
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "URL": "https://doi.org/c2xm5v",
+    "container-title-short": "Genome Biol",
+    "PMCID": "PMC545600",
+    "PMID": "15461798",
+    "id": "1CtyX4PBc"
+  }
+]
