@@ -3,10 +3,10 @@ content/02.introduction.md:7:arxiv
 content/02.introduction.md:7:arxiv
 content/02.introduction.md:7:arxiv
 content/02.introduction.md:11:transcriptomics
-content/02.introduction.md:14:transcriptomics
 content/02.introduction.md:15:transcriptomics
-content/02.introduction.md:16:datasets
-content/02.introduction.md:21:datasets
+content/02.introduction.md:16:transcriptomics
+content/02.introduction.md:17:datasets
+content/02.introduction.md:22:datasets
 content/03.reproducibility-review.md:1:Reproducibility
 content/03.reproducibility-review.md:3:reproducibility
 content/03.reproducibility-review.md:5:Reproducibility
@@ -18,7 +18,6 @@ content/03.reproducibility-review.md:9:reproducibility
 content/03.reproducibility-review.md:14:reproducibility
 content/03.reproducibility-review.md:15:Oreskes
 content/03.reproducibility-review.md:18:Popperian
-content/03.reproducibility-review.md:22:philisophical
 content/03.reproducibility-review.md:23:Ivie
 content/03.reproducibility-review.md:23:reproducibility
 content/03.reproducibility-review.md:23:Thain's
@@ -165,8 +164,6 @@ content/05.citation-index-review.md:16:SCImago
 content/05.citation-index-review.md:23:pagerank
 content/05.citation-index-review.md:23:PageRank
 content/05.citation-index-review.md:25:betweenness
-content/05.citation-index-review.md:28:quanitfy
-content/05.citation-index-review.md:29:entites
 content/05.citation-index-review.md:31:altmetric
 content/05.citation-index-review.md:31:Altmetric
 content/05.citation-index-review.md:37:PageRank
@@ -281,12 +278,10 @@ content/50.conclusion.md:22:dimensionality
 content/50.conclusion.md:27:coregulation
 content/50.conclusion.md:34:labeler
 content/50.conclusion.md:36:microarray
-content/50.conclusion.md:40:hinderence
 content/50.conclusion.md:41:preprocessing
 content/50.conclusion.md:46:transcriptomic
 content/50.conclusion.md:47:compendia
 content/50.conclusion.md:48:ImageNet
-content/50.conclusion.md:52:geneomes
 content/50.conclusion.md:53:arxiv
 content/50.conclusion.md:55:transcriptomic
 content/50.conclusion.md:61:multiomics

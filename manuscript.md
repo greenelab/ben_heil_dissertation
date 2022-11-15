@@ -37,9 +37,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/ad7eea513b412c6edc6c480cab99d132a22f0903/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/ad7eea513b412c6edc6c480cab99d132a22f0903/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/ad7eea513b412c6edc6c480cab99d132a22f0903/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/38c2e7bd60ca666216a999869d4a3b187e5f76d8/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/38c2e7bd60ca666216a999869d4a3b187e5f76d8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/38c2e7bd60ca666216a999869d4a3b187e5f76d8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -64,9 +64,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/ben_heil_dissertation/v/ad7eea513b412c6edc6c480cab99d132a22f0903/))
+([permalink](https://greenelab.github.io/ben_heil_dissertation/v/38c2e7bd60ca666216a999869d4a3b187e5f76d8/))
 was automatically generated
-from [greenelab/ben_heil_dissertation@ad7eea5](https://github.com/greenelab/ben_heil_dissertation/tree/ad7eea513b412c6edc6c480cab99d132a22f0903)
+from [greenelab/ben_heil_dissertation@38c2e7b](https://github.com/greenelab/ben_heil_dissertation/tree/38c2e7bd60ca666216a999869d4a3b187e5f76d8)
 on November 15, 2022.
 </em></small>
 
@@ -101,22 +101,23 @@ on November 15, 2022.
 ## Introduction                                                                                                                                                                                             
                                                                                                                                                                                                             
 As computational biologists, we live in exciting times.
-Beginning with the Human Genome Project [@doi:10.1038/35057062] advancements in technologies for biological quantification have generated data with a scale and granularity previously unimaginable [@doi:10.1016/j.cell.2015.05.002; @doi:10.7554/eLife.21856; @doi:10.1101/gad.281964.116].
+Beginning with the Human Genome Project [@doi:10.1038/35057062], advancements in technologies for biological quantification have generated data with a scale and granularity previously unimaginable [@doi:10.1016/j.cell.2015.05.002; @doi:10.7554/eLife.21856; @doi:10.1101/gad.281964.116].
 
-Concurrently with the skyrocketing amounts of data, the advent of deep learning has generated methods designed specifically to make sense of large, complex datasets.
-These methods have led to a paradigm shift in the field of machine learning, creating new possibilities in many fields and surfacing new phenomena unexplained by classical machine learning theory [@doi:10.1038/nature16961; @arxiv:2112.10752; @arxiv:1912.02292; @arxiv:2201.02177].
+Concurrently with the skyrocketing amounts of data, the advent of deep learning has generated methods designed to make sense of large, complex datasets.
+These methods have led to a paradigm shift in machine learning, creating new possibilities in many fields and surfacing new phenomena unexplained by classical machine learning theory [@doi:10.1038/nature16961; @arxiv:2112.10752; @arxiv:1912.02292; @arxiv:2201.02177].
 
 The field of computational biology has long used machine learning methods, as they help cope with the scale of the data being generated.
 Accordingly, problem domains in computational biology that map well to existing research in deep learning have adopted or developed deep learning models and seen great advances [@doi:10.1007/978-3-319-24574-4_28; @doi:10.1038/s41586-021-03819-2].
-Two of the scientists who wrote the book [@isbn:0387848576] on machine learning have also written several papers [@doi:10.1073/pnas.082099299; @doi:10.1093/biostatistics/kxl002; 10.1186/gb-2000-1-2-research0003; 10.1093/biostatistics/kxl005] in the field of transcriptomics, so previous applications of machine learning have been successful.
+Previous applications of classical machine learning to the field of transcriptomics have been successful.
+Two of the scientists who wrote the book [@isbn:0387848576] on machine learning have even written papers [@doi:10.1073/pnas.082099299; @doi:10.1093/biostatistics/kxl002; 10.1186/gb-2000-1-2-research0003; 10.1093/biostatistics/kxl005] analyzing gene expression.
 However, the data itself is not well-suited to deep learning methods.
 
-This dissertation explores the question of whether the paradigm shift in machine learning will spill over to transcriptomics.
-That is to say have deep learning techniques fundamentally changed transcriptomics, or are they incremental improvements over existing methods?
-Our thesis is that while deep learning provides us with useful tools for analyzing biological datasets, it doesn't necessarily change the field on a fundamental level.
+This dissertation explores whether the paradigm shift in machine learning will spill over to transcriptomics.
+That is to say, have deep learning techniques fundamentally changed transcriptomics, or are they incremental improvements over existing methods?
+Our thesis is that while deep learning provides valuable tools for analyzing biological datasets, it does not necessarily change the field on a fundamental level.
 
 We begin with a few sections giving background information on previous research for the main thesis chapters.
-We then move to chapter 2, which discusses standards necessary to ensure research done with deep learning is reproducible.
+We then move to chapter 2, which discusses standards necessary to ensure that research done with deep learning is reproducible.
 We continue to Chapter 3, where we find that deep learning models may not be helpful in analyzing expression data.
 In chapters 4 and 5 we demonstrate that classical machine learning methods already allow scientists to uncover knowledge from large datasets.
 Finally, in chapter 6 we conclude by discussing the implications of the previous chapters and their potential future directions.
@@ -126,42 +127,42 @@ Finally, in chapter 6 we conclude by discussing the implications of the previous
 
 #### What is computational reproducibility
 
-Reproducibility is a topic often discussed in scientific circles, and it means different things to different people [@doi:10.1190/1.1822162; @doi:10.1373/clinchem.2017.279984; @doi:10.1126/scitranslmed.aaf5027; @doi:10.1101/066803; @doi:10.3389/fninf.2017.00076; @doi:10.1109/MCSE.2009.15].
-For the sake of clarity, we'll operate from Stodden et al's definition "the ability to recreate computational results from the data and code used by the original researcher" (http://stodden.net/icerm_report.pdf).
-We would like to add one caveat though.
-The language surrounding reproducibility is often binary, as in "reproducible research" or "an irreproducible paper". 
+Reproducibility is a topic often discussed in scientific circles and means different things to different people [@doi:10.1190/1.1822162; @doi:10.1373/clinchem.2017.279984; @doi:10.1126/scitranslmed.aaf5027; @doi:10.1101/066803; @doi:10.3389/fninf.2017.00076; @doi:10.1109/MCSE.2009.15].
+For clarity, we will operate from Stodden et al.'s definition of "the ability to recreate computational results from the data and code used by the original researcher" (http://stodden.net/icerm_report.pdf).
+We would like to add one caveat, though.
+The language surrounding reproducibility is often binary, as in "reproducible research" or "an irreproducible paper." 
 In reality, reproducibility falls on a sliding scale based on how long it takes a scientist to reproduce a work. 
-For poorly specified work, it could take forever as the conditions that allowed the research will never happen again.
-For extremely high quality research, it could take a scientist only seconds of their time to press the "run" button on the original authors' code and get the same results.
+For poorly specified work, it could take forever as the conditions that allowed the research would never happen again.
+For extremely high-quality research, it could take a scientist only seconds of their time to press the "run" button on the original authors' code and get the same results.
 
 #### Why does it matter?
-Now that we've defined what reproducibility is, we can discuss why it matters.
-In her book "Why Trust Science?", Naomi Oreskes argues the answer to the eponymous question is that the process of coming to a consensus is what makes science trustworthy [@isbn:9780691179001].
-In a world where all papers take forever to reproduce, it would be challenging to come to the consensus required to do trustworthy science.
+Now that we have defined what reproducibility is, we can discuss why it matters.
+In her book "Why Trust Science?" Naomi Oreskes argues that the answer to the eponymous question is that the process of coming to a consensus is what makes science trustworthy [@isbn:9780691179001].
+In a world where all papers take forever to reproduce, reaching the consensus required to do trustworthy science would be challenging.
 
 Another way of viewing the scientific method is the Popperian idea of falsifiable theories [@isbn:0415278449].
-Theories are constructed from evidence and from reproduction of the same findings about the world.
-If a theory can't be reproduced, then it can't be supported or proven false, and isn't science under Popper's definition [@doi:10.1109/MS.2018.2883805].
+Theories are constructed from evidence and reproduction of the same findings about the world.
+If a theory cannot be reproduced, then it can not be supported or proven false, and it is not science under Popper's definition [@doi:10.1109/MS.2018.2883805].
 
-Those points are fairly philisophical though.
-If you're looking for a discussion of concrete impacts of failures in computational reproducibility, we recommend Ivie and Thain's review paper [@doi:10.1145/3186266].
-They point out that in the biological domain preclinical drug development studies could be replicated in only 10-25% of cases [@doi:10.1038/483531a; @doi:10.1038/nrd3439-c1].
-Similarly, only about 50% of ACM papers were able to be built from their source code [@doi:10.1145/2812803].
-In general, lack of reproducibility could cause a lack of trust in science [@doi:10.1177/1745691612465253].
+Those points are somewhat philosophical, though.
+For a discussion of concrete impacts of failures in computational reproducibility, we recommend Ivie and Thain's review paper [@doi:10.1145/3186266].
+They point out that preclinical drug development studies could be replicated in only 10-25% of cases [@doi:10.1038/483531a; @doi:10.1038/nrd3439-c1].
+Similarly, only about 50% of ACM papers could be built from their source code [@doi:10.1145/2812803].
+In general, a lack of reproducibility could cause a lack of trust in science [@doi:10.1177/1745691612465253].
 
-Reproducibility isn't all about preventing bad things from happening though.
-Having code that is easy to run helps verify that code is bug-free, and makes it easier for the original author to run in the future.
+Reproducibility is not all about more than preventing bad things from happening.
+Having code that is easy to run helps verify that code is bug-free and makes it easier for the original author to run in the future.
 It also allows remixing research code, leading to greater accessibility of scientific research.
 Because the authors working on latent diffusion models for image synthesis made their code available [@arxiv:2112.10752], others quickly created an optimized version allowing those without a powerful GPU to run it (https://github.com/CompVis/stable-diffusion, https://github.com/basujindal/stable-diffusion/)
 
 #### What can be done?
 
-The question remains: what can be done to increase the reproducibility of scientific work?
+The question remains: what can increase the reproducibility of scientific work?
 Krafczyk et al. argue that the keys are to document well, write code for ease of executability, and make code deterministic.
-Alternatively, we could create a central repository of data and code used in research like we have a repository for articles in PubMed Central [@doi:10.1126/science.1213847].
-In fact, the field of machine learning has something similar in Papers with Code (https://paperswithcode.com/), a website where you can browse only the machine learning preprints and papers that have associated code.
+Alternatively, we could create a central repository of data and code used in research similar to the repository for articles in PubMed Central [@doi:10.1126/science.1213847].
+The field of machine learning has something similar in Papers with Code (https://paperswithcode.com/), a website where you can browse only the machine learning preprints and papers that have associated code.
 The epitome of reproducibility is probably something like executable papers a la Distill (https://distill.pub/) or eLife's Executable Research Articles [@tsang2020].
-In chapter 2, we discuss options to make machine learning research in the life sciences reproducible in more depth, and give our own recommendations.
+In chapter 2, we discuss options to make machine learning research in the life sciences reproducible in more depth and give our own recommendations.
 
 
 
@@ -387,15 +388,15 @@ Chapter 4 continues the idea by demonstrating that classical machine learning ca
 
 
 
-## Citation index review
+## Background: Citation indices
 
 Over the past century quantifying the progress of science has become popular.
 Even before computers made it easy to collate information about publications, work had already begun to evaluate papers based on their number of citations [@doi:10.1126/science.122.3159.108].
-There's even a book about it [@isbn:1108492665].
+There is even a book about it [@isbn:1108492665].
 
 Determining the relative "impact" of different authors and journals is a perennial question when measuring science.
-One of the most commonly used metric in this space is the h-index, which balances an authors quantity of publications with the number of citations each one receives [@doi:10.1073/pnas.0507655102]. 
-However, the h-index is not a perfect metric [@doi:10.1016/j.acalib.2017.08.013], and has arguably become less useful in recent years [@doi:10.1371/journal.pone.0253397].
+One of the most commonly used metrics in this space is the h-index, which balances an author's number of publications with the number of citations each receives [@doi:10.1073/pnas.0507655102]. 
+However, the h-index is not a perfect metric [@doi:10.1016/j.acalib.2017.08.013] and has arguably become less useful in recent years [@doi:10.1371/journal.pone.0253397].
 Other metrics, like the g-index[@doi:10.1007/s11192-006-0144-7] and the i-10 index (https://scholar.google.com/), try to improve on the h-index by placing a higher weight on more highly cited papers.
 
 There are metrics for comparing journals as well.
@@ -403,41 +404,41 @@ The Journal Impact Factor [@jif] is the progenitor journal metric, evaluating jo
 Other measures use a more network-based approach to quantifying journals' importance.
 The most common are Eigenfactor [@eigenfactor] and the SCImago Journal Rank (https://www.scimagojr.com/), which use variations on the PageRank algorithm to evaluate the importance of various journals. 
 
-Academic articles are arguably the main building blocks of scientific communication, so it makes sense to try to better understand which ones are the most important.
+Academic articles are arguably the main building blocks of scientific communication, so it makes sense to try to understand which ones are the most important.
 Citation count seems like an obvious choice, but differences in citation practices between fields [@doi:10.1016/j.joi.2013.08.002] make it too crude a measure of impact.
 Instead, many other metrics have been developed to choose which papers to read.
 
 Many of these methods work by analyzing the graph formed by treating articles as nodes and citations as edges.
 PageRank[@pagerank], one of the most influential methods for ranking nodes' importance in a graph, can also be applied to ranking papers [@doi:10.1073/pnas.0706851105].
-It isn't the only graph-based method though.
-Other methods of centrality such as betweenness centrality would make sense to use, but are prohibitively computationally expensive to run.
+It is not the only graph-based method, though.
+Other centrality calculation methods, such as betweenness centrality, would make sense to use but are prohibitively computationally expensive to run.
 Instead, methods like the disruption index [@doi:10.1038/s41586-019-0941-9] and its variants [@doi:10.1162/qss_a_00068] are more often used.
 
-Some lines of research try to quanitfy other desirable characteristic of papers.
-For example, Foster et al. claim to measure innovation by looking at papers that create new connections between known chemical entites [@doi:10.1177/0003122415601618].
+Some lines of research try to quantify other desirable characteristics of papers.
+For example, Foster et al. claim to measure innovation by looking at papers that create new connections between known chemical entities [@doi:10.1177/0003122415601618].
 Likewise, Wang et al. define novel papers as those that cite papers from unusual combinations of journals [@doi:10.1016/j.respol.2017.06.006].
 The Altmetric Attention Score (https://www.altmetric.com/) goes even further, measuring the attention on a paper from outside the standard academic channels.
 
-These metrics don't stand alone, however.
-Lots of work has gone into improving the various methods by shoring up their weaknesses or normalizing them to make them more comparable across fields.
+These metrics do not stand alone, however.
+Much work has gone into improving the various methods by shoring up their weaknesses or normalizing them to make them more comparable across fields.
 The relative citation ratio makes citation counts comparable across fields by normalizing it according to other papers in its neighborhood of the citation network [@doi:10.1371/journal.pbio.1002541].
-Similarly, the source-normalized impact per paper normalizes the citation count for based on the total number of citations in the whole field [@doi:10.1016/j.joi.2010.01.002].
-Several methods modify PageRank, such as Topical PageRank, which incorporates topic and journal prestige information to the PageRank calculation [@doi:10.1007/s11192-017-2626-1], and 
-Vaccario et al's page and field rescaled PageRank which accounts for differences between papers' ages and fields [@arxiv:1703.08071].
-There are also a number of variants of the disruption index [@doi:10.1162/qss_a_00068].
+Similarly, the source-normalized impact per paper normalizes article citation counts based on the total number of citations in the whole field [@doi:10.1016/j.joi.2010.01.002].
+Several methods modify PageRank, such as Topical PageRank, which incorporates topic and journal prestige information into the PageRank calculation [@doi:10.1007/s11192-017-2626-1], and 
+Vaccario et al.'s page and field rescaled PageRank, which accounts for differences between papers' ages and fields [@arxiv:1703.08071].
+There are also several variants of the disruption index [@doi:10.1162/qss_a_00068].
 
-Of course, none of these methods would be possible without data to train and evaluate them on.
-We've come a long way from Garfield's "not unreasonable" proposal to manually aggregate one million citations [@doi:10.1126/science.122.3159.108].
+Of course, these methods only work with data to train and evaluate them on.
+We have come a long way from Garfield's "not unreasonable" proposal to aggregate one million citations manually [@doi:10.1126/science.122.3159.108].
 These days we have several datasets with hundreds of millions to billions of references (https://www.webofknowledge.com, https://www.scopus.com  @doi:10.1007/s11192-019-03217-6).
 
-Quantifying science isn't perfect, however.
-In addition to shortcomings of individual methods [@doi:10.1523/JNEUROSCI.0002-08.2008; @doi:10.1016/j.wneu.2012.01.052; @doi:10.2106/00004623-200312000-00028], there are issues inherent to reducing the process of science to numbers.
+Quantifying science could be better, however.
+In addition to the shortcomings of individual methods [@doi:10.1523/JNEUROSCI.0002-08.2008; @doi:10.1016/j.wneu.2012.01.052; @doi:10.2106/00004623-200312000-00028], there are issues inherent to reducing the process of science to numbers.
 To quote Alfred Korzybski, "the map is not the territory." 
-Metrics of science truly measure quantitative relationships like mean citation counts, despite purporting to reflect "impact", "disruption", or "novelty".
+Metrics of science truly measure quantitative relationships like mean citation counts, despite purporting to reflect "impact," "disruption," or "novelty."
 If we forget that, we can mistake useful tools for arbiters of ground truth.
 
-In chapter **X**, we dive into one such shortcoming, by demonstrating differences in article PageRanks between fields.
-There we argue that normalizing out field-specific differences obscures useful signal, and propose new directions of research for future citation metrics.
+In chapter 5, we dive into one such shortcoming by demonstrating differences in article PageRanks between fields.
+There we argue that normalizing out field-specific differences obscures useful signal and propose new directions of research for future citation metrics.
 
 
 # Reproducibility standards for machine learning in the life sciences
@@ -651,72 +652,72 @@ TODO COPY OVER Table 1 WHEN CONVERTING TO WORD
 ## Future directions
 
 In this dissertation, we have examined whether deep learning has led to a paradigm shift in computational biology.
-We established standards for reproducible research when using deep learning models in chapter 2, showed that deep learning isn't always preferable to other techniques in chapter 3, then demonstrated the effectiveness of classical ml methods in chapters 4 and 5.
-Ultimately we came to the conclusion that while deep learning has been a useful tool in some areas, it ultimately has not led to a paradigm shift in computational biology.
-However, deep learning models' impact may grow as the fields develop, so we'd like to discuss future areas where we expect interesting developments to happen.
+We established standards for reproducible research when using deep learning models in chapter 2, showed that deep learning is not always preferable to other techniques in chapter 3, then demonstrated the effectiveness of classical ml methods in chapters 4 and 5.
+Ultimately we concluded that while deep learning has been a useful tool in some areas, it has yet to lead to a paradigm shift in computational biology.
+However, deep learning models' impact may grow as the fields develop, so we would like to discuss future areas where we expect interesting developments.
 
 ### Deep learning representations of biology
 
 Different areas of computational biology research have seen different effects from deep learning.
-Deep learning has already had a large impact on biomedical imaging [@doi:10.1016/j.csbj.2020.08.003], and seems poised to do so in protein structure [@doi:10.1038/s41586-021-03819-2].
+Deep learning has already had a significant impact on biomedical imaging [@doi:10.1016/j.csbj.2020.08.003], and seems poised to do so in protein structure [@doi:10.1038/s41586-021-03819-2].
 These advances were likely successful because of their similarity to well-researched fields in that they can be framed as similar problems.
-Biomedical images aren't exactly the same as those from a normal camera, but the inductive bias of translational equivariance and various image augmentation methods are still applicable.
-Similarly, while protein sequences may not seem to share much with written language, models like RNNs and transformers that look at input as a sequence of tokens don't care whether those tokens are words or amino acids.
+Biomedical images are not the same as those from a standard camera, but the inductive bias of translational equivariance and various image augmentation methods are still applicable.
+Similarly, while protein sequences may not seem to share much with written language, models like RNNs and transformers that look at their input as a sequence of tokens do not care whether those tokens are words or amino acids.
 
-Not all subfields of computational biology have convenient ways to represent their data though.
-Gene expression in particular is difficult because of its high dimensionality.
-Expression data doesn't have spatial locality to take advantage of, so convolutional networks can't be used to ignore it.
-It's not a series of tokens either; the genes in an expression dataset are listed lexicographically so their order doesn't have meaning.
-Self-attention seems well-suited for for gene expression since learning which subsets of genes interact with others would be useful. 
+Not all subfields of computational biology have convenient ways to represent their data, though.
+Gene expression, in particular, is difficult because of its high dimensionality.
+Expression data does not have spatial locality to take advantage of, so convolutional networks cannot be used to ignore it.
+It is not a series of tokens either; the genes in an expression dataset are listed lexicographically, so their order does not have meaning.
+Self-attention seems well-suited for gene expression since learning which subsets of genes interact with others would be useful. 
 The high dimensionality makes vanilla self-attention infeasible though, due to the quadratic scaling.
-You can't even sidestep the issue with standard dimensionality reduction methods without losing predictive performance.
+This issue cannot even be sidestepped with standard dimensionality reduction methods without losing predictive performance.
 
-Do any deep learning representations work for gene expression then?
-Fully-connected networks work, though they don't tend to be the best way to accomplish most tasks.
-An interesting potential direction of research would be to apply sparse self-attention methods to gene expression data and reduce the number of comparisons made by only attending within prior knowledge gene sets.
-Alternatively, because expression is often thought of in terms of coregulation networks or sets of genes with shared functions a graph representation may be more suitable.
-It's also possible that someone will develop a representation specifically for gene expression that will work better than anything we know about today.
+Do any deep learning representations work for gene expression, then?
+Fully-connected networks work, though they do not tend to be the best way to accomplish most tasks.
+An interesting potential research direction would be to apply sparse self-attention methods to gene expression data and reduce the number of comparisons made by only attending within prior knowledge gene sets.
+Alternatively, because expression is often thought of in terms of coregulation networks or sets of genes with shared functions, a graph representation may be more suitable.
+It is also possible that someone will develop a representation specifically for gene expression that will work better than anything we know about today.
 
 ### To what extent is biology limited by challenges in looking at the data
 
-An important first step when working with data is to look at it.
-In images of generated text, a human can make a judgement on how good generated data is.
-In the classification world, a human labeler can look at an image and say "that is a dog" or a sentence and say "that is grammatically correct english."
-While these labels are somewhat fuzzy, a group of humans can at least look at the label and say "that is reasonable" or "that is mislabeled."
-A human looking at a gene expression microarray, or a table of RNA-seq counts is unable to do the same.
+An essential first step when working with data is to look at it.
+In images or generated text, a human can judge how good generated data is.
+In the classification world, a human labeler can look at an image and say, "that is a dog," or a sentence and say, "that is grammatically correct English."
+While these labels are somewhat fuzzy, a group of humans can at least look at the label and say, "that is reasonable" or "that is mislabeled."
+A human looking at a gene expression microarray or a table of RNA-seq counts is cannot do the same.
 
 Our brains are built to recognize objects, not parse gene expression perturbations corresponding to septic shock.
-This issue isn't insurmountable; scientists are able to do research in quantum physics after all.
-It simply serves as hinderence on our ability to sanity check data.
-Because we can't see whether the relevant signals are distorted by batch effect normalization or a preprocessing step.
+This issue is not insurmountable; scientists can do research in quantum physics, after all.
+It simply serves as a hindrance to our ability to sanity-check data.
+Because we cannot see whether the relevant signals are distorted by batch effect normalization or a preprocessing step, we must be more careful and try more options.
 Perhaps in the future, as we understand more about the relevant biology, scientists will be able to create views of the data that are more human-intuitive and easier to use.
 
 ### The scale of biological data
 
-Biological data (or at least transcriptomic data) isn't actually that big.
-The largest uniformly processed compendia of bulk human expression data are on the order of hundreds of thousands of samples.
-Meanwhile in machine learning, even before deep learning took off ImageNet already have more than three million images [@doi:10.1109/CVPR.2009.5206848].
+Biological data (or at least transcriptomic data) is not actually that big.
+The largest uniformly processed compendia of bulk human expression data contain hundreds of thousands of samples.
+Meanwhile in machine learning, even before deep learning took off ImageNet already had more than three million images [@doi:10.1109/CVPR.2009.5206848].
 
 Worse, many biological domains have strict upper bounds on the amount of data available.
-Even if one somehow recruited the entire world for a study they would only be able to collect around eight billion human genomes.
-Given the complexity of biology it seems unlikely that "only" eight billion geneomes would be sufficient to effectively sample the space of plausible relevant mutations in the human genome.
+Even if one somehow recruited the entire world for a study, they would only be able to collect around eight billion human genomes.
+Given the complexity of biology, it seems unlikely that "only" eight billion genomes would be sufficient to effectively sample the space of plausible relevant mutations in the human genome.
 Based on recent research into neural network scaling laws [@arxiv:2203.15556] and machine learning intuition, it seems likely that Rich Sutton's "Bitter Lesson" (http://www.incompleteideas.net/IncIdeas/BitterLesson.html) would break down in a domain where there is a hard cap on the available data.
-This data cap probably isn't true of all domains in computational biology though.
+This data cap probably is not true of all domains in computational biology, though.
 Gene expression changes with variables like cell type, time, and biological state, so the space of transcriptomic data that could be measured is much larger.
 
-While we've shown that deep learning hasn't lead to a paradigm shift in computational biology so far, will that always be true? 
-As with many scientific questions, the answer is probably "it depends".
+While we have shown that deep learning has not led to a paradigm shift in computational biology so far, will that always be true? 
+As with many scientific questions, the answer is probably "it depends."
 While there may be caps on individual aspects of biological data, there are always more angles of attack.
 
 The promise of multiomics has always been that multiple views of the same system may reveal something that no single view picks up.
-The challenge is that the data types are different, their relationships are not well-characterized, and the methods for working in such a system haven't been fully developed yet.
-Transformer architectures, and more specifically their self-attention mechanism seem like a good fit for learning relationships between different 'omes.
-Such models are data hungry though, and self-attention gets expensive in problems with high dimensionality.
-Perhaps one day we'll have the data and compute to train multiomic biological transformers.
-Or maybe by that point the state of the art in machine learning will have moved along rendering that point moot.
+The challenge is that the data types are different, their relationships are not well-characterized, and the methods for working in such a system have not been fully developed yet.
+Transformer architectures, and more specifically their self-attention mechanism, seem like a good fit for learning relationships between different 'omes.
+Such models are data-hungry, though, and self-attention gets expensive in problems with high dimensionality.
+Perhaps one day we will have the data and compute to train multiomic biological transformers.
+Or maybe by then the state of the art in machine learning will have moved along, rendering them irrelevant.
 
 ### Conclusion
-Regardless of whether deep learning takes over or just becomes another tool in our toolbelt, the future of computational biology looks bright.
+Whether deep learning takes over or simply becomes another tool in our toolbelt, the future of computational biology looks bright.
 These are exciting times indeed.
 
 
