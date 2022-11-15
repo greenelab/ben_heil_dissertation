@@ -8,7 +8,7 @@ autoencoder
 autoencoders
 autoencoding
 Azarkahlili
-Badging
+badging
 benheil
 betweenness
 Bioconductor
@@ -63,7 +63,6 @@ microarray
 microarrays
 miRNA
 mRNA
-muli
 multiomic
 multiomics
 Nextflow
@@ -87,7 +86,6 @@ preprints
 preprocess
 preprocessing
 pretrained
-pretraining
 proteomics
 pseudorandom
 quanitfy
@@ -99,12 +97,10 @@ reproducibility
 rescaled
 RGPIN
 RNNs
-Ruder’s
 SAUCIE
 SCImago
 Sevakula
 Sfaira
-silico
 Snakemake
 Spearman
 Stodden
@@ -122,6 +118,5 @@ transcriptomics
 translational
 Vaccario
 variational
-vivo
 Xiao
 Zenodo

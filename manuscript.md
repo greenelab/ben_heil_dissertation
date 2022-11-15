@@ -6,7 +6,7 @@ keywords:
 - reproducibility
 - citation network analysis
 lang: en-US
-date-meta: '2022-11-14'
+date-meta: '2022-11-15'
 author-meta:
 - Benjamin J. Heil
 header-includes: |-
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Dissertation Title" />
   <meta property="og:title" content="Dissertation Title" />
   <meta property="twitter:title" content="Dissertation Title" />
-  <meta name="dc.date" content="2022-11-14" />
-  <meta name="citation_publication_date" content="2022-11-14" />
+  <meta name="dc.date" content="2022-11-15" />
+  <meta name="citation_publication_date" content="2022-11-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -37,9 +37,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/1b2d262a172fd36e7590378f19ce64804bdc65bf/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/1b2d262a172fd36e7590378f19ce64804bdc65bf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/1b2d262a172fd36e7590378f19ce64804bdc65bf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/ad7eea513b412c6edc6c480cab99d132a22f0903/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/ad7eea513b412c6edc6c480cab99d132a22f0903/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/ad7eea513b412c6edc6c480cab99d132a22f0903/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -64,10 +64,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/ben_heil_dissertation/v/1b2d262a172fd36e7590378f19ce64804bdc65bf/))
+([permalink](https://greenelab.github.io/ben_heil_dissertation/v/ad7eea513b412c6edc6c480cab99d132a22f0903/))
 was automatically generated
-from [greenelab/ben_heil_dissertation@1b2d262](https://github.com/greenelab/ben_heil_dissertation/tree/1b2d262a172fd36e7590378f19ce64804bdc65bf)
-on November 14, 2022.
+from [greenelab/ben_heil_dissertation@ad7eea5](https://github.com/greenelab/ben_heil_dissertation/tree/ad7eea513b412c6edc6c480cab99d132a22f0903)
+on November 15, 2022.
 </em></small>
 
 ## Authors
@@ -101,16 +101,18 @@ on November 14, 2022.
 ## Introduction                                                                                                                                                                                             
                                                                                                                                                                                                             
 As computational biologists, we live in exciting times.
-Beginning with the Human Genome Project [@doi:10.1038/35057062] advancements in various technologies for biological quantification have generated data with a scale and granularity previously unimaginable [@doi:10.1016/j.cell.2015.05.002; @doi:10.7554/eLife.21856; @doi:10.1101/gad.281964.116].
+Beginning with the Human Genome Project [@doi:10.1038/35057062] advancements in technologies for biological quantification have generated data with a scale and granularity previously unimaginable [@doi:10.1016/j.cell.2015.05.002; @doi:10.7554/eLife.21856; @doi:10.1101/gad.281964.116].
 
-Concurrently with the skyrocketing amounts of data in computational biology, the advent of deep learning has generated methods designed specifically to make sense of large, complex datasets.
+Concurrently with the skyrocketing amounts of data, the advent of deep learning has generated methods designed specifically to make sense of large, complex datasets.
 These methods have led to a paradigm shift in the field of machine learning, creating new possibilities in many fields and surfacing new phenomena unexplained by classical machine learning theory [@doi:10.1038/nature16961; @arxiv:2112.10752; @arxiv:1912.02292; @arxiv:2201.02177].
 
-The field of computational biology has long used traditional machine learning methods, as they help cope with the scale of the data being generated.
+The field of computational biology has long used machine learning methods, as they help cope with the scale of the data being generated.
 Accordingly, problem domains in computational biology that map well to existing research in deep learning have adopted or developed deep learning models and seen great advances [@doi:10.1007/978-3-319-24574-4_28; @doi:10.1038/s41586-021-03819-2].
+Two of the scientists who wrote the book [@isbn:0387848576] on machine learning have also written several papers [@doi:10.1073/pnas.082099299; @doi:10.1093/biostatistics/kxl002; 10.1186/gb-2000-1-2-research0003; 10.1093/biostatistics/kxl005] in the field of transcriptomics, so previous applications of machine learning have been successful.
+However, the data itself is not well-suited to deep learning methods.
 
-This dissertation explores the question of whether the paradigm shift in machine learning will spill over to computational biology.
-That is to say have deep learning techniques fundamentally changed the field of computational biology, or are they (sometimes large) incremental improvements over existing methods?
+This dissertation explores the question of whether the paradigm shift in machine learning will spill over to transcriptomics.
+That is to say have deep learning techniques fundamentally changed transcriptomics, or are they incremental improvements over existing methods?
 Our thesis is that while deep learning provides us with useful tools for analyzing biological datasets, it doesn't necessarily change the field on a fundamental level.
 
 We begin with a few sections giving background information on previous research for the main thesis chapters.
@@ -150,7 +152,7 @@ In general, lack of reproducibility could cause a lack of trust in science [@doi
 Reproducibility isn't all about preventing bad things from happening though.
 Having code that is easy to run helps verify that code is bug-free, and makes it easier for the original author to run in the future.
 It also allows remixing research code, leading to greater accessibility of scientific research.
-Because the authors working on latent diffusion models for image synthesis made their code available, others quickly created an optimized version allowing those without a powerful GPU to run it [@arxiv:2112.10752; https://github.com/CompVis/stable-diffusion; https://github.com/basujindal/stable-diffusion/]
+Because the authors working on latent diffusion models for image synthesis made their code available [@arxiv:2112.10752], others quickly created an optimized version allowing those without a powerful GPU to run it (https://github.com/CompVis/stable-diffusion, https://github.com/basujindal/stable-diffusion/)
 
 #### What can be done?
 
@@ -200,11 +202,10 @@ With sufficiently advanced analysis, invasive cancer biopsies might be able to b
 If not, there are already diagnostics that predict various cancer aspects from biopsy gene expression [@doi:10.1126/scitranslmed.aay1984].
 It may also be possible to diagnose common diseases based on blood gene expression [@doi:10.1038/modpathol.2008.54; @doi:10.1212/WNL.0000000000004516; @doi:10.1128/JCM.01990-15; @doi:10.1016/j.ebiom.2016.03.006], or even rare ones [@doi:10.1002/art.22981].
 
-**Background**  
 The techniques for measuring gene expression and for analyzing it have changed dramatically over the past few decades.
 This sections aims to explain what some of those changes are and how they affect phenotype prediction.
 
-*Gene expression*  
+**Gene expression**
 Gene expression measurement methods have three main categories.
 This first to be created is the gene expression microarray.
 In a microarray, RNA is reverse transcribed to cDNA, labeled with fluorescent markers, then hybridized to probes corresponding to parts of genes.
@@ -223,14 +224,14 @@ True to its name, single-cell sequencing allows gene expression to be measured a
 This increase in precision is accompanied by an increase in data sparsity though, as genes expressed infrequently or at low levels may not be detected.
 The sparsity of single-cell data has led to a number of interesting methods, but as we worked with bulk RNA-sequencing single-cell papers will largely be absent from this review.
 
-*Machine Learning*  
+**Machine Learning**
 Machine learning has undergone a paradigm shift in the past decade, beginning with the publication of the AlexNet paper in 2012 [@doi:10.1145/3065386].
 For decades random forests and support vector machines were the most widely used models in machine learning.
 This changed dramatically when the AlexNet paper showed that neural networks could vastly outperform traditional methods in some domains [@doi:10.1145/3065386].
 The deep learning revolution quickly followed, with deep neural networks becoming the state of the art in any problem with enough data [@doi:10.48550/arXiv.1808.09381; @arxiv:1910.10683v3; @arxiv:1505.04597; @doi:10.1038/s41586-021-03819-2].
 
 The implications of the deep learning revolution on this paper are twofold.
-First, almost all papers before 2014 use traditional machine learning methods, while almost all papers after use deep learning methods.
+First, almost all papers before 2014 use traditional machine learning methods, while many papers after use deep learning methods.
 Second, deep neural networks’ capacity to overfit the data and fail to generalize to outside data are vast.
 We’ll show throughout the review various mistakes authors make because they don’t fully understand the failure states of neural networks and how to avoid them.
 
@@ -308,20 +309,6 @@ DeepType, for example, uses the method ComBat [@doi:10.1093/biostatistics/kxj037
 Unfortunately many studies don’t address batch effects at all, despite operating on large multi-study datasets like the Cancer Genome Atlas (TCGA).
 These studies are likely to fail to generalize to real-world data, as machine learning models like to fixate on spurious correlations between data and phenotypes.
 
-**Deep Learning vs Standard ML**
-As was discussed in the background section, recent years have seen a dramatic shift towards deep learning methods.
-It is not immediately clear, however, whether this is a good decision for problems without giant datasets.
-While some argue that deep learning is overrated and simpler models should be used instead [@doi:10.1007/978-3-030-01768-2_25; @arxiv:1911.00353], others find that deep learning outperforms even domain specific models [@doi:10.1186/s13321-017-0232-0; @doi:10.1016/j.jbi.2018.04.007].
-
-Because it is unclear which type of model will perform best on which dataset, it is important to try both simple and complex models.
-In the Deepathology paper, Azarkahlili et al. found that their deep neural networks outperformed decision tree, KNN, random forest, logistic regression, and SVM models [@doi:10.1038/s41598-019-52937-5 ].
-Likewise, in gene expression imputation, Chen et al. found that their neural network classifier outperformed linear regression in 99.97 percent of genes and k-nearest neighbors in all genes [@doi:10.1093/bioinformatics/btw074].
-On the other hand, Grewal et al. tried multiple methods and found they work roughly the same [@doi:10.1001/jamanetworkopen.2019.2597].
-They settled this by combining a few different models into an ensemble.
-
-Due to technical considerations [@doi:10.1016/j.cell.2018.03.034] or other reasons, some authors only evaluate a single model [@doi:10.1016/j.cmpb.2018.10.004].
-While this simplifies the analysis for their papers, it makes it unclear whether they could have done better with a different model.
-This is particularly important for authors who are using deep learning models, because simpler models tend to be much more interpretable.
 
 **Evaluating Model Performance**  
 Validation is another important consideration in phenotype prediction.
@@ -379,55 +366,24 @@ One can also train the whole network at the same time, as Danaee et al do with t
 Not all methods are autoencoder-based though.
 Dhruba et al. develop their own semi-supervised learning process that teaches a model to learn a latent space between classes [@doi:10.1186/s12859-018-2465-y].
 
-**Future Directions**  
-Upon reviewing a broad spectrum of what has been done in the field, a few opportunities for future research have become clear.
+**Deep Learning vs Classical ML**  
+Recent years have seen a dramatic shift towards deep learning methods.
+It is not immediately clear, however, whether this is a good decision for problems without giant datasets.
+While some argue that deep learning is overrated and simpler models should be used instead [@doi:10.1007/978-3-030-01768-2_25; @arxiv:1911.00353], others find that deep learning outperforms even domain specific models [@doi:10.1186/s13321-017-0232-0; @doi:10.1016/j.jbi.2018.04.007].
 
-As shown in the batch effects section, authors handle batch effects in their studies with varying degrees of sophistication.
-The studies we have discussed use various strategies to mitigate the technical variation between studies and batches, but it may be possible to do better.
-Recent developments in the field of transfer learning have lead to methods that use technical variation between samples to increase the power of an analysis [@arxiv:1907.02893; @arxiv:2002.04692].
-These methods exist on the bleeding edge of transfer learning, but gene expression data fits their assumptions very well.
-It would be interesting to see if models trained with such methods would be more successful than those using traditional batch effect correction.
+Because it is unclear which type of model will perform best on which dataset, it is important to try both simple and complex models.
+In the Deepathology paper, Azarkahlili et al. found that their deep neural networks outperformed decision tree, KNN, random forest, logistic regression, and SVM models [@doi:10.1038/s41598-019-52937-5 ].
+Likewise, in gene expression imputation, Chen et al. found that their neural network classifier outperformed linear regression in 99.97 percent of genes and k-nearest neighbors in all genes [@doi:10.1093/bioinformatics/btw074].
+On the other hand, Grewal et al. tried multiple methods and found they work roughly the same [@doi:10.1001/jamanetworkopen.2019.2597].
+They settled this by combining a few different models into an ensemble.
 
-While many models have been used to make predictions from gene expression, it’s unclear which ones work best, and in which circumstances.
-One review evaluated a variety of unsupervised methods on gene regulatory network discovery, but the only supervised method that was tried was a support vector machine [@doi:10.1093/bib/bbt034].
-A large scale study comparing methods to each other would be very useful to the field.
-Of particular interest would be a study that determines roughly how many samples are needed before it deep learning models outperform traditional machine learning models, and how semi-supervised learning shifts that change point.
+Due to technical considerations [@doi:10.1016/j.cell.2018.03.034] or other reasons, some authors only evaluate a single model [@doi:10.1016/j.cmpb.2018.10.004].
+While this simplifies the analysis for their papers, it makes it unclear whether they could have done better with a different model.
+This is particularly important for authors who are using deep learning models, because simpler models tend to be much more interpretable.
 
-Semi-supervised learning is a technique that began being applied to gene expression data only recently.
-While the technique has been useful when applied to large amounts of unlabeled data, the effects of which unlabeled dataset(s) are used hasn’t been measured.
-Due to the large differences between RNA-seq and microarray data, it may make sense to do pretraining with just GEO or Recount3 [@doi:10.1186/s13059-021-02533-6] depending on whether the labeled data is primarily from microarrays or RNA-seq.
-A study looking at whether more data is always better, and whether using data from a different platform helps or hurts would be a useful reference for those using semi-supervised learning to train their models.
-
-Looking closer at how to do multitask learning could also help the field.
-While several studies in this review have analyzed multitask learning, there is not a study that we know of that determines exactly how similar the classes should be for gene expression data.
-Testing various methods from Sebastian Ruder’s multitask learning review paper could help find a heuristic for how similar phenotypes should be in multitask learning [@arxiv:1706.05098].
-
-For the most part the studies in this review either learn how to diagnose a specific phenotype with a small dataset, or learn more classes by studying TCGA data.
-We believe that there is an opportunity for datasets to be created from Refine.bio (https://www.refine.bio/) and Recount3 [@doi:10.1186/s13059-021-02533-6] data that would be able to predict phenotypes other than just cancer on a large dataset.
-The consistent preprocessing for these resources makes their gene expression data much easier to use with machine learning methods.
-
-**Conclusion and Perspectives**  
-Making predictions from gene expression information holds great promise, and is already being used in some cases.
-Because the problem space lies between the fields of machine learning and computational biology, however, it inherits pitfalls from both fields.
-Frequently, biologists who want to attempt to make models will fail to understand how to do model validation and hyperparameter tuning in a way that doesn’t invalidate their results.
-Likewise, machine learning researchers often will leak information between the training and the testing set by blindly randomizing all their samples, or will fail to account for the batch effects inherent to muli-study datasets.
-
-In addition to the challenges from working across disciplines, the approaches used in making predictions are largely fragmented.
-Researchers make decisions about their model architecture, dimensionality reduction, and batch effect correction largely based on their intuition.
-There have been few papers evaluating methods across several problems, and even less consensus about which methods work the best.
-Moving forward, the field will need to consolidate and determine a set of best practices to reduce the model search space for new papers.
-Likewise, researchers will need to begin working with clinicians and wet-lab scientists to validate whether their models work in vivo as well as in-silico.
-Ultimately, phenotype predictions from gene expression appear to have have a bright future.
-In order to get there, however, there are many challenges that need to be addressed.
-
-
-### Reproducible research background
-
-
-### Citation indices background
-
-
-### Talk briefly about conclusion chapter (probably write this part once it's done)
+In chapters 3 and 4, we apply machine learning models to transcriptomic data.
+Chapter 3 has us comparing linear and deep learning models and showing that the linear models perform at least as well as the neural networks.
+Chapter 4 continues the idea by demonstrating that classical machine learning can be used to great effect on gene expression data.
 
 
 
