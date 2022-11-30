@@ -1,12 +1,12 @@
 ---
-title: Dissertation Title
+title: 'Neural Nets Are Not All You Need: Evaluating the Effects of Deep Learning on Transcriptomic Analysis'
 keywords:
 - machine learning
 - science of science
 - reproducibility
 - citation network analysis
 lang: en-US
-date-meta: '2022-11-15'
+date-meta: '2022-11-30'
 author-meta:
 - Benjamin J. Heil
 header-includes: |-
@@ -15,12 +15,12 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Dissertation Title" />
-  <meta name="citation_title" content="Dissertation Title" />
-  <meta property="og:title" content="Dissertation Title" />
-  <meta property="twitter:title" content="Dissertation Title" />
-  <meta name="dc.date" content="2022-11-15" />
-  <meta name="citation_publication_date" content="2022-11-15" />
+  <meta name="dc.title" content="Neural Nets Are Not All You Need: Evaluating the Effects of Deep Learning on Transcriptomic Analysis" />
+  <meta name="citation_title" content="Neural Nets Are Not All You Need: Evaluating the Effects of Deep Learning on Transcriptomic Analysis" />
+  <meta property="og:title" content="Neural Nets Are Not All You Need: Evaluating the Effects of Deep Learning on Transcriptomic Analysis" />
+  <meta property="twitter:title" content="Neural Nets Are Not All You Need: Evaluating the Effects of Deep Learning on Transcriptomic Analysis" />
+  <meta name="dc.date" content="2022-11-30" />
+  <meta name="citation_publication_date" content="2022-11-30" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -37,9 +37,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/ben_heil_dissertation/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/ben_heil_dissertation/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/38c2e7bd60ca666216a999869d4a3b187e5f76d8/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/38c2e7bd60ca666216a999869d4a3b187e5f76d8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/38c2e7bd60ca666216a999869d4a3b187e5f76d8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/ben_heil_dissertation/v/7a019dc973e371a7bf113fd40ebd487a7e012a4b/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/7a019dc973e371a7bf113fd40ebd487a7e012a4b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/ben_heil_dissertation/v/7a019dc973e371a7bf113fd40ebd487a7e012a4b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -57,116 +57,71 @@ manubot-requests-cache-path: ci/cache/requests-cache
 manubot-clear-requests-cache: false
 ...
 
+## Acknowledgements
 
+I would not have reached this point without the support of many people. 
+First I would like to thank my mentor Casey Greene for helping me grow from a first-year grad student with aspirations of diagnosing all human disease with a cleverly designed model to a wisened (or maybe wizened) PhD candidate who believes that data is paramount. 
+I still remember reading papers as an undergrad trying to better understand what was going on at the intersection of computational biology and machine learning and wondering “What is the University of Pennsylvania and why does this Casey guy’s papers keep showing up in my searches?” 
+Thank you to my thesis committee: Marylyn Ritchie, Russ Altman, Konrad Kording, and Kai Wang. 
+Your feedback has helped keep my research from going off the rails. 
+Thank you as well to Greenelab members past and present. 
+From grilling me to help prepare for prelims, to going on adventures with me in Colorado, to giving me tips on where to find free food, you’ve all helped me to better understand science and what it means to be a scientist. 
+Thanks to Shuo Zhang and Liz Heller for collaborating with me on MousiPLIER, the project would not have been possible without you. 
+I would also like to thank John Holmes for agreeing to be my advisor at Penn when Greenelab moved west to Colorado. 
+In addition, I’d like to thank the GCB administration, especially Maureen Kirsch, Anne-Cara Apple, and Ben Voigt. 
+You all do a good job of looking after students and making sure we don’t fall through the cracks due to conditions beyond our control.
 
-
-
-
-<small><em>
-This manuscript
-([permalink](https://greenelab.github.io/ben_heil_dissertation/v/38c2e7bd60ca666216a999869d4a3b187e5f76d8/))
-was automatically generated
-from [greenelab/ben_heil_dissertation@38c2e7b](https://github.com/greenelab/ben_heil_dissertation/tree/38c2e7bd60ca666216a999869d4a3b187e5f76d8)
-on November 15, 2022.
-</em></small>
-
-## Authors
-
-
-
-+ **Benjamin J. Heil**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-2811-1031](https://orcid.org/0000-0002-2811-1031)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [benheil](https://github.com/benheil)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [autobencoder](https://twitter.com/autobencoder)<br>
-  <small>
-     Genomics and Computational Biology Graduate Group, University of Pennsylvania
-  </small>
-
-
-::: {#correspondence}
-✉ — Correspondence possible via [GitHub Issues](https://github.com/greenelab/ben_heil_dissertation/issues)
-
-:::
+I’ve also been helped through grad school by many people outside of academia. 
+Thanks Mom, Dad, Nana, Mary, Wes, and Sujin, your support has meant a lot even if you don’t always understand what I’m talking about. 
+Thanks as well to Rachel Ungar, and sorry that we didn’t get an opportunity to collaborate (yet?) 
+If you hadn’t teamed up with me in the audacious plan to get internships at the NIH after sophomore year, I wouldn’t be where I am today. 
+Thanks to my friends in Philly and in Texas for convincing me to get outside the lab and have fun on occasion, and for giving conflicting advice on whether or not I should drop out of grad school. 
+Finally, thank you Sydney for helping me see that there is a world going on outside of the small bubble I interact with on a daily basis. 
+I know that living with a PhD candidate has been frustrating at times, especially as I’ve gotten closer to defending and therefore progressively less interesting. 
+I’m tempted to come up with something witty to write here, but you’d probably prefer sincerity, so: thank you.
 
 
 ## Abstract {.page_break_before}
 
+Technologies for quantifying biology have undergone significant advances in the past few decades, leading to datasets rapidly increasing in size and complexity.
+At the same time, deep learning models have gone from a curiosity to a massive field of research, with their advancements spilling over into other fields.
+Machine learning is not new to computational biology, as machine learning models have been used frequently in the field to account for the aforementioned size and complexity of the data.
+This dissertation asks whether the paradigm shift in machine learning that has led to the rise of deep learning models is causing a paradigm shift in computational biology.
+To answer this question, we begin with chapter 1, which gives background information helpful for understanding the main thesis chapters.
+We then move to chapter 2, which discusses standards necessary to ensure that research done with deep learning is reproducible.
+We continue to Chapter 3, where we find that deep learning models may not be helpful in analyzing expression data.
+In chapters 4 and 5 we demonstrate that classical machine learning methods already allow scientists to uncover knowledge from large datasets.
+Then in chapter 6 we conclude by discussing the implications of the previous chapters and their potential future directions.
+Ultimately we find that while deep learning models are useful to various subfields of computational biology, they have yet to lead to a paradigm shift.
 
 
-
-## Introduction                                                                                                                                                                                             
+# Chapter 1: Background
                                                                                                                                                                                                             
 As computational biologists, we live in exciting times.
 Beginning with the Human Genome Project [@doi:10.1038/35057062], advancements in technologies for biological quantification have generated data with a scale and granularity previously unimaginable [@doi:10.1016/j.cell.2015.05.002; @doi:10.7554/eLife.21856; @doi:10.1101/gad.281964.116].
 
 Concurrently with the skyrocketing amounts of data, the advent of deep learning has generated methods designed to make sense of large, complex datasets.
-These methods have led to a paradigm shift in machine learning, creating new possibilities in many fields and surfacing new phenomena unexplained by classical machine learning theory [@doi:10.1038/nature16961; @arxiv:2112.10752; @arxiv:1912.02292; @arxiv:2201.02177].
+These methods have led to a paradigm shift [@isbn:9780226458113] in machine learning, creating new possibilities in many fields and surfacing new phenomena unexplained by classical machine learning theory [@doi:10.1038/nature16961; @arxiv:2112.10752; @arxiv:1912.02292; @arxiv:2201.02177].
 
 The field of computational biology has long used machine learning methods, as they help cope with the scale of the data being generated.
 Accordingly, problem domains in computational biology that map well to existing research in deep learning have adopted or developed deep learning models and seen great advances [@doi:10.1007/978-3-319-24574-4_28; @doi:10.1038/s41586-021-03819-2].
 Previous applications of classical machine learning to the field of transcriptomics have been successful.
-Two of the scientists who wrote the book [@isbn:0387848576] on machine learning have even written papers [@doi:10.1073/pnas.082099299; @doi:10.1093/biostatistics/kxl002; 10.1186/gb-2000-1-2-research0003; 10.1093/biostatistics/kxl005] analyzing gene expression.
+Two of the scientists who wrote the book [@isbn:0387848576] on machine learning have even written papers [@doi:10.1073/pnas.082099299; @doi:10.1093/biostatistics/kxl002; @doi:10.1186/gb-2000-1-2-research0003; @doi:10.1093/biostatistics/kxl005] analyzing gene expression.
 However, the data itself is not well-suited to deep learning methods.
 
 This dissertation explores whether the paradigm shift in machine learning will spill over to transcriptomics.
 That is to say, have deep learning techniques fundamentally changed transcriptomics, or are they incremental improvements over existing methods?
 Our thesis is that while deep learning provides valuable tools for analyzing biological datasets, it does not necessarily change the field on a fundamental level.
 
-We begin with a few sections giving background information on previous research for the main thesis chapters.
+We begin with chapter 1, which gives background information on previous research for the other thesis chapters.
 We then move to chapter 2, which discusses standards necessary to ensure that research done with deep learning is reproducible.
 We continue to Chapter 3, where we find that deep learning models may not be helpful in analyzing expression data.
 In chapters 4 and 5 we demonstrate that classical machine learning methods already allow scientists to uncover knowledge from large datasets.
 Finally, in chapter 6 we conclude by discussing the implications of the previous chapters and their potential future directions.
 
 
-## Background: Reproducibility
 
-#### What is computational reproducibility
-
-Reproducibility is a topic often discussed in scientific circles and means different things to different people [@doi:10.1190/1.1822162; @doi:10.1373/clinchem.2017.279984; @doi:10.1126/scitranslmed.aaf5027; @doi:10.1101/066803; @doi:10.3389/fninf.2017.00076; @doi:10.1109/MCSE.2009.15].
-For clarity, we will operate from Stodden et al.'s definition of "the ability to recreate computational results from the data and code used by the original researcher" (http://stodden.net/icerm_report.pdf).
-We would like to add one caveat, though.
-The language surrounding reproducibility is often binary, as in "reproducible research" or "an irreproducible paper." 
-In reality, reproducibility falls on a sliding scale based on how long it takes a scientist to reproduce a work. 
-For poorly specified work, it could take forever as the conditions that allowed the research would never happen again.
-For extremely high-quality research, it could take a scientist only seconds of their time to press the "run" button on the original authors' code and get the same results.
-
-#### Why does it matter?
-Now that we have defined what reproducibility is, we can discuss why it matters.
-In her book "Why Trust Science?" Naomi Oreskes argues that the answer to the eponymous question is that the process of coming to a consensus is what makes science trustworthy [@isbn:9780691179001].
-In a world where all papers take forever to reproduce, reaching the consensus required to do trustworthy science would be challenging.
-
-Another way of viewing the scientific method is the Popperian idea of falsifiable theories [@isbn:0415278449].
-Theories are constructed from evidence and reproduction of the same findings about the world.
-If a theory cannot be reproduced, then it can not be supported or proven false, and it is not science under Popper's definition [@doi:10.1109/MS.2018.2883805].
-
-Those points are somewhat philosophical, though.
-For a discussion of concrete impacts of failures in computational reproducibility, we recommend Ivie and Thain's review paper [@doi:10.1145/3186266].
-They point out that preclinical drug development studies could be replicated in only 10-25% of cases [@doi:10.1038/483531a; @doi:10.1038/nrd3439-c1].
-Similarly, only about 50% of ACM papers could be built from their source code [@doi:10.1145/2812803].
-In general, a lack of reproducibility could cause a lack of trust in science [@doi:10.1177/1745691612465253].
-
-Reproducibility is not all about more than preventing bad things from happening.
-Having code that is easy to run helps verify that code is bug-free and makes it easier for the original author to run in the future.
-It also allows remixing research code, leading to greater accessibility of scientific research.
-Because the authors working on latent diffusion models for image synthesis made their code available [@arxiv:2112.10752], others quickly created an optimized version allowing those without a powerful GPU to run it (https://github.com/CompVis/stable-diffusion, https://github.com/basujindal/stable-diffusion/)
-
-#### What can be done?
-
-The question remains: what can increase the reproducibility of scientific work?
-Krafczyk et al. argue that the keys are to document well, write code for ease of executability, and make code deterministic.
-Alternatively, we could create a central repository of data and code used in research similar to the repository for articles in PubMed Central [@doi:10.1126/science.1213847].
-The field of machine learning has something similar in Papers with Code (https://paperswithcode.com/), a website where you can browse only the machine learning preprints and papers that have associated code.
-The epitome of reproducibility is probably something like executable papers a la Distill (https://distill.pub/) or eLife's Executable Research Articles [@tsang2020].
-In chapter 2, we discuss options to make machine learning research in the life sciences reproducible in more depth and give our own recommendations.
-
-
-
-### Background: Applications of machine learning in transcriptomics
+## Applications of machine learning in transcriptomics
 
 The human transcriptome provides a rich source of information about both healthy and disease states.
 Not only is gene expression information useful for learning novel biological phenomena, it can also be used to diagnose and predict diseases.
@@ -175,7 +130,7 @@ In this section we review machine learning methods applied to predict various ph
 with a focus on the challenges in the field and what is being done to overcome them.
 We close the review with potential areas for future research, as well as our perspectives on the strengths and weaknesses of supervised learning for phenotype prediction in particular.
 
-**Introduction**  
+### Introduction
 Over the past few decades a number of tools for measuring gene expression have been developed.
 As proteomics is currently difficult to do at a large scale, gene expression quantification methods are our best way to measure cells’ internal states.
 While this wealth of information is promising, gene expression data is more difficult to work with than one might think.
@@ -206,7 +161,7 @@ It may also be possible to diagnose common diseases based on blood gene expressi
 The techniques for measuring gene expression and for analyzing it have changed dramatically over the past few decades.
 This sections aims to explain what some of those changes are and how they affect phenotype prediction.
 
-**Gene expression**
+### Gene expression
 Gene expression measurement methods have three main categories.
 This first to be created is the gene expression microarray.
 In a microarray, RNA is reverse transcribed to cDNA, labeled with fluorescent markers, then hybridized to probes corresponding to parts of genes.
@@ -225,7 +180,7 @@ True to its name, single-cell sequencing allows gene expression to be measured a
 This increase in precision is accompanied by an increase in data sparsity though, as genes expressed infrequently or at low levels may not be detected.
 The sparsity of single-cell data has led to a number of interesting methods, but as we worked with bulk RNA-sequencing single-cell papers will largely be absent from this review.
 
-**Machine Learning**
+### Machine Learning
 Machine learning has undergone a paradigm shift in the past decade, beginning with the publication of the AlexNet paper in 2012 [@doi:10.1145/3065386].
 For decades random forests and support vector machines were the most widely used models in machine learning.
 This changed dramatically when the AlexNet paper showed that neural networks could vastly outperform traditional methods in some domains [@doi:10.1145/3065386].
@@ -236,7 +191,7 @@ First, almost all papers before 2014 use traditional machine learning methods, w
 Second, deep neural networks’ capacity to overfit the data and fail to generalize to outside data are vast.
 We’ll show throughout the review various mistakes authors make because they don’t fully understand the failure states of neural networks and how to avoid them.
 
-**Dimensionality Reduction**  
+### Dimensionality Reduction
 The most obvious challenge in working with gene expression data is its high dimensionality.
 That is to say that the number of features (genes) in a dataset is typically greater than the number of samples.
 It is common for an analysis to have tens of thousands of genes, but only hundreds (or tens) of samples.
@@ -283,35 +238,7 @@ Among the methods that transform the data there is a small amount of evidence th
 Going forward, a systematic evaluation of gene selection and dimensionality reduction methods on a variety of problems could be a huge asset to the
 field.
 
-**Batch Effects**  
-When gene expression data comes from multiple studies, there are systematic differences between the samples even if they are measuring the same thing [@doi:10.1038/nbt.3000].
-These batch effects can bias the outcome of a study, and reduce the ability of a predictive model to generalize to data outside of the dataset used in the analysis.
-Different studies handle this in different ways, with varying degrees of effectiveness.
-
-Malta et al’s study is a good example of addressing batch effects well [@doi:10.1016/j.cell.2018.03.034].
-They began by mean centering their data to ensure that the model didn’t learn to make classifications based on the mean gene expression values.
-They then used Spearman correlation instead of Pearson correlation to avoid small changes in the data distributions to change their correlation measurement.
-Finally they evaluated their results on a different data generation method (RNA-seq) from the one they trained on (microarray).
-
-The SAUCIE paper handles batch effects very differently [@doi:10.1038/s41592-019-0576-7].
-They introduce a new type of regularization called maximal mean discrepancy, which penalizes the distance between the latent space representation between batches.
-While this regularization term is deep learning specific and depends on the model having an embedding layer, it will be interesting to see if similar ideas are used in the future.
-
-Other studies address batch effects less comprehensively via quantile normalization and 0-1 standardization [@doi:10.1093/bioinformatics/btw074; @doi:10.2147/IDR.S184640].
-Using quantile normalization ensures that the different datasets have the same distribution, then 0-1 standardization makes machine learning algorithms treat all genes as equally important.
-Another common technique from ML is to make decisions about the model based on cross-validation.
-Since the feature or hyperparameter choice is validated on multiple random subsets of the data, batch effects are less likely to bias the decision [@doi:10.1186/s12864-017-3906-0 ].
-
-Studies using contractive autoencoders [@doi:10.1038/s41598-019-52937-5] get some degree of batch effect protection just from their model constraints.
-Since contractive autoencoders are trained to ignore small perturbations in the data, they tend to be more robust to distributional changes.
-There are also more explicit ways of addressing batch effects.
-DeepType, for example, uses the method ComBat [@doi:10.1093/biostatistics/kxj037] to reduce batch effects as a preprocessing step for their model [@doi:10.1093/bioinformatics/btz769].
-
-Unfortunately many studies don’t address batch effects at all, despite operating on large multi-study datasets like the Cancer Genome Atlas (TCGA).
-These studies are likely to fail to generalize to real-world data, as machine learning models like to fixate on spurious correlations between data and phenotypes.
-
-
-**Evaluating Model Performance**  
+### Evaluating Model Performance
 Validation is another important consideration in phenotype prediction.
 The gold standard of validation would be a knockout and rescue assay demonstrating that the predicted mechanism or expression relationship truly exists.
 Since machine learning models make predictions of nonlinear relationships between thousands of genes, however, such validation isn’t feasible.
@@ -343,7 +270,7 @@ Likewise, Deng at al. initially benchmark their model on various simulated data 
 Ultimately researchers work with what they have, and it’s not always possible to acquire an independent dataset.
 That being said, it is always worth keeping the different tiers of external validity in mind when evaluating papers that use machine learning.
 
-**Transfer Learning**  
+### Transfer Learning
 Transfer learning is a field of machine learning that uses information from outside of the training dataset to improve model performance.
 Techniques from the field of transfer learning are particularly useful in the domain of gene expression, because there are large databases like GEO and TCGA that contain data that may be useful in prediction tasks.
 In this section we’ll focus in on two types of transfer learning that are particularly useful: multitask learning and semi-supervised learning.
@@ -367,7 +294,7 @@ One can also train the whole network at the same time, as Danaee et al do with t
 Not all methods are autoencoder-based though.
 Dhruba et al. develop their own semi-supervised learning process that teaches a model to learn a latent space between classes [@doi:10.1186/s12859-018-2465-y].
 
-**Deep Learning vs Classical ML**  
+### Deep Learning vs Classical ML
 Recent years have seen a dramatic shift towards deep learning methods.
 It is not immediately clear, however, whether this is a good decision for problems without giant datasets.
 While some argue that deep learning is overrated and simpler models should be used instead [@doi:10.1007/978-3-030-01768-2_25; @arxiv:1911.00353], others find that deep learning outperforms even domain specific models [@doi:10.1186/s13321-017-0232-0; @doi:10.1016/j.jbi.2018.04.007].
@@ -388,7 +315,7 @@ Chapter 4 continues the idea by demonstrating that classical machine learning ca
 
 
 
-## Background: Citation indices
+## Citation indices
 
 Over the past century quantifying the progress of science has become popular.
 Even before computers made it easy to collate information about publications, work had already begun to evaluate papers based on their number of citations [@doi:10.1126/science.122.3159.108].
@@ -441,7 +368,7 @@ In chapter 5, we dive into one such shortcoming by demonstrating differences in 
 There we argue that normalizing out field-specific differences obscures useful signal and propose new directions of research for future citation metrics.
 
 
-# Reproducibility standards for machine learning in the life sciences
+# Chapter 1: Reproducibility standards for machine learning in the life sciences
 
 This chapter was originally published in Nature Methods as "Reproducibility standards for machine learning in the life sciences" (https://doi.org/10.1038/s41592-021-01256-7).
 
@@ -636,7 +563,7 @@ If journals act as the enforcing body for reproducibility standards, they can ve
 **Badging**
 A badge system that indicates the trustworthiness of work could incentivize scientists to progress to higher standards of reproducibility. 
 Upon completing analyses, authors could submit their work to a badging organization that would then verify which standards of reproducibility their work met and assign a badge accordingly. 
-Such an organization would likely operate in a similar way to the Bioconductor [@doi:10.1186/gb-2004-5-10-r80] package review process. 
+Such an organization would likely operate in a similar way to the Bioconductor [@bioconductor] package review process. 
 Authors could then include the badge with a publication or preprint to tout the effort the authors put in to ensure their code was reproducible. 
 Including these badges in biosketches or CVs would make it simple to demonstrate a researcher’s track record of achieving high levels of reproducibility. 
 This would provide a powerful signal to funding agencies and their reviewers that a researcher’s strengths in reproducibility would maximize the results of the investment made in a project. 
@@ -649,14 +576,14 @@ Adding “reproducibility collaborators” to manuscripts would also provide ano
 TODO COPY OVER Table 1 WHEN CONVERTING TO WORD
 
 
-## Future directions
+# Chapter 6 - Future Directions
 
 In this dissertation, we have examined whether deep learning has led to a paradigm shift in computational biology.
 We established standards for reproducible research when using deep learning models in chapter 2, showed that deep learning is not always preferable to other techniques in chapter 3, then demonstrated the effectiveness of classical ml methods in chapters 4 and 5.
 Ultimately we concluded that while deep learning has been a useful tool in some areas, it has yet to lead to a paradigm shift in computational biology.
 However, deep learning models' impact may grow as the fields develop, so we would like to discuss future areas where we expect interesting developments.
 
-### Deep learning representations of biology
+## Deep learning representations of biology
 
 Different areas of computational biology research have seen different effects from deep learning.
 Deep learning has already had a significant impact on biomedical imaging [@doi:10.1016/j.csbj.2020.08.003], and seems poised to do so in protein structure [@doi:10.1038/s41586-021-03819-2].
@@ -678,7 +605,7 @@ An interesting potential research direction would be to apply sparse self-attent
 Alternatively, because expression is often thought of in terms of coregulation networks or sets of genes with shared functions, a graph representation may be more suitable.
 It is also possible that someone will develop a representation specifically for gene expression that will work better than anything we know about today.
 
-### To what extent is biology limited by challenges in looking at the data
+## To what extent is biology limited by challenges in looking at the data
 
 An essential first step when working with data is to look at it.
 In images or generated text, a human can judge how good generated data is.
@@ -692,7 +619,7 @@ It simply serves as a hindrance to our ability to sanity-check data.
 Because we cannot see whether the relevant signals are distorted by batch effect normalization or a preprocessing step, we must be more careful and try more options.
 Perhaps in the future, as we understand more about the relevant biology, scientists will be able to create views of the data that are more human-intuitive and easier to use.
 
-### The scale of biological data
+## The scale of biological data
 
 Biological data (or at least transcriptomic data) is not actually that big.
 The largest uniformly processed compendia of bulk human expression data contain hundreds of thousands of samples.
@@ -716,7 +643,7 @@ Such models are data-hungry, though, and self-attention gets expensive in proble
 Perhaps one day we will have the data and compute to train multiomic biological transformers.
 Or maybe by then the state of the art in machine learning will have moved along, rendering them irrelevant.
 
-### Conclusion
+## Conclusion
 Whether deep learning takes over or simply becomes another tool in our toolbelt, the future of computational biology looks bright.
 These are exciting times indeed.
 
