@@ -147,6 +147,7 @@
         "given": "Gordon",
         "family": "Smyth"
       },
+	  {
         "given": "Luke",
         "family": "Tierney"
       },
@@ -171,6 +172,6 @@
     "container-title-short": "Genome Biol",
     "PMCID": "PMC545600",
     "PMID": "15461798",
-    "id": "1CtyX4PBc"
+    "id": "bioconductor"
   }
 ]
