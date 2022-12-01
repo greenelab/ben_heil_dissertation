@@ -1,0 +1,82 @@
+[
+{
+  "id": "url:https://github.com/manubot/rootstock",
+  "type": "webpage",
+  "url": "https://github.com/manubot/rootstock",
+  "title": "manubot/rootstock github repository",
+  "container-title": "github",
+  "issued": {
+    "date-parts": [
+      [
+        2019
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "daniel",
+      "family": "himmelstein"
+    }
+  ]
+},
+{
+  "id": "tsne",
+  "type": "journal_article",
+  "title": "Visualizing data using t-SNE.",
+  "container-title": "Journal of machine learning research",
+  "issued": {
+    "date-parts": [
+      [
+        2008
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Geoffrey",
+      "family": "Hinton"
+    },
+    {
+      "given": "Laurens",
+      "family": "Van der Maaten"
+    }
+  ]
+},
+{
+  "id": "skl",
+  "type": "journal_article",
+  "title": "Scikit-learn: Machine learning in Python",
+  "container-title": "The Journal of Machine Learning Research",
+  "pages": "2825-2830",
+  "volume": "12",
+  "issued": {
+    "date-parts": [
+      [
+        2011
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Fabian",
+      "family": "Pendregosa"
+    },
+    {
+      "given": "Gael",
+      "family": "Varoquaux"
+    },
+    {
+      "given": "Alexandre",
+      "family": "Gramfort"
+    },
+    {
+      "given": "Vincent",
+      "family": "Michel"
+    },
+    {
+      "given": "Bertrand",
+      "family": "Thirion"
+    }
+  ]
+}
+]

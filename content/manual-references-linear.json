@@ -1,0 +1,59 @@
+[
+{
+  "id": "url:https://github.com/manubot/rootstock",
+  "type": "webpage",
+  "URL": "https://github.com/manubot/rootstock",
+  "title": "manubot/rootstock GitHub repository",
+  "container-title": "GitHub",
+  "issued": {
+    "date-parts": [
+      [
+        2019
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Daniel",
+      "family": "Himmelstein"
+    }
+  ]
+},
+{
+    "URL": "https://neptune.ai",
+    "author": [
+      {
+        "literal": "neptune.ai"
+      }
+    ],
+    "id": "neptune",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "Neptune: Experiment management and collaboration tool",
+    "title-short": "Neptune",
+    "type": "webpage"
+},
+{
+    "URL": "https://discuss.pytorch.org/t/logistic-regression-implemented-using-pytorch-performs-worse-than-sklearns-logistic-regression/52447",
+    "author": [
+      {
+        "literal": "Tony_Wang (https://discuss.pytorch.org/u/tony_wang/summary)"
+      }
+    ],
+    "id": "pytorch_lr",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "title": "Logistic regression implemented using pytorch performs worse than sklearn’s logistic regression",
+    "type": "webpage"
+  }
+]
