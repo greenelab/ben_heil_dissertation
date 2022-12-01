@@ -1,7 +1,5 @@
 ## Reproducibility
 
-### What is computational reproducibility
-
 Reproducibility is a topic often discussed in scientific circles and means different things to different people [@doi:10.1190/1.1822162; @doi:10.1373/clinchem.2017.279984; @doi:10.1126/scitranslmed.aaf5027; @doi:10.1101/066803; @doi:10.3389/fninf.2017.00076; @doi:10.1109/MCSE.2009.15].
 For clarity, we will operate from Stodden et al.'s definition of "the ability to recreate computational results from the data and code used by the original researcher" (http://stodden.net/icerm_report.pdf).
 We would like to add one caveat, though.
@@ -10,7 +8,7 @@ In reality, reproducibility falls on a sliding scale based on how long it takes 
 For poorly specified work, it could take forever as the conditions that allowed the research would never happen again.
 For extremely high-quality research, it could take a scientist only seconds of their time to press the "run" button on the original authors' code and get the same results.
 
-### Why does it matter?
+### Why does reproducibility matter?
 Now that we have defined what reproducibility is, we can discuss why it matters.
 In her book "Why Trust Science?" Naomi Oreskes argues that the answer to the eponymous question is that the process of coming to a consensus is what makes science trustworthy [@isbn:9780691179001].
 In a world where all papers take forever to reproduce, reaching the consensus required to do trustworthy science would be challenging.
